@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from enum import StrEnum
 
-from enums.activity_category import ActivityCategory
+from src.enums.activity_category import ActivityCategory
 
 
 class FitnessTitleSuffix(StrEnum):

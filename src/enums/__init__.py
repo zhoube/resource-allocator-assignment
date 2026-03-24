@@ -1,9 +1,9 @@
-from enums.activity_field import ActivityField, activity_fieldnames
-from enums.activity_category import ActivityCategory
-from enums.equipment_type import EquipmentType
-from enums.location import Location, TravelFriendlyLocation
-from enums.roles import AlliedHealthRole, SpecialistRole
-from enums.title_suffix import (
+from src.enums.activity_field import ActivityField, activity_fieldnames
+from src.enums.activity_category import ActivityCategory
+from src.enums.equipment_type import EquipmentType
+from src.enums.location import Location, TravelFriendlyLocation
+from src.enums.roles import AlliedHealthRole, SpecialistRole
+from src.enums.title_suffix import (
     ConsultationTitleSuffix,
     FitnessTitleSuffix,
     FoodTitleSuffix,

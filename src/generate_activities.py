@@ -6,7 +6,7 @@ import random
 from activity_catalog_builder import CATEGORY_TARGETS, generate_activity_catalog
 from activity_factory import serialize_activities_for_csv
 from common import ACTIVITY_CATALOG_CSV, ACTIVITY_CATALOG_JSON, ensure_directories, write_csv, write_json
-from enums.activity_field import activity_fieldnames
+from src.enums.activity_field import activity_fieldnames
 
 
 def parse_args() -> argparse.Namespace:

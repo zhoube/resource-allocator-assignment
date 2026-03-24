@@ -6,8 +6,8 @@ from datetime import date, datetime, time
 
 from common import daterange
 
-from enums.location import Location
-from enums.roles import AlliedHealthRole
+from src.enums.location import Location
+from src.enums.roles import AlliedHealthRole
 
 @dataclass(slots=True)
 class AlliedHealth:

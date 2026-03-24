@@ -4,8 +4,8 @@ import random
 from typing import Callable
 
 from activity_factory import create_activity, normalize_category
-from enums.activity_category import ActivityCategory
-from enums.title_suffix import title_suffixes_for_category
+from src.enums.activity_category import ActivityCategory
+from src.enums.title_suffix import title_suffixes_for_category
 from entities.activities.activity import Activity
 from entities.activities.frequency import Frequency
 

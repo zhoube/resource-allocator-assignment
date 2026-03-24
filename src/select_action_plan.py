@@ -6,7 +6,7 @@ import random
 from action_plan_builder import ACTION_PLAN_TARGETS, build_action_plan
 from activity_factory import parse_activities, serialize_activities_for_csv
 from common import ACTION_PLAN_CSV, ACTION_PLAN_JSON, ACTIVITY_CATALOG_JSON, ensure_directories, read_json, write_csv, write_json
-from enums.activity_field import activity_fieldnames
+from src.enums.activity_field import activity_fieldnames
 
 
 def parse_args() -> argparse.Namespace:

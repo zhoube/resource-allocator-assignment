@@ -6,8 +6,8 @@ from datetime import date, datetime, time
 from typing import ClassVar
 
 from common import daterange
-from enums.equipment_type import EquipmentType
-from enums.location import Location
+from src.enums.equipment_type import EquipmentType
+from src.enums.location import Location
 
 
 @dataclass(slots=True)

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any, Callable, Iterable
 
-from enums.activity_category import ActivityCategory
+from src.enums.activity_category import ActivityCategory
 from entities.activities.activity import Activity
 from entities.activities.consultation_activity import ConsultationActivity
 from entities.activities.fitness_activity import FitnessActivity

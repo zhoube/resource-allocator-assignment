@@ -4,9 +4,9 @@ import json
 from dataclasses import dataclass, field
 from typing import Any, ClassVar
 
-from enums.activity_category import ActivityCategory
-from enums.location import TravelFriendlyLocation
-from enums.roles import AlliedHealthRole, SpecialistRole
+from src.enums.activity_category import ActivityCategory
+from src.enums.location import TravelFriendlyLocation
+from src.enums.roles import AlliedHealthRole, SpecialistRole
 
 from .frequency import Frequency
 

@@ -6,7 +6,7 @@ from itertools import count
 from action_plan_builder import assign_backups
 from activity_generator import create_random_activity
 from entities.activities.activity import Activity
-from enums.activity_category import ActivityCategory
+from src.enums.activity_category import ActivityCategory
 
 CATEGORY_TARGETS = {
     ActivityCategory.FITNESS: 35,

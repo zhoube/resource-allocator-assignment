@@ -4,7 +4,7 @@ import random
 
 from activity_factory import parse_activities
 from entities.activities.activity import Activity
-from enums.activity_category import ActivityCategory
+from src.enums.activity_category import ActivityCategory
 
 ACTION_PLAN_TARGETS = {
     ActivityCategory.FITNESS: 2,
