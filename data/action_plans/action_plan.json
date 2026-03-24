@@ -1,0 +1,326 @@
+[
+  {
+    "id": "activity_023",
+    "title": "Joint Care Flow - Joint Care",
+    "category": "Fitness routine / exercise",
+    "priority": 76,
+    "duration_minutes": 30,
+    "details": "Move through controlled range-of-motion work and keep breathing relaxed.",
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "facilitator_role": "physiotherapist",
+    "resource_pool": "allied_health",
+    "location": "gym",
+    "remote_allowed": true,
+    "equipment_required": [
+      "yoga_mat"
+    ],
+    "prep_required": [
+      "Yoga mat ready",
+      "Quiet floor space"
+    ],
+    "backup_activity_ids": [
+      "activity_027"
+    ],
+    "skip_adjustment": "Move to the next free slot within 48 hours and lower intensity by one step.",
+    "metrics": [
+      "pain_score",
+      "stiffness_score"
+    ],
+    "preferred_time_windows": [
+      "early_morning",
+      "evening"
+    ]
+  },
+  {
+    "id": "activity_027",
+    "title": "Visual Mobility Routine - Recovery Focus",
+    "category": "Fitness routine / exercise",
+    "priority": 75,
+    "duration_minutes": 20,
+    "details": "Alternate near and far focus work with controlled visual tracking drills.",
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "facilitator_role": "self_guided",
+    "resource_pool": "self",
+    "location": "office",
+    "remote_allowed": true,
+    "equipment_required": [],
+    "prep_required": [
+      "Timer prepared"
+    ],
+    "backup_activity_ids": [],
+    "skip_adjustment": "Move to the next free slot within 48 hours and lower intensity by one step.",
+    "metrics": [
+      "screen_break_count",
+      "eye_strain_score",
+      "routine_minutes"
+    ],
+    "preferred_time_windows": [
+      "midday",
+      "evening"
+    ]
+  },
+  {
+    "id": "activity_051",
+    "title": "Post-Workout Smoothie - Protein Rebuild",
+    "category": "Food consumption",
+    "priority": 72,
+    "duration_minutes": 15,
+    "details": "Blend protein and hydration-supportive ingredients after higher-load training.",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "facilitator_role": "self_guided",
+    "resource_pool": "self",
+    "location": "home",
+    "remote_allowed": false,
+    "equipment_required": [
+      "blender_station"
+    ],
+    "prep_required": [
+      "Frozen ingredients portioned"
+    ],
+    "backup_activity_ids": [],
+    "skip_adjustment": "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+    "metrics": [
+      "protein_grams",
+      "recovery_score_next_day",
+      "hydration_ml"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "evening"
+    ]
+  },
+  {
+    "id": "activity_041",
+    "title": "Balanced Dinner - Metabolic Support",
+    "category": "Food consumption",
+    "priority": 70,
+    "duration_minutes": 40,
+    "details": "Build dinner around vegetables, legumes, and a moderate portion of lean protein.",
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "facilitator_role": "dietitian",
+    "resource_pool": "allied_health",
+    "location": "home",
+    "remote_allowed": true,
+    "equipment_required": [],
+    "prep_required": [
+      "Vegetables chopped in advance",
+      "Dinner ingredients thawed"
+    ],
+    "backup_activity_ids": [
+      "activity_051"
+    ],
+    "skip_adjustment": "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+    "metrics": [
+      "fiber_grams",
+      "sleep_quality_next_day"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "id": "activity_064",
+    "title": "Recovery Magnesium Dose - Travel-Safe Pack",
+    "category": "Medication consumption",
+    "priority": 93,
+    "duration_minutes": 10,
+    "details": "Take magnesium in the evening and monitor any effect on sleep readiness.",
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "facilitator_role": "self_guided",
+    "resource_pool": "self",
+    "location": "home",
+    "remote_allowed": false,
+    "equipment_required": [],
+    "prep_required": [
+      "Medication organizer refilled"
+    ],
+    "backup_activity_ids": [],
+    "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions.",
+    "metrics": [
+      "sleep_latency",
+      "dose_taken",
+      "GI_tolerance"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "id": "activity_061",
+    "title": "Planned Injection Window - Maintenance Cycle",
+    "category": "Medication consumption",
+    "priority": 90,
+    "duration_minutes": 15,
+    "details": "Administer the weekly medication during a stable routine window and record the site used.",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "facilitator_role": "self_guided",
+    "resource_pool": "self",
+    "location": "home",
+    "remote_allowed": false,
+    "equipment_required": [],
+    "prep_required": [
+      "Injection supplies prepared",
+      "Sharps bin nearby"
+    ],
+    "backup_activity_ids": [
+      "activity_064"
+    ],
+    "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions.",
+    "metrics": [
+      "dose_taken",
+      "injection_site",
+      "symptom_score_next_day"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "id": "activity_082",
+    "title": "Recovery Boot Session - Inflammation Support",
+    "category": "Therapy",
+    "priority": 78,
+    "duration_minutes": 20,
+    "details": "Use lower-limb compression after demanding training blocks to support recovery.",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "facilitator_role": "self_guided",
+    "resource_pool": "self",
+    "location": "recovery_center",
+    "remote_allowed": false,
+    "equipment_required": [
+      "compression_boots"
+    ],
+    "prep_required": [
+      "Elevate legs after session"
+    ],
+    "backup_activity_ids": [],
+    "skip_adjustment": "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+    "metrics": [
+      "session_minutes",
+      "recovery_score"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "id": "activity_099",
+    "title": "Thermal Session - Inflammation Support",
+    "category": "Therapy",
+    "priority": 78,
+    "duration_minutes": 40,
+    "details": "Use a moderate-duration heat exposure and cool down gradually afterwards.",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "facilitator_role": "self_guided",
+    "resource_pool": "self",
+    "location": "recovery_center",
+    "remote_allowed": false,
+    "equipment_required": [
+      "sauna_room"
+    ],
+    "prep_required": [
+      "Bring towel"
+    ],
+    "backup_activity_ids": [
+      "activity_082"
+    ],
+    "skip_adjustment": "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+    "metrics": [
+      "post_weight",
+      "pre_weight"
+    ],
+    "preferred_time_windows": [
+      "evening"
+    ]
+  },
+  {
+    "id": "activity_120",
+    "title": "Primary Care Review - Follow-Up",
+    "category": "Consultation",
+    "priority": 87,
+    "duration_minutes": 45,
+    "details": "Review symptoms, medication adherence, and recent health trends with the physician.",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "facilitator_role": "primary_care_physician",
+    "resource_pool": "specialist",
+    "location": "clinic",
+    "remote_allowed": true,
+    "equipment_required": [],
+    "prep_required": [
+      "Prepare question list",
+      "Upload recent metrics summary"
+    ],
+    "backup_activity_ids": [
+      "activity_101"
+    ],
+    "skip_adjustment": "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+    "metrics": [
+      "blood_pressure_reading",
+      "weight"
+    ],
+    "preferred_time_windows": [
+      "morning",
+      "afternoon"
+    ]
+  },
+  {
+    "id": "activity_101",
+    "title": "Lab Testing Appointment - Follow-Up",
+    "category": "Consultation",
+    "priority": 85,
+    "duration_minutes": 45,
+    "details": "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "facilitator_role": "lab_technician",
+    "resource_pool": "specialist",
+    "location": "lab",
+    "remote_allowed": false,
+    "equipment_required": [
+      "lab_kit"
+    ],
+    "prep_required": [
+      "Bring requisition form"
+    ],
+    "backup_activity_ids": [
+      "activity_120"
+    ],
+    "skip_adjustment": "Book the next morning lab slot and preserve fasting instructions.",
+    "metrics": [
+      "sample_quality",
+      "follow_up_booked"
+    ],
+    "preferred_time_windows": [
+      "morning"
+    ]
+  }
+]

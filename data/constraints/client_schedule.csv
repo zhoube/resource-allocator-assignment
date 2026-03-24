@@ -1,0 +1,413 @@
+commitment_id,title,start,end,location,commitment_type
+commitment_0001,Sleep,2026-04-01T23:00:00,2026-04-02T06:00:00,home,sleep
+commitment_0002,Work Focus Block,2026-04-01T09:00:00,2026-04-01T12:00:00,office,work
+commitment_0003,Work Focus Block,2026-04-01T13:00:00,2026-04-01T17:00:00,office,work
+commitment_0004,Commute,2026-04-01T08:00:00,2026-04-01T09:00:00,commute,travel
+commitment_0005,Commute,2026-04-01T17:00:00,2026-04-01T18:00:00,commute,travel
+commitment_0006,Project Review,2026-04-01T20:00:00,2026-04-01T21:00:00,home,work
+commitment_0007,Sleep,2026-04-02T23:00:00,2026-04-03T06:00:00,home,sleep
+commitment_0008,Work Focus Block,2026-04-02T09:00:00,2026-04-02T12:00:00,office,work
+commitment_0009,Work Focus Block,2026-04-02T13:00:00,2026-04-02T17:00:00,office,work
+commitment_0010,Commute,2026-04-02T08:00:00,2026-04-02T09:00:00,commute,travel
+commitment_0011,Commute,2026-04-02T17:00:00,2026-04-02T18:00:00,commute,travel
+commitment_0012,Family Dinner,2026-04-02T19:30:00,2026-04-02T21:00:00,home,family
+commitment_0013,Sleep,2026-04-03T23:00:00,2026-04-04T06:00:00,home,sleep
+commitment_0014,Work Focus Block,2026-04-03T09:00:00,2026-04-03T12:00:00,office,work
+commitment_0015,Work Focus Block,2026-04-03T13:00:00,2026-04-03T17:00:00,office,work
+commitment_0016,Commute,2026-04-03T08:00:00,2026-04-03T09:00:00,commute,travel
+commitment_0017,Commute,2026-04-03T17:00:00,2026-04-03T18:00:00,commute,travel
+commitment_0018,Sleep,2026-04-04T23:00:00,2026-04-05T06:00:00,home,sleep
+commitment_0019,Sleep,2026-04-05T23:00:00,2026-04-06T06:00:00,home,sleep
+commitment_0020,Brunch With Family,2026-04-05T11:00:00,2026-04-05T13:00:00,city,family
+commitment_0021,Sleep,2026-04-06T23:00:00,2026-04-07T06:00:00,home,sleep
+commitment_0022,Work Focus Block,2026-04-06T09:00:00,2026-04-06T12:00:00,office,work
+commitment_0023,Work Focus Block,2026-04-06T13:00:00,2026-04-06T17:00:00,office,work
+commitment_0024,Commute,2026-04-06T08:00:00,2026-04-06T09:00:00,commute,travel
+commitment_0025,Commute,2026-04-06T17:00:00,2026-04-06T18:00:00,commute,travel
+commitment_0026,Sleep,2026-04-07T23:00:00,2026-04-08T06:00:00,home,sleep
+commitment_0027,Work Focus Block,2026-04-07T09:00:00,2026-04-07T12:00:00,office,work
+commitment_0028,Work Focus Block,2026-04-07T13:00:00,2026-04-07T17:00:00,office,work
+commitment_0029,Commute,2026-04-07T08:00:00,2026-04-07T09:00:00,commute,travel
+commitment_0030,Commute,2026-04-07T17:00:00,2026-04-07T18:00:00,commute,travel
+commitment_0031,Family Dinner,2026-04-07T19:30:00,2026-04-07T21:00:00,home,family
+commitment_0032,Sleep,2026-04-08T23:00:00,2026-04-09T06:00:00,home,sleep
+commitment_0033,Work Focus Block,2026-04-08T09:00:00,2026-04-08T12:00:00,office,work
+commitment_0034,Work Focus Block,2026-04-08T13:00:00,2026-04-08T17:00:00,office,work
+commitment_0035,Commute,2026-04-08T08:00:00,2026-04-08T09:00:00,commute,travel
+commitment_0036,Commute,2026-04-08T17:00:00,2026-04-08T18:00:00,commute,travel
+commitment_0037,Project Review,2026-04-08T20:00:00,2026-04-08T21:00:00,home,work
+commitment_0038,Sleep,2026-04-09T23:00:00,2026-04-10T06:00:00,home,sleep
+commitment_0039,Work Focus Block,2026-04-09T09:00:00,2026-04-09T12:00:00,office,work
+commitment_0040,Work Focus Block,2026-04-09T13:00:00,2026-04-09T17:00:00,office,work
+commitment_0041,Commute,2026-04-09T08:00:00,2026-04-09T09:00:00,commute,travel
+commitment_0042,Commute,2026-04-09T17:00:00,2026-04-09T18:00:00,commute,travel
+commitment_0043,Family Dinner,2026-04-09T19:30:00,2026-04-09T21:00:00,home,family
+commitment_0044,Sleep,2026-04-10T23:00:00,2026-04-11T06:00:00,home,sleep
+commitment_0045,Work Focus Block,2026-04-10T09:00:00,2026-04-10T12:00:00,office,work
+commitment_0046,Work Focus Block,2026-04-10T13:00:00,2026-04-10T17:00:00,office,work
+commitment_0047,Commute,2026-04-10T08:00:00,2026-04-10T09:00:00,commute,travel
+commitment_0048,Commute,2026-04-10T17:00:00,2026-04-10T18:00:00,commute,travel
+commitment_0049,Sleep,2026-04-11T23:00:00,2026-04-12T06:00:00,home,sleep
+commitment_0050,Weekend Errands,2026-04-11T10:00:00,2026-04-11T12:00:00,city,personal
+commitment_0051,Sleep,2026-04-12T23:00:00,2026-04-13T06:00:00,home,sleep
+commitment_0052,Brunch With Family,2026-04-12T11:00:00,2026-04-12T13:00:00,city,family
+commitment_0053,Sleep,2026-04-13T23:00:00,2026-04-14T06:00:00,home,sleep
+commitment_0054,Work Focus Block,2026-04-13T09:00:00,2026-04-13T12:00:00,office,work
+commitment_0055,Work Focus Block,2026-04-13T13:00:00,2026-04-13T17:00:00,office,work
+commitment_0056,Commute,2026-04-13T08:00:00,2026-04-13T09:00:00,commute,travel
+commitment_0057,Commute,2026-04-13T17:00:00,2026-04-13T18:00:00,commute,travel
+commitment_0058,Sleep,2026-04-14T23:00:00,2026-04-15T06:00:00,home,sleep
+commitment_0059,Work Focus Block,2026-04-14T09:00:00,2026-04-14T12:00:00,office,work
+commitment_0060,Work Focus Block,2026-04-14T13:00:00,2026-04-14T17:00:00,office,work
+commitment_0061,Commute,2026-04-14T08:00:00,2026-04-14T09:00:00,commute,travel
+commitment_0062,Commute,2026-04-14T17:00:00,2026-04-14T18:00:00,commute,travel
+commitment_0063,Family Dinner,2026-04-14T19:30:00,2026-04-14T21:00:00,home,family
+commitment_0064,Sleep,2026-04-15T23:00:00,2026-04-16T06:00:00,home,sleep
+commitment_0065,Work Focus Block,2026-04-15T09:00:00,2026-04-15T12:00:00,office,work
+commitment_0066,Work Focus Block,2026-04-15T13:00:00,2026-04-15T17:00:00,office,work
+commitment_0067,Commute,2026-04-15T08:00:00,2026-04-15T09:00:00,commute,travel
+commitment_0068,Commute,2026-04-15T17:00:00,2026-04-15T18:00:00,commute,travel
+commitment_0069,Project Review,2026-04-15T20:00:00,2026-04-15T21:00:00,home,work
+commitment_0070,Sleep,2026-04-16T23:00:00,2026-04-17T06:00:00,home,sleep
+commitment_0071,Work Focus Block,2026-04-16T09:00:00,2026-04-16T12:00:00,office,work
+commitment_0072,Work Focus Block,2026-04-16T13:00:00,2026-04-16T17:00:00,office,work
+commitment_0073,Commute,2026-04-16T08:00:00,2026-04-16T09:00:00,commute,travel
+commitment_0074,Commute,2026-04-16T17:00:00,2026-04-16T18:00:00,commute,travel
+commitment_0075,Family Dinner,2026-04-16T19:30:00,2026-04-16T21:00:00,home,family
+commitment_0076,Sleep,2026-04-17T23:00:00,2026-04-18T06:00:00,home,sleep
+commitment_0077,Work Focus Block,2026-04-17T09:00:00,2026-04-17T12:00:00,office,work
+commitment_0078,Work Focus Block,2026-04-17T13:00:00,2026-04-17T17:00:00,office,work
+commitment_0079,Commute,2026-04-17T08:00:00,2026-04-17T09:00:00,commute,travel
+commitment_0080,Commute,2026-04-17T17:00:00,2026-04-17T18:00:00,commute,travel
+commitment_0081,Sleep,2026-04-18T23:00:00,2026-04-19T06:00:00,home,sleep
+commitment_0082,Weekend Errands,2026-04-18T10:00:00,2026-04-18T12:00:00,city,personal
+commitment_0083,Sleep,2026-04-19T23:00:00,2026-04-20T06:00:00,home,sleep
+commitment_0084,Brunch With Family,2026-04-19T11:00:00,2026-04-19T13:00:00,city,family
+commitment_0085,Sleep,2026-04-20T23:00:00,2026-04-21T06:00:00,home,sleep
+commitment_0086,Work Focus Block,2026-04-20T09:00:00,2026-04-20T12:00:00,office,work
+commitment_0087,Work Focus Block,2026-04-20T13:00:00,2026-04-20T17:00:00,office,work
+commitment_0088,Commute,2026-04-20T08:00:00,2026-04-20T09:00:00,commute,travel
+commitment_0089,Commute,2026-04-20T17:00:00,2026-04-20T18:00:00,commute,travel
+commitment_0090,Sleep,2026-04-21T23:00:00,2026-04-22T06:00:00,home,sleep
+commitment_0091,Work Focus Block,2026-04-21T09:00:00,2026-04-21T12:00:00,office,work
+commitment_0092,Work Focus Block,2026-04-21T13:00:00,2026-04-21T17:00:00,office,work
+commitment_0093,Commute,2026-04-21T08:00:00,2026-04-21T09:00:00,commute,travel
+commitment_0094,Commute,2026-04-21T17:00:00,2026-04-21T18:00:00,commute,travel
+commitment_0095,Family Dinner,2026-04-21T19:30:00,2026-04-21T21:00:00,home,family
+commitment_0096,Sleep,2026-04-22T23:00:00,2026-04-23T06:00:00,home,sleep
+commitment_0097,Work Focus Block,2026-04-22T09:00:00,2026-04-22T12:00:00,office,work
+commitment_0098,Work Focus Block,2026-04-22T13:00:00,2026-04-22T17:00:00,office,work
+commitment_0099,Commute,2026-04-22T08:00:00,2026-04-22T09:00:00,commute,travel
+commitment_0100,Commute,2026-04-22T17:00:00,2026-04-22T18:00:00,commute,travel
+commitment_0101,Project Review,2026-04-22T20:00:00,2026-04-22T21:00:00,home,work
+commitment_0102,Sleep,2026-04-23T23:00:00,2026-04-24T06:00:00,home,sleep
+commitment_0103,Work Focus Block,2026-04-23T09:00:00,2026-04-23T12:00:00,office,work
+commitment_0104,Work Focus Block,2026-04-23T13:00:00,2026-04-23T17:00:00,office,work
+commitment_0105,Commute,2026-04-23T08:00:00,2026-04-23T09:00:00,commute,travel
+commitment_0106,Commute,2026-04-23T17:00:00,2026-04-23T18:00:00,commute,travel
+commitment_0107,Family Dinner,2026-04-23T19:30:00,2026-04-23T21:00:00,home,family
+commitment_0108,Sleep,2026-04-24T23:00:00,2026-04-25T06:00:00,home,sleep
+commitment_0109,Work Focus Block,2026-04-24T09:00:00,2026-04-24T12:00:00,office,work
+commitment_0110,Work Focus Block,2026-04-24T13:00:00,2026-04-24T17:00:00,office,work
+commitment_0111,Commute,2026-04-24T08:00:00,2026-04-24T09:00:00,commute,travel
+commitment_0112,Commute,2026-04-24T17:00:00,2026-04-24T18:00:00,commute,travel
+commitment_0113,Sleep,2026-04-25T23:00:00,2026-04-26T06:00:00,home,sleep
+commitment_0114,Weekend Errands,2026-04-25T10:00:00,2026-04-25T12:00:00,city,personal
+commitment_0115,Sleep,2026-04-26T23:00:00,2026-04-27T06:00:00,home,sleep
+commitment_0116,Brunch With Family,2026-04-26T11:00:00,2026-04-26T13:00:00,city,family
+commitment_0117,Sleep,2026-04-27T23:00:00,2026-04-28T06:00:00,home,sleep
+commitment_0118,Work Focus Block,2026-04-27T09:00:00,2026-04-27T12:00:00,office,work
+commitment_0119,Work Focus Block,2026-04-27T13:00:00,2026-04-27T17:00:00,office,work
+commitment_0120,Commute,2026-04-27T08:00:00,2026-04-27T09:00:00,commute,travel
+commitment_0121,Commute,2026-04-27T17:00:00,2026-04-27T18:00:00,commute,travel
+commitment_0122,Sleep,2026-04-28T23:00:00,2026-04-29T06:00:00,home,sleep
+commitment_0123,Work Focus Block,2026-04-28T09:00:00,2026-04-28T12:00:00,office,work
+commitment_0124,Work Focus Block,2026-04-28T13:00:00,2026-04-28T17:00:00,office,work
+commitment_0125,Commute,2026-04-28T08:00:00,2026-04-28T09:00:00,commute,travel
+commitment_0126,Commute,2026-04-28T17:00:00,2026-04-28T18:00:00,commute,travel
+commitment_0127,Family Dinner,2026-04-28T19:30:00,2026-04-28T21:00:00,home,family
+commitment_0128,Sleep,2026-04-29T23:00:00,2026-04-30T06:00:00,home,sleep
+commitment_0129,Work Focus Block,2026-04-29T09:00:00,2026-04-29T12:00:00,office,work
+commitment_0130,Work Focus Block,2026-04-29T13:00:00,2026-04-29T17:00:00,office,work
+commitment_0131,Commute,2026-04-29T08:00:00,2026-04-29T09:00:00,commute,travel
+commitment_0132,Commute,2026-04-29T17:00:00,2026-04-29T18:00:00,commute,travel
+commitment_0133,Project Review,2026-04-29T20:00:00,2026-04-29T21:00:00,home,work
+commitment_0134,Sleep,2026-04-30T23:00:00,2026-05-01T06:00:00,home,sleep
+commitment_0135,Work Focus Block,2026-04-30T09:00:00,2026-04-30T12:00:00,office,work
+commitment_0136,Work Focus Block,2026-04-30T13:00:00,2026-04-30T17:00:00,office,work
+commitment_0137,Commute,2026-04-30T08:00:00,2026-04-30T09:00:00,commute,travel
+commitment_0138,Commute,2026-04-30T17:00:00,2026-04-30T18:00:00,commute,travel
+commitment_0139,Family Dinner,2026-04-30T19:30:00,2026-04-30T21:00:00,home,family
+commitment_0140,Sleep,2026-05-01T23:00:00,2026-05-02T06:00:00,home,sleep
+commitment_0141,Work Focus Block,2026-05-01T09:00:00,2026-05-01T12:00:00,office,work
+commitment_0142,Work Focus Block,2026-05-01T13:00:00,2026-05-01T17:00:00,office,work
+commitment_0143,Commute,2026-05-01T08:00:00,2026-05-01T09:00:00,commute,travel
+commitment_0144,Commute,2026-05-01T17:00:00,2026-05-01T18:00:00,commute,travel
+commitment_0145,Sleep,2026-05-02T23:00:00,2026-05-03T06:00:00,home,sleep
+commitment_0146,Sleep,2026-05-03T23:00:00,2026-05-04T06:00:00,home,sleep
+commitment_0147,Brunch With Family,2026-05-03T11:00:00,2026-05-03T13:00:00,city,family
+commitment_0148,Sleep,2026-05-04T23:00:00,2026-05-05T06:00:00,home,sleep
+commitment_0149,Work Focus Block,2026-05-04T09:00:00,2026-05-04T12:00:00,office,work
+commitment_0150,Work Focus Block,2026-05-04T13:00:00,2026-05-04T17:00:00,office,work
+commitment_0151,Commute,2026-05-04T08:00:00,2026-05-04T09:00:00,commute,travel
+commitment_0152,Commute,2026-05-04T17:00:00,2026-05-04T18:00:00,commute,travel
+commitment_0153,Sleep,2026-05-05T23:00:00,2026-05-06T06:00:00,home,sleep
+commitment_0154,Work Focus Block,2026-05-05T09:00:00,2026-05-05T12:00:00,office,work
+commitment_0155,Work Focus Block,2026-05-05T13:00:00,2026-05-05T17:00:00,office,work
+commitment_0156,Commute,2026-05-05T08:00:00,2026-05-05T09:00:00,commute,travel
+commitment_0157,Commute,2026-05-05T17:00:00,2026-05-05T18:00:00,commute,travel
+commitment_0158,Family Dinner,2026-05-05T19:30:00,2026-05-05T21:00:00,home,family
+commitment_0159,Sleep,2026-05-06T23:00:00,2026-05-07T06:00:00,home,sleep
+commitment_0160,Work Focus Block,2026-05-06T09:00:00,2026-05-06T12:00:00,office,work
+commitment_0161,Work Focus Block,2026-05-06T13:00:00,2026-05-06T17:00:00,office,work
+commitment_0162,Commute,2026-05-06T08:00:00,2026-05-06T09:00:00,commute,travel
+commitment_0163,Commute,2026-05-06T17:00:00,2026-05-06T18:00:00,commute,travel
+commitment_0164,Project Review,2026-05-06T20:00:00,2026-05-06T21:00:00,home,work
+commitment_0165,Sleep,2026-05-07T23:00:00,2026-05-08T06:00:00,home,sleep
+commitment_0166,Work Focus Block,2026-05-07T09:00:00,2026-05-07T12:00:00,office,work
+commitment_0167,Work Focus Block,2026-05-07T13:00:00,2026-05-07T17:00:00,office,work
+commitment_0168,Commute,2026-05-07T08:00:00,2026-05-07T09:00:00,commute,travel
+commitment_0169,Commute,2026-05-07T17:00:00,2026-05-07T18:00:00,commute,travel
+commitment_0170,Family Dinner,2026-05-07T19:30:00,2026-05-07T21:00:00,home,family
+commitment_0171,Sleep,2026-05-08T23:00:00,2026-05-09T06:00:00,home,sleep
+commitment_0172,Work Focus Block,2026-05-08T09:00:00,2026-05-08T12:00:00,office,work
+commitment_0173,Work Focus Block,2026-05-08T13:00:00,2026-05-08T17:00:00,office,work
+commitment_0174,Commute,2026-05-08T08:00:00,2026-05-08T09:00:00,commute,travel
+commitment_0175,Commute,2026-05-08T17:00:00,2026-05-08T18:00:00,commute,travel
+commitment_0176,Sleep,2026-05-09T23:00:00,2026-05-10T06:00:00,home,sleep
+commitment_0177,Sleep,2026-05-10T23:00:00,2026-05-11T06:00:00,home,sleep
+commitment_0178,Brunch With Family,2026-05-10T11:00:00,2026-05-10T13:00:00,city,family
+commitment_0179,Sleep,2026-05-11T23:00:00,2026-05-12T06:00:00,home,sleep
+commitment_0180,Work Focus Block,2026-05-11T09:00:00,2026-05-11T12:00:00,office,work
+commitment_0181,Work Focus Block,2026-05-11T13:00:00,2026-05-11T17:00:00,office,work
+commitment_0182,Commute,2026-05-11T08:00:00,2026-05-11T09:00:00,commute,travel
+commitment_0183,Commute,2026-05-11T17:00:00,2026-05-11T18:00:00,commute,travel
+commitment_0184,Sleep,2026-05-12T23:00:00,2026-05-13T06:00:00,home,sleep
+commitment_0185,Work Focus Block,2026-05-12T09:00:00,2026-05-12T12:00:00,office,work
+commitment_0186,Work Focus Block,2026-05-12T13:00:00,2026-05-12T17:00:00,office,work
+commitment_0187,Commute,2026-05-12T08:00:00,2026-05-12T09:00:00,commute,travel
+commitment_0188,Commute,2026-05-12T17:00:00,2026-05-12T18:00:00,commute,travel
+commitment_0189,Family Dinner,2026-05-12T19:30:00,2026-05-12T21:00:00,home,family
+commitment_0190,Sleep,2026-05-13T23:00:00,2026-05-14T06:00:00,home,sleep
+commitment_0191,Work Focus Block,2026-05-13T09:00:00,2026-05-13T12:00:00,office,work
+commitment_0192,Work Focus Block,2026-05-13T13:00:00,2026-05-13T17:00:00,office,work
+commitment_0193,Commute,2026-05-13T08:00:00,2026-05-13T09:00:00,commute,travel
+commitment_0194,Commute,2026-05-13T17:00:00,2026-05-13T18:00:00,commute,travel
+commitment_0195,Project Review,2026-05-13T20:00:00,2026-05-13T21:00:00,home,work
+commitment_0196,Sleep,2026-05-14T23:00:00,2026-05-15T06:00:00,home,sleep
+commitment_0197,Work Focus Block,2026-05-14T09:00:00,2026-05-14T12:00:00,office,work
+commitment_0198,Work Focus Block,2026-05-14T13:00:00,2026-05-14T17:00:00,office,work
+commitment_0199,Commute,2026-05-14T08:00:00,2026-05-14T09:00:00,commute,travel
+commitment_0200,Commute,2026-05-14T17:00:00,2026-05-14T18:00:00,commute,travel
+commitment_0201,Family Dinner,2026-05-14T19:30:00,2026-05-14T21:00:00,home,family
+commitment_0202,Sleep,2026-05-15T23:00:00,2026-05-16T06:00:00,home,sleep
+commitment_0203,Work Focus Block,2026-05-15T09:00:00,2026-05-15T12:00:00,office,work
+commitment_0204,Work Focus Block,2026-05-15T13:00:00,2026-05-15T17:00:00,office,work
+commitment_0205,Commute,2026-05-15T08:00:00,2026-05-15T09:00:00,commute,travel
+commitment_0206,Commute,2026-05-15T17:00:00,2026-05-15T18:00:00,commute,travel
+commitment_0207,Sleep,2026-05-16T23:00:00,2026-05-17T06:00:00,home,sleep
+commitment_0208,Sleep,2026-05-17T23:00:00,2026-05-18T06:00:00,home,sleep
+commitment_0209,Brunch With Family,2026-05-17T11:00:00,2026-05-17T13:00:00,city,family
+commitment_0210,Sleep,2026-05-18T23:00:00,2026-05-19T06:00:00,home,sleep
+commitment_0211,Work Focus Block,2026-05-18T09:00:00,2026-05-18T12:00:00,office,work
+commitment_0212,Work Focus Block,2026-05-18T13:00:00,2026-05-18T17:00:00,office,work
+commitment_0213,Commute,2026-05-18T08:00:00,2026-05-18T09:00:00,commute,travel
+commitment_0214,Commute,2026-05-18T17:00:00,2026-05-18T18:00:00,commute,travel
+commitment_0215,Sleep,2026-05-19T23:00:00,2026-05-20T06:00:00,home,sleep
+commitment_0216,Work Focus Block,2026-05-19T09:00:00,2026-05-19T12:00:00,office,work
+commitment_0217,Work Focus Block,2026-05-19T13:00:00,2026-05-19T17:00:00,office,work
+commitment_0218,Commute,2026-05-19T08:00:00,2026-05-19T09:00:00,commute,travel
+commitment_0219,Commute,2026-05-19T17:00:00,2026-05-19T18:00:00,commute,travel
+commitment_0220,Family Dinner,2026-05-19T19:30:00,2026-05-19T21:00:00,home,family
+commitment_0221,Sleep,2026-05-20T23:00:00,2026-05-21T06:00:00,home,sleep
+commitment_0222,Work Focus Block,2026-05-20T09:00:00,2026-05-20T12:00:00,office,work
+commitment_0223,Work Focus Block,2026-05-20T13:00:00,2026-05-20T17:00:00,office,work
+commitment_0224,Commute,2026-05-20T08:00:00,2026-05-20T09:00:00,commute,travel
+commitment_0225,Commute,2026-05-20T17:00:00,2026-05-20T18:00:00,commute,travel
+commitment_0226,Project Review,2026-05-20T20:00:00,2026-05-20T21:00:00,home,work
+commitment_0227,Sleep,2026-05-21T23:00:00,2026-05-22T06:00:00,home,sleep
+commitment_0228,Work Focus Block,2026-05-21T09:00:00,2026-05-21T12:00:00,office,work
+commitment_0229,Work Focus Block,2026-05-21T13:00:00,2026-05-21T17:00:00,office,work
+commitment_0230,Commute,2026-05-21T08:00:00,2026-05-21T09:00:00,commute,travel
+commitment_0231,Commute,2026-05-21T17:00:00,2026-05-21T18:00:00,commute,travel
+commitment_0232,Family Dinner,2026-05-21T19:30:00,2026-05-21T21:00:00,home,family
+commitment_0233,Sleep,2026-05-22T23:00:00,2026-05-23T06:00:00,home,sleep
+commitment_0234,Work Focus Block,2026-05-22T09:00:00,2026-05-22T12:00:00,office,work
+commitment_0235,Work Focus Block,2026-05-22T13:00:00,2026-05-22T17:00:00,office,work
+commitment_0236,Commute,2026-05-22T08:00:00,2026-05-22T09:00:00,commute,travel
+commitment_0237,Commute,2026-05-22T17:00:00,2026-05-22T18:00:00,commute,travel
+commitment_0238,Sleep,2026-05-23T23:00:00,2026-05-24T06:00:00,home,sleep
+commitment_0239,Weekend Errands,2026-05-23T10:00:00,2026-05-23T12:00:00,city,personal
+commitment_0240,Sleep,2026-05-24T23:00:00,2026-05-25T06:00:00,home,sleep
+commitment_0241,Brunch With Family,2026-05-24T11:00:00,2026-05-24T13:00:00,city,family
+commitment_0242,Sleep,2026-05-25T23:00:00,2026-05-26T06:00:00,home,sleep
+commitment_0243,Work Focus Block,2026-05-25T09:00:00,2026-05-25T12:00:00,office,work
+commitment_0244,Work Focus Block,2026-05-25T13:00:00,2026-05-25T17:00:00,office,work
+commitment_0245,Commute,2026-05-25T08:00:00,2026-05-25T09:00:00,commute,travel
+commitment_0246,Commute,2026-05-25T17:00:00,2026-05-25T18:00:00,commute,travel
+commitment_0247,Sleep,2026-05-26T23:00:00,2026-05-27T06:00:00,home,sleep
+commitment_0248,Work Focus Block,2026-05-26T09:00:00,2026-05-26T12:00:00,office,work
+commitment_0249,Work Focus Block,2026-05-26T13:00:00,2026-05-26T17:00:00,office,work
+commitment_0250,Commute,2026-05-26T08:00:00,2026-05-26T09:00:00,commute,travel
+commitment_0251,Commute,2026-05-26T17:00:00,2026-05-26T18:00:00,commute,travel
+commitment_0252,Family Dinner,2026-05-26T19:30:00,2026-05-26T21:00:00,home,family
+commitment_0253,Sleep,2026-05-27T23:00:00,2026-05-28T06:00:00,home,sleep
+commitment_0254,Work Focus Block,2026-05-27T09:00:00,2026-05-27T12:00:00,office,work
+commitment_0255,Work Focus Block,2026-05-27T13:00:00,2026-05-27T17:00:00,office,work
+commitment_0256,Commute,2026-05-27T08:00:00,2026-05-27T09:00:00,commute,travel
+commitment_0257,Commute,2026-05-27T17:00:00,2026-05-27T18:00:00,commute,travel
+commitment_0258,Project Review,2026-05-27T20:00:00,2026-05-27T21:00:00,home,work
+commitment_0259,Sleep,2026-05-28T23:00:00,2026-05-29T06:00:00,home,sleep
+commitment_0260,Work Focus Block,2026-05-28T09:00:00,2026-05-28T12:00:00,office,work
+commitment_0261,Work Focus Block,2026-05-28T13:00:00,2026-05-28T17:00:00,office,work
+commitment_0262,Commute,2026-05-28T08:00:00,2026-05-28T09:00:00,commute,travel
+commitment_0263,Commute,2026-05-28T17:00:00,2026-05-28T18:00:00,commute,travel
+commitment_0264,Family Dinner,2026-05-28T19:30:00,2026-05-28T21:00:00,home,family
+commitment_0265,Sleep,2026-05-29T23:00:00,2026-05-30T06:00:00,home,sleep
+commitment_0266,Work Focus Block,2026-05-29T09:00:00,2026-05-29T12:00:00,office,work
+commitment_0267,Work Focus Block,2026-05-29T13:00:00,2026-05-29T17:00:00,office,work
+commitment_0268,Commute,2026-05-29T08:00:00,2026-05-29T09:00:00,commute,travel
+commitment_0269,Commute,2026-05-29T17:00:00,2026-05-29T18:00:00,commute,travel
+commitment_0270,Sleep,2026-05-30T23:00:00,2026-05-31T06:00:00,home,sleep
+commitment_0271,Weekend Errands,2026-05-30T10:00:00,2026-05-30T12:00:00,city,personal
+commitment_0272,Sleep,2026-05-31T23:00:00,2026-06-01T06:00:00,home,sleep
+commitment_0273,Brunch With Family,2026-05-31T11:00:00,2026-05-31T13:00:00,city,family
+commitment_0274,Sleep,2026-06-01T23:00:00,2026-06-02T06:00:00,home,sleep
+commitment_0275,Work Focus Block,2026-06-01T09:00:00,2026-06-01T12:00:00,office,work
+commitment_0276,Work Focus Block,2026-06-01T13:00:00,2026-06-01T17:00:00,office,work
+commitment_0277,Commute,2026-06-01T08:00:00,2026-06-01T09:00:00,commute,travel
+commitment_0278,Commute,2026-06-01T17:00:00,2026-06-01T18:00:00,commute,travel
+commitment_0279,Sleep,2026-06-02T23:00:00,2026-06-03T06:00:00,home,sleep
+commitment_0280,Work Focus Block,2026-06-02T09:00:00,2026-06-02T12:00:00,office,work
+commitment_0281,Work Focus Block,2026-06-02T13:00:00,2026-06-02T17:00:00,office,work
+commitment_0282,Commute,2026-06-02T08:00:00,2026-06-02T09:00:00,commute,travel
+commitment_0283,Commute,2026-06-02T17:00:00,2026-06-02T18:00:00,commute,travel
+commitment_0284,Family Dinner,2026-06-02T19:30:00,2026-06-02T21:00:00,home,family
+commitment_0285,Sleep,2026-06-03T23:00:00,2026-06-04T06:00:00,home,sleep
+commitment_0286,Work Focus Block,2026-06-03T09:00:00,2026-06-03T12:00:00,office,work
+commitment_0287,Work Focus Block,2026-06-03T13:00:00,2026-06-03T17:00:00,office,work
+commitment_0288,Commute,2026-06-03T08:00:00,2026-06-03T09:00:00,commute,travel
+commitment_0289,Commute,2026-06-03T17:00:00,2026-06-03T18:00:00,commute,travel
+commitment_0290,Project Review,2026-06-03T20:00:00,2026-06-03T21:00:00,home,work
+commitment_0291,Sleep,2026-06-04T23:00:00,2026-06-05T06:00:00,home,sleep
+commitment_0292,Work Focus Block,2026-06-04T09:00:00,2026-06-04T12:00:00,office,work
+commitment_0293,Work Focus Block,2026-06-04T13:00:00,2026-06-04T17:00:00,office,work
+commitment_0294,Commute,2026-06-04T08:00:00,2026-06-04T09:00:00,commute,travel
+commitment_0295,Commute,2026-06-04T17:00:00,2026-06-04T18:00:00,commute,travel
+commitment_0296,Family Dinner,2026-06-04T19:30:00,2026-06-04T21:00:00,home,family
+commitment_0297,Sleep,2026-06-05T23:00:00,2026-06-06T06:00:00,home,sleep
+commitment_0298,Work Focus Block,2026-06-05T09:00:00,2026-06-05T12:00:00,office,work
+commitment_0299,Work Focus Block,2026-06-05T13:00:00,2026-06-05T17:00:00,office,work
+commitment_0300,Commute,2026-06-05T08:00:00,2026-06-05T09:00:00,commute,travel
+commitment_0301,Commute,2026-06-05T17:00:00,2026-06-05T18:00:00,commute,travel
+commitment_0302,Sleep,2026-06-06T23:00:00,2026-06-07T06:00:00,home,sleep
+commitment_0303,Weekend Errands,2026-06-06T10:00:00,2026-06-06T12:00:00,city,personal
+commitment_0304,Sleep,2026-06-07T23:00:00,2026-06-08T06:00:00,home,sleep
+commitment_0305,Brunch With Family,2026-06-07T11:00:00,2026-06-07T13:00:00,city,family
+commitment_0306,Sleep,2026-06-08T23:00:00,2026-06-09T06:00:00,home,sleep
+commitment_0307,Work Focus Block,2026-06-08T09:00:00,2026-06-08T12:00:00,office,work
+commitment_0308,Work Focus Block,2026-06-08T13:00:00,2026-06-08T17:00:00,office,work
+commitment_0309,Commute,2026-06-08T08:00:00,2026-06-08T09:00:00,commute,travel
+commitment_0310,Commute,2026-06-08T17:00:00,2026-06-08T18:00:00,commute,travel
+commitment_0311,Sleep,2026-06-09T23:00:00,2026-06-10T06:00:00,home,sleep
+commitment_0312,Work Focus Block,2026-06-09T09:00:00,2026-06-09T12:00:00,office,work
+commitment_0313,Work Focus Block,2026-06-09T13:00:00,2026-06-09T17:00:00,office,work
+commitment_0314,Commute,2026-06-09T08:00:00,2026-06-09T09:00:00,commute,travel
+commitment_0315,Commute,2026-06-09T17:00:00,2026-06-09T18:00:00,commute,travel
+commitment_0316,Family Dinner,2026-06-09T19:30:00,2026-06-09T21:00:00,home,family
+commitment_0317,Sleep,2026-06-10T23:00:00,2026-06-11T06:00:00,home,sleep
+commitment_0318,Work Focus Block,2026-06-10T09:00:00,2026-06-10T12:00:00,office,work
+commitment_0319,Work Focus Block,2026-06-10T13:00:00,2026-06-10T17:00:00,office,work
+commitment_0320,Commute,2026-06-10T08:00:00,2026-06-10T09:00:00,commute,travel
+commitment_0321,Commute,2026-06-10T17:00:00,2026-06-10T18:00:00,commute,travel
+commitment_0322,Project Review,2026-06-10T20:00:00,2026-06-10T21:00:00,home,work
+commitment_0323,Sleep,2026-06-11T23:00:00,2026-06-12T06:00:00,home,sleep
+commitment_0324,Work Focus Block,2026-06-11T09:00:00,2026-06-11T12:00:00,office,work
+commitment_0325,Work Focus Block,2026-06-11T13:00:00,2026-06-11T17:00:00,office,work
+commitment_0326,Commute,2026-06-11T08:00:00,2026-06-11T09:00:00,commute,travel
+commitment_0327,Commute,2026-06-11T17:00:00,2026-06-11T18:00:00,commute,travel
+commitment_0328,Family Dinner,2026-06-11T19:30:00,2026-06-11T21:00:00,home,family
+commitment_0329,Sleep,2026-06-12T23:00:00,2026-06-13T06:00:00,home,sleep
+commitment_0330,Work Focus Block,2026-06-12T09:00:00,2026-06-12T12:00:00,office,work
+commitment_0331,Work Focus Block,2026-06-12T13:00:00,2026-06-12T17:00:00,office,work
+commitment_0332,Commute,2026-06-12T08:00:00,2026-06-12T09:00:00,commute,travel
+commitment_0333,Commute,2026-06-12T17:00:00,2026-06-12T18:00:00,commute,travel
+commitment_0334,Sleep,2026-06-13T23:00:00,2026-06-14T06:00:00,home,sleep
+commitment_0335,Weekend Errands,2026-06-13T10:00:00,2026-06-13T12:00:00,city,personal
+commitment_0336,Sleep,2026-06-14T23:00:00,2026-06-15T06:00:00,home,sleep
+commitment_0337,Brunch With Family,2026-06-14T11:00:00,2026-06-14T13:00:00,city,family
+commitment_0338,Sleep,2026-06-15T23:00:00,2026-06-16T06:00:00,home,sleep
+commitment_0339,Work Focus Block,2026-06-15T09:00:00,2026-06-15T12:00:00,office,work
+commitment_0340,Work Focus Block,2026-06-15T13:00:00,2026-06-15T17:00:00,office,work
+commitment_0341,Commute,2026-06-15T08:00:00,2026-06-15T09:00:00,commute,travel
+commitment_0342,Commute,2026-06-15T17:00:00,2026-06-15T18:00:00,commute,travel
+commitment_0343,Sleep,2026-06-16T23:00:00,2026-06-17T06:00:00,home,sleep
+commitment_0344,Work Focus Block,2026-06-16T09:00:00,2026-06-16T12:00:00,office,work
+commitment_0345,Work Focus Block,2026-06-16T13:00:00,2026-06-16T17:00:00,office,work
+commitment_0346,Commute,2026-06-16T08:00:00,2026-06-16T09:00:00,commute,travel
+commitment_0347,Commute,2026-06-16T17:00:00,2026-06-16T18:00:00,commute,travel
+commitment_0348,Family Dinner,2026-06-16T19:30:00,2026-06-16T21:00:00,home,family
+commitment_0349,Sleep,2026-06-17T23:00:00,2026-06-18T06:00:00,home,sleep
+commitment_0350,Work Focus Block,2026-06-17T09:00:00,2026-06-17T12:00:00,office,work
+commitment_0351,Work Focus Block,2026-06-17T13:00:00,2026-06-17T17:00:00,office,work
+commitment_0352,Commute,2026-06-17T08:00:00,2026-06-17T09:00:00,commute,travel
+commitment_0353,Commute,2026-06-17T17:00:00,2026-06-17T18:00:00,commute,travel
+commitment_0354,Project Review,2026-06-17T20:00:00,2026-06-17T21:00:00,home,work
+commitment_0355,Sleep,2026-06-18T23:00:00,2026-06-19T06:00:00,home,sleep
+commitment_0356,Work Focus Block,2026-06-18T09:00:00,2026-06-18T12:00:00,office,work
+commitment_0357,Work Focus Block,2026-06-18T13:00:00,2026-06-18T17:00:00,office,work
+commitment_0358,Commute,2026-06-18T08:00:00,2026-06-18T09:00:00,commute,travel
+commitment_0359,Commute,2026-06-18T17:00:00,2026-06-18T18:00:00,commute,travel
+commitment_0360,Family Dinner,2026-06-18T19:30:00,2026-06-18T21:00:00,home,family
+commitment_0361,Sleep,2026-06-19T23:00:00,2026-06-20T06:00:00,home,sleep
+commitment_0362,Work Focus Block,2026-06-19T09:00:00,2026-06-19T12:00:00,office,work
+commitment_0363,Work Focus Block,2026-06-19T13:00:00,2026-06-19T17:00:00,office,work
+commitment_0364,Commute,2026-06-19T08:00:00,2026-06-19T09:00:00,commute,travel
+commitment_0365,Commute,2026-06-19T17:00:00,2026-06-19T18:00:00,commute,travel
+commitment_0366,Sleep,2026-06-20T23:00:00,2026-06-21T06:00:00,home,sleep
+commitment_0367,Weekend Errands,2026-06-20T10:00:00,2026-06-20T12:00:00,city,personal
+commitment_0368,Sleep,2026-06-21T23:00:00,2026-06-22T06:00:00,home,sleep
+commitment_0369,Brunch With Family,2026-06-21T11:00:00,2026-06-21T13:00:00,city,family
+commitment_0370,Sleep,2026-06-22T23:00:00,2026-06-23T06:00:00,home,sleep
+commitment_0371,Work Focus Block,2026-06-22T09:00:00,2026-06-22T12:00:00,office,work
+commitment_0372,Work Focus Block,2026-06-22T13:00:00,2026-06-22T17:00:00,office,work
+commitment_0373,Commute,2026-06-22T08:00:00,2026-06-22T09:00:00,commute,travel
+commitment_0374,Commute,2026-06-22T17:00:00,2026-06-22T18:00:00,commute,travel
+commitment_0375,Sleep,2026-06-23T23:00:00,2026-06-24T06:00:00,home,sleep
+commitment_0376,Work Focus Block,2026-06-23T09:00:00,2026-06-23T12:00:00,office,work
+commitment_0377,Work Focus Block,2026-06-23T13:00:00,2026-06-23T17:00:00,office,work
+commitment_0378,Commute,2026-06-23T08:00:00,2026-06-23T09:00:00,commute,travel
+commitment_0379,Commute,2026-06-23T17:00:00,2026-06-23T18:00:00,commute,travel
+commitment_0380,Family Dinner,2026-06-23T19:30:00,2026-06-23T21:00:00,home,family
+commitment_0381,Sleep,2026-06-24T23:00:00,2026-06-25T06:00:00,home,sleep
+commitment_0382,Work Focus Block,2026-06-24T09:00:00,2026-06-24T12:00:00,office,work
+commitment_0383,Work Focus Block,2026-06-24T13:00:00,2026-06-24T17:00:00,office,work
+commitment_0384,Commute,2026-06-24T08:00:00,2026-06-24T09:00:00,commute,travel
+commitment_0385,Commute,2026-06-24T17:00:00,2026-06-24T18:00:00,commute,travel
+commitment_0386,Project Review,2026-06-24T20:00:00,2026-06-24T21:00:00,home,work
+commitment_0387,Sleep,2026-06-25T23:00:00,2026-06-26T06:00:00,home,sleep
+commitment_0388,Work Focus Block,2026-06-25T09:00:00,2026-06-25T12:00:00,office,work
+commitment_0389,Work Focus Block,2026-06-25T13:00:00,2026-06-25T17:00:00,office,work
+commitment_0390,Commute,2026-06-25T08:00:00,2026-06-25T09:00:00,commute,travel
+commitment_0391,Commute,2026-06-25T17:00:00,2026-06-25T18:00:00,commute,travel
+commitment_0392,Family Dinner,2026-06-25T19:30:00,2026-06-25T21:00:00,home,family
+commitment_0393,Sleep,2026-06-26T23:00:00,2026-06-27T06:00:00,home,sleep
+commitment_0394,Work Focus Block,2026-06-26T09:00:00,2026-06-26T12:00:00,office,work
+commitment_0395,Work Focus Block,2026-06-26T13:00:00,2026-06-26T17:00:00,office,work
+commitment_0396,Commute,2026-06-26T08:00:00,2026-06-26T09:00:00,commute,travel
+commitment_0397,Commute,2026-06-26T17:00:00,2026-06-26T18:00:00,commute,travel
+commitment_0398,Sleep,2026-06-27T23:00:00,2026-06-28T06:00:00,home,sleep
+commitment_0399,Weekend Errands,2026-06-27T10:00:00,2026-06-27T12:00:00,city,personal
+commitment_0400,Sleep,2026-06-28T23:00:00,2026-06-29T06:00:00,home,sleep
+commitment_0401,Brunch With Family,2026-06-28T11:00:00,2026-06-28T13:00:00,city,family
+commitment_0402,Sleep,2026-06-29T23:00:00,2026-06-30T06:00:00,home,sleep
+commitment_0403,Work Focus Block,2026-06-29T09:00:00,2026-06-29T12:00:00,office,work
+commitment_0404,Work Focus Block,2026-06-29T13:00:00,2026-06-29T17:00:00,office,work
+commitment_0405,Commute,2026-06-29T08:00:00,2026-06-29T09:00:00,commute,travel
+commitment_0406,Commute,2026-06-29T17:00:00,2026-06-29T18:00:00,commute,travel
+commitment_0407,Sleep,2026-06-30T23:00:00,2026-07-01T06:00:00,home,sleep
+commitment_0408,Work Focus Block,2026-06-30T09:00:00,2026-06-30T12:00:00,office,work
+commitment_0409,Work Focus Block,2026-06-30T13:00:00,2026-06-30T17:00:00,office,work
+commitment_0410,Commute,2026-06-30T08:00:00,2026-06-30T09:00:00,commute,travel
+commitment_0411,Commute,2026-06-30T17:00:00,2026-06-30T18:00:00,commute,travel
+commitment_0412,Family Dinner,2026-06-30T19:30:00,2026-06-30T21:00:00,home,family

@@ -1,0 +1,3498 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HealthScheduler//Scheduling Constraints Demo//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9c38cb61-6884-4f59-8dff-895384e27928
+DTSTAMP:20260324T094405
+DTSTART:20260401T060000
+DTEND:20260401T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:86955e18-333a-49d1-8108-bf4716466720
+DTSTAMP:20260324T094405
+DTSTART:20260401T063000
+DTEND:20260401T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:184dda95-9083-4ad7-8a60-3db63ba92f21
+DTSTAMP:20260324T094405
+DTSTART:20260401T090000
+DTEND:20260401T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:faffd26c-a93b-44fb-b541-8a41addf9259
+DTSTAMP:20260324T094405
+DTSTART:20260401T120000
+DTEND:20260401T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:2c796d7c-803c-4e45-bd5d-47535f8c48e4
+DTSTAMP:20260324T094405
+DTSTART:20260401T180000
+DTEND:20260401T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a9f7e1e5-d2b2-46c4-8b1d-911065993b7c
+DTSTAMP:20260324T094405
+DTSTART:20260401T183000
+DTEND:20260401T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:0bccf43c-ee49-4f9c-a6f9-1af38b9be203
+DTSTAMP:20260324T094405
+DTSTART:20260402T060000
+DTEND:20260402T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:bda2cd93-95ae-4269-bbf9-e38a8abc6bea
+DTSTAMP:20260324T094405
+DTSTART:20260402T120000
+DTEND:20260402T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:134d5fb8-02d4-4b89-8ec7-a121623a905f
+DTSTAMP:20260324T094405
+DTSTART:20260402T180000
+DTEND:20260402T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1ea9a027-1a3c-4674-bf73-9aaa286fbc8a
+DTSTAMP:20260324T094405
+DTSTART:20260403T060000
+DTEND:20260403T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:a1ff08a3-24ea-4717-bc59-e6db1def8cbb
+DTSTAMP:20260324T094405
+DTSTART:20260403T120000
+DTEND:20260403T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:51a54cf5-fa24-46aa-b738-64e34ab32fe4
+DTSTAMP:20260324T094405
+DTSTART:20260403T180000
+DTEND:20260403T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:70f1d58e-2e86-4886-b441-6aac7a48f41c
+DTSTAMP:20260324T094405
+DTSTART:20260404T060000
+DTEND:20260404T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:339ec649-98f7-4161-b8bc-7938d6358e06
+DTSTAMP:20260324T094405
+DTSTART:20260404T080000
+DTEND:20260404T081500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ec26d9c0-ee6a-4c80-8d16-37052d2e537b
+DTSTAMP:20260324T094405
+DTSTART:20260404T113000
+DTEND:20260404T115000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:62e24abd-d8f1-4c7f-a08a-b98ebb0c4c51
+DTSTAMP:20260324T094405
+DTSTART:20260404T173000
+DTEND:20260404T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d6e7a3e1-90e0-4ae6-b7a3-04ba35059ed6
+DTSTAMP:20260324T094405
+DTSTART:20260404T180000
+DTEND:20260404T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4981617d-ea75-4184-9186-ab9ab1ec9f37
+DTSTAMP:20260324T094405
+DTSTART:20260404T183000
+DTEND:20260404T191000
+SUMMARY:Thermal Session - Inflammation Support
+DESCRIPTION:Use a moderate-duration heat exposure and cool down gradually afterwards. | Metrics: post_weight\, pre_weight | Equipment: equipment_05 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:91da0070-8c3d-4a64-9636-b881c9b71625
+DTSTAMP:20260324T094405
+DTSTART:20260405T060000
+DTEND:20260405T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:159eae4d-0ce4-496c-98b8-6db8345023bc
+DTSTAMP:20260324T094405
+DTSTART:20260405T130000
+DTEND:20260405T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:0c5ea69a-fcec-4542-80f7-acbed98a95ed
+DTSTAMP:20260324T094405
+DTSTART:20260405T173000
+DTEND:20260405T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0b22afdc-4d0e-41a0-9d37-c9f41131afec
+DTSTAMP:20260324T094405
+DTSTART:20260406T060000
+DTEND:20260406T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:e89bb41a-8150-4e9d-9fc4-7e3f104fdd48
+DTSTAMP:20260324T094405
+DTSTART:20260406T120000
+DTEND:20260406T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:8e150212-eeb6-432b-8492-d394338656f1
+DTSTAMP:20260324T094405
+DTSTART:20260406T180000
+DTEND:20260406T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:28397461-9ef9-40b9-bbdc-ce218ea3d214
+DTSTAMP:20260324T094405
+DTSTART:20260406T183000
+DTEND:20260406T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:91d7a806-67f9-451b-b5e8-f370901b9410
+DTSTAMP:20260324T094405
+DTSTART:20260407T060000
+DTEND:20260407T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:bb2c61f0-d671-4137-a6ab-30c7430a7c0f
+DTSTAMP:20260324T094405
+DTSTART:20260407T063000
+DTEND:20260407T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:694b089e-c03f-4f05-b3b0-b90def6f5512
+DTSTAMP:20260324T094405
+DTSTART:20260407T090000
+DTEND:20260407T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:499dbbbf-567f-4e01-9017-6d7e8545c28d
+DTSTAMP:20260324T094405
+DTSTART:20260407T120000
+DTEND:20260407T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:d99afad7-6758-459b-859e-40718f5ee502
+DTSTAMP:20260324T094405
+DTSTART:20260407T180000
+DTEND:20260407T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0a489647-3284-4878-89d3-8e9ccbd3afb3
+DTSTAMP:20260324T094405
+DTSTART:20260408T060000
+DTEND:20260408T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:e08206b0-8802-4843-a39c-628ca4bb982f
+DTSTAMP:20260324T094405
+DTSTART:20260408T063000
+DTEND:20260408T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:01f48d2a-e8fd-42ca-beb5-1084e9e5b204
+DTSTAMP:20260324T094405
+DTSTART:20260408T090000
+DTEND:20260408T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c45c3496-11e9-4556-a54a-f85499487196
+DTSTAMP:20260324T094405
+DTSTART:20260408T120000
+DTEND:20260408T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:a8103b95-7ae4-4374-9bbc-2c806f730f73
+DTSTAMP:20260324T094405
+DTSTART:20260408T180000
+DTEND:20260408T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:922d65d5-7217-4746-8ed4-1238f0b5e35b
+DTSTAMP:20260324T094405
+DTSTART:20260408T183000
+DTEND:20260408T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:c71f254a-9b6f-47aa-adbf-a951f49bf5f2
+DTSTAMP:20260324T094405
+DTSTART:20260409T060000
+DTEND:20260409T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:b922c73f-9f10-496b-88ef-108377087f78
+DTSTAMP:20260324T094405
+DTSTART:20260409T120000
+DTEND:20260409T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:be855bca-b189-4543-857a-6d1d54cf03bb
+DTSTAMP:20260324T094405
+DTSTART:20260409T180000
+DTEND:20260409T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:aa158545-b43e-44be-9524-2810661d281d
+DTSTAMP:20260324T094405
+DTSTART:20260410T060000
+DTEND:20260410T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:782eab42-bcff-4e46-bd93-dc16484e482b
+DTSTAMP:20260324T094405
+DTSTART:20260410T120000
+DTEND:20260410T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:c0d889ea-997f-487e-8b4e-48d5b8fa6c3f
+DTSTAMP:20260324T094405
+DTSTART:20260410T180000
+DTEND:20260410T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ccbbae78-f61f-46e8-b76a-d62c77d56dde
+DTSTAMP:20260324T094405
+DTSTART:20260411T060000
+DTEND:20260411T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:06f76894-46d1-4f6d-a9d2-eb185422b309
+DTSTAMP:20260324T094405
+DTSTART:20260411T080000
+DTEND:20260411T081500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:198377be-7ec3-4832-84d1-34d24c44cf19
+DTSTAMP:20260324T094405
+DTSTART:20260411T120000
+DTEND:20260411T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:e8380d6c-8643-45ca-8d69-ee6ca6296cb5
+DTSTAMP:20260324T094405
+DTSTART:20260411T173000
+DTEND:20260411T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:08d67c24-2100-4bfd-8ebe-e72ee7aac7af
+DTSTAMP:20260324T094405
+DTSTART:20260411T180000
+DTEND:20260411T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:15e19c9c-5351-4a93-ba34-947468b27fe7
+DTSTAMP:20260324T094405
+DTSTART:20260411T183000
+DTEND:20260411T191000
+SUMMARY:Thermal Session - Inflammation Support
+DESCRIPTION:Use a moderate-duration heat exposure and cool down gradually afterwards. | Metrics: post_weight\, pre_weight | Equipment: equipment_05 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:c75d7e36-4476-4d91-acbb-60bc51f43be2
+DTSTAMP:20260324T094405
+DTSTART:20260412T060000
+DTEND:20260412T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:8abf221a-c258-4bf8-b456-3023a8b0a715
+DTSTAMP:20260324T094405
+DTSTART:20260412T080000
+DTEND:20260412T081500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:faf4a950-43b3-46a7-9e5f-60aa81448202
+DTSTAMP:20260324T094405
+DTSTART:20260412T083000
+DTEND:20260412T084500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d483ba3f-16d8-49d9-af7c-2b330a5255f9
+DTSTAMP:20260324T094405
+DTSTART:20260412T130000
+DTEND:20260412T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:2b31a033-25f6-42d7-87ff-4e7a6f453ccb
+DTSTAMP:20260324T094405
+DTSTART:20260412T173000
+DTEND:20260412T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4c3b8011-56fc-460d-ba5a-1597368623d5
+DTSTAMP:20260324T094405
+DTSTART:20260412T180000
+DTEND:20260412T182000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:6b387d6e-e84d-48e0-8acf-76e12fc668b7
+DTSTAMP:20260324T094405
+DTSTART:20260413T060000
+DTEND:20260413T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:f8c426f3-d89d-4648-9b16-077ff92d33ef
+DTSTAMP:20260324T094405
+DTSTART:20260413T120000
+DTEND:20260413T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:41f773be-d8fa-491b-b88f-3270f238866a
+DTSTAMP:20260324T094405
+DTSTART:20260413T180000
+DTEND:20260413T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:f62cd2bf-37d7-43c9-a198-dd5a88f5b5d7
+DTSTAMP:20260324T094405
+DTSTART:20260414T060000
+DTEND:20260414T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:39fede0a-101e-4273-8b96-c6063607332e
+DTSTAMP:20260324T094405
+DTSTART:20260414T120000
+DTEND:20260414T124500
+SUMMARY:Primary Care Review - Follow-Up
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Metrics: blood_pressure_reading\, weight | Provider: Dr Miriam Tan | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:341bfeb8-7f6d-4543-8aa1-6889efbb062d
+DTSTAMP:20260324T094405
+DTSTART:20260414T180000
+DTEND:20260414T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:687171dd-bf5e-46fd-91f2-9606adaa8ae2
+DTSTAMP:20260324T094405
+DTSTART:20260415T060000
+DTEND:20260415T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:a89032e4-de44-4130-b247-e2c313cd7aa5
+DTSTAMP:20260324T094405
+DTSTART:20260415T120000
+DTEND:20260415T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:7d7fadf8-172c-44d9-81b0-b7cb2362dbe5
+DTSTAMP:20260324T094405
+DTSTART:20260415T180000
+DTEND:20260415T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:fe361ac5-9e4c-41fe-8fb0-c84e7899ce68
+DTSTAMP:20260324T094405
+DTSTART:20260416T060000
+DTEND:20260416T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:3b9eb5d3-0d6e-46b6-b56a-1eac23c68c90
+DTSTAMP:20260324T094405
+DTSTART:20260416T120000
+DTEND:20260416T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:d1ee26a8-c4ef-4cb3-8626-e3dcc52d19f3
+DTSTAMP:20260324T094405
+DTSTART:20260416T180000
+DTEND:20260416T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:eb419bb8-197a-4a28-963e-cab639675eea
+DTSTAMP:20260324T094405
+DTSTART:20260417T060000
+DTEND:20260417T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:529175a9-f152-462f-9ef0-5c62055a2354
+DTSTAMP:20260324T094405
+DTSTART:20260417T120000
+DTEND:20260417T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:7f87c0d7-87bc-4190-b636-a80243412fdd
+DTSTAMP:20260324T094405
+DTSTART:20260417T180000
+DTEND:20260417T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:bed683df-ee22-44af-b91d-a4143cef66f5
+DTSTAMP:20260324T094405
+DTSTART:20260418T060000
+DTEND:20260418T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:c4a40cc9-64f4-4fcd-a1bf-55fbffa630a6
+DTSTAMP:20260324T094405
+DTSTART:20260418T080000
+DTEND:20260418T081500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:477cfa98-8453-449d-98ec-b4a36ad9de58
+DTSTAMP:20260324T094405
+DTSTART:20260418T083000
+DTEND:20260418T084500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:567da485-1f31-43cd-87e7-cd9f2f80812b
+DTSTAMP:20260324T094405
+DTSTART:20260418T090000
+DTEND:20260418T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8d3b9199-bdd8-4719-9c21-ce7dccd7522d
+DTSTAMP:20260324T094405
+DTSTART:20260418T120000
+DTEND:20260418T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:cb513381-1017-40e9-a158-993caa457a24
+DTSTAMP:20260324T094405
+DTSTART:20260418T173000
+DTEND:20260418T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:773c3bb1-7bb0-415a-b419-155c12bc19df
+DTSTAMP:20260324T094405
+DTSTART:20260418T180000
+DTEND:20260418T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4ac994a1-0b77-43be-8ccb-9e89de5d273a
+DTSTAMP:20260324T094405
+DTSTART:20260418T183000
+DTEND:20260418T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:ddd65951-f8b5-4b4c-be87-09e9cf41926c
+DTSTAMP:20260324T094405
+DTSTART:20260418T190000
+DTEND:20260418T194000
+SUMMARY:Thermal Session - Inflammation Support
+DESCRIPTION:Use a moderate-duration heat exposure and cool down gradually afterwards. | Metrics: post_weight\, pre_weight | Equipment: equipment_05 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:3cb33720-caf3-4638-89bc-6cf8904f1e6a
+DTSTAMP:20260324T094405
+DTSTART:20260419T060000
+DTEND:20260419T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:88dab50c-e62e-4121-8178-80c096372eda
+DTSTAMP:20260324T094405
+DTSTART:20260419T130000
+DTEND:20260419T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:3f08b520-ed66-41b9-bf03-9912ab6afd49
+DTSTAMP:20260324T094405
+DTSTART:20260419T173000
+DTEND:20260419T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5cebb830-fe15-4844-bc2b-d7e41f0a9c7c
+DTSTAMP:20260324T094405
+DTSTART:20260420T060000
+DTEND:20260420T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:dd2f4f4f-6807-4e94-8f66-529724332bfe
+DTSTAMP:20260324T094405
+DTSTART:20260420T120000
+DTEND:20260420T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:ddd31f67-c243-432a-ba72-d91bef1ba875
+DTSTAMP:20260324T094405
+DTSTART:20260420T180000
+DTEND:20260420T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4eb2c559-01d0-4568-a85a-72dfd00a5817
+DTSTAMP:20260324T094405
+DTSTART:20260421T060000
+DTEND:20260421T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:57974edc-ab09-4aca-8f7a-049caed138b5
+DTSTAMP:20260324T094405
+DTSTART:20260421T063000
+DTEND:20260421T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:79f3e9b3-5251-4aac-b766-acd8a777ef5f
+DTSTAMP:20260324T094405
+DTSTART:20260421T090000
+DTEND:20260421T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0d2bf4e5-b158-4ae0-a5cc-99550deb7ac5
+DTSTAMP:20260324T094405
+DTSTART:20260421T120000
+DTEND:20260421T124500
+SUMMARY:Primary Care Review - Follow-Up (backup for Lab Testing Appointment - Follow-Up)
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Metrics: blood_pressure_reading\, weight | Provider: Dr Miriam Tan | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:31a84c25-b4af-4976-89ab-97642b9650a1
+DTSTAMP:20260324T094405
+DTSTART:20260421T180000
+DTEND:20260421T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5a385946-c8b1-451d-9170-cd4a623e46e8
+DTSTAMP:20260324T094405
+DTSTART:20260421T183000
+DTEND:20260421T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:52481b8e-6021-42e8-b87b-9f74555752b9
+DTSTAMP:20260324T094405
+DTSTART:20260422T060000
+DTEND:20260422T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:7e7fe5a8-3be7-4a74-9ad9-8628beffce50
+DTSTAMP:20260324T094405
+DTSTART:20260422T063000
+DTEND:20260422T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d8708146-53b4-4c3f-8b69-32e00e4b0feb
+DTSTAMP:20260324T094405
+DTSTART:20260422T090000
+DTEND:20260422T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e1881d13-62ca-4391-bc10-97f86e2053eb
+DTSTAMP:20260324T094405
+DTSTART:20260422T120000
+DTEND:20260422T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:97ec5f87-ef63-4578-a7f3-e7c8bf2e47cf
+DTSTAMP:20260324T094405
+DTSTART:20260422T180000
+DTEND:20260422T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3847171d-9201-47d0-bde7-af60026cdc65
+DTSTAMP:20260324T094405
+DTSTART:20260422T183000
+DTEND:20260422T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:4ddd8a71-90b4-49cb-9c06-ba3fe00dd11e
+DTSTAMP:20260324T094405
+DTSTART:20260423T060000
+DTEND:20260423T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:8217cee6-9a86-464e-9243-c07481c6d922
+DTSTAMP:20260324T094405
+DTSTART:20260423T120000
+DTEND:20260423T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:ea70328b-cce1-430a-8afd-ca7f3786b3ed
+DTSTAMP:20260324T094405
+DTSTART:20260423T180000
+DTEND:20260423T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d643d306-6a00-4da7-9d26-a7aebfc3b658
+DTSTAMP:20260324T094405
+DTSTART:20260424T060000
+DTEND:20260424T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:b5a8a774-3746-411d-9160-f439f8e67c17
+DTSTAMP:20260324T094405
+DTSTART:20260424T120000
+DTEND:20260424T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:729f393c-8ef0-4237-972a-e34f5eca73dc
+DTSTAMP:20260324T094405
+DTSTART:20260424T180000
+DTEND:20260424T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b68f9974-c5a6-49ac-b27f-00a1d282ee9a
+DTSTAMP:20260324T094405
+DTSTART:20260425T060000
+DTEND:20260425T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:d9b3fbe4-2e1a-4d8d-a850-fe1ba3e861b2
+DTSTAMP:20260324T094405
+DTSTART:20260425T080000
+DTEND:20260425T081500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ad273ce3-9eef-445e-bb60-392675ac209c
+DTSTAMP:20260324T094405
+DTSTART:20260425T120000
+DTEND:20260425T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:d50b83dc-f607-40c9-8f46-01c3eb404453
+DTSTAMP:20260324T094405
+DTSTART:20260425T173000
+DTEND:20260425T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5663ad3c-7a88-4ce4-9630-538b97ac7ac9
+DTSTAMP:20260324T094405
+DTSTART:20260425T180000
+DTEND:20260425T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:888be98c-53e9-43b1-a2cd-ce61154e29a8
+DTSTAMP:20260324T094405
+DTSTART:20260425T183000
+DTEND:20260425T191000
+SUMMARY:Thermal Session - Inflammation Support
+DESCRIPTION:Use a moderate-duration heat exposure and cool down gradually afterwards. | Metrics: post_weight\, pre_weight | Equipment: equipment_05 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:a49d67b8-f65c-4ccf-abf5-759642274b40
+DTSTAMP:20260324T094405
+DTSTART:20260426T060000
+DTEND:20260426T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:3dfa665e-67ab-45d6-b37e-7a5d5bb4a882
+DTSTAMP:20260324T094405
+DTSTART:20260426T130000
+DTEND:20260426T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:8f0ee0de-43ff-47db-84a6-6d37d10a2192
+DTSTAMP:20260324T094405
+DTSTART:20260426T173000
+DTEND:20260426T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d5411ae0-fd17-4378-8794-038d26262b4a
+DTSTAMP:20260324T094405
+DTSTART:20260427T060000
+DTEND:20260427T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:ee4052eb-ee19-4e63-aec9-1b6e087fb8a5
+DTSTAMP:20260324T094405
+DTSTART:20260427T120000
+DTEND:20260427T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:2748547c-579d-4aa2-a211-bc924ff70d19
+DTSTAMP:20260324T094405
+DTSTART:20260427T180000
+DTEND:20260427T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f210c6b5-01a1-4e13-a8af-7a587411d62d
+DTSTAMP:20260324T094405
+DTSTART:20260428T060000
+DTEND:20260428T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:192f1fd0-614a-4f44-b466-c493ba9b066f
+DTSTAMP:20260324T094405
+DTSTART:20260428T063000
+DTEND:20260428T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:34d4b0db-a4d7-4a7a-ac03-03c375765788
+DTSTAMP:20260324T094405
+DTSTART:20260428T090000
+DTEND:20260428T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f7e83d37-f13b-4f8a-a3be-7e8619340b36
+DTSTAMP:20260324T094405
+DTSTART:20260428T120000
+DTEND:20260428T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:bf676a39-ac68-4cf5-8b98-cb94e11bf21d
+DTSTAMP:20260324T094405
+DTSTART:20260428T180000
+DTEND:20260428T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:6c322ddc-9028-47e0-b986-4f34a97a483e
+DTSTAMP:20260324T094405
+DTSTART:20260428T183000
+DTEND:20260428T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:1bc3e1db-8e01-42f0-a593-82717c46b67e
+DTSTAMP:20260324T094405
+DTSTART:20260429T060000
+DTEND:20260429T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:d8212e98-9f6b-44bc-bbd9-ab53f9856a4e
+DTSTAMP:20260324T094405
+DTSTART:20260429T063000
+DTEND:20260429T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9b99f232-5092-42fe-9fe8-3f95d545c2a3
+DTSTAMP:20260324T094405
+DTSTART:20260429T090000
+DTEND:20260429T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4c5e3480-1973-49bc-b32b-e9a5db6bf410
+DTSTAMP:20260324T094405
+DTSTART:20260429T120000
+DTEND:20260429T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:8f3ef259-b7ee-4ded-8659-a47dbd49f6f0
+DTSTAMP:20260324T094405
+DTSTART:20260429T180000
+DTEND:20260429T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c3e1a225-228b-4449-b3ef-e93bed52f3aa
+DTSTAMP:20260324T094405
+DTSTART:20260429T183000
+DTEND:20260429T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:8087e099-2df2-4fcf-8774-5ac814c72a9a
+DTSTAMP:20260324T094405
+DTSTART:20260430T060000
+DTEND:20260430T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:d7b214ad-68cd-4dfa-953d-786b80d30661
+DTSTAMP:20260324T094405
+DTSTART:20260430T120000
+DTEND:20260430T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:4e463d45-551a-4eea-a834-2a9f831fc9b3
+DTSTAMP:20260324T094405
+DTSTART:20260430T180000
+DTEND:20260430T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:27ab98c5-b921-4e74-b2bf-480a8712647b
+DTSTAMP:20260324T094405
+DTSTART:20260501T060000
+DTEND:20260501T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:74d5c935-c87c-4cd1-bcc6-fe33141b1344
+DTSTAMP:20260324T094405
+DTSTART:20260501T120000
+DTEND:20260501T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:793592d3-eaec-4aaf-9d85-ab0b23c4dd24
+DTSTAMP:20260324T094405
+DTSTART:20260501T180000
+DTEND:20260501T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5c3f9c34-463e-4a8e-ad8f-64af94d74a00
+DTSTAMP:20260324T094405
+DTSTART:20260502T060000
+DTEND:20260502T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:e5bc0e86-dd4c-4e65-8123-2b2e3d2b5dc3
+DTSTAMP:20260324T094405
+DTSTART:20260502T080000
+DTEND:20260502T081500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a8e9ccd1-d9f7-40d6-b2e1-8ec84ec90983
+DTSTAMP:20260324T094405
+DTSTART:20260502T113000
+DTEND:20260502T115000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:ebd85c07-a0d5-4d16-9702-dfdcc1c589b0
+DTSTAMP:20260324T094405
+DTSTART:20260502T173000
+DTEND:20260502T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1b5a533b-bafc-4719-b746-625991888ed9
+DTSTAMP:20260324T094405
+DTSTART:20260502T180000
+DTEND:20260502T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f1e69dce-144f-45d3-b904-05ea6a515f10
+DTSTAMP:20260324T094405
+DTSTART:20260502T183000
+DTEND:20260502T191000
+SUMMARY:Thermal Session - Inflammation Support
+DESCRIPTION:Use a moderate-duration heat exposure and cool down gradually afterwards. | Metrics: post_weight\, pre_weight | Equipment: equipment_05 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:99c0a250-1052-419a-ac2a-8d8bdb909ccc
+DTSTAMP:20260324T094405
+DTSTART:20260503T060000
+DTEND:20260503T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:f5ae864f-1cd8-414f-9fa1-e049b4ccd220
+DTSTAMP:20260324T094405
+DTSTART:20260503T130000
+DTEND:20260503T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:1141c110-2d9b-40cb-9579-fc403b593e13
+DTSTAMP:20260324T094405
+DTSTART:20260503T173000
+DTEND:20260503T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:625f409c-6eb4-4f2e-9c52-de62f3b065e1
+DTSTAMP:20260324T094405
+DTSTART:20260504T060000
+DTEND:20260504T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:a20bbe06-7127-481d-aa23-bf9fce0ad76f
+DTSTAMP:20260324T094405
+DTSTART:20260504T063000
+DTEND:20260504T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:28008924-4f99-4c46-bb3f-876dbddcafa2
+DTSTAMP:20260324T094405
+DTSTART:20260504T090000
+DTEND:20260504T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:af7115ff-3980-489a-a26d-a75da01c0268
+DTSTAMP:20260324T094405
+DTSTART:20260504T120000
+DTEND:20260504T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:868d8cf1-ce2a-4417-a0f1-7c9133b465d0
+DTSTAMP:20260324T094405
+DTSTART:20260504T180000
+DTEND:20260504T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f10e7616-1379-4847-a1ca-fc2adec93526
+DTSTAMP:20260324T094405
+DTSTART:20260504T183000
+DTEND:20260504T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:e462331b-7b75-44c3-b668-9606737e0ad8
+DTSTAMP:20260324T094405
+DTSTART:20260505T060000
+DTEND:20260505T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:ab17ab95-7017-45e4-8b5e-4203d10b76a5
+DTSTAMP:20260324T094405
+DTSTART:20260505T120000
+DTEND:20260505T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:3a3a2ad0-7359-4249-86bd-7122f31b6b47
+DTSTAMP:20260324T094405
+DTSTART:20260505T180000
+DTEND:20260505T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:772b44fc-e0e0-4c33-adcd-579baf564301
+DTSTAMP:20260324T094405
+DTSTART:20260506T060000
+DTEND:20260506T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:917676bf-5ecb-4504-8408-eab8d60ad554
+DTSTAMP:20260324T094405
+DTSTART:20260506T120000
+DTEND:20260506T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:dcd19d8c-1dc9-4d70-abce-1352f1ff880a
+DTSTAMP:20260324T094405
+DTSTART:20260506T180000
+DTEND:20260506T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:ed5d6da1-3450-4b7c-b695-b30c771e2419
+DTSTAMP:20260324T094405
+DTSTART:20260507T060000
+DTEND:20260507T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:42517c88-ab1d-48e6-aa89-89f790ad5865
+DTSTAMP:20260324T094405
+DTSTART:20260507T120000
+DTEND:20260507T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:3e48145c-d344-4b54-9759-ef3bdffa9bf4
+DTSTAMP:20260324T094405
+DTSTART:20260507T180000
+DTEND:20260507T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:0b3e9cb3-fdbe-4058-99c9-322038ae07c8
+DTSTAMP:20260324T094405
+DTSTART:20260508T060000
+DTEND:20260508T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:4c2e21be-8cda-474d-928f-73b87b7f337c
+DTSTAMP:20260324T094405
+DTSTART:20260508T120000
+DTEND:20260508T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:bca3ba71-4154-4374-b7c7-84c2025f4499
+DTSTAMP:20260324T094405
+DTSTART:20260508T180000
+DTEND:20260508T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:c6d007e3-7902-4d53-b066-6c7381c37dfb
+DTSTAMP:20260324T094405
+DTSTART:20260509T060000
+DTEND:20260509T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:fe65e591-1d45-4256-9b96-80872ae0b557
+DTSTAMP:20260324T094405
+DTSTART:20260509T113000
+DTEND:20260509T115000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:ed137a92-ffa8-4235-963f-a15c2b798538
+DTSTAMP:20260324T094405
+DTSTART:20260509T173000
+DTEND:20260509T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:af17bd25-f4bd-4c79-9534-f24f1f5ca83f
+DTSTAMP:20260324T094405
+DTSTART:20260509T180000
+DTEND:20260509T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:aec8a409-121c-43cc-b910-7a860374e808
+DTSTAMP:20260324T094405
+DTSTART:20260510T060000
+DTEND:20260510T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:333313d6-147d-4119-b044-600ce33bbc28
+DTSTAMP:20260324T094405
+DTSTART:20260510T130000
+DTEND:20260510T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:f7c37412-954b-4f8d-8e0f-2272942f6098
+DTSTAMP:20260324T094405
+DTSTART:20260510T173000
+DTEND:20260510T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:a71fdf31-8a87-493d-9e4c-8fa02cc86b78
+DTSTAMP:20260324T094405
+DTSTART:20260511T060000
+DTEND:20260511T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:01fdee60-9a82-4c6b-bf1a-e455cd5d8f48
+DTSTAMP:20260324T094405
+DTSTART:20260511T120000
+DTEND:20260511T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:46548f87-1179-41d1-b2d8-b3581755db1c
+DTSTAMP:20260324T094405
+DTSTART:20260511T180000
+DTEND:20260511T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:5a4561db-a493-4900-aa61-e903cd79ad3f
+DTSTAMP:20260324T094405
+DTSTART:20260512T060000
+DTEND:20260512T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:bfce187d-3923-4c76-88a0-9300941cfdb3
+DTSTAMP:20260324T094405
+DTSTART:20260512T063000
+DTEND:20260512T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e04518c8-5b76-4c72-ae10-52d6e5fbe182
+DTSTAMP:20260324T094405
+DTSTART:20260512T070000
+DTEND:20260512T071500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:cb2253b8-078f-467f-8143-92c3e8a7e91d
+DTSTAMP:20260324T094405
+DTSTART:20260512T073000
+DTEND:20260512T074500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:33c24ee1-808c-4fc3-bcf5-9eaa0718208d
+DTSTAMP:20260324T094405
+DTSTART:20260512T090000
+DTEND:20260512T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:873a0d09-1258-4ba0-b89a-edabe36cec81
+DTSTAMP:20260324T094405
+DTSTART:20260512T120000
+DTEND:20260512T124500
+SUMMARY:Primary Care Review - Follow-Up
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Metrics: blood_pressure_reading\, weight | Provider: Dr Miriam Tan | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:4b894243-ff64-49db-ae1a-a2605b38d5c3
+DTSTAMP:20260324T094405
+DTSTART:20260512T180000
+DTEND:20260512T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:12bf56cf-5711-4a2e-bed3-d7dd13dc9b7a
+DTSTAMP:20260324T094405
+DTSTART:20260512T183000
+DTEND:20260512T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:c936a6a9-0325-43bd-ac9d-7efd4e8afff3
+DTSTAMP:20260324T094405
+DTSTART:20260512T190000
+DTEND:20260512T192000
+SUMMARY:Recovery Boot Session - Inflammation Support (backup for Thermal Session - Inflammation Support)
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:7fe37cb9-0c7c-468b-aab3-5d2bf6fdb46e
+DTSTAMP:20260324T094405
+DTSTART:20260513T060000
+DTEND:20260513T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:19fdbf23-26bc-4232-9808-a34955f4d9db
+DTSTAMP:20260324T094405
+DTSTART:20260513T063000
+DTEND:20260513T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:83fe2465-7e0c-4ee6-9a4d-7677e0eb81d6
+DTSTAMP:20260324T094405
+DTSTART:20260513T090000
+DTEND:20260513T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:240564fa-4ef6-4752-bcee-6367491937fc
+DTSTAMP:20260324T094405
+DTSTART:20260513T120000
+DTEND:20260513T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:7a63edb5-0576-4c09-a308-a979755424e0
+DTSTAMP:20260324T094405
+DTSTART:20260513T180000
+DTEND:20260513T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:cb17c380-d320-440f-b72f-e63ec22c06b6
+DTSTAMP:20260324T094405
+DTSTART:20260513T183000
+DTEND:20260513T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:1c6f50f5-e40b-4e12-b1fb-c23aaebbef5d
+DTSTAMP:20260324T094405
+DTSTART:20260514T060000
+DTEND:20260514T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:81ea112e-c2e1-4ad6-a87b-0f1ab8a2422d
+DTSTAMP:20260324T094405
+DTSTART:20260514T120000
+DTEND:20260514T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:5759858c-a078-42a9-83cf-2ea2a5dc2d51
+DTSTAMP:20260324T094405
+DTSTART:20260514T180000
+DTEND:20260514T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f5ff20e8-fb87-46f3-841f-9ab003acd671
+DTSTAMP:20260324T094405
+DTSTART:20260515T060000
+DTEND:20260515T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:59983f90-d8ab-4978-a99f-2a284342468f
+DTSTAMP:20260324T094405
+DTSTART:20260515T120000
+DTEND:20260515T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:489f416c-a7a1-4383-9c0e-e433de993d5f
+DTSTAMP:20260324T094405
+DTSTART:20260515T180000
+DTEND:20260515T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4b7f0c30-7383-474d-aa66-b04bfdda9c06
+DTSTAMP:20260324T094405
+DTSTART:20260516T060000
+DTEND:20260516T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:6c85eda9-db16-4d6f-871f-5b7edda38cfe
+DTSTAMP:20260324T094405
+DTSTART:20260516T080000
+DTEND:20260516T081500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ac9ea273-306c-4723-aedd-3cacac907754
+DTSTAMP:20260324T094405
+DTSTART:20260516T113000
+DTEND:20260516T115000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:26cbefd0-18bf-42db-aa50-b3b5b22aabf7
+DTSTAMP:20260324T094405
+DTSTART:20260516T173000
+DTEND:20260516T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:480ed127-4aa7-4d3c-8229-6a2e4609b0fc
+DTSTAMP:20260324T094405
+DTSTART:20260516T180000
+DTEND:20260516T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d9158cad-20ec-4452-9197-52b31db3797c
+DTSTAMP:20260324T094405
+DTSTART:20260516T183000
+DTEND:20260516T191000
+SUMMARY:Thermal Session - Inflammation Support
+DESCRIPTION:Use a moderate-duration heat exposure and cool down gradually afterwards. | Metrics: post_weight\, pre_weight | Equipment: equipment_05 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:b7703193-004c-465e-a0cb-ce34f1762ad7
+DTSTAMP:20260324T094405
+DTSTART:20260517T060000
+DTEND:20260517T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:bf8d4999-56c3-405b-9553-b75f2c8ed4d6
+DTSTAMP:20260324T094405
+DTSTART:20260517T130000
+DTEND:20260517T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:1d7f502d-a71a-4c64-a123-30409846a33e
+DTSTAMP:20260324T094405
+DTSTART:20260517T173000
+DTEND:20260517T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:66f86080-25b5-4a1d-b33d-5b8b37dbc685
+DTSTAMP:20260324T094405
+DTSTART:20260518T060000
+DTEND:20260518T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:8cc066f7-2c9c-4278-9194-874163b08408
+DTSTAMP:20260324T094405
+DTSTART:20260518T120000
+DTEND:20260518T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:119feb35-954d-4d9b-8ef2-23b32ae4d523
+DTSTAMP:20260324T094405
+DTSTART:20260518T180000
+DTEND:20260518T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2641d675-f136-4d48-972f-3fb561947878
+DTSTAMP:20260324T094405
+DTSTART:20260519T060000
+DTEND:20260519T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:3b8b5807-08a1-42e9-9af6-bced5c0131ca
+DTSTAMP:20260324T094405
+DTSTART:20260519T063000
+DTEND:20260519T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0184a7bb-bd80-4188-a516-885fbc5a30e7
+DTSTAMP:20260324T094405
+DTSTART:20260519T090000
+DTEND:20260519T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:75c194b8-b1c7-4f1f-a932-46d66a9f41cd
+DTSTAMP:20260324T094405
+DTSTART:20260519T120000
+DTEND:20260519T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:4219a9d7-5f80-4d4c-a405-8acf2f2702b8
+DTSTAMP:20260324T094405
+DTSTART:20260519T180000
+DTEND:20260519T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0c2129fe-347d-48b7-a39e-25e8f67026d0
+DTSTAMP:20260324T094405
+DTSTART:20260519T183000
+DTEND:20260519T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:c31a7f6c-2f21-41a9-bb4e-82af1066fa04
+DTSTAMP:20260324T094405
+DTSTART:20260520T060000
+DTEND:20260520T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:0f6da353-1e58-4128-9fbe-ba4f5eea810d
+DTSTAMP:20260324T094405
+DTSTART:20260520T063000
+DTEND:20260520T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:cdbe302a-c009-425b-8729-a5fc026e487e
+DTSTAMP:20260324T094405
+DTSTART:20260520T090000
+DTEND:20260520T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ea820eb1-eba5-41d0-8a6d-42749ef6c5ab
+DTSTAMP:20260324T094405
+DTSTART:20260520T120000
+DTEND:20260520T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:82255584-316b-4037-8cef-1c9a372bf211
+DTSTAMP:20260324T094405
+DTSTART:20260520T180000
+DTEND:20260520T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:cbbb2a06-4851-4b8d-bb4b-8165cbddabb5
+DTSTAMP:20260324T094405
+DTSTART:20260520T183000
+DTEND:20260520T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:28cbfeb2-d780-445b-9dc3-37cd8e626e7b
+DTSTAMP:20260324T094405
+DTSTART:20260521T060000
+DTEND:20260521T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:4c303210-0177-4c62-935c-96606ffa6f93
+DTSTAMP:20260324T094405
+DTSTART:20260521T120000
+DTEND:20260521T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:72742dc8-2ee2-4be0-95c0-f4de68b508ba
+DTSTAMP:20260324T094405
+DTSTART:20260521T180000
+DTEND:20260521T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:6553e39b-29de-4d0f-8ae7-f0a4ee555952
+DTSTAMP:20260324T094405
+DTSTART:20260522T060000
+DTEND:20260522T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:0b5f64de-9275-4321-b62a-5fa02d4e4d58
+DTSTAMP:20260324T094405
+DTSTART:20260522T120000
+DTEND:20260522T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:eb321534-8495-40ed-a157-c9bbafe16d2d
+DTSTAMP:20260324T094405
+DTSTART:20260522T180000
+DTEND:20260522T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:10f6d6c0-c8af-48a5-8814-01352f436b7e
+DTSTAMP:20260324T094405
+DTSTART:20260522T183000
+DTEND:20260522T191000
+SUMMARY:Thermal Session - Inflammation Support
+DESCRIPTION:Use a moderate-duration heat exposure and cool down gradually afterwards. | Metrics: post_weight\, pre_weight | Equipment: equipment_05 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:5e46d8ba-8650-4fd5-936a-ec4c24686f08
+DTSTAMP:20260324T094405
+DTSTART:20260523T060000
+DTEND:20260523T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:2060b212-4945-485c-84a5-87aeac899932
+DTSTAMP:20260324T094405
+DTSTART:20260523T080000
+DTEND:20260523T081500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9ba85744-4189-4305-b5c1-040f9bb0cd8f
+DTSTAMP:20260324T094405
+DTSTART:20260523T120000
+DTEND:20260523T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:36add20b-1cde-4a74-a6c6-5314f0af5c2e
+DTSTAMP:20260324T094405
+DTSTART:20260523T173000
+DTEND:20260523T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0fb0940b-163a-45c9-bc53-d921cf1060f0
+DTSTAMP:20260324T094405
+DTSTART:20260523T180000
+DTEND:20260523T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ef92f33f-9656-4115-9cc0-99df87d34ee8
+DTSTAMP:20260324T094405
+DTSTART:20260524T060000
+DTEND:20260524T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:f65f3d74-6db0-44bd-b5b7-e2ea8f6cfcaa
+DTSTAMP:20260324T094405
+DTSTART:20260524T130000
+DTEND:20260524T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:c928ca3d-678a-40b3-9ec1-d768e09eaffc
+DTSTAMP:20260324T094405
+DTSTART:20260524T173000
+DTEND:20260524T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:15b5b470-9283-4d17-9a76-62dc4400f77c
+DTSTAMP:20260324T094405
+DTSTART:20260525T060000
+DTEND:20260525T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:5e490ce1-27fd-4d7a-9143-3e19299ded65
+DTSTAMP:20260324T094405
+DTSTART:20260525T120000
+DTEND:20260525T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:263e7ff9-245a-4258-8842-0aea81dfbcb0
+DTSTAMP:20260324T094405
+DTSTART:20260525T180000
+DTEND:20260525T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7bf69539-4560-44ba-b5e8-9037315af464
+DTSTAMP:20260324T094405
+DTSTART:20260526T060000
+DTEND:20260526T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:c2555ebc-e8e2-47f1-b6c0-c9fef7b08235
+DTSTAMP:20260324T094405
+DTSTART:20260526T063000
+DTEND:20260526T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:113bd10a-e525-44b1-826a-a98b4554d680
+DTSTAMP:20260324T094405
+DTSTART:20260526T090000
+DTEND:20260526T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8230c246-90bb-4139-b7f1-307095766be8
+DTSTAMP:20260324T094405
+DTSTART:20260526T120000
+DTEND:20260526T124500
+SUMMARY:Primary Care Review - Follow-Up (backup for Lab Testing Appointment - Follow-Up)
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Metrics: blood_pressure_reading\, weight | Provider: Dr Miriam Tan | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:96d241fc-f95b-44da-be9c-4f0a450ad3a1
+DTSTAMP:20260324T094405
+DTSTART:20260526T180000
+DTEND:20260526T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fac7b951-f2ef-4029-b245-3303f7f91f17
+DTSTAMP:20260324T094405
+DTSTART:20260526T183000
+DTEND:20260526T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:c6369463-85c8-4a80-9a80-a46cfa6e68b8
+DTSTAMP:20260324T094405
+DTSTART:20260527T060000
+DTEND:20260527T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:649b1c73-f4a2-40fb-b3c0-141419aa8d77
+DTSTAMP:20260324T094405
+DTSTART:20260527T063000
+DTEND:20260527T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:67ffd488-d2a2-4d10-9fdf-b920d88a88c5
+DTSTAMP:20260324T094405
+DTSTART:20260527T090000
+DTEND:20260527T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:86c25479-dd8b-44ba-a1cf-18f3a4e19a87
+DTSTAMP:20260324T094405
+DTSTART:20260527T120000
+DTEND:20260527T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:3c28651a-49c5-4658-8885-f1f5c84d1055
+DTSTAMP:20260324T094405
+DTSTART:20260527T180000
+DTEND:20260527T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:53845530-65bc-401e-9e5d-c3b801d2663b
+DTSTAMP:20260324T094405
+DTSTART:20260527T183000
+DTEND:20260527T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:e3074b86-763d-4f84-be43-15e5bc047922
+DTSTAMP:20260324T094405
+DTSTART:20260528T060000
+DTEND:20260528T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:e5f218ec-46b1-4cf0-97c3-b9425b410505
+DTSTAMP:20260324T094405
+DTSTART:20260528T120000
+DTEND:20260528T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:0a8b4fd2-4566-46ac-b78b-6d54a647e293
+DTSTAMP:20260324T094405
+DTSTART:20260528T180000
+DTEND:20260528T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fff66b97-25d3-4e99-87fb-6152a26372cf
+DTSTAMP:20260324T094405
+DTSTART:20260529T060000
+DTEND:20260529T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:e671352c-9800-4c2a-8ad8-e47412d9cf1f
+DTSTAMP:20260324T094405
+DTSTART:20260529T063000
+DTEND:20260529T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c075cdf5-dd1c-4c14-a352-a046f464b479
+DTSTAMP:20260324T094405
+DTSTART:20260529T070000
+DTEND:20260529T071500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b68edb05-d675-4268-9444-3f5d1f5f83aa
+DTSTAMP:20260324T094405
+DTSTART:20260529T090000
+DTEND:20260529T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4006a056-36a0-45f4-8023-b92cd565a4f1
+DTSTAMP:20260324T094405
+DTSTART:20260529T120000
+DTEND:20260529T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:3e458c18-a56c-4402-9520-8a697c9f58f7
+DTSTAMP:20260324T094405
+DTSTART:20260529T180000
+DTEND:20260529T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9b753702-09c1-46e6-acf6-9e4d35f09afb
+DTSTAMP:20260324T094405
+DTSTART:20260529T183000
+DTEND:20260529T191000
+SUMMARY:Thermal Session - Inflammation Support
+DESCRIPTION:Use a moderate-duration heat exposure and cool down gradually afterwards. | Metrics: post_weight\, pre_weight | Equipment: equipment_05 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:d8eecd74-b7ea-40f6-b01c-e83430885440
+DTSTAMP:20260324T094405
+DTSTART:20260529T193000
+DTEND:20260529T195000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:7ce982ea-7e4e-4970-b5dc-eeac0c7ef3c3
+DTSTAMP:20260324T094405
+DTSTART:20260530T060000
+DTEND:20260530T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:fe9e8685-8e6e-4e57-bcf3-874beab194fb
+DTSTAMP:20260324T094405
+DTSTART:20260530T120000
+DTEND:20260530T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:2d76c08c-714e-4193-aed9-4980d2c7e8f9
+DTSTAMP:20260324T094405
+DTSTART:20260530T173000
+DTEND:20260530T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:0daa4b76-12b5-4d1e-ba21-832fb5100268
+DTSTAMP:20260324T094405
+DTSTART:20260530T180000
+DTEND:20260530T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:f228d841-29f0-4583-936e-a22ea7b44c3c
+DTSTAMP:20260324T094405
+DTSTART:20260531T060000
+DTEND:20260531T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:b04598cb-9e13-4391-91f1-308170d12266
+DTSTAMP:20260324T094405
+DTSTART:20260531T130000
+DTEND:20260531T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:0fbca9cb-8b8f-4cd2-b770-d6838ce918ad
+DTSTAMP:20260324T094405
+DTSTART:20260531T173000
+DTEND:20260531T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:de952058-1eba-497c-a6d6-7e1bd373fd98
+DTSTAMP:20260324T094405
+DTSTART:20260601T060000
+DTEND:20260601T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:55f98c01-0b46-4e43-8f5e-98f6acf4f7b0
+DTSTAMP:20260324T094405
+DTSTART:20260601T120000
+DTEND:20260601T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:51073781-3362-4b6f-9baf-1bbdd3462961
+DTSTAMP:20260324T094405
+DTSTART:20260601T180000
+DTEND:20260601T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:4bb6c8f8-28f6-4d17-9696-aa4a7229f1f4
+DTSTAMP:20260324T094405
+DTSTART:20260602T060000
+DTEND:20260602T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:e2388ea4-5028-48cc-9802-5751a44a7949
+DTSTAMP:20260324T094405
+DTSTART:20260602T120000
+DTEND:20260602T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:3584a7e5-84f7-40af-b574-f7cb704e9c43
+DTSTAMP:20260324T094405
+DTSTART:20260602T180000
+DTEND:20260602T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:667fbd46-3fb8-44d9-9250-2bd476bc8b07
+DTSTAMP:20260324T094405
+DTSTART:20260603T060000
+DTEND:20260603T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:1b3a8172-e03f-4330-8a46-4ab89420fd52
+DTSTAMP:20260324T094405
+DTSTART:20260603T120000
+DTEND:20260603T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:3623a234-2948-4dde-adeb-7131300b945f
+DTSTAMP:20260324T094405
+DTSTART:20260603T180000
+DTEND:20260603T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:4aa10cdb-a6f5-415e-9cd6-130ec011a97d
+DTSTAMP:20260324T094405
+DTSTART:20260604T060000
+DTEND:20260604T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:bc80ad65-3a56-4afc-aea3-232c7153029a
+DTSTAMP:20260324T094405
+DTSTART:20260604T120000
+DTEND:20260604T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:7fbdc2b5-f660-4d1b-b183-7ad8d9e5804a
+DTSTAMP:20260324T094405
+DTSTART:20260604T180000
+DTEND:20260604T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:eca25ae0-3431-4b2c-b1f6-1d31129d6b07
+DTSTAMP:20260324T094405
+DTSTART:20260605T060000
+DTEND:20260605T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:612f62a7-5ef7-4e68-a8c4-962ecce5d972
+DTSTAMP:20260324T094405
+DTSTART:20260605T063000
+DTEND:20260605T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a5e43833-64f1-45e2-a714-e08ae59712ac
+DTSTAMP:20260324T094405
+DTSTART:20260605T090000
+DTEND:20260605T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f8788585-3dd7-47d1-878d-3a2991561ae9
+DTSTAMP:20260324T094405
+DTSTART:20260605T120000
+DTEND:20260605T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:1bfd114b-82ee-4825-930f-e4d1c157e93a
+DTSTAMP:20260324T094405
+DTSTART:20260605T180000
+DTEND:20260605T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f0686dbc-1752-4ba6-b25b-02b833fdce7e
+DTSTAMP:20260324T094405
+DTSTART:20260605T183000
+DTEND:20260605T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:615538ce-1ce1-4304-ae70-0b81f441a70c
+DTSTAMP:20260324T094405
+DTSTART:20260606T060000
+DTEND:20260606T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:f017a9b2-0c55-4cdf-b1dd-9cf8d84ce9c6
+DTSTAMP:20260324T094405
+DTSTART:20260606T080000
+DTEND:20260606T081500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:209dc1a9-a1f4-4f57-b9be-f09a61fb3732
+DTSTAMP:20260324T094405
+DTSTART:20260606T120000
+DTEND:20260606T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:6d8a005f-268b-4856-a28d-54c060118abf
+DTSTAMP:20260324T094405
+DTSTART:20260606T173000
+DTEND:20260606T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:902af9ec-9ef5-48fd-9909-da6bd3150b36
+DTSTAMP:20260324T094405
+DTSTART:20260606T180000
+DTEND:20260606T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:91a889e8-0e57-443e-9d66-cbb96d2241f1
+DTSTAMP:20260324T094405
+DTSTART:20260606T183000
+DTEND:20260606T191000
+SUMMARY:Thermal Session - Inflammation Support
+DESCRIPTION:Use a moderate-duration heat exposure and cool down gradually afterwards. | Metrics: post_weight\, pre_weight | Equipment: equipment_05 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:b27468e3-7da7-4107-87ba-63a19e9b28f9
+DTSTAMP:20260324T094405
+DTSTART:20260607T060000
+DTEND:20260607T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:fc270eeb-a366-4ac1-8d44-8813fbcf47eb
+DTSTAMP:20260324T094405
+DTSTART:20260607T130000
+DTEND:20260607T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:fc676317-c371-4740-898d-8ec0cdd9325f
+DTSTAMP:20260324T094405
+DTSTART:20260607T173000
+DTEND:20260607T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:de58e3ee-ba50-401c-b9c8-fb8630a7d0dc
+DTSTAMP:20260324T094405
+DTSTART:20260608T060000
+DTEND:20260608T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:1303fca8-fae7-42fa-b744-8ace13d793ec
+DTSTAMP:20260324T094405
+DTSTART:20260608T120000
+DTEND:20260608T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:e92bcaed-6d89-46ac-8bd0-780ba8609830
+DTSTAMP:20260324T094405
+DTSTART:20260608T180000
+DTEND:20260608T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7e5a4163-4517-4677-bf21-7a6a117f205c
+DTSTAMP:20260324T094405
+DTSTART:20260609T060000
+DTEND:20260609T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:e5ae71c4-e764-4f60-a57f-3d8c3c802516
+DTSTAMP:20260324T094405
+DTSTART:20260609T063000
+DTEND:20260609T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:395db936-f114-4aae-825d-580327f11855
+DTSTAMP:20260324T094405
+DTSTART:20260609T090000
+DTEND:20260609T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:27b04b86-2d2d-4c35-84d5-a9963fd1cd22
+DTSTAMP:20260324T094405
+DTSTART:20260609T120000
+DTEND:20260609T124500
+SUMMARY:Primary Care Review - Follow-Up (backup for Lab Testing Appointment - Follow-Up)
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Metrics: blood_pressure_reading\, weight | Provider: Dr Miriam Tan | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:7c404f35-4ecf-4b04-807d-662db319935d
+DTSTAMP:20260324T094405
+DTSTART:20260609T180000
+DTEND:20260609T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f8a376c5-7a6d-4d03-a175-0c285da467ee
+DTSTAMP:20260324T094405
+DTSTART:20260609T183000
+DTEND:20260609T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:b786cb4c-c71d-4aae-b4df-fe02351771aa
+DTSTAMP:20260324T094405
+DTSTART:20260610T060000
+DTEND:20260610T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:4e51feb4-f25d-45be-bd54-157806c478f6
+DTSTAMP:20260324T094405
+DTSTART:20260610T063000
+DTEND:20260610T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e19623c2-cde8-4ef5-9c29-fd673dc31de9
+DTSTAMP:20260324T094405
+DTSTART:20260610T090000
+DTEND:20260610T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:456c1622-d3ca-4846-9840-cdb1a7a254a1
+DTSTAMP:20260324T094405
+DTSTART:20260610T120000
+DTEND:20260610T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:3efa9253-da76-45b6-9370-3b7b1ca9b99d
+DTSTAMP:20260324T094405
+DTSTART:20260610T180000
+DTEND:20260610T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9042c296-0ef0-43c5-9b20-3edf37d12a94
+DTSTAMP:20260324T094405
+DTSTART:20260610T183000
+DTEND:20260610T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:e2fc92bf-8743-436a-ab83-0509211f51bb
+DTSTAMP:20260324T094405
+DTSTART:20260611T060000
+DTEND:20260611T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:0a267215-da40-41dd-b95a-9b17a55b4896
+DTSTAMP:20260324T094405
+DTSTART:20260611T120000
+DTEND:20260611T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:ce3f5ffd-64e9-4651-8c00-98fc7b7e7af6
+DTSTAMP:20260324T094405
+DTSTART:20260611T180000
+DTEND:20260611T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c65dc624-7823-4ea3-9ed3-00e37d43896f
+DTSTAMP:20260324T094405
+DTSTART:20260612T060000
+DTEND:20260612T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:517557bc-050c-49d4-8131-a15246824a12
+DTSTAMP:20260324T094405
+DTSTART:20260612T120000
+DTEND:20260612T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:8da47d1a-239a-4c7f-8a77-06863113015a
+DTSTAMP:20260324T094405
+DTSTART:20260612T180000
+DTEND:20260612T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:15cb8b62-5406-4be5-b9ff-81f82f2fe395
+DTSTAMP:20260324T094405
+DTSTART:20260613T060000
+DTEND:20260613T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:2c325625-39ed-4252-b9cb-1913c8658781
+DTSTAMP:20260324T094405
+DTSTART:20260613T080000
+DTEND:20260613T081500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:592112aa-5d32-4316-8e50-0804cf2bac41
+DTSTAMP:20260324T094405
+DTSTART:20260613T120000
+DTEND:20260613T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:86f2f511-76b2-440f-834a-94a72f7198cf
+DTSTAMP:20260324T094405
+DTSTART:20260613T173000
+DTEND:20260613T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4f7e0335-9939-4f72-aab1-710f31a89bdd
+DTSTAMP:20260324T094405
+DTSTART:20260613T180000
+DTEND:20260613T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:88b8c56c-2109-45ea-9861-a398964eeb9d
+DTSTAMP:20260324T094405
+DTSTART:20260613T183000
+DTEND:20260613T191000
+SUMMARY:Thermal Session - Inflammation Support
+DESCRIPTION:Use a moderate-duration heat exposure and cool down gradually afterwards. | Metrics: post_weight\, pre_weight | Equipment: equipment_05 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:b3ed6b43-c74b-4589-acc0-4c5776bf552c
+DTSTAMP:20260324T094405
+DTSTART:20260614T060000
+DTEND:20260614T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:3135387d-c39f-438a-b8b0-d826d9df38cd
+DTSTAMP:20260324T094405
+DTSTART:20260614T130000
+DTEND:20260614T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:8793c6e6-bbfc-483b-a0e9-bd43a0ed90ff
+DTSTAMP:20260324T094405
+DTSTART:20260614T173000
+DTEND:20260614T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fa3abbd2-1439-4ce9-bfdd-e7335ddaac0e
+DTSTAMP:20260324T094405
+DTSTART:20260615T060000
+DTEND:20260615T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:bc2eefbf-05df-4f44-a2b6-24428ef93ceb
+DTSTAMP:20260324T094405
+DTSTART:20260615T120000
+DTEND:20260615T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:4d224651-ede7-484d-b531-51f569a9bd84
+DTSTAMP:20260324T094405
+DTSTART:20260615T180000
+DTEND:20260615T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:644619ec-0ca4-44c9-b413-00b818601458
+DTSTAMP:20260324T094405
+DTSTART:20260616T060000
+DTEND:20260616T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:68429e92-11a7-4876-8f28-1f433388ae43
+DTSTAMP:20260324T094405
+DTSTART:20260616T063000
+DTEND:20260616T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ff6a3a70-b603-47ee-916c-179c98bbd40c
+DTSTAMP:20260324T094405
+DTSTART:20260616T090000
+DTEND:20260616T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:23a114c9-a7dd-452a-8761-f4d796f8782a
+DTSTAMP:20260324T094405
+DTSTART:20260616T120000
+DTEND:20260616T124500
+SUMMARY:Primary Care Review - Follow-Up
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Metrics: blood_pressure_reading\, weight | Provider: Dr Miriam Tan | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:8da6000d-d7e5-4f1c-98b8-f1ded62e3f40
+DTSTAMP:20260324T094405
+DTSTART:20260616T180000
+DTEND:20260616T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8b1e4261-0495-49ae-a384-3c7b8b63a4ab
+DTSTAMP:20260324T094405
+DTSTART:20260616T183000
+DTEND:20260616T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:2bd17dc8-52e1-4963-adf1-b8cfb210673c
+DTSTAMP:20260324T094405
+DTSTART:20260617T060000
+DTEND:20260617T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:fef9a5e1-ad64-4b17-86a1-92824141d02d
+DTSTAMP:20260324T094405
+DTSTART:20260617T063000
+DTEND:20260617T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ae48825d-0b8c-46a8-818c-5504857ed2af
+DTSTAMP:20260324T094405
+DTSTART:20260617T070000
+DTEND:20260617T071500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fcfbe4ad-b48c-436a-844e-7030cdc1c4c9
+DTSTAMP:20260324T094405
+DTSTART:20260617T090000
+DTEND:20260617T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7237d622-8b89-4743-82c8-32861c209232
+DTSTAMP:20260324T094405
+DTSTART:20260617T120000
+DTEND:20260617T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:9bbb7825-d1a2-4455-8808-a2678aba6a84
+DTSTAMP:20260324T094405
+DTSTART:20260617T180000
+DTEND:20260617T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b545d759-bfe0-4dc3-8c7e-986402354cbd
+DTSTAMP:20260324T094405
+DTSTART:20260617T183000
+DTEND:20260617T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:6a174a69-1ab3-4ca8-bcea-4d7abfa2e9f5
+DTSTAMP:20260324T094405
+DTSTART:20260617T190000
+DTEND:20260617T194000
+SUMMARY:Thermal Session - Inflammation Support
+DESCRIPTION:Use a moderate-duration heat exposure and cool down gradually afterwards. | Metrics: post_weight\, pre_weight | Equipment: equipment_05 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:4a2a32e2-ccb3-428b-ab2e-97a8ba36a6d5
+DTSTAMP:20260324T094405
+DTSTART:20260618T060000
+DTEND:20260618T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:22214b0e-7781-4b5d-b150-3ab4a12cc5d4
+DTSTAMP:20260324T094405
+DTSTART:20260618T120000
+DTEND:20260618T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:d3724916-cb3f-40b7-87bf-87c93391ecf7
+DTSTAMP:20260324T094405
+DTSTART:20260618T180000
+DTEND:20260618T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:9a719ad8-4a10-4c01-ac78-2f9c85440319
+DTSTAMP:20260324T094405
+DTSTART:20260619T060000
+DTEND:20260619T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:7e3e1cd9-5cd5-4501-9f4b-841ccb3eebbf
+DTSTAMP:20260324T094405
+DTSTART:20260619T120000
+DTEND:20260619T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:a70c3424-0721-490e-9b66-be9149be67af
+DTSTAMP:20260324T094405
+DTSTART:20260619T180000
+DTEND:20260619T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:e2c87119-1eba-4fc6-87a4-72f5ab3d8282
+DTSTAMP:20260324T094405
+DTSTART:20260620T060000
+DTEND:20260620T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:7bd9dd18-bccb-44f2-8cdc-3d38b768cc80
+DTSTAMP:20260324T094405
+DTSTART:20260620T120000
+DTEND:20260620T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:65376703-c930-47b6-b857-91e474756ab6
+DTSTAMP:20260324T094405
+DTSTART:20260620T173000
+DTEND:20260620T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:9d1eda16-88f1-4228-9ff4-3174dd27efeb
+DTSTAMP:20260324T094405
+DTSTART:20260620T180000
+DTEND:20260620T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:a1fd31e1-26ef-4d29-be2c-27e87053b6db
+DTSTAMP:20260324T094405
+DTSTART:20260621T060000
+DTEND:20260621T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:d78a8ce4-f2e3-4e62-a936-b556dd6d60fd
+DTSTAMP:20260324T094405
+DTSTART:20260621T130000
+DTEND:20260621T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:0233d5bf-1f68-4bf1-a043-390c7d0fd364
+DTSTAMP:20260324T094405
+DTSTART:20260621T173000
+DTEND:20260621T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:e0b07a2c-14b3-4f48-a10e-f6ae21516a69
+DTSTAMP:20260324T094405
+DTSTART:20260622T060000
+DTEND:20260622T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:94373458-f2b4-4c7c-b3ca-51d6aac81648
+DTSTAMP:20260324T094405
+DTSTART:20260622T120000
+DTEND:20260622T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:126a7709-0e29-4e69-ae89-03c6af48de40
+DTSTAMP:20260324T094405
+DTSTART:20260622T180000
+DTEND:20260622T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: travel
+LOCATION:travel
+END:VEVENT
+BEGIN:VEVENT
+UID:17375be7-243d-47ad-b9f1-ff6ce52b25ae
+DTSTAMP:20260324T094405
+DTSTART:20260623T060000
+DTEND:20260623T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:bdd1caf4-bb4f-41b7-ab91-37686973da49
+DTSTAMP:20260324T094405
+DTSTART:20260623T063000
+DTEND:20260623T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:dc6f8791-b000-4932-9082-c9561bd93a98
+DTSTAMP:20260324T094405
+DTSTART:20260623T090000
+DTEND:20260623T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:137b9c78-13d9-423f-bc88-0a659682aebf
+DTSTAMP:20260324T094405
+DTSTART:20260623T120000
+DTEND:20260623T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:e039fd62-6839-4257-a302-f99a21c54abb
+DTSTAMP:20260324T094405
+DTSTART:20260623T180000
+DTEND:20260623T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:36ccc5c0-bb7e-4be4-a966-9b690e4e1014
+DTSTAMP:20260324T094405
+DTSTART:20260623T183000
+DTEND:20260623T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:0fec70b5-6a82-446f-8fb0-da88a6e08118
+DTSTAMP:20260324T094405
+DTSTART:20260624T060000
+DTEND:20260624T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:19ba5802-7224-439f-8a47-6134566df1e8
+DTSTAMP:20260324T094405
+DTSTART:20260624T063000
+DTEND:20260624T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:6f38e24d-1cd3-4edd-8a60-6360ce5ae1b6
+DTSTAMP:20260324T094405
+DTSTART:20260624T090000
+DTEND:20260624T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fb0b4c71-e761-43bf-8e5d-261c6f6bc055
+DTSTAMP:20260324T094405
+DTSTART:20260624T120000
+DTEND:20260624T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:4c3e7098-b645-4210-8d93-af3a09f81e94
+DTSTAMP:20260324T094405
+DTSTART:20260624T180000
+DTEND:20260624T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3717640f-e913-4b63-bf41-b8b06f8ef96f
+DTSTAMP:20260324T094405
+DTSTART:20260624T183000
+DTEND:20260624T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:0faac2c4-1d1e-4f1f-8915-ee13fd62f996
+DTSTAMP:20260324T094405
+DTSTART:20260625T060000
+DTEND:20260625T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:ee935f79-0ec8-4635-a98f-5f1161fb434f
+DTSTAMP:20260324T094405
+DTSTART:20260625T120000
+DTEND:20260625T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:649b0e64-7d01-404f-9670-8dd55c56d4fa
+DTSTAMP:20260324T094405
+DTSTART:20260625T180000
+DTEND:20260625T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:df49796b-1400-4972-b8cc-4fd46aa422ba
+DTSTAMP:20260324T094405
+DTSTART:20260626T060000
+DTEND:20260626T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:1e77c0ad-161d-4867-8b3f-768a7894acaa
+DTSTAMP:20260324T094405
+DTSTART:20260626T120000
+DTEND:20260626T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:b63b2807-6526-46b5-9a4d-f0a068b9f8f0
+DTSTAMP:20260324T094405
+DTSTART:20260626T180000
+DTEND:20260626T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7c786cbd-8c91-4f48-b888-0e0f0c8e2e17
+DTSTAMP:20260324T094405
+DTSTART:20260627T060000
+DTEND:20260627T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:090d2b2d-5831-40b5-9955-8d25452fca4e
+DTSTAMP:20260324T094405
+DTSTART:20260627T080000
+DTEND:20260627T081500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:26bce288-0700-4f51-9914-169f7863b7a5
+DTSTAMP:20260324T094405
+DTSTART:20260627T120000
+DTEND:20260627T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:7fe4057f-465e-40b1-991d-b671d54f8c3d
+DTSTAMP:20260324T094405
+DTSTART:20260627T173000
+DTEND:20260627T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:6a200464-8d8c-45a2-ab4b-e6c0b44ede19
+DTSTAMP:20260324T094405
+DTSTART:20260627T180000
+DTEND:20260627T181500
+SUMMARY:Planned Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Metrics: dose_taken\, injection_site\, symptom_score_next_day | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8dcabc5e-8f2e-4dd2-a32f-94d86be51806
+DTSTAMP:20260324T094405
+DTSTART:20260627T183000
+DTEND:20260627T191000
+SUMMARY:Thermal Session - Inflammation Support
+DESCRIPTION:Use a moderate-duration heat exposure and cool down gradually afterwards. | Metrics: post_weight\, pre_weight | Equipment: equipment_05 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+BEGIN:VEVENT
+UID:9dcbe229-67f3-441c-a179-9ab5c705bdf1
+DTSTAMP:20260324T094405
+DTSTART:20260628T060000
+DTEND:20260628T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:fdd45c09-7ee6-45ff-9955-3c51ff12a99a
+DTSTAMP:20260324T094405
+DTSTART:20260628T130000
+DTEND:20260628T132000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:0b893f5e-45a5-4ec5-b8d8-ff245fa2582f
+DTSTAMP:20260324T094405
+DTSTART:20260628T173000
+DTEND:20260628T174000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3a37547d-60b6-4ed3-a7ce-69d4625e282e
+DTSTAMP:20260324T094405
+DTSTART:20260629T060000
+DTEND:20260629T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:ab16a36a-b6b7-4ef6-a4a3-d270ee2f1dca
+DTSTAMP:20260324T094405
+DTSTART:20260629T120000
+DTEND:20260629T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:49386971-9f85-4c24-b9bf-34d330839be0
+DTSTAMP:20260324T094405
+DTSTART:20260629T180000
+DTEND:20260629T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:019f848d-a725-4142-aab8-1e333fed854e
+DTSTAMP:20260324T094405
+DTSTART:20260630T060000
+DTEND:20260630T062000
+SUMMARY:Visual Mobility Routine - Recovery Focus (backup for Joint Care Flow - Joint Care)
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:314ce09b-1e6d-4c54-ac7e-c65ad4c5e430
+DTSTAMP:20260324T094405
+DTSTART:20260630T063000
+DTEND:20260630T064500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild (backup for Balanced Dinner - Metabolic Support)
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:00d840fa-6a4c-4b17-9988-67c023760ff6
+DTSTAMP:20260324T094405
+DTSTART:20260630T090000
+DTEND:20260630T091500
+SUMMARY:Post-Workout Smoothie - Protein Rebuild
+DESCRIPTION:Blend protein and hydration-supportive ingredients after higher-load training. | Metrics: protein_grams\, recovery_score_next_day\, hydration_ml | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e6af4468-e086-4f14-b2aa-bbbbe0e3a6b4
+DTSTAMP:20260324T094405
+DTSTART:20260630T120000
+DTEND:20260630T122000
+SUMMARY:Visual Mobility Routine - Recovery Focus
+DESCRIPTION:Alternate near and far focus work with controlled visual tracking drills. | Metrics: screen_break_count\, eye_strain_score\, routine_minutes | Mode: in_person | Location: office
+LOCATION:office
+END:VEVENT
+BEGIN:VEVENT
+UID:d9839eab-5238-448a-b00f-0557f618d11c
+DTSTAMP:20260324T094405
+DTSTART:20260630T180000
+DTEND:20260630T181000
+SUMMARY:Recovery Magnesium Dose - Travel-Safe Pack
+DESCRIPTION:Take magnesium in the evening and monitor any effect on sleep readiness. | Metrics: sleep_latency\, dose_taken\, GI_tolerance | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:180f2cd0-10af-4f27-bde1-11fa6729c991
+DTSTAMP:20260324T094405
+DTSTART:20260630T183000
+DTEND:20260630T185000
+SUMMARY:Recovery Boot Session - Inflammation Support
+DESCRIPTION:Use lower-limb compression after demanding training blocks to support recovery. | Metrics: session_minutes\, recovery_score | Equipment: equipment_07 | Mode: in_person | Location: recovery_center
+LOCATION:recovery_center
+END:VEVENT
+END:VCALENDAR
