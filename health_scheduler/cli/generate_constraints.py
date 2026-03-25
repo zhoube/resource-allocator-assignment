@@ -18,6 +18,11 @@ from health_scheduler.io.storage.files import write_csv, write_json
 from health_scheduler.services.generation.constraints_builder import generate_constraints
 from health_scheduler.utils.datetime_utils import add_months
 
+CLIENT_SCHEDULE_FIELDS = ["entry_type", "weekday", "date", "available_ranges", "notes"]
+TRAVEL_PLAN_FIELDS = ["trip_id", "start", "end", "destination", "remote_only", "notes"]
+PROVIDER_FIELDS = ["resource_id", "name", "role", "location", "remote_supported", "weekday_pattern", "available_ranges", "notes"]
+EQUIPMENT_FIELDS = ["resource_id", "equipment_type", "location", "weekday_pattern", "available_ranges", "notes"]
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate the scheduling constraints.")
@@ -35,11 +40,11 @@ def main() -> None:
 
     constraints = generate_constraints(start_date, end_date, random.Random(args.seed))
 
-    write_csv(CLIENT_SCHEDULE_CSV, constraints["client_schedule"], list(constraints["client_schedule"][0].keys()))
-    write_csv(TRAVEL_PLANS_CSV, constraints["travel_plans"], list(constraints["travel_plans"][0].keys()))
-    write_csv(SPECIALISTS_CSV, constraints["specialists"], list(constraints["specialists"][0].keys()))
-    write_csv(ALLIED_HEALTH_CSV, constraints["allied_health"], list(constraints["allied_health"][0].keys()))
-    write_csv(EQUIPMENT_CSV, constraints["equipment"], list(constraints["equipment"][0].keys()))
+    write_csv(CLIENT_SCHEDULE_CSV, constraints["client_schedule"], CLIENT_SCHEDULE_FIELDS)
+    write_csv(TRAVEL_PLANS_CSV, constraints["travel_plans"], TRAVEL_PLAN_FIELDS)
+    write_csv(SPECIALISTS_CSV, constraints["specialists"], PROVIDER_FIELDS)
+    write_csv(ALLIED_HEALTH_CSV, constraints["allied_health"], PROVIDER_FIELDS)
+    write_csv(EQUIPMENT_CSV, constraints["equipment"], EQUIPMENT_FIELDS)
     write_json(
         CONSTRAINTS_BUNDLE_JSON,
         {

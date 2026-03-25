@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from datetime import date, time
 
 DEFAULT_START_DATE = date(2026, 4, 1)
@@ -13,3 +14,7 @@ TIME_WINDOWS = {
     "afternoon": (time(14, 0), time(17, 0)),
     "evening": (time(17, 30), time(21, 0)),
 }
+
+OPENAI_MODEL = os.getenv("HEALTH_SCHEDULER_OPENAI_MODEL", "gpt-5.4")
+OPENAI_API_BASE = os.getenv("HEALTH_SCHEDULER_OPENAI_BASE_URL", "https://api.openai.com/v1")
+OPENAI_REASONING_EFFORT = os.getenv("HEALTH_SCHEDULER_OPENAI_REASONING_EFFORT", "medium")

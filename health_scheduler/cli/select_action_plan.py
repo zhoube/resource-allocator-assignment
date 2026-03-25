@@ -6,14 +6,14 @@ import random
 from health_scheduler.config.paths import ACTION_PLAN_CSV, ACTION_PLAN_JSON, ACTIVITY_CATALOG_JSON, ensure_directories
 from health_scheduler.domain.enums.activity_field import activity_fieldnames
 from health_scheduler.io.storage.files import read_json, write_csv, write_json
-from health_scheduler.services.generation.action_plan_builder import ACTION_PLAN_TARGETS, build_action_plan
+from health_scheduler.services.generation.action_plan_builder import DEFAULT_ACTION_PLAN_SIZE, build_action_plan
 from health_scheduler.services.generation.activity_factory import parse_activities, serialize_activities_for_csv
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Randomly choose an action plan from the saved activity catalog.")
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--plan-size", type=int, default=sum(ACTION_PLAN_TARGETS.values()))
+    parser.add_argument("--plan-size", type=int, default=DEFAULT_ACTION_PLAN_SIZE)
     return parser.parse_args()
 
 

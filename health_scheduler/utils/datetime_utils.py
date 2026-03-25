@@ -4,6 +4,8 @@ from calendar import monthrange
 from datetime import date, datetime, time, timedelta
 from typing import Iterable
 
+WEEKDAY_NAMES = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+
 
 def add_months(start: date, months: int) -> date:
     month_index = start.month - 1 + months
@@ -42,6 +44,39 @@ def as_datetime(day: date, value: time) -> datetime:
 
 def parse_time(value: str) -> time:
     return time.fromisoformat(value)
+
+
+def parse_compact_time(value: str) -> time:
+    return time(int(value[:2]), int(value[2:4]))
+
+
+def weekday_name(index: int) -> str:
+    return WEEKDAY_NAMES[index]
+
+
+def format_weekday_pattern(days: list[int]) -> str:
+    return ";".join(weekday_name(day) for day in days)
+
+
+def parse_weekday_pattern(value: str) -> list[int]:
+    if not value:
+        return []
+    return [WEEKDAY_NAMES.index(part.strip()) for part in value.split(";") if part.strip()]
+
+
+def format_compact_range(start: time, end: time) -> str:
+    return f"{start.strftime('%H%M')}-{end.strftime('%H%M')}"
+
+
+def parse_compact_ranges(value: str) -> list[tuple[time, time]]:
+    ranges: list[tuple[time, time]] = []
+    for part in value.split(";"):
+        cleaned = part.strip()
+        if not cleaned:
+            continue
+        start_text, end_text = cleaned.split("-", maxsplit=1)
+        ranges.append((parse_compact_time(start_text), parse_compact_time(end_text)))
+    return ranges
 
 
 def isoformat_zless(value: datetime) -> str:

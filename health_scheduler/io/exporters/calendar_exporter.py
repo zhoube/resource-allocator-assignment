@@ -35,11 +35,9 @@ def export_schedule_csv(events: list[ScheduledEvent], path: Path) -> None:
 
 def export_unscheduled_csv(items: list[dict], path: Path) -> None:
     fieldnames = [
-        "occurrence_id",
         "activity_id",
         "activity_title",
-        "window_start",
-        "window_end",
+        "proposed_start",
         "reason",
         "skip_adjustment",
     ]
@@ -159,8 +157,7 @@ def export_html(events: list[ScheduledEvent], unscheduled: list[dict], path: Pat
         f"""
         <tr>
           <td>{html.escape(item['activity_title'])}</td>
-          <td>{html.escape(item['window_start'])}</td>
-          <td>{html.escape(item['window_end'])}</td>
+          <td>{html.escape(item['proposed_start'])}</td>
           <td>{html.escape(item['reason'])}</td>
           <td>{html.escape(item['skip_adjustment'])}</td>
         </tr>
@@ -306,14 +303,13 @@ def export_html(events: list[ScheduledEvent], unscheduled: list[dict], path: Pat
         <thead>
           <tr>
             <th>Activity</th>
-            <th>Window Start</th>
-            <th>Window End</th>
+            <th>Proposed Start</th>
             <th>Reason</th>
             <th>Skip Adjustment</th>
           </tr>
         </thead>
         <tbody>
-          {unscheduled_rows or "<tr><td colspan='5'>No unscheduled items.</td></tr>"}
+          {unscheduled_rows or "<tr><td colspan='4'>No unscheduled items.</td></tr>"}
         </tbody>
       </table>
     </section>

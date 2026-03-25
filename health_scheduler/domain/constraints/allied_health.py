@@ -2,11 +2,11 @@ from __future__ import annotations
 
 import random
 from dataclasses import dataclass
-from datetime import date, datetime, time
+from datetime import date, time
 
 from health_scheduler.domain.enums.location import Location
 from health_scheduler.domain.enums.roles import AlliedHealthRole
-from health_scheduler.utils.datetime_utils import daterange
+from health_scheduler.utils.datetime_utils import format_compact_range, format_weekday_pattern
 
 @dataclass(slots=True)
 class AlliedHealth:
@@ -19,25 +19,17 @@ class AlliedHealth:
     location: str
     remote_supported: bool
 
-    SKIP_PROBABILITY = 0.06
-
-    def generate_availability_rows(self, start_date: date, end_date: date, rng: random.Random) -> list[dict]:
-        rows: list[dict] = []
-        for day in daterange(start_date, end_date):
-            if day.weekday() not in self.days or rng.random() < self.SKIP_PROBABILITY:
-                continue
-            rows.append(
-                {
-                    "resource_id": self.resource_id,
-                    "name": self.name,
-                    "role": self.role,
-                    "start": datetime.combine(day, self.start).isoformat(),
-                    "end": datetime.combine(day, self.end).isoformat(),
-                    "location": self.location,
-                    "remote_supported": str(self.remote_supported).lower(),
-                }
-            )
-        return rows
+    def to_csv_row(self) -> dict:
+        return {
+            "resource_id": self.resource_id,
+            "name": self.name,
+            "role": self.role,
+            "location": self.location,
+            "remote_supported": str(self.remote_supported).lower(),
+            "weekday_pattern": format_weekday_pattern(self.days),
+            "available_ranges": format_compact_range(self.start, self.end),
+            "notes": "",
+        }
 
     @classmethod
     def defaults(cls) -> list[AlliedHealth]:
@@ -52,7 +44,4 @@ class AlliedHealth:
 
     @classmethod
     def generate_rows(cls, start_date: date, end_date: date, rng: random.Random) -> list[dict]:
-        rows: list[dict] = []
-        for provider in cls.defaults():
-            rows.extend(provider.generate_availability_rows(start_date, end_date, rng))
-        return rows
+        return [provider.to_csv_row() for provider in cls.defaults()]

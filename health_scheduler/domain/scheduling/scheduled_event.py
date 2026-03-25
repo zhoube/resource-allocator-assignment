@@ -57,6 +57,36 @@ class ScheduledEvent:
             metrics=list(activity.metrics),
         )
 
+    @classmethod
+    def from_activity(
+        cls,
+        activity,
+        start: datetime,
+        end: datetime,
+        location: str,
+        mode: str,
+        assigned_provider: str = "",
+        assigned_equipment: list[str] | None = None,
+    ) -> ScheduledEvent:
+        event_suffix = start.strftime("%Y%m%dT%H%M%S")
+        return cls(
+            event_id=f"{activity.id}_{event_suffix}",
+            activity_id=activity.id,
+            activity_title=activity.title,
+            category=activity.category,
+            priority=activity.priority,
+            start=start,
+            end=end,
+            duration_minutes=activity.duration_minutes,
+            location=location,
+            mode=mode,
+            assigned_provider=assigned_provider,
+            assigned_equipment=list(assigned_equipment or []),
+            backup_for="",
+            details=activity.details,
+            metrics=list(activity.metrics),
+        )
+
     def to_dict(self) -> dict[str, Any]:
         return {
             "event_id": self.event_id,

@@ -238,3 +238,181 @@ CATEGORY_TARGETS = {
 
 ## Prompt 46
 > in many of the imports, Unresolved reference 'health_scheduler'
+
+## Prompt 47
+> now run through with me the scheduler and its logic/flow
+
+## Prompt 48
+> ive just been told that they want an AI to do the scheduling, so instead of writing a deterministic code to do the scheduling, we write an AI Agent using an OpenAI LLM (probably GPT 5.4) to do the scheduling
+
+## Prompt 49
+> yes so the data generating, data parsing, validation and export all done by code, only the scheduler is done by LLM
+
+## Prompt 50
+> okay do it
+
+## Prompt 51
+> where do i set the open ai api key
+
+## Prompt 52
+> can we just save this key in the repo
+
+## Prompt 53
+> ok, lets put these info in .env
+
+## Prompt 54
+> ok lets try running it
+
+## Prompt 55
+> lets try another method
+>
+> prompt = """
+> Pick exactly ONE chart type from <CHART_SPECIFICATIONS> that best answers the user's question based on the raw_data snapshot and user_requirements. <CHART_SPECIFICATIONS> is a concatenated list of candidate chart definitions, and each definition includes its ChartType id. Use the relevant chart definition(s) and the raw_data snapshot to ensure the chart can be constructed.
+>
+> Think Step-by-Step as Follows:
+> 1) Intent + preferences: from <USER_REQUIREMENTS>, derive:
+> 	- primary_goal (trend / compare / rank / part_to_whole / distribution / relationship / composition_over_time / deviation / kpi)
+> 	- explicit_preferences (must_use, explicitly_avoid, stacking, normalize, sort, top_n, percent/share, orientation, other flags)
+> 2) Candidate evaluation: consider all chart ids defined in <CHART_SPECIFICATIONS>. For each compatible chart, score (0-10):
+> 	1. data sufficiency
+> 	2. task_fit
+> 	3. readability
+> 	4. preference_match
+> 	Tie-break: 1 -> 2 -> 3 -> 4
+> 3) Output: return ONLY the chosen ChartType identifier as a single string, exactly matching a chart id defined in <CHART_SPECIFICATIONS>:
+>
+> <USER_REQUIREMENTS>
+> {user_requirements}
+> </USER_REQUIREMENTS>
+>
+> <RAW_DATA>
+> {raw_data}
+> </RAW_DATA>
+>
+> <CHART_SPECIFICATIONS>
+> {chart_specifications}
+> </CHART_SPECIFICATIONS>
+> """.strip()
+>
+> lets try to provide all the activities and constraints to the LLM, and then ask the LLM to provide the output in a specific format, similar to what this prompt does
+
+## Prompt 56
+> so did you make the file changes to be 1 prompt driven?
+
+## Prompt 57
+> i think you might be mistaken
+>
+> the LLM should only run once, so we just load in the activities, constraints and then output once only
+>
+> so we dont need so much code, just one file to call the LLM, one file as a prompt (just a string), and then one file to parse the output
+
+## Prompt 58
+> put in some print statements around the major steps describing what its doing so that when i run the code i can see the progress
+
+## Prompt 59
+> lets make action plan only include 2 activities, maybe 10 is too much
+
+## Prompt 60
+> we can also change the way we present our constraints, we dont need to have our constraints be like data/inputs/constraints/allied_health.csv, we can just put the information in a concise manner to let the LLM read it
+
+## Prompt 61
+> is there a better way to parse the constraint csvs and pass into the LLM without giving in all this too much info
+
+## Prompt 62
+> ok first thing we do, is for constraints, we cut down some information
+>
+> when we parse the client schedule, we should just take note of what are the timings where it is avaialble to put an activity, instead of the entire schedule into the LLM
+>
+> for equipment, every equipment should be its own json object, with its availablity listted as a field
+>
+> same for specialists, and allied health
+
+## Prompt 63
+> i think there is no need to use occurrence, because LLM can see the activities frequency and decide how to schedule
+
+## Prompt 64
+> ok do that
+
+## Prompt 65
+> make all availbility be a string instead
+>
+> for example
+>
+> Date: Apr 1, 2026
+> Available: 0800 to 1200, 1300-1800
+> Date: Apr 2, 2026
+> Available: 0800 to 1200, 1300-1800
+
+## Prompt 66
+> now lets try a 10 actvity action plan
+
+## Prompt 67
+> yes we should make the LLM generate the schedule based on the frequency requested.
+
+## Prompt 68
+> {"scheduled_events":[{"activity_id":"activity_064","start":"2026-04-01T20:00:00"},{"activity_id":"activity_095","start":"2026-04-01T09:00:00"},{"activity_id":"activity_007","start":"2026-04-01T08:00:00"},{"activity_id":"activity_051","start":"2026-04-01T18:00:00"},{"activity_id":"activity_076","start":"2026-04-01T07:30:00"},{"activity_id":"activity_114","start":"2026-04-02T08:00:00"},{"activity_id":"activity_064","start":"2026-04-02T20:00:00"},{"activity_id":"activity_079","start":"2026-04-02T12:30:00"},{"activity_id":"activity_066","start":"2026-04-02T12:30:00"},{"activity_id":"activity_065","start":"2026-04-02T19:00:00"},{"activity_id":"activity_051","start":"2026-04-02T18:00:00"},{"activity_id":"activity_064","start":"2026-04-03T20:00:00"},{"activity_id":"activity_076","start":"2026-04-03T07:30:00"},{"activity_id":"activity_007","start":"2026-04-04T08:00:00"},{"activity_id":"activity_095","start":"2026-04-05T11:00:00"},{"activity_id":"activity_064","start":"2026-04-05T20:00:00"},{"activity_id":"activity_065","start":"2026-04-05T19:00:00"},{"activity_id":"activity_109","start":"2026-04-07T09:30:00"},{"activity_id":"activity_076","start":"2026-04-07T07:30:00"},{"activity_id":"activity_064","start":"2026-04-08T20:00:00"},{"activity_id":"activity_114","start":"2026-04-09T08:30:00"},{"activity_id":"activity_079","start":"2026-04-09T12:30:00"},{"activity_id":"activity_065","start":"2026-04-09T19:30:00"},{"activity_id":"activity_095","start":"2026-04-12T09:30:00"},{"activity_id":"activity_109","start":"2026-04-14T11:00:00"},{"activity_id":"activity_065","start":"2026-04-16T20:00:00"},{"activity_id":"activity_007","start":"2026-04-18T09:00:00"},{"activity_id":"activity_095","start":"2026-04-19T11:00:00"},{"activity_id":"activity_109","start":"2026-04-21T12:00:00"},{"activity_id":"activity_114","start":"2026-04-23T10:00:00"},{"activity_id":"activity_066","start":"2026-04-23T12:30:00"},{"activity_id":"activity_095","start":"2026-04-26T14:00:00"}]}
+>
+> see in output.txt, it shows the LLM response is this, but the final says it, Accepted 5 decisions and rejected/unscheduled 27.
+
+## Prompt 69
+> no, we need to figure out why the LLM fails to produce valid events in the first place
+
+## Prompt 70
+> why does the validator has hidden hard timing? i dont think we need to have morning/afternoon right? just validate the availability should be enough right
+
+## Prompt 71
+> we need to rewrite the prompt
+> while looping through each activity (ordered based on priority)
+> step 1 should be to consider its various constraints (explain each constraint specifically),
+>
+> step 2 should be to find availibility from the constraints and schedule the event based on availability
+>
+> step 3 would be to update the client schedule so that subsequent events dont clash with current events
+
+## Prompt 72
+>    - `required_instance_count`: the exact number of events you should try to schedule for this activity.  --> think this is redundant, we dont need this at all right?
+>
+>
+> Rules:
+> - For each activity, return exactly `required_instance_count` scheduled events whenever possible.
+> - If you cannot satisfy every required instance for an activity, still return as many valid events as possible for that activity.
+> - Treat the client schedule as cumulative state: once an event is placed, that slot is no longer available for any later event.
+> - Pay close attention to daily and weekly activities, because they usually require many repeated events.
+> - Do not invent new activity ids, providers, equipment, or times outside the supplied data.
+> - Treat each provider and each equipment object as having its own availability string.
+> - Use client availability and resource availability as the hard timing source, not the preferred time window names.
+> - Do not return explanations or markdown.
+>
+> we shouldnt have this, if any of these is important, put it inside the steps
+>
+> we might also want to explain at the start, what constraints there are --> or maybe we want to split the constraint input into the different parts so is easier for the LLM to read
+
+## Prompt 73
+> is our activities list already sorted by priority?
+
+## Prompt 74
+> so do we need step 2 to resort it?
+
+## Prompt 75
+> ok then we remove step 2
+
+## Prompt 76
+> check output.txt, the LLM had an error
+
+## Prompt 77
+> how can we further reduce the prompt size?
+
+## Prompt 78
+> lets change how we generate and save all these availibility to save it in that kind of format, but it must be in CSV
+
+## Prompt 79
+> ok regenerate all the constraints
+
+## Prompt 80
+> why do we still build_occurrence and still have backup activity
+
+## Prompt 81
+> nah for validation, we just need to validate that the activity does not clash, and its constraints are made available, so we probably dont need to validate frequency. and yes remove backup
+
+## Prompt 82
+> lets look at a 5 activity action plan instead of 10

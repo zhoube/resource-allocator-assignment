@@ -6,27 +6,14 @@ from health_scheduler.domain.activities.activity import Activity
 from health_scheduler.domain.enums.activity_category import ActivityCategory
 from health_scheduler.services.generation.activity_factory import parse_activities
 
+DEFAULT_ACTION_PLAN_SIZE = 2
 ACTION_PLAN_TARGETS = {
-    ActivityCategory.FITNESS: 2,
-    ActivityCategory.FOOD: 2,
-    ActivityCategory.MEDICATION: 2,
-    ActivityCategory.THERAPY: 2,
-    ActivityCategory.CONSULTATION: 2,
+    ActivityCategory.FITNESS: 1,
+    ActivityCategory.FOOD: 1,
+    ActivityCategory.MEDICATION: 1,
+    ActivityCategory.THERAPY: 1,
+    ActivityCategory.CONSULTATION: 1,
 }
-
-
-def assign_backups(activities: list[Activity]) -> None:
-    by_category: dict[str, list[Activity]] = {}
-    for activity in activities:
-        by_category.setdefault(activity.category, []).append(activity)
-    for activity in activities:
-        candidates = [
-            item
-            for item in by_category[activity.category]
-            if item.id != activity.id and item.duration_minutes <= activity.duration_minutes and item.priority <= activity.priority + 6
-        ]
-        candidates.sort(key=lambda item: (item.resource_pool != "self", bool(item.equipment_required), item.duration_minutes, item.priority))
-        activity.backup_activity_ids = [item.id for item in candidates[:2]]
 
 
 def build_action_plan(activity_catalog: list[Activity], plan_size: int, rng: random.Random) -> list[Activity]:
@@ -58,9 +45,10 @@ def build_action_plan(activity_catalog: list[Activity], plan_size: int, rng: ran
         ]
         selected_catalog_items.extend(remaining[: plan_size - len(selected_catalog_items)])
 
+    selected_catalog_items.sort(key=lambda item: (-item.priority, -item.constraint_weight(), item.duration_minutes, item.title))
+
     if plan_size < len(selected_catalog_items):
         selected_catalog_items = selected_catalog_items[:plan_size]
 
     action_plan = parse_activities([activity.to_dict() for activity in selected_catalog_items])
-    assign_backups(action_plan)
     return action_plan[:plan_size] if plan_size < len(action_plan) else action_plan

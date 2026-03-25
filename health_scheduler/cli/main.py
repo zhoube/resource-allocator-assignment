@@ -41,6 +41,7 @@ def main() -> None:
     start_date = date.fromisoformat(args.start_date)
     end_date = add_months(start_date, args.months)
     ensure_directories()
+    print(f"[1/5] Preparing run window from {start_date.isoformat()} to {end_date.isoformat()}...")
 
     required_paths = [
         ACTIVITY_CATALOG_JSON,
@@ -52,6 +53,7 @@ def main() -> None:
         EQUIPMENT_CSV,
     ]
     require_paths(required_paths)
+    print("[2/5] Loading catalog, action plan, and constraint files...")
 
     activity_catalog = parse_activities(read_json(ACTIVITY_CATALOG_JSON))
     action_plan = parse_activities(read_json(ACTION_PLAN_JSON))
@@ -59,7 +61,9 @@ def main() -> None:
     missing_action_plan_ids = [activity.id for activity in action_plan if activity.id not in catalog_ids]
     if missing_action_plan_ids:
         raise ValueError(f"Action plan contains activities not found in the catalog: {', '.join(missing_action_plan_ids)}")
+    print(f"      Loaded {len(activity_catalog)} catalog activities and {len(action_plan)} action plan activities.")
 
+    print("[3/5] Running scheduler...")
     scheduled, unscheduled = run_scheduler(
         action_plan,
         start_date,
@@ -71,6 +75,7 @@ def main() -> None:
         load_rows(EQUIPMENT_CSV),
         output_dir=OUTPUTS_DIR,
     )
+    print("[5/5] Scheduling finished.")
     print(
         f"Read {len(activity_catalog)} catalog activities, {len(action_plan)} action plan activities, "
         f"and scheduled {len(scheduled)} occurrences with {len(unscheduled)} unscheduled."
