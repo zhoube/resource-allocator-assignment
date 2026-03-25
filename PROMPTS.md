@@ -416,3 +416,12 @@ CATEGORY_TARGETS = {
 
 ## Prompt 82
 > lets look at a 5 activity action plan instead of 10
+
+## Prompt 83
+> do we still need preferred_time_windows?
+
+## Prompt 84
+> yes remove it
+
+## Prompt 85
+> explain the code architecture and code FLOW inside README, then explain the input and output files

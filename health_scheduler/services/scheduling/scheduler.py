@@ -104,7 +104,6 @@ def build_activities_payload(activities: list[Activity]) -> list[dict]:
             "location": activity.location,
             "remote_allowed": activity.remote_allowed,
             "equipment_required": list(activity.equipment_required),
-            "preferred_time_windows": list(activity.preferred_time_windows),
         }
         for activity in activities
     ]

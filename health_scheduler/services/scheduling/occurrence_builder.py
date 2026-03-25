@@ -28,11 +28,10 @@ def build_occurrences(activities: list[Activity], start_date: date, end_date: da
 def build_daily(activity: Activity, start_date: date, end_date: date) -> list[Occurrence]:
     items: list[Occurrence] = []
     sequence = 1
-    active_windows = activity.preferred_time_windows or FALLBACK_WINDOWS
     day_window_start, day_window_end = planning_day_bounds()
     for day in daterange(start_date, end_date):
         for index in range(activity.frequency.times):
-            name = active_windows[min(index, len(active_windows) - 1)]
+            name = FALLBACK_WINDOWS[min(index, len(FALLBACK_WINDOWS) - 1)]
             start_time, end_time = TIME_WINDOWS[name]
             items.append(
                 Occurrence(
@@ -52,14 +51,13 @@ def build_periodic(activity: Activity, start_date: date, end_date: date, period_
     items: list[Occurrence] = []
     sequence = 1
     current = start_date
-    windows = activity.preferred_time_windows or FALLBACK_WINDOWS
     day_window_start, day_window_end = planning_day_bounds()
     while current < end_date:
         period_end = min(current + timedelta(days=period_days), end_date)
         last_day = period_end - timedelta(days=1)
         for index, offset in enumerate(spread_offsets(activity.frequency.times, max(1, (period_end - current).days))):
             target_day = min(current + timedelta(days=offset), last_day)
-            name = windows[index % len(windows)]
+            name = FALLBACK_WINDOWS[index % len(FALLBACK_WINDOWS)]
             start_time, end_time = TIME_WINDOWS[name]
             items.append(
                 Occurrence(
@@ -80,7 +78,6 @@ def build_monthly(activity: Activity, start_date: date, end_date: date) -> list[
     items: list[Occurrence] = []
     sequence = 1
     cursor = date(start_date.year, start_date.month, 1)
-    windows = activity.preferred_time_windows or FALLBACK_WINDOWS
     day_window_start, day_window_end = planning_day_bounds()
     while cursor < end_date:
         next_month = add_months(cursor, 1)
@@ -89,7 +86,7 @@ def build_monthly(activity: Activity, start_date: date, end_date: date) -> list[
         last_day = period_end - timedelta(days=1)
         for index, offset in enumerate(spread_offsets(activity.frequency.times, max(1, (period_end - current).days))):
             target_day = min(current + timedelta(days=offset), last_day)
-            name = windows[index % len(windows)]
+            name = FALLBACK_WINDOWS[index % len(FALLBACK_WINDOWS)]
             start_time, end_time = TIME_WINDOWS[name]
             items.append(
                 Occurrence(
@@ -107,7 +104,7 @@ def build_monthly(activity: Activity, start_date: date, end_date: date) -> list[
 
 
 def build_yearly(activity: Activity, start_date: date, end_date: date) -> list[Occurrence]:
-    name = (activity.preferred_time_windows or ["morning"])[0]
+    name = "morning"
     start_time, end_time = TIME_WINDOWS[name]
     target = start_date + timedelta(days=max(1, (end_date - start_date).days // 2))
     day_window_start, day_window_end = planning_day_bounds()

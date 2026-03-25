@@ -20,7 +20,6 @@ class ActivityField(StrEnum):
     BACKUP_ACTIVITY_IDS = "backup_activity_ids"
     SKIP_ADJUSTMENT = "skip_adjustment"
     METRICS = "metrics"
-    PREFERRED_TIME_WINDOWS = "preferred_time_windows"
 
 
 def activity_fieldnames() -> list[str]:

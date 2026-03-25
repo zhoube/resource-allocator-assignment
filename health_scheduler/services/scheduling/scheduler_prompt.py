@@ -19,7 +19,6 @@ Think step-by-step:
    - `remote_allowed`: if false, do not convert the activity to remote.
    - `facilitator_role`: if present, the event must match an available provider with that exact role.
    - `equipment_required`: every listed equipment type must be available for the chosen slot.
-   - `preferred_time_windows`: these are soft preferences only; use them when possible after satisfying the hard constraints above.
 4. For the current activity, read the availability in the constraint sections, find valid open slots, and place the required events at valid 30-minute aligned start times.
 5. After placing each event, immediately treat that time as occupied in the client schedule so no later event can overlap it.
 6. Do not invent new activity ids, providers, equipment, or times outside the supplied data.

@@ -5,7 +5,6 @@ from itertools import count
 
 from health_scheduler.domain.activities.activity import Activity
 from health_scheduler.domain.enums.activity_category import ActivityCategory
-from health_scheduler.services.generation.action_plan_builder import assign_backups
 from health_scheduler.services.generation.activity_generator import create_random_activity
 
 CATEGORY_TARGETS = {
@@ -24,5 +23,4 @@ def generate_activity_catalog(rng: random.Random) -> list[Activity]:
     for category, target in CATEGORY_TARGETS.items():
         for _ in range(target):
             activities.append(create_random_activity(category, f"activity_{next(id_counter):03d}", rng, used_titles))
-    assign_backups(activities)
     return activities

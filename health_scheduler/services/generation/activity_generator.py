@@ -28,7 +28,7 @@ def build_random_activity(
     prep: list[str],
     durations: list[int],
     frequencies: list[Frequency],
-    windows: list[str],
+    _unused_time_hints: list[str],
     rng: random.Random,
     used_titles: set[str],
 ) -> Activity:
@@ -51,7 +51,6 @@ def build_random_activity(
         backup_activity_ids=[],
         skip_adjustment=skip_adjustment_for(normalized, title_root),
         metrics=rng.sample(metrics, 1 if len(metrics) == 1 else rng.randint(2, min(3, len(metrics)))),
-        preferred_time_windows=list(dict.fromkeys(windows)),
     )
 
 
@@ -107,18 +106,18 @@ def normalize_location(location: str, role: str) -> str:
 def random_fitness_activity(activity_id: str, rng: random.Random, used_titles: set[str]) -> Activity:
     pattern = rng.choice(["run", "strength", "mobility", "bike", "yoga", "walk", "eye"])
     if pattern == "run":
-        return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Zone 2', 'Aerobic Base', 'Cardio Recovery'])} {rng.choice(['Run', 'Treadmill Session'])}", "Maintain a sustainable aerobic effort and log exertion after the session.", ["heart_rate_average", "distance_km", "rpe"], ["exercise_physiologist", "strength_coach", "self_guided"], ["gym", "park"], True, ["treadmill"], ["Light dynamic warm-up", "Bring water bottle"], [45, 60], [Frequency(times=2, period="week"), Frequency(times=3, period="week")], ["early_morning", "evening"], rng, used_titles)
+        return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Zone 2', 'Aerobic Base', 'Cardio Recovery'])} {rng.choice(['Run', 'Treadmill Session'])}", "Maintain a sustainable aerobic effort and log exertion after the session.", ["heart_rate_average", "distance_km", "rpe"], ["exercise_physiologist", "strength_coach", "self_guided"], ["gym", "park"], True, ["treadmill"], ["Light dynamic warm-up", "Bring water bottle"], [45, 60], [Frequency(times=2, period="week"), Frequency(times=3, period="week")], rng, used_titles)
     if pattern == "strength":
-        return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Resistance', 'Strength', 'Posterior Chain'])} Session", "Complete compound lifts with controlled tempo and moderate load progression.", ["sets_completed", "load_used", "session_rpe"], ["strength_coach", "exercise_physiologist"], ["gym"], True, ["dumbbell_set"], ["Prepare workout log", "Complete activation drills"], [60, 75], [Frequency(times=2, period="week")], ["morning", "evening"], rng, used_titles)
+        return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Resistance', 'Strength', 'Posterior Chain'])} Session", "Complete compound lifts with controlled tempo and moderate load progression.", ["sets_completed", "load_used", "session_rpe"], ["strength_coach", "exercise_physiologist"], ["gym"], True, ["dumbbell_set"], ["Prepare workout log", "Complete activation drills"], [60, 75], [Frequency(times=2, period="week")], rng, used_titles)
     if pattern == "mobility":
-        return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Mobility', 'Joint Care', 'Posture'])} Flow", "Move through controlled range-of-motion work and keep breathing relaxed.", ["mobility_minutes", "pain_score", "stiffness_score"], ["physiotherapist", "self_guided"], ["home", "gym"], True, ["yoga_mat"], ["Quiet floor space", "Yoga mat ready"], [20, 30], [Frequency(times=3, period="week"), Frequency(times=1, period="day")], ["early_morning", "evening"], rng, used_titles)
+        return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Mobility', 'Joint Care', 'Posture'])} Flow", "Move through controlled range-of-motion work and keep breathing relaxed.", ["mobility_minutes", "pain_score", "stiffness_score"], ["physiotherapist", "self_guided"], ["home", "gym"], True, ["yoga_mat"], ["Quiet floor space", "Yoga mat ready"], [20, 30], [Frequency(times=3, period="week"), Frequency(times=1, period="day")], rng, used_titles)
     if pattern == "bike":
-        return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Interval', 'Tempo', 'Cadence'])} Bike Session", "Alternate harder efforts with recovery segments and track response across intervals.", ["peak_heart_rate", "interval_count", "session_rpe"], ["exercise_physiologist", "self_guided"], ["gym"], True, ["stationary_bike"], ["Hydrate before session", "Review interval targets"], [30, 45], [Frequency(times=1, period="week"), Frequency(times=2, period="week")], ["morning", "evening"], rng, used_titles)
+        return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Interval', 'Tempo', 'Cadence'])} Bike Session", "Alternate harder efforts with recovery segments and track response across intervals.", ["peak_heart_rate", "interval_count", "session_rpe"], ["exercise_physiologist", "self_guided"], ["gym"], True, ["stationary_bike"], ["Hydrate before session", "Review interval targets"], [30, 45], [Frequency(times=1, period="week"), Frequency(times=2, period="week")], rng, used_titles)
     if pattern == "yoga":
-        return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Guided Yoga', 'Recovery Yoga', 'Breath-Led Yoga'])}", "Use slow transitions and extended exhales to support recovery and mobility.", ["session_minutes", "stress_score_post", "sleep_readiness"], ["physiotherapist", "health_coach", "self_guided"], ["home", "studio"], True, ["yoga_mat"], ["Set up quiet room", "Reduce screen exposure beforehand"], [30, 45], [Frequency(times=2, period="week")], ["evening"], rng, used_titles)
+        return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Guided Yoga', 'Recovery Yoga', 'Breath-Led Yoga'])}", "Use slow transitions and extended exhales to support recovery and mobility.", ["session_minutes", "stress_score_post", "sleep_readiness"], ["physiotherapist", "health_coach", "self_guided"], ["home", "studio"], True, ["yoga_mat"], ["Set up quiet room", "Reduce screen exposure beforehand"], [30, 45], [Frequency(times=2, period="week")], rng, used_titles)
     if pattern == "walk":
-        return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Outdoor', 'Recovery', 'Low-Impact'])} Walk", "Walk at a pace that slightly elevates breathing while keeping posture tall.", ["steps", "distance_km", "average_pace"], ["self_guided"], ["park"], False, [], ["Comfortable walking shoes"], [30, 45], [Frequency(times=3, period="week"), Frequency(times=4, period="week")], ["early_morning", "evening"], rng, used_titles)
-    return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Eye', 'Visual', 'Focus'])} Mobility Routine", "Alternate near and far focus work with controlled visual tracking drills.", ["eye_strain_score", "routine_minutes", "screen_break_count"], ["occupational_therapist", "self_guided"], ["home", "office"], True, [], ["Screen brightness reduced", "Timer prepared"], [15, 20], [Frequency(times=1, period="day")], ["midday", "evening"], rng, used_titles)
+        return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Outdoor', 'Recovery', 'Low-Impact'])} Walk", "Walk at a pace that slightly elevates breathing while keeping posture tall.", ["steps", "distance_km", "average_pace"], ["self_guided"], ["park"], False, [], ["Comfortable walking shoes"], [30, 45], [Frequency(times=3, period="week"), Frequency(times=4, period="week")], rng, used_titles)
+    return build_random_activity(ActivityCategory.FITNESS, activity_id, f"{rng.choice(['Eye', 'Visual', 'Focus'])} Mobility Routine", "Alternate near and far focus work with controlled visual tracking drills.", ["eye_strain_score", "routine_minutes", "screen_break_count"], ["occupational_therapist", "self_guided"], ["home", "office"], True, [], ["Screen brightness reduced", "Timer prepared"], [15, 20], [Frequency(times=1, period="day")], rng, used_titles)
 
 
 def random_food_activity(activity_id: str, rng: random.Random, used_titles: set[str]) -> Activity:

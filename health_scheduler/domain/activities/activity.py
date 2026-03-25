@@ -35,7 +35,6 @@ class Activity:
     backup_activity_ids: list[str] = field(default_factory=list)
     skip_adjustment: str = ""
     metrics: list[str] = field(default_factory=list)
-    preferred_time_windows: list[str] = field(default_factory=list)
     category: str = field(init=False)
     resource_pool: str = field(init=False)
 
@@ -69,7 +68,6 @@ class Activity:
             backup_activity_ids=list(payload.get("backup_activity_ids", [])),
             skip_adjustment=payload.get("skip_adjustment", ""),
             metrics=list(payload.get("metrics", [])),
-            preferred_time_windows=list(payload.get("preferred_time_windows", [])),
         )
 
     def to_dict(self) -> dict[str, Any]:
@@ -90,7 +88,6 @@ class Activity:
             "backup_activity_ids": list(self.backup_activity_ids),
             "skip_adjustment": self.skip_adjustment,
             "metrics": list(self.metrics),
-            "preferred_time_windows": list(self.preferred_time_windows),
         }
 
     def to_csv_row(self) -> dict[str, Any]:
@@ -111,7 +108,6 @@ class Activity:
             "backup_activity_ids": json.dumps(self.backup_activity_ids),
             "skip_adjustment": self.skip_adjustment,
             "metrics": json.dumps(self.metrics),
-            "preferred_time_windows": json.dumps(self.preferred_time_windows),
         }
 
     def constraint_weight(self) -> int:
