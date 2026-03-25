@@ -224,3 +224,17 @@ CATEGORY_TARGETS = {
 
 ## Prompt 42
 > yes, do that
+
+## Prompt 43
+> from now on, every prompt here needs to be logged in prompts.md
+>
+> look at the entire directory, lets rethink how we should arrange the various files
+
+## Prompt 44
+> ok i accept this new structure
+
+## Prompt 45
+> run the scheduler to see if it works
+
+## Prompt 46
+> in many of the imports, Unresolved reference 'health_scheduler'

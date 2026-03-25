@@ -2,34 +2,47 @@
 
 Simple Python implementation of the assignment resource allocator.
 
+## Structure
+
+- `docs/assignment/`
+  Assignment reference files and supporting images.
+- `data/inputs/`
+  Saved activity catalog, constraints, and action plans.
+- `data/outputs/`
+  Generated schedules and calendar exports.
+- `scripts/`
+  Runnable entry scripts.
+- `health_scheduler/`
+  Package code split into `domain`, `services`, `io`, `config`, `utils`, and `cli`.
+
 ## Scripts
 
-- `python src/generate_activities.py`
-  Generates the saved activity catalog in `data/activities/`.
-- `python src/generate_constraints.py`
-  Generates the saved scheduling constraints in `data/constraints/`.
-- `python src/select_action_plan.py`
-  Randomly selects a smaller action plan from the saved activity catalog into `data/action_plans/`.
-- `python src/main.py`
+- `python scripts/generate_activities.py`
+  Generates the saved activity catalog in `data/inputs/activities/`.
+- `python scripts/generate_constraints.py`
+  Generates the saved scheduling constraints in `data/inputs/constraints/`.
+- `python scripts/select_action_plan.py`
+  Randomly selects a smaller action plan from the saved activity catalog into `data/inputs/action_plans/`.
+- `python scripts/main.py`
   Reads the saved catalog, constraints, and action plan, then schedules the plan and exports results.
 
 ## Outputs
 
-- `data/activities/activity_catalog.json`
-- `data/activities/activity_catalog.csv`
-- `data/action_plans/action_plan.json`
-- `data/action_plans/action_plan.csv`
-- `data/constraints/client_schedule.csv`
-- `data/constraints/travel_plans.csv`
-- `data/constraints/specialists.csv`
-- `data/constraints/allied_health.csv`
-- `data/constraints/equipment.csv`
-- `data/constraints/constraints_bundle.json`
-- `output/scheduled_plan.csv`
-- `output/unscheduled_plan.csv`
-- `output/schedule_bundle.json`
-- `output/personalized_plan.html`
-- `output/personalized_plan.ics`
+- `data/inputs/activities/activity_catalog.json`
+- `data/inputs/activities/activity_catalog.csv`
+- `data/inputs/action_plans/action_plan.json`
+- `data/inputs/action_plans/action_plan.csv`
+- `data/inputs/constraints/client_schedule.csv`
+- `data/inputs/constraints/travel_plans.csv`
+- `data/inputs/constraints/specialists.csv`
+- `data/inputs/constraints/allied_health.csv`
+- `data/inputs/constraints/equipment.csv`
+- `data/inputs/constraints/constraints_bundle.json`
+- `data/outputs/scheduled_plan.csv`
+- `data/outputs/unscheduled_plan.csv`
+- `data/outputs/schedule_bundle.json`
+- `data/outputs/personalized_plan.html`
+- `data/outputs/personalized_plan.ics`
 
 ## Notes
 
