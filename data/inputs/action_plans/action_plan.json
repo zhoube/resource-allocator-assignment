@@ -57,36 +57,6 @@
     ]
   },
   {
-    "id": "activity_112",
-    "title": "Lab Testing Appointment - Progress Review",
-    "category": "Consultation",
-    "priority": 94,
-    "duration_minutes": 45,
-    "details": "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
-    "frequency": {
-      "times": 1,
-      "period": "month"
-    },
-    "facilitator_role": "lab_technician",
-    "resource_pool": "specialist",
-    "location": "lab",
-    "remote_allowed": false,
-    "equipment_required": [
-      "lab_kit"
-    ],
-    "prep_required": [
-      "Follow fasting instructions",
-      "Bring requisition form"
-    ],
-    "backup_activity_ids": [],
-    "skip_adjustment": "Book the next morning lab slot and preserve fasting instructions.",
-    "metrics": [
-      "follow_up_booked",
-      "sample_quality",
-      "test_completed"
-    ]
-  },
-  {
     "id": "activity_105",
     "title": "Primary Care Review - Check-In",
     "category": "Consultation",
@@ -110,36 +80,6 @@
     "metrics": [
       "blood_pressure_reading",
       "questions_answered"
-    ]
-  },
-  {
-    "id": "activity_115",
-    "title": "Lab Testing Appointment - Plan Variant 2",
-    "category": "Consultation",
-    "priority": 93,
-    "duration_minutes": 45,
-    "details": "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
-    "frequency": {
-      "times": 1,
-      "period": "month"
-    },
-    "facilitator_role": "lab_technician",
-    "resource_pool": "specialist",
-    "location": "lab",
-    "remote_allowed": false,
-    "equipment_required": [
-      "lab_kit"
-    ],
-    "prep_required": [
-      "Follow fasting instructions",
-      "Bring requisition form"
-    ],
-    "backup_activity_ids": [],
-    "skip_adjustment": "Book the next morning lab slot and preserve fasting instructions.",
-    "metrics": [
-      "follow_up_booked",
-      "sample_quality",
-      "test_completed"
     ]
   },
   {
@@ -169,40 +109,63 @@
     ]
   },
   {
-    "id": "activity_072",
-    "title": "Daily Medication Dose - Maintenance Cycle",
+    "id": "activity_075",
+    "title": "Medication Check - Evening Routine",
     "category": "Medication consumption",
-    "priority": 92,
-    "duration_minutes": 10,
-    "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+    "priority": 91,
+    "duration_minutes": 20,
+    "details": "Review remaining medication supply and place a refill request before the final week of stock.",
     "frequency": {
       "times": 1,
-      "period": "day"
+      "period": "month"
     },
-    "facilitator_role": "self_guided",
-    "resource_pool": "self",
+    "facilitator_role": "health_coach",
+    "resource_pool": "allied_health",
     "location": "home",
-    "remote_allowed": false,
-    "equipment_required": [
-      "blood_pressure_cuff"
-    ],
+    "remote_allowed": true,
+    "equipment_required": [],
     "prep_required": [
-      "Medication organizer refilled",
-      "Dose reminder active"
+      "Pharmacy details available"
     ],
     "backup_activity_ids": [],
     "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions.",
     "metrics": [
-      "side_effect_score",
-      "dose_taken"
+      "refill_requested",
+      "med_list_updated"
     ]
   },
   {
-    "id": "activity_085",
-    "title": "Guided Breathing - Stress Reset",
+    "id": "activity_101",
+    "title": "Sleep Coaching Call - Progress Review",
+    "category": "Consultation",
+    "priority": 84,
+    "duration_minutes": 30,
+    "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
+    "frequency": {
+      "times": 1,
+      "period": "week"
+    },
+    "facilitator_role": "sleep_physician",
+    "resource_pool": "specialist",
+    "location": "home",
+    "remote_allowed": true,
+    "equipment_required": [],
+    "prep_required": [
+      "Sleep tracker summary exported"
+    ],
+    "backup_activity_ids": [],
+    "skip_adjustment": "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+    "metrics": [
+      "action_items_created",
+      "sleep_latency"
+    ]
+  },
+  {
+    "id": "activity_091",
+    "title": "Stress Reset - Recovery Session",
     "category": "Therapy",
     "priority": 78,
-    "duration_minutes": 15,
+    "duration_minutes": 20,
     "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
     "frequency": {
       "times": 3,
@@ -221,8 +184,35 @@
     "skip_adjustment": "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
     "metrics": [
       "session_minutes",
-      "sleep_latency",
-      "stress_score_post"
+      "sleep_latency"
+    ]
+  },
+  {
+    "id": "activity_116",
+    "title": "Dietitian Consultation - Plan Tuning",
+    "category": "Consultation",
+    "priority": 76,
+    "duration_minutes": 45,
+    "details": "Review meal adherence, travel eating patterns, and nutrition barriers.",
+    "frequency": {
+      "times": 2,
+      "period": "month"
+    },
+    "facilitator_role": "dietitian",
+    "resource_pool": "allied_health",
+    "location": "clinic",
+    "remote_allowed": true,
+    "equipment_required": [],
+    "prep_required": [
+      "Photos of recent meals available",
+      "Food diary updated"
+    ],
+    "backup_activity_ids": [],
+    "skip_adjustment": "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+    "metrics": [
+      "meal_adherence_score",
+      "weight_trend",
+      "action_items_created"
     ]
   },
   {

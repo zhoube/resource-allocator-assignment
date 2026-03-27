@@ -4,68 +4,13 @@
 [3/5] Running scheduler...
       Preparing deterministic validator and constraint payload...
       Sending one scheduling request to the LLM...
-      Prompt payload prepared with 10 activities and 12,423 characters.
-      Calling OpenAI model `gpt-5.4`...
-Traceback (most recent call last):
-  File "C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\cli\main.py", line 86, in <module>
-    main()
-    ~~~~^^
-  File "C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\cli\main.py", line 67, in main
-    scheduled, unscheduled = run_scheduler(
-                             ~~~~~~~~~~~~~^
-        action_plan,
-        ^^^^^^^^^^^^
-    ...<7 lines>...
-        output_dir=OUTPUTS_DIR,
-        ^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\services\scheduling\scheduler.py", line 31, in run_scheduler
-    response_text = agent.request_schedule(
-        build_activities_payload(planned_activities),
-        validator.constraints_prompt_payload(),
-    )
-  File "C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\services\scheduling\llm_scheduler.py", line 39, in request_schedule
-    return self._request_json_response(prompt, SCHEDULE_RESPONSE_SCHEMA)
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\services\scheduling\llm_scheduler.py", line 49, in _request_json_response
-    response = self._post(payload)
-  File "C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\services\scheduling\llm_scheduler.py", line 92, in _post
-    with request.urlopen(http_request, timeout=240) as handle:
-         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python313\Lib\urllib\request.py", line 189, in urlopen
-    return opener.open(url, data, timeout)
-           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python313\Lib\urllib\request.py", line 489, in open
-    response = self._open(req, data)
-  File "C:\Python313\Lib\urllib\request.py", line 506, in _open
-    result = self._call_chain(self.handle_open, protocol, protocol +
-                              '_open', req)
-  File "C:\Python313\Lib\urllib\request.py", line 466, in _call_chain
-    result = func(*args)
-  File "C:\Python313\Lib\urllib\request.py", line 1367, in https_open
-    return self.do_open(http.client.HTTPSConnection, req,
-           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-                        context=self._context)
-                        ^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python313\Lib\urllib\request.py", line 1323, in do_open
-    r = h.getresponse()
-  File "C:\Python313\Lib\http\client.py", line 1430, in getresponse
-    response.begin()
-    ~~~~~~~~~~~~~~^^
-  File "C:\Python313\Lib\http\client.py", line 331, in begin
-    version, status, reason = self._read_status()
-                              ~~~~~~~~~~~~~~~~~^^
-  File "C:\Python313\Lib\http\client.py", line 292, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "C:\Python313\Lib\socket.py", line 719, in readinto
-    return self._sock.recv_into(b)
-           ~~~~~~~~~~~~~~~~~~~~^^^
-  File "C:\Python313\Lib\ssl.py", line 1304, in recv_into
-    return self.read(nbytes, buffer)
-           ~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "C:\Python313\Lib\ssl.py", line 1138, in read
-    return self._sslobj.read(len, buffer)
-           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
-TimeoutError: The read operation timed out
+      Prompt payload prepared with 10 activities and 12,426 characters.
+      Calling OpenAI model `gpt-5.4` (attempt 1/4, structured, reasoning=medium, timeout=300s)...
+      Parsing LLM response...
+      Parsed 376 proposed scheduled events from the LLM.
+[4/5] Validating and materializing scheduled events...
+      Accepted 289 decisions and rejected/unscheduled 87.
+      Validation produced 289 scheduled events and 87 unscheduled events.
+      Exporting CSV, JSON, HTML, and ICS outputs...
+[5/5] Scheduling finished.
+Read 120 catalog activities, 10 action plan activities, and scheduled 289 occurrences with 87 unscheduled.

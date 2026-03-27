@@ -45,37 +45,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260401T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-01T07:00:00",
-      "end": "2026-04-01T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260401T180000",
+      "event_id": "activity_016_20260401T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-04-01T18:00:00",
-      "end": "2026-04-01T18:45:00",
+      "start": "2026-04-01T07:00:00",
+      "end": "2026-04-01T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -136,26 +113,46 @@
       ]
     },
     {
-      "event_id": "activity_072_20260402T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-02T07:00:00",
-      "end": "2026-04-02T07:10:00",
-      "duration_minutes": 10,
+      "event_id": "activity_116_20260402T120000",
+      "activity_id": "activity_116",
+      "activity_title": "Dietitian Consultation - Plan Tuning",
+      "category": "Consultation",
+      "priority": 76,
+      "frequency": "2 per month",
+      "start": "2026-04-02T12:00:00",
+      "end": "2026-04-02T12:45:00",
+      "duration_minutes": 45,
+      "location": "clinic",
+      "mode": "in_person",
+      "assigned_provider": "Chloe Ng",
+      "assigned_equipment": [],
+      "backup_for": "",
+      "details": "Review meal adherence, travel eating patterns, and nutrition barriers.",
+      "metrics": [
+        "meal_adherence_score",
+        "weight_trend",
+        "action_items_created"
+      ]
+    },
+    {
+      "event_id": "activity_101_20260402T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-04-02T18:00:00",
+      "end": "2026-04-02T18:30:00",
+      "duration_minutes": 30,
       "location": "home",
       "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
+      "assigned_provider": "Dr Wei Chen",
+      "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
@@ -203,38 +200,36 @@
       ]
     },
     {
-      "event_id": "activity_072_20260403T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
+      "event_id": "activity_075_20260403T180000",
+      "activity_id": "activity_075",
+      "activity_title": "Medication Check - Evening Routine",
       "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-03T07:00:00",
-      "end": "2026-04-03T07:10:00",
-      "duration_minutes": 10,
+      "priority": 91,
+      "frequency": "1 per month",
+      "start": "2026-04-03T18:00:00",
+      "end": "2026-04-03T18:20:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
+      "assigned_provider": "Felicia Ong",
+      "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Review remaining medication supply and place a refill request before the final week of stock.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "refill_requested",
+        "med_list_updated"
       ]
     },
     {
-      "event_id": "activity_085_20260403T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260403T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-04-03T18:00:00",
-      "end": "2026-04-03T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-04-03T18:30:00",
+      "end": "2026-04-03T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -243,8 +238,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -292,37 +286,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260404T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-04T07:00:00",
-      "end": "2026-04-04T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260404T080000",
+      "event_id": "activity_016_20260404T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-04-04T08:00:00",
-      "end": "2026-04-04T08:45:00",
+      "start": "2026-04-04T07:00:00",
+      "end": "2026-04-04T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -383,29 +354,6 @@
       ]
     },
     {
-      "event_id": "activity_072_20260405T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-05T07:00:00",
-      "end": "2026-04-05T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
       "event_id": "activity_079_20260406T060000",
       "activity_id": "activity_079",
       "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
@@ -446,29 +394,6 @@
       "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
       "metrics": [
         "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_072_20260406T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-06T07:00:00",
-      "end": "2026-04-06T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
         "dose_taken"
       ]
     },
@@ -517,29 +442,6 @@
       ]
     },
     {
-      "event_id": "activity_072_20260407T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-07T07:00:00",
-      "end": "2026-04-07T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
       "event_id": "activity_105_20260407T120000",
       "activity_id": "activity_105",
       "activity_title": "Primary Care Review - Check-In",
@@ -561,15 +463,15 @@
       ]
     },
     {
-      "event_id": "activity_085_20260407T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260407T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-04-07T18:00:00",
-      "end": "2026-04-07T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-04-07T18:20:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -578,20 +480,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260407T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260407T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-04-07T18:30:00",
-      "end": "2026-04-07T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-04-07T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -600,8 +501,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -649,37 +549,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260408T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-08T07:00:00",
-      "end": "2026-04-08T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260408T180000",
+      "event_id": "activity_016_20260408T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-04-08T18:00:00",
-      "end": "2026-04-08T18:45:00",
+      "start": "2026-04-08T07:00:00",
+      "end": "2026-04-08T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -740,26 +617,46 @@
       ]
     },
     {
-      "event_id": "activity_072_20260409T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-09T07:00:00",
-      "end": "2026-04-09T07:10:00",
-      "duration_minutes": 10,
+      "event_id": "activity_116_20260409T120000",
+      "activity_id": "activity_116",
+      "activity_title": "Dietitian Consultation - Plan Tuning",
+      "category": "Consultation",
+      "priority": 76,
+      "frequency": "2 per month",
+      "start": "2026-04-09T12:00:00",
+      "end": "2026-04-09T12:45:00",
+      "duration_minutes": 45,
+      "location": "clinic",
+      "mode": "in_person",
+      "assigned_provider": "Chloe Ng",
+      "assigned_equipment": [],
+      "backup_for": "",
+      "details": "Review meal adherence, travel eating patterns, and nutrition barriers.",
+      "metrics": [
+        "meal_adherence_score",
+        "weight_trend",
+        "action_items_created"
+      ]
+    },
+    {
+      "event_id": "activity_101_20260409T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-04-09T18:00:00",
+      "end": "2026-04-09T18:30:00",
+      "duration_minutes": 30,
       "location": "home",
       "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
+      "assigned_provider": "Dr Wei Chen",
+      "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
@@ -807,38 +704,15 @@
       ]
     },
     {
-      "event_id": "activity_072_20260410T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-10T07:00:00",
-      "end": "2026-04-10T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260410T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260410T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-04-10T18:00:00",
-      "end": "2026-04-10T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-04-10T18:30:00",
+      "end": "2026-04-10T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -847,8 +721,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -896,37 +769,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260411T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-11T07:00:00",
-      "end": "2026-04-11T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260411T080000",
+      "event_id": "activity_016_20260411T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-04-11T08:00:00",
-      "end": "2026-04-11T08:45:00",
+      "start": "2026-04-11T07:00:00",
+      "end": "2026-04-11T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -987,80 +837,15 @@
       ]
     },
     {
-      "event_id": "activity_072_20260412T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-12T07:00:00",
-      "end": "2026-04-12T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260413T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-04-13T06:30:00",
-      "end": "2026-04-13T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260414T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-04-14T06:30:00",
-      "end": "2026-04-14T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260414T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260414T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-04-14T18:00:00",
-      "end": "2026-04-14T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-04-14T18:20:00",
+      "duration_minutes": 20,
       "location": "remote",
       "mode": "remote",
       "assigned_provider": "Felicia Ong",
@@ -1069,20 +854,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260414T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260414T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-04-14T18:30:00",
-      "end": "2026-04-14T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-04-14T18:50:00",
+      "duration_minutes": 20,
       "location": "remote",
       "mode": "remote",
       "assigned_provider": "Felicia Ong",
@@ -1091,83 +875,40 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_069_20260415T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-04-15T06:30:00",
-      "end": "2026-04-15T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
+      "event_id": "activity_101_20260416T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-04-16T18:00:00",
+      "end": "2026-04-16T18:30:00",
+      "duration_minutes": 30,
+      "location": "remote",
+      "mode": "remote",
+      "assigned_provider": "Dr Wei Chen",
       "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_069_20260416T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-04-16T06:30:00",
-      "end": "2026-04-16T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260417T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-04-17T06:30:00",
-      "end": "2026-04-17T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260417T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260417T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-04-17T18:00:00",
-      "end": "2026-04-17T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-04-17T18:30:00",
+      "end": "2026-04-17T18:50:00",
+      "duration_minutes": 20,
       "location": "remote",
       "mode": "remote",
       "assigned_provider": "Felicia Ong",
@@ -1176,8 +917,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -1225,37 +965,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260418T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-18T07:00:00",
-      "end": "2026-04-18T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260418T080000",
+      "event_id": "activity_016_20260418T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-04-18T08:00:00",
-      "end": "2026-04-18T08:45:00",
+      "start": "2026-04-18T07:00:00",
+      "end": "2026-04-18T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -1316,26 +1033,27 @@
       ]
     },
     {
-      "event_id": "activity_072_20260419T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
+      "event_id": "activity_016_20260419T070000",
+      "activity_id": "activity_016",
+      "activity_title": "Guided Yoga - Joint Care",
+      "category": "Fitness routine / exercise",
+      "priority": 76,
+      "frequency": "2 per week",
       "start": "2026-04-19T07:00:00",
-      "end": "2026-04-19T07:10:00",
-      "duration_minutes": 10,
+      "end": "2026-04-19T07:45:00",
+      "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "",
       "assigned_equipment": [
-        "equipment_10"
+        "equipment_04"
       ],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Use slow transitions and extended exhales to support recovery and mobility.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "session_minutes",
+        "stress_score_post",
+        "sleep_readiness"
       ]
     },
     {
@@ -1379,29 +1097,6 @@
       "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
       "metrics": [
         "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_072_20260420T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-20T07:00:00",
-      "end": "2026-04-20T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
         "dose_taken"
       ]
     },
@@ -1450,38 +1145,15 @@
       ]
     },
     {
-      "event_id": "activity_072_20260421T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-21T07:00:00",
-      "end": "2026-04-21T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260421T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260421T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-04-21T18:00:00",
-      "end": "2026-04-21T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-04-21T18:20:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -1490,20 +1162,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260421T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260421T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-04-21T18:30:00",
-      "end": "2026-04-21T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-04-21T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -1512,8 +1183,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -1561,37 +1231,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260422T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-22T07:00:00",
-      "end": "2026-04-22T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260422T180000",
+      "event_id": "activity_016_20260422T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-04-22T18:00:00",
-      "end": "2026-04-22T18:45:00",
+      "start": "2026-04-22T07:00:00",
+      "end": "2026-04-22T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -1652,26 +1299,24 @@
       ]
     },
     {
-      "event_id": "activity_072_20260423T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-23T07:00:00",
-      "end": "2026-04-23T07:10:00",
-      "duration_minutes": 10,
+      "event_id": "activity_101_20260423T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-04-23T18:00:00",
+      "end": "2026-04-23T18:30:00",
+      "duration_minutes": 30,
       "location": "home",
       "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
+      "assigned_provider": "Dr Wei Chen",
+      "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
@@ -1719,38 +1364,15 @@
       ]
     },
     {
-      "event_id": "activity_072_20260424T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-24T07:00:00",
-      "end": "2026-04-24T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260424T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260424T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-04-24T18:00:00",
-      "end": "2026-04-24T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-04-24T18:30:00",
+      "end": "2026-04-24T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -1759,8 +1381,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -1808,37 +1429,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260425T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-25T07:00:00",
-      "end": "2026-04-25T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260425T080000",
+      "event_id": "activity_016_20260425T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-04-25T08:00:00",
-      "end": "2026-04-25T08:45:00",
+      "start": "2026-04-25T07:00:00",
+      "end": "2026-04-25T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -1899,29 +1497,6 @@
       ]
     },
     {
-      "event_id": "activity_072_20260426T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-26T07:00:00",
-      "end": "2026-04-26T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
       "event_id": "activity_079_20260427T060000",
       "activity_id": "activity_079",
       "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
@@ -1962,29 +1537,6 @@
       "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
       "metrics": [
         "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_072_20260427T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-27T07:00:00",
-      "end": "2026-04-27T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
         "dose_taken"
       ]
     },
@@ -2033,38 +1585,15 @@
       ]
     },
     {
-      "event_id": "activity_072_20260428T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-28T07:00:00",
-      "end": "2026-04-28T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260428T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260428T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-04-28T18:00:00",
-      "end": "2026-04-28T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-04-28T18:20:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -2073,20 +1602,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260428T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260428T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-04-28T18:30:00",
-      "end": "2026-04-28T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-04-28T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -2095,8 +1623,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -2144,37 +1671,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260429T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-29T07:00:00",
-      "end": "2026-04-29T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260429T180000",
+      "event_id": "activity_016_20260429T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-04-29T18:00:00",
-      "end": "2026-04-29T18:45:00",
+      "start": "2026-04-29T07:00:00",
+      "end": "2026-04-29T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -2235,26 +1739,24 @@
       ]
     },
     {
-      "event_id": "activity_072_20260430T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-04-30T07:00:00",
-      "end": "2026-04-30T07:10:00",
-      "duration_minutes": 10,
+      "event_id": "activity_101_20260430T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-04-30T18:00:00",
+      "end": "2026-04-30T18:30:00",
+      "duration_minutes": 30,
       "location": "home",
       "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
+      "assigned_provider": "Dr Wei Chen",
+      "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
@@ -2302,38 +1804,36 @@
       ]
     },
     {
-      "event_id": "activity_072_20260501T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
+      "event_id": "activity_075_20260501T180000",
+      "activity_id": "activity_075",
+      "activity_title": "Medication Check - Evening Routine",
       "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-01T07:00:00",
-      "end": "2026-05-01T07:10:00",
-      "duration_minutes": 10,
+      "priority": 91,
+      "frequency": "1 per month",
+      "start": "2026-05-01T18:00:00",
+      "end": "2026-05-01T18:20:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
+      "assigned_provider": "Felicia Ong",
+      "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Review remaining medication supply and place a refill request before the final week of stock.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "refill_requested",
+        "med_list_updated"
       ]
     },
     {
-      "event_id": "activity_085_20260501T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260501T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-05-01T18:00:00",
-      "end": "2026-05-01T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-05-01T18:30:00",
+      "end": "2026-05-01T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -2342,8 +1842,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -2391,37 +1890,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260502T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-02T07:00:00",
-      "end": "2026-05-02T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260502T080000",
+      "event_id": "activity_016_20260502T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-05-02T08:00:00",
-      "end": "2026-05-02T08:45:00",
+      "start": "2026-05-02T07:00:00",
+      "end": "2026-05-02T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -2482,29 +1958,6 @@
       ]
     },
     {
-      "event_id": "activity_072_20260503T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-03T07:00:00",
-      "end": "2026-05-03T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
       "event_id": "activity_079_20260504T060000",
       "activity_id": "activity_079",
       "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
@@ -2549,59 +2002,39 @@
       ]
     },
     {
-      "event_id": "activity_072_20260504T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
+      "event_id": "activity_016_20260504T070000",
+      "activity_id": "activity_016",
+      "activity_title": "Guided Yoga - Joint Care",
+      "category": "Fitness routine / exercise",
+      "priority": 76,
+      "frequency": "2 per week",
       "start": "2026-05-04T07:00:00",
-      "end": "2026-05-04T07:10:00",
-      "duration_minutes": 10,
+      "end": "2026-05-04T07:45:00",
+      "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "",
       "assigned_equipment": [
-        "equipment_10"
+        "equipment_04"
       ],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Use slow transitions and extended exhales to support recovery and mobility.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "session_minutes",
+        "stress_score_post",
+        "sleep_readiness"
       ]
     },
     {
-      "event_id": "activity_069_20260505T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-05-05T06:30:00",
-      "end": "2026-05-05T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260505T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260505T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-05-05T18:00:00",
-      "end": "2026-05-05T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-05-05T18:20:00",
+      "duration_minutes": 20,
       "location": "remote",
       "mode": "remote",
       "assigned_provider": "Felicia Ong",
@@ -2610,20 +2043,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260505T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260505T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-05-05T18:30:00",
-      "end": "2026-05-05T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-05-05T18:50:00",
+      "duration_minutes": 20,
       "location": "remote",
       "mode": "remote",
       "assigned_provider": "Felicia Ong",
@@ -2632,83 +2064,40 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_069_20260506T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-05-06T06:30:00",
-      "end": "2026-05-06T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
+      "event_id": "activity_101_20260507T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-05-07T18:00:00",
+      "end": "2026-05-07T18:30:00",
+      "duration_minutes": 30,
+      "location": "remote",
+      "mode": "remote",
+      "assigned_provider": "Dr Wei Chen",
       "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_069_20260507T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-05-07T06:30:00",
-      "end": "2026-05-07T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260508T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-05-08T06:30:00",
-      "end": "2026-05-08T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260508T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260508T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-05-08T18:00:00",
-      "end": "2026-05-08T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-05-08T18:30:00",
+      "end": "2026-05-08T18:50:00",
+      "duration_minutes": 20,
       "location": "remote",
       "mode": "remote",
       "assigned_provider": "Felicia Ong",
@@ -2717,71 +2106,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260509T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-05-09T06:30:00",
-      "end": "2026-05-09T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260510T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-05-10T06:30:00",
-      "end": "2026-05-10T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260511T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-05-11T06:30:00",
-      "end": "2026-05-11T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
+        "sleep_latency"
       ]
     },
     {
@@ -2829,26 +2154,27 @@
       ]
     },
     {
-      "event_id": "activity_072_20260512T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
+      "event_id": "activity_016_20260512T070000",
+      "activity_id": "activity_016",
+      "activity_title": "Guided Yoga - Joint Care",
+      "category": "Fitness routine / exercise",
+      "priority": 76,
+      "frequency": "2 per week",
       "start": "2026-05-12T07:00:00",
-      "end": "2026-05-12T07:10:00",
-      "duration_minutes": 10,
+      "end": "2026-05-12T07:45:00",
+      "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "",
       "assigned_equipment": [
-        "equipment_10"
+        "equipment_04"
       ],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Use slow transitions and extended exhales to support recovery and mobility.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "session_minutes",
+        "stress_score_post",
+        "sleep_readiness"
       ]
     },
     {
@@ -2873,15 +2199,15 @@
       ]
     },
     {
-      "event_id": "activity_085_20260512T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260512T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-05-12T18:00:00",
-      "end": "2026-05-12T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-05-12T18:20:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -2890,20 +2216,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260512T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260512T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-05-12T18:30:00",
-      "end": "2026-05-12T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-05-12T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -2912,8 +2237,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -2961,37 +2285,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260513T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-13T07:00:00",
-      "end": "2026-05-13T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260513T180000",
+      "event_id": "activity_016_20260513T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-05-13T18:00:00",
-      "end": "2026-05-13T18:45:00",
+      "start": "2026-05-13T07:00:00",
+      "end": "2026-05-13T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -3052,26 +2353,46 @@
       ]
     },
     {
-      "event_id": "activity_072_20260514T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-14T07:00:00",
-      "end": "2026-05-14T07:10:00",
-      "duration_minutes": 10,
+      "event_id": "activity_116_20260514T120000",
+      "activity_id": "activity_116",
+      "activity_title": "Dietitian Consultation - Plan Tuning",
+      "category": "Consultation",
+      "priority": 76,
+      "frequency": "2 per month",
+      "start": "2026-05-14T12:00:00",
+      "end": "2026-05-14T12:45:00",
+      "duration_minutes": 45,
+      "location": "clinic",
+      "mode": "in_person",
+      "assigned_provider": "Chloe Ng",
+      "assigned_equipment": [],
+      "backup_for": "",
+      "details": "Review meal adherence, travel eating patterns, and nutrition barriers.",
+      "metrics": [
+        "meal_adherence_score",
+        "weight_trend",
+        "action_items_created"
+      ]
+    },
+    {
+      "event_id": "activity_101_20260514T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-05-14T18:00:00",
+      "end": "2026-05-14T18:30:00",
+      "duration_minutes": 30,
       "location": "home",
       "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
+      "assigned_provider": "Dr Wei Chen",
+      "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
@@ -3119,38 +2440,15 @@
       ]
     },
     {
-      "event_id": "activity_072_20260515T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-15T07:00:00",
-      "end": "2026-05-15T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260515T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260515T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-05-15T18:00:00",
-      "end": "2026-05-15T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-05-15T18:30:00",
+      "end": "2026-05-15T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -3159,8 +2457,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -3208,37 +2505,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260516T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-16T07:00:00",
-      "end": "2026-05-16T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260516T080000",
+      "event_id": "activity_016_20260516T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-05-16T08:00:00",
-      "end": "2026-05-16T08:45:00",
+      "start": "2026-05-16T07:00:00",
+      "end": "2026-05-16T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -3299,29 +2573,6 @@
       ]
     },
     {
-      "event_id": "activity_072_20260517T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-17T07:00:00",
-      "end": "2026-05-17T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
       "event_id": "activity_079_20260518T060000",
       "activity_id": "activity_079",
       "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
@@ -3362,29 +2613,6 @@
       "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
       "metrics": [
         "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_072_20260518T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-18T07:00:00",
-      "end": "2026-05-18T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
         "dose_taken"
       ]
     },
@@ -3433,38 +2661,37 @@
       ]
     },
     {
-      "event_id": "activity_072_20260519T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-19T07:00:00",
-      "end": "2026-05-19T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
+      "event_id": "activity_116_20260519T120000",
+      "activity_id": "activity_116",
+      "activity_title": "Dietitian Consultation - Plan Tuning",
+      "category": "Consultation",
+      "priority": 76,
+      "frequency": "2 per month",
+      "start": "2026-05-19T12:00:00",
+      "end": "2026-05-19T12:45:00",
+      "duration_minutes": 45,
+      "location": "clinic",
       "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
+      "assigned_provider": "Chloe Ng",
+      "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Review meal adherence, travel eating patterns, and nutrition barriers.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "meal_adherence_score",
+        "weight_trend",
+        "action_items_created"
       ]
     },
     {
-      "event_id": "activity_085_20260519T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260519T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-05-19T18:00:00",
-      "end": "2026-05-19T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-05-19T18:20:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -3473,20 +2700,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260519T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260519T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-05-19T18:30:00",
-      "end": "2026-05-19T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-05-19T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -3495,8 +2721,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -3544,37 +2769,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260520T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-20T07:00:00",
-      "end": "2026-05-20T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260520T180000",
+      "event_id": "activity_016_20260520T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-05-20T18:00:00",
-      "end": "2026-05-20T18:45:00",
+      "start": "2026-05-20T07:00:00",
+      "end": "2026-05-20T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -3635,26 +2837,24 @@
       ]
     },
     {
-      "event_id": "activity_072_20260521T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-21T07:00:00",
-      "end": "2026-05-21T07:10:00",
-      "duration_minutes": 10,
+      "event_id": "activity_101_20260521T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-05-21T18:00:00",
+      "end": "2026-05-21T18:30:00",
+      "duration_minutes": 30,
       "location": "home",
       "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
+      "assigned_provider": "Dr Wei Chen",
+      "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
@@ -3702,38 +2902,15 @@
       ]
     },
     {
-      "event_id": "activity_072_20260522T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-22T07:00:00",
-      "end": "2026-05-22T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260522T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260522T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-05-22T18:00:00",
-      "end": "2026-05-22T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-05-22T18:30:00",
+      "end": "2026-05-22T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -3742,8 +2919,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -3791,37 +2967,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260523T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-23T07:00:00",
-      "end": "2026-05-23T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260523T080000",
+      "event_id": "activity_016_20260523T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-05-23T08:00:00",
-      "end": "2026-05-23T08:45:00",
+      "start": "2026-05-23T07:00:00",
+      "end": "2026-05-23T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -3882,29 +3035,6 @@
       ]
     },
     {
-      "event_id": "activity_072_20260524T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-24T07:00:00",
-      "end": "2026-05-24T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
       "event_id": "activity_079_20260525T060000",
       "activity_id": "activity_079",
       "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
@@ -3945,29 +3075,6 @@
       "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
       "metrics": [
         "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_072_20260525T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-25T07:00:00",
-      "end": "2026-05-25T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
         "dose_taken"
       ]
     },
@@ -4016,38 +3123,15 @@
       ]
     },
     {
-      "event_id": "activity_072_20260526T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-26T07:00:00",
-      "end": "2026-05-26T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260526T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260526T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-05-26T18:00:00",
-      "end": "2026-05-26T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-05-26T18:20:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -4056,20 +3140,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260526T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260526T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-05-26T18:30:00",
-      "end": "2026-05-26T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-05-26T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -4078,8 +3161,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -4127,37 +3209,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260527T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-27T07:00:00",
-      "end": "2026-05-27T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260527T180000",
+      "event_id": "activity_016_20260527T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-05-27T18:00:00",
-      "end": "2026-05-27T18:45:00",
+      "start": "2026-05-27T07:00:00",
+      "end": "2026-05-27T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -4218,26 +3277,24 @@
       ]
     },
     {
-      "event_id": "activity_072_20260528T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-05-28T07:00:00",
-      "end": "2026-05-28T07:10:00",
-      "duration_minutes": 10,
+      "event_id": "activity_101_20260528T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-05-28T18:00:00",
+      "end": "2026-05-28T18:30:00",
+      "duration_minutes": 30,
       "location": "home",
       "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
+      "assigned_provider": "Dr Wei Chen",
+      "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
@@ -4285,38 +3342,39 @@
       ]
     },
     {
-      "event_id": "activity_072_20260529T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
+      "event_id": "activity_016_20260529T070000",
+      "activity_id": "activity_016",
+      "activity_title": "Guided Yoga - Joint Care",
+      "category": "Fitness routine / exercise",
+      "priority": 76,
+      "frequency": "2 per week",
       "start": "2026-05-29T07:00:00",
-      "end": "2026-05-29T07:10:00",
-      "duration_minutes": 10,
+      "end": "2026-05-29T07:45:00",
+      "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "",
       "assigned_equipment": [
-        "equipment_10"
+        "equipment_04"
       ],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Use slow transitions and extended exhales to support recovery and mobility.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "session_minutes",
+        "stress_score_post",
+        "sleep_readiness"
       ]
     },
     {
-      "event_id": "activity_085_20260529T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260529T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-05-29T18:00:00",
-      "end": "2026-05-29T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-05-29T18:30:00",
+      "end": "2026-05-29T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -4325,104 +3383,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_069_20260530T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-05-30T06:30:00",
-      "end": "2026-05-30T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260531T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-05-31T06:30:00",
-      "end": "2026-05-31T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260601T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-06-01T06:30:00",
-      "end": "2026-06-01T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260602T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-06-02T06:30:00",
-      "end": "2026-06-02T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260602T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260602T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-06-02T18:00:00",
-      "end": "2026-06-02T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-06-02T18:20:00",
+      "duration_minutes": 20,
       "location": "remote",
       "mode": "remote",
       "assigned_provider": "Felicia Ong",
@@ -4431,20 +3404,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260602T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260602T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-06-02T18:30:00",
-      "end": "2026-06-02T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-06-02T18:50:00",
+      "duration_minutes": 20,
       "location": "remote",
       "mode": "remote",
       "assigned_provider": "Felicia Ong",
@@ -4453,50 +3425,28 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_069_20260603T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-06-03T06:30:00",
-      "end": "2026-06-03T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
+      "event_id": "activity_101_20260604T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-06-04T18:00:00",
+      "end": "2026-06-04T18:30:00",
+      "duration_minutes": 30,
+      "location": "remote",
+      "mode": "remote",
+      "assigned_provider": "Dr Wei Chen",
       "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260604T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-06-04T06:30:00",
-      "end": "2026-06-04T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
@@ -4544,38 +3494,60 @@
       ]
     },
     {
-      "event_id": "activity_072_20260605T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
+      "event_id": "activity_016_20260605T070000",
+      "activity_id": "activity_016",
+      "activity_title": "Guided Yoga - Joint Care",
+      "category": "Fitness routine / exercise",
+      "priority": 76,
+      "frequency": "2 per week",
       "start": "2026-06-05T07:00:00",
-      "end": "2026-06-05T07:10:00",
-      "duration_minutes": 10,
+      "end": "2026-06-05T07:45:00",
+      "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "",
       "assigned_equipment": [
-        "equipment_10"
+        "equipment_04"
       ],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Use slow transitions and extended exhales to support recovery and mobility.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "session_minutes",
+        "stress_score_post",
+        "sleep_readiness"
       ]
     },
     {
-      "event_id": "activity_085_20260605T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_075_20260605T180000",
+      "activity_id": "activity_075",
+      "activity_title": "Medication Check - Evening Routine",
+      "category": "Medication consumption",
+      "priority": 91,
+      "frequency": "1 per month",
+      "start": "2026-06-05T18:00:00",
+      "end": "2026-06-05T18:20:00",
+      "duration_minutes": 20,
+      "location": "home",
+      "mode": "in_person",
+      "assigned_provider": "Felicia Ong",
+      "assigned_equipment": [],
+      "backup_for": "",
+      "details": "Review remaining medication supply and place a refill request before the final week of stock.",
+      "metrics": [
+        "refill_requested",
+        "med_list_updated"
+      ]
+    },
+    {
+      "event_id": "activity_091_20260605T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-06-05T18:00:00",
-      "end": "2026-06-05T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-06-05T18:30:00",
+      "end": "2026-06-05T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -4584,8 +3556,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -4633,37 +3604,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260606T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-06T07:00:00",
-      "end": "2026-06-06T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260606T080000",
+      "event_id": "activity_016_20260606T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-06-06T08:00:00",
-      "end": "2026-06-06T08:45:00",
+      "start": "2026-06-06T07:00:00",
+      "end": "2026-06-06T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -4724,29 +3672,6 @@
       ]
     },
     {
-      "event_id": "activity_072_20260607T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-07T07:00:00",
-      "end": "2026-06-07T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
       "event_id": "activity_079_20260608T060000",
       "activity_id": "activity_079",
       "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
@@ -4787,29 +3712,6 @@
       "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
       "metrics": [
         "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_072_20260608T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-08T07:00:00",
-      "end": "2026-06-08T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
         "dose_taken"
       ]
     },
@@ -4858,29 +3760,6 @@
       ]
     },
     {
-      "event_id": "activity_072_20260609T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-09T07:00:00",
-      "end": "2026-06-09T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
       "event_id": "activity_105_20260609T120000",
       "activity_id": "activity_105",
       "activity_title": "Primary Care Review - Check-In",
@@ -4902,15 +3781,15 @@
       ]
     },
     {
-      "event_id": "activity_085_20260609T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260609T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-06-09T18:00:00",
-      "end": "2026-06-09T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-06-09T18:20:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -4919,20 +3798,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260609T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260609T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-06-09T18:30:00",
-      "end": "2026-06-09T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-06-09T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -4941,8 +3819,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -4990,37 +3867,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260610T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-10T07:00:00",
-      "end": "2026-06-10T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260610T180000",
+      "event_id": "activity_016_20260610T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-06-10T18:00:00",
-      "end": "2026-06-10T18:45:00",
+      "start": "2026-06-10T07:00:00",
+      "end": "2026-06-10T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -5081,26 +3935,46 @@
       ]
     },
     {
-      "event_id": "activity_072_20260611T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-11T07:00:00",
-      "end": "2026-06-11T07:10:00",
-      "duration_minutes": 10,
+      "event_id": "activity_116_20260611T120000",
+      "activity_id": "activity_116",
+      "activity_title": "Dietitian Consultation - Plan Tuning",
+      "category": "Consultation",
+      "priority": 76,
+      "frequency": "2 per month",
+      "start": "2026-06-11T12:00:00",
+      "end": "2026-06-11T12:45:00",
+      "duration_minutes": 45,
+      "location": "clinic",
+      "mode": "in_person",
+      "assigned_provider": "Chloe Ng",
+      "assigned_equipment": [],
+      "backup_for": "",
+      "details": "Review meal adherence, travel eating patterns, and nutrition barriers.",
+      "metrics": [
+        "meal_adherence_score",
+        "weight_trend",
+        "action_items_created"
+      ]
+    },
+    {
+      "event_id": "activity_101_20260611T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-06-11T18:00:00",
+      "end": "2026-06-11T18:30:00",
+      "duration_minutes": 30,
       "location": "home",
       "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
+      "assigned_provider": "Dr Wei Chen",
+      "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
@@ -5148,38 +4022,15 @@
       ]
     },
     {
-      "event_id": "activity_072_20260612T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-12T07:00:00",
-      "end": "2026-06-12T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260612T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260612T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-06-12T18:00:00",
-      "end": "2026-06-12T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-06-12T18:30:00",
+      "end": "2026-06-12T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -5188,8 +4039,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -5237,37 +4087,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260613T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-13T07:00:00",
-      "end": "2026-06-13T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260613T080000",
+      "event_id": "activity_016_20260613T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-06-13T08:00:00",
-      "end": "2026-06-13T08:45:00",
+      "start": "2026-06-13T07:00:00",
+      "end": "2026-06-13T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -5328,29 +4155,6 @@
       ]
     },
     {
-      "event_id": "activity_072_20260614T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-14T07:00:00",
-      "end": "2026-06-14T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
       "event_id": "activity_079_20260615T060000",
       "activity_id": "activity_079",
       "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
@@ -5391,29 +4195,6 @@
       "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
       "metrics": [
         "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_072_20260615T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-15T07:00:00",
-      "end": "2026-06-15T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
         "dose_taken"
       ]
     },
@@ -5462,38 +4243,61 @@
       ]
     },
     {
-      "event_id": "activity_072_20260616T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
+      "event_id": "activity_016_20260616T070000",
+      "activity_id": "activity_016",
+      "activity_title": "Guided Yoga - Joint Care",
+      "category": "Fitness routine / exercise",
+      "priority": 76,
+      "frequency": "2 per week",
       "start": "2026-06-16T07:00:00",
-      "end": "2026-06-16T07:10:00",
-      "duration_minutes": 10,
+      "end": "2026-06-16T07:45:00",
+      "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "",
       "assigned_equipment": [
-        "equipment_10"
+        "equipment_04"
       ],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Use slow transitions and extended exhales to support recovery and mobility.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "session_minutes",
+        "stress_score_post",
+        "sleep_readiness"
       ]
     },
     {
-      "event_id": "activity_085_20260616T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_116_20260616T120000",
+      "activity_id": "activity_116",
+      "activity_title": "Dietitian Consultation - Plan Tuning",
+      "category": "Consultation",
+      "priority": 76,
+      "frequency": "2 per month",
+      "start": "2026-06-16T12:00:00",
+      "end": "2026-06-16T12:45:00",
+      "duration_minutes": 45,
+      "location": "clinic",
+      "mode": "in_person",
+      "assigned_provider": "Chloe Ng",
+      "assigned_equipment": [],
+      "backup_for": "",
+      "details": "Review meal adherence, travel eating patterns, and nutrition barriers.",
+      "metrics": [
+        "meal_adherence_score",
+        "weight_trend",
+        "action_items_created"
+      ]
+    },
+    {
+      "event_id": "activity_091_20260616T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-06-16T18:00:00",
-      "end": "2026-06-16T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-06-16T18:20:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -5502,20 +4306,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260616T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260616T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-06-16T18:30:00",
-      "end": "2026-06-16T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-06-16T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -5524,8 +4327,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -5573,37 +4375,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260617T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-17T07:00:00",
-      "end": "2026-06-17T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260617T180000",
+      "event_id": "activity_016_20260617T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-06-17T18:00:00",
-      "end": "2026-06-17T18:45:00",
+      "start": "2026-06-17T07:00:00",
+      "end": "2026-06-17T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -5620,57 +4399,36 @@
       ]
     },
     {
-      "event_id": "activity_069_20260618T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-06-18T06:30:00",
-      "end": "2026-06-18T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
+      "event_id": "activity_101_20260618T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-06-18T18:00:00",
+      "end": "2026-06-18T18:30:00",
+      "duration_minutes": 30,
+      "location": "remote",
+      "mode": "remote",
+      "assigned_provider": "Dr Wei Chen",
       "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_069_20260619T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-06-19T06:30:00",
-      "end": "2026-06-19T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260619T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260619T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-06-19T18:00:00",
-      "end": "2026-06-19T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-06-19T18:30:00",
+      "end": "2026-06-19T18:50:00",
+      "duration_minutes": 20,
       "location": "remote",
       "mode": "remote",
       "assigned_provider": "Felicia Ong",
@@ -5679,71 +4437,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260620T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-06-20T06:30:00",
-      "end": "2026-06-20T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260621T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-06-21T06:30:00",
-      "end": "2026-06-21T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_069_20260622T063000",
-      "activity_id": "activity_069",
-      "activity_title": "Daily Vitamin Dose - Travel-Safe Pack",
-      "category": "Medication consumption",
-      "priority": 93,
-      "frequency": "1 per day",
-      "start": "2026-06-22T06:30:00",
-      "end": "2026-06-22T06:40:00",
-      "duration_minutes": 10,
-      "location": "travel",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [],
-      "backup_for": "",
-      "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
-      "metrics": [
-        "missed_dose_flag",
-        "dose_taken"
+        "sleep_latency"
       ]
     },
     {
@@ -5791,38 +4485,15 @@
       ]
     },
     {
-      "event_id": "activity_072_20260623T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-23T07:00:00",
-      "end": "2026-06-23T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260623T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260623T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-06-23T18:00:00",
-      "end": "2026-06-23T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-06-23T18:20:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -5831,20 +4502,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260623T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260623T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-06-23T18:30:00",
-      "end": "2026-06-23T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-06-23T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -5853,8 +4523,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -5902,37 +4571,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260624T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-24T07:00:00",
-      "end": "2026-06-24T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260624T180000",
+      "event_id": "activity_016_20260624T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-06-24T18:00:00",
-      "end": "2026-06-24T18:45:00",
+      "start": "2026-06-24T07:00:00",
+      "end": "2026-06-24T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -5993,26 +4639,24 @@
       ]
     },
     {
-      "event_id": "activity_072_20260625T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-25T07:00:00",
-      "end": "2026-06-25T07:10:00",
-      "duration_minutes": 10,
+      "event_id": "activity_101_20260625T180000",
+      "activity_id": "activity_101",
+      "activity_title": "Sleep Coaching Call - Progress Review",
+      "category": "Consultation",
+      "priority": 84,
+      "frequency": "1 per week",
+      "start": "2026-06-25T18:00:00",
+      "end": "2026-06-25T18:30:00",
+      "duration_minutes": 30,
       "location": "home",
       "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
+      "assigned_provider": "Dr Wei Chen",
+      "assigned_equipment": [],
       "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+      "details": "Review bedtime consistency, evening routine, and overnight recovery patterns.",
       "metrics": [
-        "side_effect_score",
-        "dose_taken"
+        "action_items_created",
+        "sleep_latency"
       ]
     },
     {
@@ -6060,38 +4704,15 @@
       ]
     },
     {
-      "event_id": "activity_072_20260626T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-26T07:00:00",
-      "end": "2026-06-26T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260626T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260626T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
-      "start": "2026-06-26T18:00:00",
-      "end": "2026-06-26T18:15:00",
-      "duration_minutes": 15,
+      "start": "2026-06-26T18:30:00",
+      "end": "2026-06-26T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -6100,8 +4721,7 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
@@ -6149,37 +4769,14 @@
       ]
     },
     {
-      "event_id": "activity_072_20260627T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-27T07:00:00",
-      "end": "2026-06-27T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_016_20260627T080000",
+      "event_id": "activity_016_20260627T070000",
       "activity_id": "activity_016",
       "activity_title": "Guided Yoga - Joint Care",
       "category": "Fitness routine / exercise",
       "priority": 76,
       "frequency": "2 per week",
-      "start": "2026-06-27T08:00:00",
-      "end": "2026-06-27T08:45:00",
+      "start": "2026-06-27T07:00:00",
+      "end": "2026-06-27T07:45:00",
       "duration_minutes": 45,
       "location": "home",
       "mode": "in_person",
@@ -6240,29 +4837,6 @@
       ]
     },
     {
-      "event_id": "activity_072_20260628T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-28T07:00:00",
-      "end": "2026-06-28T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
       "event_id": "activity_079_20260629T060000",
       "activity_id": "activity_079",
       "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
@@ -6303,29 +4877,6 @@
       "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
       "metrics": [
         "missed_dose_flag",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_072_20260629T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-29T07:00:00",
-      "end": "2026-06-29T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
         "dose_taken"
       ]
     },
@@ -6374,38 +4925,15 @@
       ]
     },
     {
-      "event_id": "activity_072_20260630T070000",
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "category": "Medication consumption",
-      "priority": 92,
-      "frequency": "1 per day",
-      "start": "2026-06-30T07:00:00",
-      "end": "2026-06-30T07:10:00",
-      "duration_minutes": 10,
-      "location": "home",
-      "mode": "in_person",
-      "assigned_provider": "",
-      "assigned_equipment": [
-        "equipment_10"
-      ],
-      "backup_for": "",
-      "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
-      "metrics": [
-        "side_effect_score",
-        "dose_taken"
-      ]
-    },
-    {
-      "event_id": "activity_085_20260630T180000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260630T180000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-06-30T18:00:00",
-      "end": "2026-06-30T18:15:00",
-      "duration_minutes": 15,
+      "end": "2026-06-30T18:20:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -6414,20 +4942,19 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     },
     {
-      "event_id": "activity_085_20260630T183000",
-      "activity_id": "activity_085",
-      "activity_title": "Guided Breathing - Stress Reset",
+      "event_id": "activity_091_20260630T183000",
+      "activity_id": "activity_091",
+      "activity_title": "Stress Reset - Recovery Session",
       "category": "Therapy",
       "priority": 78,
       "frequency": "3 per week",
       "start": "2026-06-30T18:30:00",
-      "end": "2026-06-30T18:45:00",
-      "duration_minutes": 15,
+      "end": "2026-06-30T18:50:00",
+      "duration_minutes": 20,
       "location": "home",
       "mode": "in_person",
       "assigned_provider": "Felicia Ong",
@@ -6436,377 +4963,11 @@
       "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
       "metrics": [
         "session_minutes",
-        "sleep_latency",
-        "stress_score_post"
+        "sleep_latency"
       ]
     }
   ],
-  "unscheduled_events": [
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-04-13T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Tokyo and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-04-14T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Tokyo and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-04-15T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Tokyo and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-04-16T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Tokyo and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-04-17T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Tokyo and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-05-05T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-05-06T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-05-07T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-05-08T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-05-09T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-05-10T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-05-11T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-05-30T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Bangkok and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-05-31T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Bangkok and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-06-01T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Bangkok and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-06-02T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Bangkok and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-06-03T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Bangkok and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-06-04T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Bangkok and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-06-18T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Sydney and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-06-19T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Sydney and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-06-20T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Sydney and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-06-21T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Sydney and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_079",
-      "activity_title": "Prescription Medication Dose - Travel-Safe Pack",
-      "proposed_start": "2026-06-22T06:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Sydney and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-04-13T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Tokyo and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-04-14T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Tokyo and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-04-15T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Tokyo and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-04-16T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Tokyo and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-04-17T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Tokyo and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-05-05T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-05-06T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-05-07T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-05-08T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-05-09T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-05-10T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-05-11T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Seoul and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-05-30T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Bangkok and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-05-31T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Bangkok and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-06-01T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Bangkok and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-06-02T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Bangkok and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-06-03T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Bangkok and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-06-04T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Bangkok and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-06-18T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Sydney and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-06-19T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Sydney and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-06-20T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Sydney and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-06-21T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Sydney and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_072",
-      "activity_title": "Daily Medication Dose - Maintenance Cycle",
-      "proposed_start": "2026-06-22T07:00:00",
-      "reason": "Activity requires blood_pressure_cuff, but the proposed time falls during travel to Sydney and that equipment is not available away from home.",
-      "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions."
-    },
-    {
-      "activity_id": "activity_016",
-      "activity_title": "Guided Yoga - Joint Care",
-      "proposed_start": "2026-04-15T18:00:00",
-      "reason": "Proposed time overlaps travel and this activity cannot be performed during travel.",
-      "skip_adjustment": "Move to the next free slot within 48 hours and lower intensity by one step."
-    },
-    {
-      "activity_id": "activity_016",
-      "activity_title": "Guided Yoga - Joint Care",
-      "proposed_start": "2026-05-06T18:00:00",
-      "reason": "Proposed time overlaps travel and this activity cannot be performed during travel.",
-      "skip_adjustment": "Move to the next free slot within 48 hours and lower intensity by one step."
-    },
-    {
-      "activity_id": "activity_016",
-      "activity_title": "Guided Yoga - Joint Care",
-      "proposed_start": "2026-05-09T08:00:00",
-      "reason": "Proposed time overlaps travel and this activity cannot be performed during travel.",
-      "skip_adjustment": "Move to the next free slot within 48 hours and lower intensity by one step."
-    },
-    {
-      "activity_id": "activity_016",
-      "activity_title": "Guided Yoga - Joint Care",
-      "proposed_start": "2026-05-30T08:00:00",
-      "reason": "Proposed time overlaps travel and this activity cannot be performed during travel.",
-      "skip_adjustment": "Move to the next free slot within 48 hours and lower intensity by one step."
-    },
-    {
-      "activity_id": "activity_016",
-      "activity_title": "Guided Yoga - Joint Care",
-      "proposed_start": "2026-06-03T18:00:00",
-      "reason": "Proposed time overlaps travel and this activity cannot be performed during travel.",
-      "skip_adjustment": "Move to the next free slot within 48 hours and lower intensity by one step."
-    },
-    {
-      "activity_id": "activity_016",
-      "activity_title": "Guided Yoga - Joint Care",
-      "proposed_start": "2026-06-20T08:00:00",
-      "reason": "Proposed time overlaps travel and this activity cannot be performed during travel.",
-      "skip_adjustment": "Move to the next free slot within 48 hours and lower intensity by one step."
-    }
-  ],
-  "scheduled_count": 289,
-  "unscheduled_count": 52
+  "unscheduled_events": [],
+  "scheduled_count": 226,
+  "unscheduled_count": 0
 }

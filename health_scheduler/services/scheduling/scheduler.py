@@ -68,7 +68,14 @@ def apply_schedule_events(
         proposed_start = proposed_event.get("start", "")
         scheduled_activity = activity_by_id.get(activity_id)
         if scheduled_activity is None:
-            unscheduled_items.append(build_unscheduled_item(None, activity_id, proposed_start, "Activity id was not found in the action plan."))
+            unscheduled_items.append(
+                build_unscheduled_item(
+                    None,
+                    activity_id,
+                    proposed_start,
+                    "Activity id was not found in the action plan.",
+                )
+            )
             invalid_count += 1
             continue
 
@@ -82,7 +89,14 @@ def apply_schedule_events(
             invalid_count += 1
             continue
         if event is None:
-            unscheduled_items.append(build_unscheduled_item(scheduled_activity, activity_id, proposed_start, "Scheduled event could not be materialized."))
+            unscheduled_items.append(
+                build_unscheduled_item(
+                    scheduled_activity,
+                    activity_id,
+                    proposed_start,
+                    "Scheduled event could not be materialized.",
+                )
+            )
             invalid_count += 1
             continue
         accepted_events.append(event)
@@ -111,7 +125,12 @@ def build_activities_payload(activities: list[Activity]) -> list[dict]:
     return items
 
 
-def build_unscheduled_item(activity: Activity | None, activity_id: str, proposed_start: str, reason: str) -> dict:
+def build_unscheduled_item(
+    activity: Activity | None,
+    activity_id: str,
+    proposed_start: str,
+    reason: str,
+) -> dict:
     return {
         "activity_id": activity_id,
         "activity_title": activity.title if activity is not None else "",

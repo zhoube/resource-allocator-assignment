@@ -19,10 +19,16 @@ Follow this procedure:
    - `remote_allowed`: if false, do not convert the activity to remote.
    - `facilitator_role`: if present, the event must match an available provider with that exact role.
    - `equipment_required`: every listed equipment type must be available for the chosen slot.
-4. For the current activity, read the availability in the constraint sections, find valid open slots, and place the required events at valid 30-minute aligned start times.
-5. After placing each event, immediately treat that time as occupied in the client schedule so no later event can overlap it.
-6. Do not invent new activity ids, providers, equipment, or times outside the supplied data.
-7. Return JSON only in the required format, with no explanations or markdown.
+4. For the current activity, infer how many events are required from its frequency and the planning window.
+5. For each required event of the current activity:
+   - search for a valid 30-minute aligned start time
+   - check the candidate time against client availability, travel, provider availability, equipment availability, location requirements, remote rules, and all previously placed events
+   - if the candidate time fails any constraint, discard it and continue searching for another valid slot
+   - do not output invalid events
+6. After placing each valid event, immediately treat that time as occupied in the client schedule so no later event can overlap it.
+7. Only omit an event if you have already searched the planning window and could not find any valid slot for it.
+8. Do not invent new activity ids, providers, equipment, or times outside the supplied data.
+9. Return JSON only in the required format, with no explanations or markdown.
 
 Return JSON only in this exact shape:
 {{

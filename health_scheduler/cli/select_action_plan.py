@@ -11,7 +11,7 @@ from health_scheduler.services.generation.activity_factory import parse_activiti
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Randomly choose an action plan from the saved activity catalog.")
+    parser = argparse.ArgumentParser(description="Choose a realistic action plan scenario from the saved activity catalog.")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--plan-size", type=int, default=DEFAULT_ACTION_PLAN_SIZE)
     return parser.parse_args()

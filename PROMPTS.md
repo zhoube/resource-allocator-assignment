@@ -564,3 +564,35 @@ CATEGORY_TARGETS = {
 
 ## Prompt 95
 > ok run the thing again
+
+## Prompt 96
+> i ran it myself in pycharm, data/outputs/output.txt, why does it now ahve 289 scheduled and 89 unscheduled?
+
+## Prompt 97
+> the scheduler makes a fresh LLM call each time --> arent we just making 1 LLM call to handle all the requests?
+
+## Prompt 98
+> in the earlier successful run, it returned 341 proposed events
+> in your later run, it returned 376 proposed events
+>
+> so why is this different? shouldnt they all propose the same amount of events if the action plan is the same
+
+## Prompt 99
+> Lab Testing Appointment - Check-In	2026-04-06T08:00:00	Proposed time is outside client availability or overlaps another scheduled event.
+>
+> if there is an issue, can we get the LLM to reschedule to another suitable timing instead of not scheduling
+
+## Prompt 100
+> no thats not what i mean, i mean why cant the LLM in its one and only run find another slot for an unscheduled event instead of putting it as unscheduled
+
+## Prompt 101
+> yes do that
+
+## Prompt 102
+> ok run again
+
+## Prompt 103
+> instead of picking random 10 action plans, lets pick an action plan that makes sense in real world scenario
+
+## Prompt 104
+> ok rerun the scheduler
