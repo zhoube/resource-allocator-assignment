@@ -1,5 +1,15 @@
 # HealthScheduler
 
+## Project Summary
+
+This assignment has been completed with a synthetic dataset of 120 activities across multiple activity types, equipment requirements, allied health and specialist availability, travel plans, and client scheduling constraints.
+
+Within the available 8-hour implementation window, I delivered an end-to-end scheduling flow that was tested using a 5-activity action plan and successfully generated a calendar output for the user.
+
+The current implementation uses a single AI agent to perform scheduling. That agent receives the activity data and relevant constraints, then produces a list of events for calendar insertion. This approach works for the current assignment scope, but scaling the application would require an architectural redesign. As the number of activities increases, or as activities require more frequent scheduling, the system is likely to face higher token consumption and reduced accuracy.
+
+With an additional 20 hours, I would evolve this into a multi-agent workflow. Separate agents would handle tasks such as parsing the client schedule, interpreting allied health and specialist availability, and extracting the requirements of each activity before passing structured outputs into the final scheduling step. This would improve scalability by distributing complexity, allowing the system to process larger volumes of information more reliably.
+
 Python implementation of the assignment resource allocator. The project generates a synthetic health activity catalog, generates synthetic scheduling constraints, selects a smaller action plan, then asks an OpenAI model to propose a schedule. Deterministic code validates the proposal and exports the final results.
 
 ## Structure
