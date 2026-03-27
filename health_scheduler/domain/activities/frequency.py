@@ -17,3 +17,9 @@ class Frequency:
 
     def to_dict(self) -> dict[str, Any]:
         return {"times": self.times, "period": self.period}
+
+    def display_text(self) -> str:
+        unit = self.period
+        if self.times == 1:
+            return f"1 per {unit}"
+        return f"{self.times} per {unit}"

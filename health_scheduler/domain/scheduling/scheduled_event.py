@@ -15,6 +15,7 @@ class ScheduledEvent:
     activity_title: str
     category: str
     priority: int
+    frequency: str
     start: datetime
     end: datetime
     duration_minutes: int
@@ -45,6 +46,7 @@ class ScheduledEvent:
             activity_title=activity.title,
             category=activity.category,
             priority=activity.priority,
+            frequency=activity.frequency.display_text(),
             start=start,
             end=end,
             duration_minutes=activity.duration_minutes,
@@ -75,6 +77,7 @@ class ScheduledEvent:
             activity_title=activity.title,
             category=activity.category,
             priority=activity.priority,
+            frequency=activity.frequency.display_text(),
             start=start,
             end=end,
             duration_minutes=activity.duration_minutes,
@@ -94,6 +97,7 @@ class ScheduledEvent:
             "activity_title": self.activity_title,
             "category": self.category,
             "priority": self.priority,
+            "frequency": self.frequency,
             "start": self.start.isoformat(),
             "end": self.end.isoformat(),
             "duration_minutes": self.duration_minutes,
@@ -113,6 +117,7 @@ class ScheduledEvent:
             "activity_title": self.activity_title,
             "category": self.category,
             "priority": self.priority,
+            "frequency": self.frequency,
             "start": self.start.isoformat(),
             "end": self.end.isoformat(),
             "duration_minutes": self.duration_minutes,

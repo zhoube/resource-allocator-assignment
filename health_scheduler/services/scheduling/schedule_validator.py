@@ -87,64 +87,78 @@ class ScheduleValidator:
         if self._conflicts_with_client(proposed_start, proposed_end, scheduled):
             return None, "Proposed time is outside client availability or overlaps another scheduled event."
 
-        mode = "in_person"
-        location = scheduled_activity.location
         travel_match = self._overlapping_row(proposed_start, proposed_end, self.travel_blocks)
+        placements: list[tuple[str, str]] = []
         if travel_match is not None:
             travel_placement = scheduled_activity.travel_placement()
             if travel_placement is None:
                 return None, "Proposed time overlaps travel and this activity cannot be performed during travel."
-            mode, location = travel_placement
+            placements.append(travel_placement)
+        else:
+            placements.append(("in_person", scheduled_activity.location))
+            if scheduled_activity.remote_allowed and scheduled_activity.resource_pool != "self":
+                placements.append(("remote", "remote"))
 
-        provider = ""
-        if scheduled_activity.resource_pool == "specialist":
-            provider = self._pick_provider(
+        last_error = "Proposed time could not satisfy activity constraints."
+        for mode, location in placements:
+            provider = ""
+            if scheduled_activity.resource_pool == "specialist":
+                provider = self._pick_provider(
+                    proposed_start,
+                    proposed_end,
+                    scheduled_activity.facilitator_role,
+                    self.specialists,
+                    mode,
+                    scheduled_activity.location,
+                    scheduled,
+                )
+                if not provider:
+                    last_error = "No matching specialist was available for the proposed time."
+                    continue
+            elif scheduled_activity.resource_pool == "allied_health":
+                provider = self._pick_provider(
+                    proposed_start,
+                    proposed_end,
+                    scheduled_activity.facilitator_role,
+                    self.allied_health,
+                    mode,
+                    scheduled_activity.location,
+                    scheduled,
+                )
+                if not provider:
+                    last_error = "No matching allied health provider was available for the proposed time."
+                    continue
+
+            assigned_equipment = self._pick_equipment(
                 proposed_start,
                 proposed_end,
-                scheduled_activity.facilitator_role,
-                self.specialists,
-                mode,
-                scheduled_activity.location,
+                scheduled_activity.equipment_required,
+                self.equipment_rows,
+                location,
                 scheduled,
             )
-            if not provider:
-                return None, "No matching specialist was available for the proposed time."
-        elif scheduled_activity.resource_pool == "allied_health":
-            provider = self._pick_provider(
-                proposed_start,
-                proposed_end,
-                scheduled_activity.facilitator_role,
-                self.allied_health,
-                mode,
-                scheduled_activity.location,
-                scheduled,
+            if assigned_equipment is None:
+                last_error = self._equipment_failure_reason(
+                    scheduled_activity.equipment_required,
+                    location,
+                    travel_match,
+                )
+                continue
+
+            return (
+                ScheduledEvent.from_activity(
+                    scheduled_activity,
+                    start=proposed_start,
+                    end=proposed_end,
+                    location=location,
+                    mode=mode,
+                    assigned_provider=provider,
+                    assigned_equipment=assigned_equipment,
+                ),
+                None,
             )
-            if not provider:
-                return None, "No matching allied health provider was available for the proposed time."
 
-        assigned_equipment = self._pick_equipment(
-            proposed_start,
-            proposed_end,
-            scheduled_activity.equipment_required,
-            self.equipment_rows,
-            location,
-            scheduled,
-        )
-        if assigned_equipment is None:
-            return None, "Required equipment was not available for the proposed time."
-
-        return (
-            ScheduledEvent.from_activity(
-                scheduled_activity,
-                start=proposed_start,
-                end=proposed_end,
-                location=location,
-                mode=mode,
-                assigned_provider=provider,
-                assigned_equipment=assigned_equipment,
-            ),
-            None,
-        )
+        return None, last_error
 
     def _serialize_row(self, row: dict) -> dict:
         serialized = {}
@@ -296,6 +310,23 @@ class ScheduleValidator:
                 return None
             assigned.append(match)
         return assigned
+
+    def _equipment_failure_reason(
+        self,
+        equipment_required: list[str],
+        location: str,
+        travel_match: dict | None,
+    ) -> str:
+        equipment_label = ", ".join(equipment_required) if equipment_required else "required equipment"
+        if travel_match is not None and location in {"remote", "travel"}:
+            destination = travel_match.get("destination", "the trip")
+            return (
+                f"Activity requires {equipment_label}, but the proposed time falls during travel to "
+                f"{destination} and that equipment is not available away from home."
+            )
+        if location in {"remote", "travel"}:
+            return f"Activity requires {equipment_label}, but that equipment is not available in {location} mode."
+        return f"Activity requires {equipment_label}, but no matching equipment was available at {location} for the proposed time."
 
     def _provider_booked(self, provider_name: str, proposed_start: datetime, proposed_end: datetime, scheduled: list[ScheduledEvent]) -> bool:
         for event in scheduled:

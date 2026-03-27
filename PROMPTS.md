@@ -425,3 +425,142 @@ CATEGORY_TARGETS = {
 
 ## Prompt 85
 > explain the code architecture and code FLOW inside README, then explain the input and output files
+
+## Prompt 86
+> lets try with 10 activities and see if it can handle it
+
+## Prompt 87
+> {
+>     "id": "activity_074",
+>     "title": "Supply Check - Evening Routine",
+>     "category": "Medication consumption",
+>     "priority": 79,
+>     "duration_minutes": 20,
+>     "details": "Review remaining medication supply and place a refill request before the final week of stock.",
+>     "frequency": {
+>       "times": 1,
+>       "period": "month"
+>     },
+>     "facilitator_role": "self_guided",
+>     "resource_pool": "self",
+>     "location": "home",
+>     "remote_allowed": false,
+>     "equipment_required": [],
+>     "prep_required": [
+>       "Pharmacy details available"
+>     ],
+>     "backup_activity_ids": [
+>       "activity_073",
+>       "activity_068"
+>     ],
+>     "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions.",
+>     "metrics": [
+>       "refill_requested",
+>       "days_of_supply_left",
+>       "med_list_updated"
+>     ],
+>     "preferred_time_windows": [
+>       "midday",
+>       "evening"
+>     ]
+>   },
+>
+> this is not scheduled but it really should be right?
+
+## Prompt 88
+> ok yea i mean activity 79, Supply Check - Maintenance Cycle
+
+## Prompt 89
+> i think we need to look through the activities and make sure misalignments like this don't happen
+
+## Prompt 90
+> why is the new activity 79 also failing
+
+## Prompt 91
+> then maybe the reason needs to be displayed properly, instead of Required equipment was not available for the proposed time. it should show its travel reasons
+
+## Prompt 92
+> ok now lets run this again to see if the unscheduled reasons are given
+
+## Prompt 93
+> inwside the HTML, can we also display the frequency
+
+## Prompt 94
+> C:\Users\Kelvin\PycharmProjects\chat-bi-backend\.venv1\Scripts\python.exe C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\cli\main.py 
+> Console output is saving to: C:\Users\Kelvin\Desktop\HealthScheduler\data\outputs\output.txt
+> [1/5] Preparing run window from 2026-04-01 to 2026-07-01...
+> [2/5] Loading catalog, action plan, and constraint files...
+>       Loaded 120 catalog activities and 10 action plan activities.
+> [3/5] Running scheduler...
+>       Preparing deterministic validator and constraint payload...
+>       Sending one scheduling request to the LLM...
+>       Prompt payload prepared with 10 activities and 12,423 characters.
+>       Calling OpenAI model `gpt-5.4`...
+> Traceback (most recent call last):
+>   File "C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\cli\main.py", line 86, in <module>
+>     main()
+>     ~~~~^^
+>   File "C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\cli\main.py", line 67, in main
+>     scheduled, unscheduled = run_scheduler(
+>                              ~~~~~~~~~~~~~^
+>         action_plan,
+>         ^^^^^^^^^^^^
+>     ...<7 lines>...
+>         output_dir=OUTPUTS_DIR,
+>         ^^^^^^^^^^^^^^^^^^^^^^^
+>     )
+>     ^
+>   File "C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\services\scheduling\scheduler.py", line 31, in run_scheduler
+>     response_text = agent.request_schedule(
+>         build_activities_payload(planned_activities),
+>         validator.constraints_prompt_payload(),
+>     )
+>   File "C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\services\scheduling\llm_scheduler.py", line 39, in request_schedule
+>     return self._request_json_response(prompt, SCHEDULE_RESPONSE_SCHEMA)
+>            ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>   File "C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\services\scheduling\llm_scheduler.py", line 49, in _request_json_response
+>     response = self._post(payload)
+>   File "C:\Users\Kelvin\Desktop\HealthScheduler\health_scheduler\services\scheduling\llm_scheduler.py", line 92, in _post
+>     with request.urlopen(http_request, timeout=240) as handle:
+>          ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>   File "C:\Python313\Lib\urllib\request.py", line 189, in urlopen
+>     return opener.open(url, data, timeout)
+>            ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+>   File "C:\Python313\Lib\urllib\request.py", line 489, in open
+>     response = self._open(req, data)
+>   File "C:\Python313\Lib\urllib\request.py", line 506, in _open
+>     result = self._call_chain(self.handle_open, protocol, protocol +
+>                               '_open', req)
+>   File "C:\Python313\Lib\urllib\request.py", line 466, in _call_chain
+>     result = func(*args)
+>   File "C:\Python313\Lib\urllib\request.py", line 1367, in https_open
+>     return self.do_open(http.client.HTTPSConnection, req,
+>            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>                         context=self._context)
+>                         ^^^^^^^^^^^^^^^^^^^^^^
+>   File "C:\Python313\Lib\urllib\request.py", line 1323, in do_open
+>     r = h.getresponse()
+>   File "C:\Python313\Lib\http\client.py", line 1430, in getresponse
+>     response.begin()
+>     ~~~~~~~~~~~~~~^^
+>   File "C:\Python313\Lib\http\client.py", line 331, in begin
+>     version, status, reason = self._read_status()
+>                               ~~~~~~~~~~~~~~~~~^^
+>   File "C:\Python313\Lib\http\client.py", line 292, in _read_status
+>     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+>                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+>   File "C:\Python313\Lib\socket.py", line 719, in readinto
+>     return self._sock.recv_into(b)
+>            ~~~~~~~~~~~~~~~~~~~~^^^
+>   File "C:\Python313\Lib\ssl.py", line 1304, in recv_into
+>     return self.read(nbytes, buffer)
+>            ~~~~~~~~~^^^^^^^^^^^^^^^^
+>   File "C:\Python313\Lib\ssl.py", line 1138, in read
+>     return self._sslobj.read(len, buffer)
+>            ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+> TimeoutError: The read operation timed out
+>
+> Process finished with exit code 1
+
+## Prompt 95
+> ok run the thing again

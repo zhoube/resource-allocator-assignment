@@ -18,6 +18,7 @@ def export_schedule_csv(events: list[ScheduledEvent], path: Path) -> None:
         "activity_title",
         "category",
         "priority",
+        "frequency",
         "start",
         "end",
         "duration_minutes",
@@ -71,6 +72,7 @@ def export_ics(events: list[ScheduledEvent], path: Path) -> None:
             title = f"{title} (backup for {event.backup_for})"
         description_parts = [
             event.details,
+            f"Frequency: {event.frequency}",
             f"Metrics: {', '.join(event.metrics) or 'None'}",
         ]
         if event.assigned_provider:
@@ -128,6 +130,7 @@ def export_html(events: list[ScheduledEvent], unscheduled: list[dict], path: Pat
                       <div class="event-time">{start} - {end}</div>
                       <div class="event-title">{html.escape(event.activity_title)}</div>
                       <div class="meta">{html.escape(event.category)} | Priority {event.priority}</div>
+                      <div class="meta">Frequency: {html.escape(event.frequency)}</div>
                       <div class="meta">Location: {html.escape(event.location)} | Mode: {html.escape(event.mode)}</div>
                       {provider_note}
                       {equipment_note}

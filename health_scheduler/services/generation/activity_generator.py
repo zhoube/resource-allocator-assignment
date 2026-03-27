@@ -3,11 +3,25 @@ from __future__ import annotations
 import random
 from typing import Callable
 
+from health_scheduler.domain.constraints.allied_health import AlliedHealth
+from health_scheduler.domain.constraints.equipment import Equipment
+from health_scheduler.domain.constraints.specialists import Specialists
 from health_scheduler.domain.activities.activity import Activity
 from health_scheduler.domain.activities.frequency import Frequency
 from health_scheduler.domain.enums.activity_category import ActivityCategory
+from health_scheduler.domain.enums.roles import AlliedHealthRole, SpecialistRole
 from health_scheduler.domain.enums.title_suffix import title_suffixes_for_category
 from health_scheduler.services.generation.activity_factory import create_activity, normalize_category
+
+PROVIDER_LOCATIONS_BY_ROLE: dict[str, set[str]] = {}
+REMOTE_SUPPORTED_BY_ROLE: dict[str, bool] = {}
+for provider in [*Specialists.defaults(), *AlliedHealth.defaults()]:
+    PROVIDER_LOCATIONS_BY_ROLE.setdefault(provider.role, set()).add(provider.location)
+    REMOTE_SUPPORTED_BY_ROLE[provider.role] = REMOTE_SUPPORTED_BY_ROLE.get(provider.role, False) or provider.remote_supported
+
+EQUIPMENT_LOCATIONS_BY_TYPE: dict[str, set[str]] = {}
+for resource in Equipment.defaults():
+    EQUIPMENT_LOCATIONS_BY_TYPE.setdefault(resource.equipment_type, set()).add(resource.location)
 
 
 def create_random_activity(category: ActivityCategory | str, activity_id: str, rng: random.Random, used_titles: set[str]) -> Activity:
@@ -28,13 +42,16 @@ def build_random_activity(
     prep: list[str],
     durations: list[int],
     frequencies: list[Frequency],
-    _unused_time_hints: list[str],
-    rng: random.Random,
-    used_titles: set[str],
+    *rest,
 ) -> Activity:
+    if len(rest) == 2:
+        rng, used_titles = rest
+    elif len(rest) == 3:
+        _, rng, used_titles = rest
+    else:
+        raise TypeError("build_random_activity expected frequencies plus (rng, used_titles) or (time_hints, rng, used_titles).")
     normalized = normalize_category(category)
-    role = rng.choice(roles)
-    location = normalize_location(rng.choice(locations), role)
+    role, location = choose_role_and_location(roles, locations, remote, equipment, rng)
     return create_activity(
         category=normalized,
         id=activity_id,
@@ -46,7 +63,7 @@ def build_random_activity(
         facilitator_role=role,
         location=location,
         remote_allowed=bool(remote and role != "self_guided") or location in {"office", "travel"},
-        equipment_required=[rng.choice(equipment)] if equipment and location != "park" else [],
+        equipment_required=choose_equipment_for_location(equipment, location, rng),
         prep_required=rng.sample(prep, 1 if len(prep) == 1 else rng.randint(1, min(2, len(prep)))),
         backup_activity_ids=[],
         skip_adjustment=skip_adjustment_for(normalized, title_root),
@@ -101,6 +118,50 @@ def normalize_location(location: str, role: str) -> str:
     if role == "self_guided" and location == "clinic":
         return "home"
     return location
+
+
+def choose_role_and_location(
+    roles: list[str],
+    locations: list[str],
+    remote: bool,
+    equipment_options: list[str],
+    rng: random.Random,
+) -> tuple[str, str]:
+    candidates: list[tuple[str, str]] = []
+    for role in roles:
+        for location in locations:
+            normalized_location = normalize_location(location, role)
+            if not supports_provider_placement(role, normalized_location, remote):
+                continue
+            if not location_supports_equipment(normalized_location, equipment_options):
+                continue
+            candidates.append((role, normalized_location))
+    if not candidates:
+        raise ValueError(f"No valid role/location combination for roles={roles} locations={locations} equipment={equipment_options}.")
+    return rng.choice(candidates)
+
+
+def supports_provider_placement(role: str, location: str, remote: bool) -> bool:
+    if role == "self_guided":
+        return True
+    if location in PROVIDER_LOCATIONS_BY_ROLE.get(role, set()):
+        return True
+    return bool(remote and REMOTE_SUPPORTED_BY_ROLE.get(role, False))
+
+
+def location_supports_equipment(location: str, equipment_options: list[str]) -> bool:
+    if not equipment_options or location == "park":
+        return True
+    return any(location in EQUIPMENT_LOCATIONS_BY_TYPE.get(equipment_type, set()) for equipment_type in equipment_options)
+
+
+def choose_equipment_for_location(equipment_options: list[str], location: str, rng: random.Random) -> list[str]:
+    if not equipment_options or location == "park":
+        return []
+    compatible = [equipment_type for equipment_type in equipment_options if location in EQUIPMENT_LOCATIONS_BY_TYPE.get(equipment_type, set())]
+    if not compatible:
+        return []
+    return [rng.choice(compatible)]
 
 
 def random_fitness_activity(activity_id: str, rng: random.Random, used_titles: set[str]) -> Activity:

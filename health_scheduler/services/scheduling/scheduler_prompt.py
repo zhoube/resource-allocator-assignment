@@ -3,7 +3,7 @@ from __future__ import annotations
 SCHEDULER_PROMPT_TEMPLATE = """
 Create a complete schedule for all activity instances implied by each activity's frequency within the planning window.
 
-Think step-by-step:
+Follow this procedure:
 1. First, understand the constraint sections:
    - `PLANNING_WINDOW`: the overall start and end dates that bound the schedule.
    - `CLIENT_AVAILABILITY`: the client's free time. Every scheduled event must fit inside one of these available ranges.

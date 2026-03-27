@@ -1,42 +1,96 @@
 [
   {
-    "id": "activity_066",
-    "title": "Medication Check - Morning Routine",
+    "id": "activity_079",
+    "title": "Prescription Medication Dose - Travel-Safe Pack",
     "category": "Medication consumption",
-    "priority": 93,
-    "duration_minutes": 20,
-    "details": "Review remaining medication supply and place a refill request before the final week of stock.",
+    "priority": 97,
+    "duration_minutes": 10,
+    "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "facilitator_role": "self_guided",
+    "resource_pool": "self",
+    "location": "home",
+    "remote_allowed": false,
+    "equipment_required": [
+      "blood_pressure_cuff"
+    ],
+    "prep_required": [
+      "Medication organizer refilled",
+      "Dose reminder active"
+    ],
+    "backup_activity_ids": [],
+    "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions.",
+    "metrics": [
+      "blood_pressure_reading",
+      "dose_taken"
+    ]
+  },
+  {
+    "id": "activity_104",
+    "title": "Lab Testing Appointment - Check-In",
+    "category": "Consultation",
+    "priority": 94,
+    "duration_minutes": 30,
+    "details": "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
     "frequency": {
       "times": 1,
       "period": "month"
     },
-    "facilitator_role": "health_coach",
-    "resource_pool": "allied_health",
-    "location": "home",
-    "remote_allowed": true,
-    "equipment_required": [],
+    "facilitator_role": "lab_technician",
+    "resource_pool": "specialist",
+    "location": "lab",
+    "remote_allowed": false,
+    "equipment_required": [
+      "lab_kit"
+    ],
     "prep_required": [
-      "Pharmacy details available"
+      "Follow fasting instructions"
     ],
-    "backup_activity_ids": [
-      "activity_073",
-      "activity_068"
-    ],
-    "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions.",
+    "backup_activity_ids": [],
+    "skip_adjustment": "Book the next morning lab slot and preserve fasting instructions.",
     "metrics": [
-      "refill_requested",
-      "med_list_updated"
-    ],
-    "preferred_time_windows": [
-      "midday",
-      "evening"
+      "sample_quality",
+      "follow_up_booked"
     ]
   },
   {
-    "id": "activity_109",
-    "title": "Primary Care Review - Progress Review",
+    "id": "activity_112",
+    "title": "Lab Testing Appointment - Progress Review",
     "category": "Consultation",
-    "priority": 91,
+    "priority": 94,
+    "duration_minutes": 45,
+    "details": "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
+    "frequency": {
+      "times": 1,
+      "period": "month"
+    },
+    "facilitator_role": "lab_technician",
+    "resource_pool": "specialist",
+    "location": "lab",
+    "remote_allowed": false,
+    "equipment_required": [
+      "lab_kit"
+    ],
+    "prep_required": [
+      "Follow fasting instructions",
+      "Bring requisition form"
+    ],
+    "backup_activity_ids": [],
+    "skip_adjustment": "Book the next morning lab slot and preserve fasting instructions.",
+    "metrics": [
+      "follow_up_booked",
+      "sample_quality",
+      "test_completed"
+    ]
+  },
+  {
+    "id": "activity_105",
+    "title": "Primary Care Review - Check-In",
+    "category": "Consultation",
+    "priority": 94,
     "duration_minutes": 45,
     "details": "Review symptoms, medication adherence, and recent health trends with the physician.",
     "frequency": {
@@ -49,101 +103,135 @@
     "remote_allowed": true,
     "equipment_required": [],
     "prep_required": [
-      "Prepare question list",
       "Upload recent metrics summary"
     ],
-    "backup_activity_ids": [
-      "activity_104",
-      "activity_110"
-    ],
+    "backup_activity_ids": [],
     "skip_adjustment": "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
     "metrics": [
-      "questions_answered",
-      "weight"
-    ],
-    "preferred_time_windows": [
-      "morning",
-      "afternoon"
+      "blood_pressure_reading",
+      "questions_answered"
     ]
   },
   {
-    "id": "activity_095",
-    "title": "Soft Tissue Session - Stress Reset",
-    "category": "Therapy",
-    "priority": 77,
-    "duration_minutes": 60,
-    "details": "Complete targeted recovery therapy for the current mobility restriction or pain point.",
+    "id": "activity_115",
+    "title": "Lab Testing Appointment - Plan Variant 2",
+    "category": "Consultation",
+    "priority": 93,
+    "duration_minutes": 45,
+    "details": "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
     "frequency": {
-      "times": 2,
+      "times": 1,
       "period": "month"
     },
-    "facilitator_role": "physiotherapist",
-    "resource_pool": "allied_health",
-    "location": "clinic",
+    "facilitator_role": "lab_technician",
+    "resource_pool": "specialist",
+    "location": "lab",
+    "remote_allowed": false,
+    "equipment_required": [
+      "lab_kit"
+    ],
+    "prep_required": [
+      "Follow fasting instructions",
+      "Bring requisition form"
+    ],
+    "backup_activity_ids": [],
+    "skip_adjustment": "Book the next morning lab slot and preserve fasting instructions.",
+    "metrics": [
+      "follow_up_booked",
+      "sample_quality",
+      "test_completed"
+    ]
+  },
+  {
+    "id": "activity_069",
+    "title": "Daily Vitamin Dose - Travel-Safe Pack",
+    "category": "Medication consumption",
+    "priority": 93,
+    "duration_minutes": 10,
+    "details": "Take the planned vitamin dose with food and mark adherence in the tracker.",
+    "frequency": {
+      "times": 1,
+      "period": "day"
+    },
+    "facilitator_role": "self_guided",
+    "resource_pool": "self",
+    "location": "home",
     "remote_allowed": false,
     "equipment_required": [],
     "prep_required": [
-      "Pain notes updated before appointment"
+      "Medication organizer refilled"
     ],
-    "backup_activity_ids": [
-      "activity_086",
-      "activity_091"
-    ],
-    "skip_adjustment": "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+    "backup_activity_ids": [],
+    "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions.",
     "metrics": [
-      "range_of_motion_change",
-      "pain_score_post",
-      "pain_score_pre"
-    ],
-    "preferred_time_windows": [
-      "morning",
-      "afternoon"
+      "missed_dose_flag",
+      "dose_taken"
     ]
   },
   {
-    "id": "activity_007",
-    "title": "Posterior Chain Session - Joint Care",
-    "category": "Fitness routine / exercise",
-    "priority": 76,
-    "duration_minutes": 75,
-    "details": "Complete compound lifts with controlled tempo and moderate load progression.",
+    "id": "activity_072",
+    "title": "Daily Medication Dose - Maintenance Cycle",
+    "category": "Medication consumption",
+    "priority": 92,
+    "duration_minutes": 10,
+    "details": "Take the prescribed maintenance medication exactly as listed in the plan.",
     "frequency": {
-      "times": 2,
-      "period": "week"
+      "times": 1,
+      "period": "day"
     },
-    "facilitator_role": "strength_coach",
-    "resource_pool": "allied_health",
-    "location": "gym",
-    "remote_allowed": true,
+    "facilitator_role": "self_guided",
+    "resource_pool": "self",
+    "location": "home",
+    "remote_allowed": false,
     "equipment_required": [
-      "dumbbell_set"
+      "blood_pressure_cuff"
     ],
     "prep_required": [
-      "Complete activation drills",
-      "Prepare workout log"
+      "Medication organizer refilled",
+      "Dose reminder active"
     ],
-    "backup_activity_ids": [
-      "activity_014",
-      "activity_033"
-    ],
-    "skip_adjustment": "Move to the next free slot within 48 hours and lower intensity by one step.",
+    "backup_activity_ids": [],
+    "skip_adjustment": "Flag for clinician review if skipped; do not double dose without instructions.",
     "metrics": [
-      "load_used",
-      "sets_completed",
-      "session_rpe"
-    ],
-    "preferred_time_windows": [
-      "morning",
-      "evening"
+      "side_effect_score",
+      "dose_taken"
     ]
   },
   {
-    "id": "activity_051",
-    "title": "Post-Workout Smoothie - Protein Rebuild",
-    "category": "Food consumption",
-    "priority": 72,
+    "id": "activity_085",
+    "title": "Guided Breathing - Stress Reset",
+    "category": "Therapy",
+    "priority": 78,
     "duration_minutes": 15,
-    "details": "Blend protein and hydration-supportive ingredients after higher-load training.",
+    "details": "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
+    "frequency": {
+      "times": 3,
+      "period": "week"
+    },
+    "facilitator_role": "health_coach",
+    "resource_pool": "allied_health",
+    "location": "home",
+    "remote_allowed": true,
+    "equipment_required": [],
+    "prep_required": [
+      "Phone on silent",
+      "Lights dimmed"
+    ],
+    "backup_activity_ids": [],
+    "skip_adjustment": "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+    "metrics": [
+      "session_minutes",
+      "sleep_latency",
+      "stress_score_post"
+    ]
+  },
+  {
+    "id": "activity_016",
+    "title": "Guided Yoga - Joint Care",
+    "category": "Fitness routine / exercise",
+    "priority": 76,
+    "duration_minutes": 45,
+    "details": "Use slow transitions and extended exhales to support recovery and mobility.",
     "frequency": {
       "times": 2,
       "period": "week"
@@ -153,24 +241,46 @@
     "location": "home",
     "remote_allowed": false,
     "equipment_required": [
+      "yoga_mat"
+    ],
+    "prep_required": [
+      "Set up quiet room",
+      "Reduce screen exposure beforehand"
+    ],
+    "backup_activity_ids": [],
+    "skip_adjustment": "Move to the next free slot within 48 hours and lower intensity by one step.",
+    "metrics": [
+      "session_minutes",
+      "stress_score_post",
+      "sleep_readiness"
+    ]
+  },
+  {
+    "id": "activity_040",
+    "title": "Recovery Smoothie - Recovery Plate",
+    "category": "Food consumption",
+    "priority": 72,
+    "duration_minutes": 15,
+    "details": "Blend protein and hydration-supportive ingredients after higher-load training.",
+    "frequency": {
+      "times": 2,
+      "period": "week"
+    },
+    "facilitator_role": "dietitian",
+    "resource_pool": "allied_health",
+    "location": "home",
+    "remote_allowed": true,
+    "equipment_required": [
       "blender_station"
     ],
     "prep_required": [
       "Frozen ingredients portioned"
     ],
-    "backup_activity_ids": [
-      "activity_056",
-      "activity_038"
-    ],
+    "backup_activity_ids": [],
     "skip_adjustment": "Replace with the closest balanced meal option and record deviation in the nutrition log.",
     "metrics": [
-      "protein_grams",
-      "recovery_score_next_day",
-      "hydration_ml"
-    ],
-    "preferred_time_windows": [
-      "morning",
-      "evening"
+      "hydration_ml",
+      "protein_grams"
     ]
   }
 ]
