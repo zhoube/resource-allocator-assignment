@@ -1,0 +1,316 @@
+﻿[
+    {
+        "id":  "activity_121",
+        "title":  "Morning Blood Pressure + Medication Routine",
+        "category":  "Medication consumption",
+        "priority":  98,
+        "duration_minutes":  15,
+        "details":  "Check blood pressure before the morning dose, take the prescribed medication, and log both readings for clinician review.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blood_pressure_cuff"
+                               ],
+        "prep_required":  [
+                              "Medication organizer refilled",
+                              "Blood pressure cuff placed near medication"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "If missed, record the reason and resume the next scheduled dose without doubling medication.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "dose_taken",
+                        "symptom_flag"
+                    ]
+    },
+    {
+        "id":  "activity_105",
+        "title":  "Primary Care Review - Check-In",
+        "category":  "Consultation",
+        "priority":  94,
+        "duration_minutes":  45,
+        "details":  "Review symptoms, medication adherence, and recent health trends with the physician.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "primary_care_physician",
+        "resource_pool":  "specialist",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Upload recent metrics summary"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "questions_answered"
+                    ]
+    },
+    {
+        "id":  "activity_104",
+        "title":  "Lab Testing Appointment - Check-In",
+        "category":  "Consultation",
+        "priority":  94,
+        "duration_minutes":  30,
+        "details":  "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "lab_technician",
+        "resource_pool":  "specialist",
+        "location":  "lab",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "lab_kit"
+                               ],
+        "prep_required":  [
+                              "Follow fasting instructions"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Book the next morning lab slot and preserve fasting instructions.",
+        "metrics":  [
+                        "sample_quality",
+                        "follow_up_booked"
+                    ]
+    },
+    {
+        "id":  "activity_123",
+        "title":  "Dietitian Consultation - Hypertension Meal Plan",
+        "category":  "Consultation",
+        "priority":  92,
+        "duration_minutes":  45,
+        "details":  "Review sodium intake, meal timing, grocery habits, and adherence to a cardiometabolic-friendly meal plan.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "3-day food log completed",
+                              "Recent blood pressure summary available"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook within the same fortnight and send the meal log ahead of the replacement session.",
+        "metrics":  [
+                        "sodium_target_met",
+                        "meal_adherence_score",
+                        "action_items_created"
+                    ]
+    },
+    {
+        "id":  "activity_075",
+        "title":  "Medication Check - Evening Routine",
+        "category":  "Medication consumption",
+        "priority":  91,
+        "duration_minutes":  20,
+        "details":  "Review remaining medication supply and place a refill request before the final week of stock.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Pharmacy details available"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "refill_requested",
+                        "med_list_updated"
+                    ]
+    },
+    {
+        "id":  "activity_124",
+        "title":  "Health Coaching Review - Blood Pressure Check-In",
+        "category":  "Consultation",
+        "priority":  88,
+        "duration_minutes":  30,
+        "details":  "Review home blood pressure trends, symptom notes, walking adherence, and barriers to maintaining the care plan.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Blood pressure log updated",
+                              "Questions prepared for coaching call"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within 7 days and keep logging readings until the follow-up is completed.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "habit_adherence_score",
+                        "action_items_created"
+                    ]
+    },
+    {
+        "id":  "activity_126",
+        "title":  "Evening Breathing Reset - Blood Pressure Support",
+        "category":  "Therapy",
+        "priority":  84,
+        "duration_minutes":  15,
+        "details":  "Complete guided slow breathing in the evening to lower stress load, support sleep onset, and reinforce blood pressure control habits.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Phone on silent",
+                              "Lights dimmed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next available evening slot in the same week and note any symptoms if it is skipped.",
+        "metrics":  [
+                        "session_minutes",
+                        "stress_score_post",
+                        "sleep_latency"
+                    ]
+    },
+    {
+        "id":  "activity_122",
+        "title":  "Post-Meal Walk - Glucose Control",
+        "category":  "Fitness routine / exercise",
+        "priority":  83,
+        "duration_minutes":  20,
+        "details":  "Take a brisk walk after a main meal to support glucose control, blood pressure management, and daily activity consistency.",
+        "frequency":  {
+                          "times":  4,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "park",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Walking shoes ready",
+                              "Last meal time logged"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move the session to the next available daylight slot within 24 hours and record the reason if skipped.",
+        "metrics":  [
+                        "steps",
+                        "walk_minutes",
+                        "post_meal_energy"
+                    ]
+    },
+    {
+        "id":  "activity_125",
+        "title":  "Low-Sodium Dinner Prep - DASH Support",
+        "category":  "Food consumption",
+        "priority":  82,
+        "duration_minutes":  30,
+        "details":  "Prepare a high-fiber, lower-sodium dinner built around vegetables, lean protein, and portion-controlled carbohydrates.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Groceries stocked",
+                              "Dinner ingredients thawed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest low-sodium home meal and record the substitution in the nutrition log.",
+        "metrics":  [
+                        "sodium_estimate_mg",
+                        "vegetable_servings",
+                        "meal_finish_time"
+                    ]
+    },
+    {
+        "id":  "activity_016",
+        "title":  "Guided Yoga - Joint Care",
+        "category":  "Fitness routine / exercise",
+        "priority":  76,
+        "duration_minutes":  45,
+        "details":  "Use slow transitions and extended exhales to support recovery and mobility.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "yoga_mat"
+                               ],
+        "prep_required":  [
+                              "Set up quiet room",
+                              "Reduce screen exposure beforehand"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_minutes",
+                        "stress_score_post",
+                        "sleep_readiness"
+                    ]
+    }
+]

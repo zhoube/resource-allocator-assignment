@@ -1,0 +1,312 @@
+﻿[
+    {
+        "id":  "activity_121",
+        "title":  "Morning Blood Pressure + Medication Routine",
+        "category":  "Medication consumption",
+        "priority":  98,
+        "duration_minutes":  15,
+        "details":  "Check blood pressure before the morning dose, take the prescribed medication, and log both readings for clinician review.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blood_pressure_cuff"
+                               ],
+        "prep_required":  [
+                              "Medication organizer refilled",
+                              "Blood pressure cuff placed near medication"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "If missed, record the reason and resume the next scheduled dose without doubling medication.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "dose_taken",
+                        "symptom_flag"
+                    ]
+    },
+    {
+        "id":  "activity_105",
+        "title":  "Primary Care Review - Check-In",
+        "category":  "Consultation",
+        "priority":  94,
+        "duration_minutes":  45,
+        "details":  "Review symptoms, medication adherence, and recent health trends with the physician.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "primary_care_physician",
+        "resource_pool":  "specialist",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Upload recent metrics summary"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "questions_answered"
+                    ]
+    },
+    {
+        "id":  "activity_104",
+        "title":  "Lab Testing Appointment - Check-In",
+        "category":  "Consultation",
+        "priority":  94,
+        "duration_minutes":  30,
+        "details":  "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "lab_technician",
+        "resource_pool":  "specialist",
+        "location":  "lab",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "lab_kit"
+                               ],
+        "prep_required":  [
+                              "Follow fasting instructions"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Book the next morning lab slot and preserve fasting instructions.",
+        "metrics":  [
+                        "sample_quality",
+                        "follow_up_booked"
+                    ]
+    },
+    {
+        "id":  "activity_123",
+        "title":  "Dietitian Consultation - Hypertension Meal Plan",
+        "category":  "Consultation",
+        "priority":  92,
+        "duration_minutes":  45,
+        "details":  "Review sodium intake, meal timing, grocery habits, and adherence to a cardiometabolic-friendly meal plan.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "3-day food log completed",
+                              "Recent blood pressure summary available"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook within the same fortnight and send the meal log ahead of the replacement session.",
+        "metrics":  [
+                        "sodium_target_met",
+                        "meal_adherence_score",
+                        "action_items_created"
+                    ]
+    },
+    {
+        "id":  "activity_110",
+        "title":  "Sleep Coaching Call - Plan Tuning",
+        "category":  "Consultation",
+        "priority":  78,
+        "duration_minutes":  30,
+        "details":  "Review bedtime consistency, evening routine, and overnight recovery patterns.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Sleep tracker summary exported"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "sleep_latency",
+                        "sleep_duration"
+                    ]
+    },
+    {
+        "id":  "activity_081",
+        "title":  "Guided Breathing - Sleep Support",
+        "category":  "Therapy",
+        "priority":  78,
+        "duration_minutes":  15,
+        "details":  "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Lights dimmed",
+                              "Phone on silent"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "stress_score_post",
+                        "sleep_latency"
+                    ]
+    },
+    {
+        "id":  "activity_039",
+        "title":  "Fluid Checkpoint - Energy Stabilizer",
+        "category":  "Food consumption",
+        "priority":  70,
+        "duration_minutes":  10,
+        "details":  "Pause for a structured hydration target and record intake progress.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "office",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Water bottle filled"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "hydration_ml",
+                        "urine_color_score"
+                    ]
+    },
+    {
+        "id":  "activity_036",
+        "title":  "Balanced Breakfast - Protein Rebuild",
+        "category":  "Food consumption",
+        "priority":  71,
+        "duration_minutes":  30,
+        "details":  "Build breakfast around protein, fiber, and steady energy release.",
+        "frequency":  {
+                          "times":  4,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blender_station"
+                               ],
+        "prep_required":  [
+                              "Ingredients prepped the night before",
+                              "Breakfast logged in nutrition app"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "fiber_grams",
+                        "protein_grams",
+                        "post_meal_energy"
+                    ]
+    },
+    {
+        "id":  "activity_037",
+        "title":  "Sleep-Support Dinner - Energy Stabilizer",
+        "category":  "Food consumption",
+        "priority":  71,
+        "duration_minutes":  30,
+        "details":  "Build dinner around vegetables, legumes, and a moderate portion of lean protein.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Vegetables chopped in advance",
+                              "Dinner ingredients thawed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "sleep_quality_next_day",
+                        "fiber_grams",
+                        "meal_finish_time"
+                    ]
+    },
+    {
+        "id":  "activity_030",
+        "title":  "Outdoor Walk - Aerobic Base",
+        "category":  "Fitness routine / exercise",
+        "priority":  73,
+        "duration_minutes":  30,
+        "details":  "Walk at a pace that slightly elevates breathing while keeping posture tall.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "park",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Comfortable walking shoes"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "average_pace",
+                        "steps",
+                        "distance_km"
+                    ]
+    }
+]

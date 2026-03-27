@@ -100,7 +100,14 @@ def export_ics(events: list[ScheduledEvent], path: Path) -> None:
     path.write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
 
 
-def export_html(events: list[ScheduledEvent], unscheduled: list[dict], path: Path, start_date: date, end_date: date) -> None:
+def export_html(
+    events: list[ScheduledEvent],
+    unscheduled: list[dict],
+    path: Path,
+    start_date: date,
+    end_date: date,
+    patient_profile_markdown: str = "",
+) -> None:
     grouped: dict[str, dict[str, list[ScheduledEvent]]] = defaultdict(lambda: defaultdict(list))
     for event in events:
         month_key = event.start.strftime("%B %Y")
@@ -167,6 +174,7 @@ def export_html(events: list[ScheduledEvent], unscheduled: list[dict], path: Pat
         """
         for item in unscheduled
     )
+    patient_profile_html = render_patient_profile(patient_profile_markdown)
 
     document = f"""<!DOCTYPE html>
 <html lang="en">
@@ -217,6 +225,29 @@ def export_html(events: list[ScheduledEvent], unscheduled: list[dict], path: Pat
       border-radius: 999px;
       padding: 8px 14px;
       font-size: 0.95rem;
+    }}
+    .profile-block {{
+      margin-top: 24px;
+      padding: 20px;
+      background: rgba(255, 253, 248, 0.88);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+    }}
+    .profile-block h2 {{
+      margin-bottom: 14px;
+    }}
+    .profile-block h3 {{
+      margin-top: 18px;
+      margin-bottom: 8px;
+      color: var(--accent);
+    }}
+    .profile-block p {{
+      margin: 0 0 10px;
+      line-height: 1.6;
+    }}
+    .profile-block ul {{
+      margin: 0 0 12px 22px;
+      line-height: 1.6;
     }}
     .month-block {{
       margin-top: 28px;
@@ -298,6 +329,7 @@ def export_html(events: list[ScheduledEvent], unscheduled: list[dict], path: Pat
         <span class="summary-chip">Calendar export: .ics included</span>
       </div>
     </header>
+    {patient_profile_html}
     {''.join(month_blocks)}
     <section class="month-block">
       <h2>Unscheduled Items</h2>
@@ -321,6 +353,61 @@ def export_html(events: list[ScheduledEvent], unscheduled: list[dict], path: Pat
 </html>
 """
     path.write_text(document, encoding="utf-8")
+
+
+def render_patient_profile(markdown_text: str) -> str:
+    if not markdown_text.strip():
+        return ""
+
+    blocks: list[str] = []
+    opened_section = False
+    in_list = False
+    for raw_line in markdown_text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            if in_list:
+                blocks.append("</ul>")
+                in_list = False
+            continue
+        if line.startswith("# "):
+            if in_list:
+                blocks.append("</ul>")
+                in_list = False
+            if opened_section:
+                blocks.append("</section>")
+            blocks.append(f"<section class=\"profile-block\"><h2>{html.escape(line[2:].strip())}</h2>")
+            opened_section = True
+            continue
+        if line.startswith("## "):
+            if in_list:
+                blocks.append("</ul>")
+                in_list = False
+            if not opened_section:
+                blocks.append("<section class=\"profile-block\">")
+                opened_section = True
+            blocks.append(f"<h3>{html.escape(line[3:].strip())}</h3>")
+            continue
+        if line.startswith("- "):
+            if not opened_section:
+                blocks.append("<section class=\"profile-block\">")
+                opened_section = True
+            if not in_list:
+                blocks.append("<ul>")
+                in_list = True
+            blocks.append(f"<li>{html.escape(line[2:].strip())}</li>")
+            continue
+        if in_list:
+            blocks.append("</ul>")
+            in_list = False
+        if not opened_section:
+            blocks.append("<section class=\"profile-block\">")
+            opened_section = True
+        blocks.append(f"<p>{html.escape(line)}</p>")
+    if in_list:
+        blocks.append("</ul>")
+    if opened_section:
+        blocks.append("</section>")
+    return "".join(blocks)
 
 
 def _escape_ics(value: str) -> str:

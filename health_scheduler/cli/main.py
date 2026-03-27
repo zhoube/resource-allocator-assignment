@@ -11,6 +11,7 @@ from health_scheduler.config.paths import (
     CLIENT_SCHEDULE_CSV,
     EQUIPMENT_CSV,
     OUTPUTS_DIR,
+    PATIENT_PROFILE_MD,
     SPECIALISTS_CSV,
     TRAVEL_PLANS_CSV,
     ensure_directories,
@@ -51,6 +52,7 @@ def main() -> None:
         SPECIALISTS_CSV,
         ALLIED_HEALTH_CSV,
         EQUIPMENT_CSV,
+        PATIENT_PROFILE_MD,
     ]
     require_paths(required_paths)
     print("[2/5] Loading catalog, action plan, and constraint files...")
@@ -62,6 +64,7 @@ def main() -> None:
     if missing_action_plan_ids:
         raise ValueError(f"Action plan contains activities not found in the catalog: {', '.join(missing_action_plan_ids)}")
     print(f"      Loaded {len(activity_catalog)} catalog activities and {len(action_plan)} action plan activities.")
+    patient_profile_markdown = PATIENT_PROFILE_MD.read_text(encoding="utf-8")
 
     print("[3/5] Running scheduler...")
     scheduled, unscheduled = run_scheduler(
@@ -73,6 +76,7 @@ def main() -> None:
         load_rows(SPECIALISTS_CSV, with_remote=True),
         load_rows(ALLIED_HEALTH_CSV, with_remote=True),
         load_rows(EQUIPMENT_CSV),
+        patient_profile_markdown=patient_profile_markdown,
         output_dir=OUTPUTS_DIR,
     )
     print("[5/5] Scheduling finished.")

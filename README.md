@@ -1,10 +1,10 @@
-# HealthScheduler
+﻿# HealthScheduler
 
 ## Project Summary
 
 This assignment has been completed with a synthetic dataset of 120 activities across multiple activity types, equipment requirements, allied health and specialist availability, travel plans, and client scheduling constraints.
 
-Within the available 8-hour implementation window, I delivered an end-to-end scheduling flow that was tested using a 5-activity action plan and successfully generated a calendar output for the user.
+Within the available 8-hour implementation window, I delivered an end-to-end scheduling flow that was tested using a realistic 3-month healthcare action plan and successfully generated a calendar output for the user.
 
 The current implementation uses a single AI agent to perform scheduling. That agent receives the activity data and relevant constraints, then produces a list of events for calendar insertion. This approach works for the current assignment scope, but scaling the application would require an architectural redesign. As the number of activities increases, or as activities require more frequent scheduling, the system is likely to face higher token consumption and reduced accuracy.
 
@@ -12,14 +12,16 @@ With an additional 20 hours, I would evolve this into a multi-agent workflow. Se
 
 Python implementation of the assignment resource allocator. The project generates a synthetic health activity catalog, generates synthetic scheduling constraints, selects a smaller action plan, then asks an OpenAI model to propose a schedule. Deterministic code validates the proposal and exports the final results.
 
+The project now supports multiple patient scenarios under `data/<scenario>/`. The default scenario is Marcus, a 3-month hypertension and cardiometabolic risk reduction program that combines daily home medication adherence, home blood-pressure monitoring, monthly physician and lab reviews, dietitian follow-ups, health coaching, low-sodium meals, movement sessions, and evening stress-management work.
+
 ## Structure
 
 - `docs/assignment/`
   Assignment reference files and supporting images.
-- `data/inputs/`
-  Saved activity catalog, constraints, and action plans.
-- `data/outputs/`
-  Generated schedules and calendar exports.
+- `data/<scenario>/inputs/`
+  Saved activity catalog, constraints, action plans, and profile information for a given patient scenario.
+- `data/<scenario>/outputs/`
+  Generated schedules and calendar exports for a given patient scenario.
 - `scripts/`
   Runnable entry scripts.
 - `health_scheduler/`
@@ -96,11 +98,11 @@ The current live validation logic is intentionally simple:
 ## Scripts
 
 - `python scripts/generate_activities.py`
-  Generates the saved activity catalog in `data/inputs/activities/`.
+  Generates the saved activity catalog in `data/<scenario>/inputs/activities/`.
 - `python scripts/generate_constraints.py`
-  Generates the saved scheduling constraints in `data/inputs/constraints/`.
+  Generates the saved scheduling constraints in `data/<scenario>/inputs/constraints/`.
 - `python scripts/select_action_plan.py`
-  Randomly selects a smaller action plan from the saved activity catalog into `data/inputs/action_plans/`.
+  Selects a smaller action plan from the saved activity catalog into `data/<scenario>/inputs/action_plans/`.
 - `python scripts/main.py`
   Reads the saved catalog, constraints, and action plan, then schedules the plan and exports results.
 
@@ -120,42 +122,44 @@ The current live validation logic is intentionally simple:
 
 ## Input Files
 
-These are the files the scheduler reads from `data/inputs/`.
+These are the files the scheduler reads from `data/<scenario>/inputs/`.
 
-- `data/inputs/activities/activity_catalog.json`
+- `data/<scenario>/inputs/activities/activity_catalog.json`
   Full activity catalog in JSON. This is the main structured source for activity parsing.
-- `data/inputs/activities/activity_catalog.csv`
+- `data/<scenario>/inputs/activities/activity_catalog.csv`
   Spreadsheet-friendly copy of the same catalog.
-- `data/inputs/action_plans/action_plan.json`
+- `data/<scenario>/inputs/action_plans/action_plan.json`
   The selected subset of activities to schedule.
-- `data/inputs/action_plans/action_plan.csv`
+- `data/<scenario>/inputs/action_plans/action_plan.csv`
   Spreadsheet-friendly copy of the selected action plan.
-- `data/inputs/constraints/client_schedule.csv`
+- `data/<scenario>/inputs/patient_profile.md`
+  Markdown profile for the active patient scenario. This is also rendered into the HTML output report.
+- `data/<scenario>/inputs/constraints/client_schedule.csv`
   Client availability templates. Each row describes either a recurring weekday availability pattern or a date-specific override.
-- `data/inputs/constraints/travel_plans.csv`
+- `data/<scenario>/inputs/constraints/travel_plans.csv`
   Travel windows with destination, time range, and `remote_only` flag.
-- `data/inputs/constraints/specialists.csv`
+- `data/<scenario>/inputs/constraints/specialists.csv`
   One row per specialist. Each row stores role, location, remote support, weekday pattern, and available time ranges.
-- `data/inputs/constraints/allied_health.csv`
+- `data/<scenario>/inputs/constraints/allied_health.csv`
   One row per allied health provider. Same template-style format as specialists.
-- `data/inputs/constraints/equipment.csv`
+- `data/<scenario>/inputs/constraints/equipment.csv`
   One row per equipment resource. Stores equipment type, location, weekday pattern, and available time ranges.
-- `data/inputs/constraints/constraints_bundle.json`
+- `data/<scenario>/inputs/constraints/constraints_bundle.json`
   JSON bundle of the generated constraints for inspection/debugging.
 
 ## Output Files
 
-These are the files produced in `data/outputs/` after running `python scripts/main.py`.
+These are the files produced in `data/<scenario>/outputs/` after running `python scripts/main.py`.
 
-- `data/outputs/scheduled_plan.csv`
+- `data/<scenario>/outputs/scheduled_plan.csv`
   Accepted scheduled events after deterministic validation.
-- `data/outputs/unscheduled_plan.csv`
+- `data/<scenario>/outputs/unscheduled_plan.csv`
   Proposed events that were rejected, with the rejection reason.
-- `data/outputs/schedule_bundle.json`
+- `data/<scenario>/outputs/schedule_bundle.json`
   Combined machine-readable output containing both scheduled and unscheduled items.
-- `data/outputs/personalized_plan.html`
+- `data/<scenario>/outputs/personalized_plan.html`
   Human-readable schedule report.
-- `data/outputs/personalized_plan.ics`
+- `data/<scenario>/outputs/personalized_plan.ics`
   Calendar export for import into calendar apps.
 
 ## Notes
@@ -163,3 +167,4 @@ These are the files produced in `data/outputs/` after running `python scripts/ma
 - The data is synthetic and intended only for assignment testing.
 - The scheduler makes one OpenAI call for the full schedule request, then validates and exports the result.
 - The implementation still uses only the Python standard library for HTTP, parsing, validation, and export.
+

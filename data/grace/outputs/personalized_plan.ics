@@ -1,0 +1,1833 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HealthScheduler//Scheduling Constraints Demo//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:86c78757-ace9-4665-a711-83d3310935ba
+DTSTAMP:20260327T140147
+DTSTART:20260401T060000
+DTEND:20260401T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:afe894d4-7ae5-4153-950c-f3aac6e9a1a7
+DTSTAMP:20260327T140147
+DTSTART:20260401T063000
+DTEND:20260401T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:588f4ca2-0149-4f31-a29e-0d4b729dbcda
+DTSTAMP:20260327T140147
+DTSTART:20260401T080000
+DTEND:20260401T083000
+SUMMARY:Lab Testing Appointment - Check-In
+DESCRIPTION:Complete planned bloodwork or diagnostic testing and confirm follow-up routing. | Frequency: 1 per month | Metrics: sample_quality\, follow_up_booked | Provider: City Lab Team | Equipment: equipment_09 | Mode: in_person | Location: lab
+LOCATION:lab
+END:VEVENT
+BEGIN:VEVENT
+UID:3b51ca27-5d77-478e-8a3f-5c79b89e6b2a
+DTSTAMP:20260327T140147
+DTSTART:20260401T083000
+DTEND:20260401T093000
+SUMMARY:Physiotherapy Review - Plan Tuning
+DESCRIPTION:Assess mobility constraints and exercise tolerance\, then adjust the movement plan. | Frequency: 2 per month | Metrics: exercise_modifications\, range_of_motion\, pain_score | Provider: Aaron Lee | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:7ffa31fe-92d7-44ef-8c2a-66e2999b31d7
+DTSTAMP:20260327T140147
+DTSTART:20260401T120000
+DTEND:20260401T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0349a5ef-19a1-40d1-b723-c27556977fc6
+DTSTAMP:20260327T140147
+DTSTART:20260401T123000
+DTEND:20260401T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:4c858cb2-385e-41c5-a76c-e8028e8929e0
+DTSTAMP:20260327T140147
+DTSTART:20260402T060000
+DTEND:20260402T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e55d1d47-55ac-487e-9030-1ea2d122b6f1
+DTSTAMP:20260327T140147
+DTSTART:20260402T100000
+DTEND:20260402T104500
+SUMMARY:Dietitian Consultation - Plan Tuning
+DESCRIPTION:Review meal adherence\, travel eating patterns\, and nutrition barriers. | Frequency: 2 per month | Metrics: meal_adherence_score\, weight_trend\, action_items_created | Provider: Chloe Ng | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:c7a52709-ae2c-4374-bc9e-8ecfa9c34688
+DTSTAMP:20260327T140147
+DTSTART:20260402T123000
+DTEND:20260402T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ae860110-b3b7-4777-8d85-153fe0ead859
+DTSTAMP:20260327T140147
+DTSTART:20260403T060000
+DTEND:20260403T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b7c7b1c0-7e86-4971-8d45-f691a8363a93
+DTSTAMP:20260327T140147
+DTSTART:20260403T080000
+DTEND:20260403T090000
+SUMMARY:Physiotherapy Review - Plan Tuning
+DESCRIPTION:Assess mobility constraints and exercise tolerance\, then adjust the movement plan. | Frequency: 2 per month | Metrics: exercise_modifications\, range_of_motion\, pain_score | Provider: Aaron Lee | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:7371cd79-e30c-4031-9470-caf98364dc25
+DTSTAMP:20260327T140147
+DTSTART:20260403T120000
+DTEND:20260403T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:122e9f74-cf3d-4939-91dc-06c10ccfcfbb
+DTSTAMP:20260327T140147
+DTSTART:20260404T060000
+DTEND:20260404T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a3960ef7-d75e-4491-a65c-4e1c0e8a44ec
+DTSTAMP:20260327T140147
+DTSTART:20260404T123000
+DTEND:20260404T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:9f01ab54-ae30-4c3a-b5cb-d31d474af738
+DTSTAMP:20260327T140147
+DTSTART:20260405T060000
+DTEND:20260405T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1e3931a6-bcd6-4310-bc01-617233d0b1e6
+DTSTAMP:20260327T140147
+DTSTART:20260405T133000
+DTEND:20260405T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:4bc8fd1c-7f80-4cda-8975-367ded7fc41c
+DTSTAMP:20260327T140147
+DTSTART:20260406T060000
+DTEND:20260406T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c9b817ee-9f30-4bfc-bc6e-0d7111e81f2e
+DTSTAMP:20260327T140147
+DTSTART:20260406T120000
+DTEND:20260406T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f5ff7de5-280f-4bac-9178-641fe269fbbd
+DTSTAMP:20260327T140147
+DTSTART:20260407T060000
+DTEND:20260407T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1cd473c9-aff2-439d-ab5e-ab068a8e89f6
+DTSTAMP:20260327T140147
+DTSTART:20260407T090000
+DTEND:20260407T094500
+SUMMARY:Primary Care Review - Check-In
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Frequency: 1 per month | Metrics: blood_pressure_reading\, questions_answered | Provider: Dr Miriam Tan | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:77965048-2215-42e5-a1d2-c8c3ab94196c
+DTSTAMP:20260327T140147
+DTSTART:20260407T100000
+DTEND:20260407T104500
+SUMMARY:Dietitian Consultation - Plan Tuning
+DESCRIPTION:Review meal adherence\, travel eating patterns\, and nutrition barriers. | Frequency: 2 per month | Metrics: meal_adherence_score\, weight_trend\, action_items_created | Provider: Chloe Ng | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:485f0a29-97b8-4fea-ba1a-90cad278bd0c
+DTSTAMP:20260327T140147
+DTSTART:20260407T120000
+DTEND:20260407T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:aa00986a-454f-4475-b27a-492d9b66b7db
+DTSTAMP:20260327T140147
+DTSTART:20260407T180000
+DTEND:20260407T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0885d995-844d-4d38-9935-7b04c8027007
+DTSTAMP:20260327T140147
+DTSTART:20260408T060000
+DTEND:20260408T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:df525e5e-1ffa-4de8-a344-96a8674872fc
+DTSTAMP:20260327T140147
+DTSTART:20260408T063000
+DTEND:20260408T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:caa0ecd4-6b0c-43f8-8de1-51b2e7e48985
+DTSTAMP:20260327T140147
+DTSTART:20260408T120000
+DTEND:20260408T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:64228f56-16b0-432f-b5e0-6bbaff0d5e14
+DTSTAMP:20260327T140147
+DTSTART:20260408T123000
+DTEND:20260408T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:7ee52a61-c153-4a1f-a76c-36b6bdb64a36
+DTSTAMP:20260327T140147
+DTSTART:20260409T060000
+DTEND:20260409T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:427d31bb-1b41-4f5e-b51d-38d6e8947b35
+DTSTAMP:20260327T140147
+DTSTART:20260409T123000
+DTEND:20260409T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:547e38c3-87e7-4f0c-b9bc-dedb10f3eeba
+DTSTAMP:20260327T140147
+DTSTART:20260410T060000
+DTEND:20260410T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4d30ecf4-419e-4b7a-8fa0-452ac80734f7
+DTSTAMP:20260327T140147
+DTSTART:20260410T120000
+DTEND:20260410T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:95ad9262-58db-417a-8efb-95ef47b6b2a7
+DTSTAMP:20260327T140147
+DTSTART:20260411T060000
+DTEND:20260411T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b8448863-43a6-4db0-ad04-2d3f1edd6789
+DTSTAMP:20260327T140147
+DTSTART:20260411T123000
+DTEND:20260411T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:526f925e-81d7-4499-9a07-703df8f04e9b
+DTSTAMP:20260327T140147
+DTSTART:20260412T060000
+DTEND:20260412T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:af4529ad-8edb-4d23-ab41-3c852ab729e9
+DTSTAMP:20260327T140147
+DTSTART:20260412T133000
+DTEND:20260412T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:90f41cca-e4e3-433b-940f-bba93bb339ce
+DTSTAMP:20260327T140147
+DTSTART:20260414T180000
+DTEND:20260414T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:7121d694-848e-47de-8a63-49428dfc30db
+DTSTAMP:20260327T140147
+DTSTART:20260415T180000
+DTEND:20260415T182000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:8f93155c-99f0-486b-b1f4-da2bdeef05df
+DTSTAMP:20260327T140147
+DTSTART:20260416T180000
+DTEND:20260416T182000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:84312d19-7511-4f07-bc11-42c912c4bab4
+DTSTAMP:20260327T140147
+DTSTART:20260418T060000
+DTEND:20260418T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c5cbdcfd-5d08-4259-93a9-79c65db77488
+DTSTAMP:20260327T140147
+DTSTART:20260418T063000
+DTEND:20260418T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9a369a3c-7917-4365-a55b-51531c384f1e
+DTSTAMP:20260327T140147
+DTSTART:20260418T123000
+DTEND:20260418T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:6d8f651e-bab3-4bba-8bd0-9f84d658ffa4
+DTSTAMP:20260327T140147
+DTSTART:20260419T060000
+DTEND:20260419T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:84a33920-731e-4ad7-86d2-1d6843dea640
+DTSTAMP:20260327T140147
+DTSTART:20260419T133000
+DTEND:20260419T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:39764e26-8ebd-4f23-810d-9c40fcc310f0
+DTSTAMP:20260327T140147
+DTSTART:20260420T060000
+DTEND:20260420T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5e949570-f121-4704-9ee1-0462781301ce
+DTSTAMP:20260327T140147
+DTSTART:20260420T120000
+DTEND:20260420T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1a0cb6e9-f7de-4b8d-a309-82a2b40e2c1e
+DTSTAMP:20260327T140147
+DTSTART:20260421T060000
+DTEND:20260421T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:98dce8b7-631e-4987-aac7-520c9584b782
+DTSTAMP:20260327T140147
+DTSTART:20260421T120000
+DTEND:20260421T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3e8e6cd5-3038-4b0c-9aa7-72cd8063629d
+DTSTAMP:20260327T140147
+DTSTART:20260421T180000
+DTEND:20260421T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4bcf2347-9d4d-4355-b46c-8fe536a27d96
+DTSTAMP:20260327T140147
+DTSTART:20260422T060000
+DTEND:20260422T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1b6b5d83-0600-4a8c-87b4-1b032f1bb5bb
+DTSTAMP:20260327T140147
+DTSTART:20260422T063000
+DTEND:20260422T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:53f8091d-7f4f-4b48-b9ee-e8aa9dbaf5e4
+DTSTAMP:20260327T140147
+DTSTART:20260422T120000
+DTEND:20260422T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:45d01f89-0570-4e67-984a-a0c174e5b394
+DTSTAMP:20260327T140147
+DTSTART:20260422T123000
+DTEND:20260422T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:159b5fad-9832-4477-8444-9707c7e00e28
+DTSTAMP:20260327T140147
+DTSTART:20260423T060000
+DTEND:20260423T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:43e44640-a511-42d1-b76f-c5257d0fa54a
+DTSTAMP:20260327T140147
+DTSTART:20260423T123000
+DTEND:20260423T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:0dff8b84-b37b-4293-bbd5-90a0ab023a93
+DTSTAMP:20260327T140147
+DTSTART:20260424T060000
+DTEND:20260424T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0b402188-c1fe-4d49-b929-94c45e06a994
+DTSTAMP:20260327T140147
+DTSTART:20260424T120000
+DTEND:20260424T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2cea244d-9451-43af-9ea6-92858ef8bd89
+DTSTAMP:20260327T140147
+DTSTART:20260425T060000
+DTEND:20260425T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:34799fcd-995a-4572-8405-d6735f541402
+DTSTAMP:20260327T140147
+DTSTART:20260425T123000
+DTEND:20260425T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:15203be3-45dd-42eb-a00e-782335b73222
+DTSTAMP:20260327T140147
+DTSTART:20260426T060000
+DTEND:20260426T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:685f3f87-fb89-4e09-bfc6-6722c0a89c01
+DTSTAMP:20260327T140147
+DTSTART:20260426T133000
+DTEND:20260426T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:2384f6f2-859d-41d2-a472-cbba4f08c140
+DTSTAMP:20260327T140147
+DTSTART:20260427T060000
+DTEND:20260427T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d451aa23-4c00-43c9-a020-6120b2330dcb
+DTSTAMP:20260327T140147
+DTSTART:20260427T120000
+DTEND:20260427T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:173aad96-db9f-43c9-a0be-6cde4cac2656
+DTSTAMP:20260327T140147
+DTSTART:20260428T060000
+DTEND:20260428T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b7a2731d-2563-4bd1-8ec6-4b2b8ec5dfd3
+DTSTAMP:20260327T140147
+DTSTART:20260428T120000
+DTEND:20260428T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:362739e4-a6ee-4f0a-aec9-54f445eb2bf4
+DTSTAMP:20260327T140147
+DTSTART:20260428T180000
+DTEND:20260428T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fede8061-8d67-4db4-b0ad-3ab3358ece2c
+DTSTAMP:20260327T140147
+DTSTART:20260429T060000
+DTEND:20260429T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:13535ae2-da59-4912-8d92-5171509eac3b
+DTSTAMP:20260327T140147
+DTSTART:20260429T063000
+DTEND:20260429T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3c5a5e16-a2d8-4465-b5d6-af5d6c728e50
+DTSTAMP:20260327T140147
+DTSTART:20260429T120000
+DTEND:20260429T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:bb6e0b0b-ca3d-4eaa-8456-1bf0076ae196
+DTSTAMP:20260327T140147
+DTSTART:20260429T123000
+DTEND:20260429T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:01f65780-b88d-46e9-8da4-36af39270ef5
+DTSTAMP:20260327T140147
+DTSTART:20260430T060000
+DTEND:20260430T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:15f26434-f011-41ad-bd66-8ba49069da85
+DTSTAMP:20260327T140147
+DTSTART:20260430T123000
+DTEND:20260430T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:b490dbbc-abc6-4b34-95c8-07130cd5e768
+DTSTAMP:20260327T140147
+DTSTART:20260501T060000
+DTEND:20260501T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7a7ea5cb-554f-4b9f-a1a9-ec3065f8c972
+DTSTAMP:20260327T140147
+DTSTART:20260501T080000
+DTEND:20260501T083000
+SUMMARY:Lab Testing Appointment - Check-In
+DESCRIPTION:Complete planned bloodwork or diagnostic testing and confirm follow-up routing. | Frequency: 1 per month | Metrics: sample_quality\, follow_up_booked | Provider: City Lab Team | Equipment: equipment_09 | Mode: in_person | Location: lab
+LOCATION:lab
+END:VEVENT
+BEGIN:VEVENT
+UID:ae753ac8-fd8b-4e02-8031-5689c26aeb1c
+DTSTAMP:20260327T140147
+DTSTART:20260501T083000
+DTEND:20260501T093000
+SUMMARY:Physiotherapy Review - Plan Tuning
+DESCRIPTION:Assess mobility constraints and exercise tolerance\, then adjust the movement plan. | Frequency: 2 per month | Metrics: exercise_modifications\, range_of_motion\, pain_score | Provider: Aaron Lee | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:2adf803e-9ea9-4b24-ac0c-098d6fb9c4e9
+DTSTAMP:20260327T140147
+DTSTART:20260501T120000
+DTEND:20260501T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:77d9cafd-5c40-45da-96db-0a634b22d413
+DTSTAMP:20260327T140147
+DTSTART:20260502T060000
+DTEND:20260502T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0501e83d-1062-466a-9b19-290fa52d91c0
+DTSTAMP:20260327T140147
+DTSTART:20260502T123000
+DTEND:20260502T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:6b0828ba-8707-459b-b013-d195eac5cecf
+DTSTAMP:20260327T140147
+DTSTART:20260503T060000
+DTEND:20260503T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:16ff60d4-2874-48b2-b3d3-c4f020b4b8ad
+DTSTAMP:20260327T140147
+DTSTART:20260503T133000
+DTEND:20260503T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:c3704e52-0b20-4d79-8502-17d063e58f81
+DTSTAMP:20260327T140147
+DTSTART:20260504T060000
+DTEND:20260504T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8f7763dc-efbd-49fb-a1fb-fd3657550512
+DTSTAMP:20260327T140147
+DTSTART:20260504T080000
+DTEND:20260504T090000
+SUMMARY:Physiotherapy Review - Plan Tuning
+DESCRIPTION:Assess mobility constraints and exercise tolerance\, then adjust the movement plan. | Frequency: 2 per month | Metrics: exercise_modifications\, range_of_motion\, pain_score | Provider: Aaron Lee | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:d04550c2-3de7-440e-87eb-65bd0bad78dc
+DTSTAMP:20260327T140147
+DTSTART:20260504T120000
+DTEND:20260504T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ca8d6fa2-362e-4e24-a466-19677537a8f8
+DTSTAMP:20260327T140147
+DTSTART:20260505T090000
+DTEND:20260505T094500
+SUMMARY:Primary Care Review - Check-In
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Frequency: 1 per month | Metrics: blood_pressure_reading\, questions_answered | Provider: Dr Miriam Tan | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:1f6f23db-2103-4ecf-8a42-d5ce6a881ec7
+DTSTAMP:20260327T140147
+DTSTART:20260505T100000
+DTEND:20260505T104500
+SUMMARY:Dietitian Consultation - Plan Tuning
+DESCRIPTION:Review meal adherence\, travel eating patterns\, and nutrition barriers. | Frequency: 2 per month | Metrics: meal_adherence_score\, weight_trend\, action_items_created | Provider: Chloe Ng | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:52a76b19-b3f6-4937-b3ff-7337c8c52ffb
+DTSTAMP:20260327T140147
+DTSTART:20260505T180000
+DTEND:20260505T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:1df039c5-097a-4586-ac90-966166e50312
+DTSTAMP:20260327T140147
+DTSTART:20260506T123000
+DTEND:20260506T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:572244e0-c46c-4797-a2c5-4d7f5fcfcda5
+DTSTAMP:20260327T140147
+DTSTART:20260507T100000
+DTEND:20260507T104500
+SUMMARY:Dietitian Consultation - Plan Tuning
+DESCRIPTION:Review meal adherence\, travel eating patterns\, and nutrition barriers. | Frequency: 2 per month | Metrics: meal_adherence_score\, weight_trend\, action_items_created | Provider: Chloe Ng | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:377c6348-45de-47c9-9ff3-0191f8636a71
+DTSTAMP:20260327T140147
+DTSTART:20260507T123000
+DTEND:20260507T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:3b105cd2-ae54-46ae-aee5-d23ea21f49d1
+DTSTAMP:20260327T140147
+DTSTART:20260509T123000
+DTEND:20260509T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:29ba32c5-84e8-4fa1-8a6f-e69b190602d8
+DTSTAMP:20260327T140147
+DTSTART:20260510T133000
+DTEND:20260510T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:68ec072c-8dea-4409-afcf-754425eb8479
+DTSTAMP:20260327T140147
+DTSTART:20260512T060000
+DTEND:20260512T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:76932b18-76ff-4ddb-a251-1be800787f30
+DTSTAMP:20260327T140147
+DTSTART:20260512T063000
+DTEND:20260512T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a3d28987-46ae-4ec9-a514-2c8f3534db8b
+DTSTAMP:20260327T140147
+DTSTART:20260512T120000
+DTEND:20260512T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:875f42fa-1cbb-44b1-b846-4f98ae8a9ca3
+DTSTAMP:20260327T140147
+DTSTART:20260512T180000
+DTEND:20260512T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:05abd765-a275-4584-a4e1-4568270a4aba
+DTSTAMP:20260327T140147
+DTSTART:20260513T060000
+DTEND:20260513T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3a0dcbae-3bc8-4eb2-a2d6-1054f713a950
+DTSTAMP:20260327T140147
+DTSTART:20260513T063000
+DTEND:20260513T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9fda0c62-5a63-49d4-b99c-59fe6f8a1b85
+DTSTAMP:20260327T140147
+DTSTART:20260513T120000
+DTEND:20260513T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9a15ea9e-8c15-4410-94dd-39460297dc0f
+DTSTAMP:20260327T140147
+DTSTART:20260513T123000
+DTEND:20260513T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ded3b05a-b54b-4994-9300-7342a2cfaecd
+DTSTAMP:20260327T140147
+DTSTART:20260514T060000
+DTEND:20260514T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c9a60373-b6d8-49d3-ab02-c24762df5484
+DTSTAMP:20260327T140147
+DTSTART:20260514T123000
+DTEND:20260514T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ec58979b-074f-4264-9295-2393fe6f0fca
+DTSTAMP:20260327T140147
+DTSTART:20260515T060000
+DTEND:20260515T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f443012d-6ded-459f-a540-ba9c02a0eeb8
+DTSTAMP:20260327T140147
+DTSTART:20260515T120000
+DTEND:20260515T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0b9c294e-90be-46ce-bbf4-0aebc70c660a
+DTSTAMP:20260327T140147
+DTSTART:20260516T060000
+DTEND:20260516T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b843bda1-c58e-464e-a243-fef392e26909
+DTSTAMP:20260327T140147
+DTSTART:20260516T123000
+DTEND:20260516T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:5d8c1262-caf1-4674-a595-c99f7732e420
+DTSTAMP:20260327T140147
+DTSTART:20260517T060000
+DTEND:20260517T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fe7b19a5-0fd5-4f13-9fed-24efdf438f49
+DTSTAMP:20260327T140147
+DTSTART:20260517T133000
+DTEND:20260517T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ab1203f9-5ee9-4223-ac03-0675218735c9
+DTSTAMP:20260327T140147
+DTSTART:20260518T060000
+DTEND:20260518T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:52a2cf5a-a157-4ec2-a8e1-f75904289751
+DTSTAMP:20260327T140147
+DTSTART:20260518T120000
+DTEND:20260518T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e8612ea3-7daf-4370-9b49-7ccabe9f6dcc
+DTSTAMP:20260327T140147
+DTSTART:20260519T060000
+DTEND:20260519T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:79c141d5-5afb-4d5d-bf7f-473ef98d2a91
+DTSTAMP:20260327T140147
+DTSTART:20260519T120000
+DTEND:20260519T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9d305cd5-394a-4d43-b30a-164a885ba8ed
+DTSTAMP:20260327T140147
+DTSTART:20260519T180000
+DTEND:20260519T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:191ab2cf-696d-47e2-9448-9f5c74db6990
+DTSTAMP:20260327T140147
+DTSTART:20260520T060000
+DTEND:20260520T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:6c9ec7d0-d62a-4b23-a000-7412ff6d03e2
+DTSTAMP:20260327T140147
+DTSTART:20260520T063000
+DTEND:20260520T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e5ab237c-4e4b-4f6e-a11a-d6414e13263e
+DTSTAMP:20260327T140147
+DTSTART:20260520T120000
+DTEND:20260520T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b5be0e4a-0f84-4c4c-8c28-642dee86c361
+DTSTAMP:20260327T140147
+DTSTART:20260520T123000
+DTEND:20260520T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:e2d79aa1-fc19-4923-a1e3-ace7c1dfac82
+DTSTAMP:20260327T140147
+DTSTART:20260521T060000
+DTEND:20260521T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:47eead31-64b5-4282-90b8-1865a683bc6a
+DTSTAMP:20260327T140147
+DTSTART:20260521T123000
+DTEND:20260521T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:15c4e791-d2bf-431a-8c7b-b20c4f2ab182
+DTSTAMP:20260327T140147
+DTSTART:20260522T060000
+DTEND:20260522T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:cca00818-ac09-4565-a592-a7c2173d37ba
+DTSTAMP:20260327T140147
+DTSTART:20260522T120000
+DTEND:20260522T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:594f6481-03ec-4524-9bf1-52f39a9fbf43
+DTSTAMP:20260327T140147
+DTSTART:20260523T060000
+DTEND:20260523T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:38db2b41-18c0-4338-8ee7-93bc6d103ed4
+DTSTAMP:20260327T140147
+DTSTART:20260523T123000
+DTEND:20260523T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:0e881c81-34fc-4033-a744-13931ab48e6e
+DTSTAMP:20260327T140147
+DTSTART:20260524T060000
+DTEND:20260524T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:26c75949-fd6f-42ba-9f3c-9713625c5fa4
+DTSTAMP:20260327T140147
+DTSTART:20260524T133000
+DTEND:20260524T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:822c9bf6-244b-4635-9c76-48b4f367f6a5
+DTSTAMP:20260327T140147
+DTSTART:20260525T060000
+DTEND:20260525T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:81c02587-0c31-435f-86c3-01b13bf6d439
+DTSTAMP:20260327T140147
+DTSTART:20260525T120000
+DTEND:20260525T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fb1e57cf-e79d-436e-b18d-50f63bc4b67b
+DTSTAMP:20260327T140147
+DTSTART:20260526T060000
+DTEND:20260526T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:be355d8f-f187-45f0-bc48-d53d33ae773e
+DTSTAMP:20260327T140147
+DTSTART:20260526T120000
+DTEND:20260526T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:da983604-34b6-4236-9657-51ba609fa4b9
+DTSTAMP:20260327T140147
+DTSTART:20260526T180000
+DTEND:20260526T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ceddcb42-7a92-4e98-822b-9e55fd94d46f
+DTSTAMP:20260327T140147
+DTSTART:20260527T060000
+DTEND:20260527T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:41987bba-cac0-4e02-82ee-62fbc5ffb200
+DTSTAMP:20260327T140147
+DTSTART:20260527T063000
+DTEND:20260527T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:35b3e301-0780-4348-aab5-4aaedc2d645f
+DTSTAMP:20260327T140147
+DTSTART:20260527T120000
+DTEND:20260527T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3b60581e-7e3c-46cb-b5ae-1fd0d13a9485
+DTSTAMP:20260327T140147
+DTSTART:20260527T123000
+DTEND:20260527T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:8e543436-af8d-4881-a7ab-66dba3421ec1
+DTSTAMP:20260327T140147
+DTSTART:20260528T060000
+DTEND:20260528T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1f4bff8b-dfed-422f-a9b4-d0acf05f693e
+DTSTAMP:20260327T140147
+DTSTART:20260528T123000
+DTEND:20260528T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:5f30b067-743c-4ce3-888e-479cdbb049a5
+DTSTAMP:20260327T140147
+DTSTART:20260529T060000
+DTEND:20260529T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7322ce1a-d60d-4306-81dc-d427e8ab4bc7
+DTSTAMP:20260327T140147
+DTSTART:20260529T120000
+DTEND:20260529T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5ddebe41-9841-473e-ae07-107a688fae5f
+DTSTAMP:20260327T140147
+DTSTART:20260530T123000
+DTEND:20260530T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:d7339509-f7a7-4bae-870f-39723baabb8a
+DTSTAMP:20260327T140147
+DTSTART:20260531T133000
+DTEND:20260531T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:1357dd0a-675f-4f3a-99cf-f6b47f54c0ec
+DTSTAMP:20260327T140147
+DTSTART:20260601T080000
+DTEND:20260601T090000
+SUMMARY:Physiotherapy Review - Plan Tuning
+DESCRIPTION:Assess mobility constraints and exercise tolerance\, then adjust the movement plan. | Frequency: 2 per month | Metrics: exercise_modifications\, range_of_motion\, pain_score | Provider: Aaron Lee | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:50590690-e615-44cd-8c30-cd33f64a133d
+DTSTAMP:20260327T140147
+DTSTART:20260602T090000
+DTEND:20260602T094500
+SUMMARY:Primary Care Review - Check-In
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Frequency: 1 per month | Metrics: blood_pressure_reading\, questions_answered | Provider: Dr Miriam Tan | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:1c3fdb9a-35b9-44d2-b344-13ce5f770a0a
+DTSTAMP:20260327T140147
+DTSTART:20260602T100000
+DTEND:20260602T104500
+SUMMARY:Dietitian Consultation - Plan Tuning
+DESCRIPTION:Review meal adherence\, travel eating patterns\, and nutrition barriers. | Frequency: 2 per month | Metrics: meal_adherence_score\, weight_trend\, action_items_created | Provider: Chloe Ng | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:7ce9adf2-341e-46ab-b0cb-aeb8527a33d0
+DTSTAMP:20260327T140147
+DTSTART:20260602T180000
+DTEND:20260602T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:f1f45eb4-900e-4524-9039-a5910769c832
+DTSTAMP:20260327T140147
+DTSTART:20260603T080000
+DTEND:20260603T090000
+SUMMARY:Physiotherapy Review - Plan Tuning
+DESCRIPTION:Assess mobility constraints and exercise tolerance\, then adjust the movement plan. | Frequency: 2 per month | Metrics: exercise_modifications\, range_of_motion\, pain_score | Provider: Aaron Lee | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:0be26405-ca75-4be1-b39c-8ddf4619ee89
+DTSTAMP:20260327T140147
+DTSTART:20260603T123000
+DTEND:20260603T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:7dbc87d6-d779-44f3-8cd6-7a4649c88f4e
+DTSTAMP:20260327T140147
+DTSTART:20260604T100000
+DTEND:20260604T104500
+SUMMARY:Dietitian Consultation - Plan Tuning
+DESCRIPTION:Review meal adherence\, travel eating patterns\, and nutrition barriers. | Frequency: 2 per month | Metrics: meal_adherence_score\, weight_trend\, action_items_created | Provider: Chloe Ng | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:e582f671-fbbf-497a-9ef0-a1589f11a848
+DTSTAMP:20260327T140147
+DTSTART:20260604T123000
+DTEND:20260604T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:39b306bc-ea37-407c-af65-4518d7b07233
+DTSTAMP:20260327T140147
+DTSTART:20260605T060000
+DTEND:20260605T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:18437b0e-3416-4fb9-b672-1110480b233d
+DTSTAMP:20260327T140147
+DTSTART:20260605T063000
+DTEND:20260605T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a2943641-a808-420e-9881-347b94bb18b2
+DTSTAMP:20260327T140147
+DTSTART:20260605T080000
+DTEND:20260605T083000
+SUMMARY:Lab Testing Appointment - Check-In
+DESCRIPTION:Complete planned bloodwork or diagnostic testing and confirm follow-up routing. | Frequency: 1 per month | Metrics: sample_quality\, follow_up_booked | Provider: City Lab Team | Equipment: equipment_09 | Mode: in_person | Location: lab
+LOCATION:lab
+END:VEVENT
+BEGIN:VEVENT
+UID:6c17e46f-d3e2-4246-b19b-7438781b5584
+DTSTAMP:20260327T140147
+DTSTART:20260605T120000
+DTEND:20260605T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5ef3d5ab-932b-4ce6-a214-15975d487d27
+DTSTAMP:20260327T140147
+DTSTART:20260606T060000
+DTEND:20260606T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2831368d-1897-425c-b158-d969711275e0
+DTSTAMP:20260327T140147
+DTSTART:20260606T123000
+DTEND:20260606T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:2d2c5ca7-cec9-447e-8191-b310eb6a8f09
+DTSTAMP:20260327T140147
+DTSTART:20260607T060000
+DTEND:20260607T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1bdb1f07-6282-44e4-b7a2-a3706d17ed13
+DTSTAMP:20260327T140147
+DTSTART:20260607T133000
+DTEND:20260607T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:f727f8d2-d296-4690-9341-2f722da1f295
+DTSTAMP:20260327T140147
+DTSTART:20260608T060000
+DTEND:20260608T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1ba6cbf8-4271-498b-a838-c64bcc5e0852
+DTSTAMP:20260327T140147
+DTSTART:20260608T120000
+DTEND:20260608T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f00717cc-4248-4355-b6f2-73f5201851b8
+DTSTAMP:20260327T140147
+DTSTART:20260609T060000
+DTEND:20260609T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:250e514d-502a-4382-9593-997615fb8ecb
+DTSTAMP:20260327T140147
+DTSTART:20260609T120000
+DTEND:20260609T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:79e90e2e-5fb6-4616-b654-482d2715ecd7
+DTSTAMP:20260327T140147
+DTSTART:20260609T180000
+DTEND:20260609T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f1411514-4ed6-468b-a47c-00277bb214da
+DTSTAMP:20260327T140147
+DTSTART:20260610T060000
+DTEND:20260610T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f23887fc-e310-4409-88bb-2471586f6b3a
+DTSTAMP:20260327T140147
+DTSTART:20260610T063000
+DTEND:20260610T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:cca56e9a-1dc0-4312-82b8-93e84f9f81c2
+DTSTAMP:20260327T140147
+DTSTART:20260610T120000
+DTEND:20260610T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:31f7e46a-520e-4c32-964e-1726788f7c01
+DTSTAMP:20260327T140147
+DTSTART:20260610T123000
+DTEND:20260610T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:7ade619d-72b5-4235-9f3b-d54ad965ac60
+DTSTAMP:20260327T140147
+DTSTART:20260611T060000
+DTEND:20260611T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a61a3f18-60dd-46fe-b833-ee02cf56307b
+DTSTAMP:20260327T140147
+DTSTART:20260611T123000
+DTEND:20260611T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:4a170d50-3d29-41f3-a6ed-01c7aae91f74
+DTSTAMP:20260327T140147
+DTSTART:20260612T060000
+DTEND:20260612T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8001618a-671c-4cd0-91b9-d29a8b03788c
+DTSTAMP:20260327T140147
+DTSTART:20260612T120000
+DTEND:20260612T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c60738df-4b67-4538-8863-14719f5647ce
+DTSTAMP:20260327T140147
+DTSTART:20260613T060000
+DTEND:20260613T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5be2748a-f551-43ff-b5a6-cba552492a44
+DTSTAMP:20260327T140147
+DTSTART:20260613T123000
+DTEND:20260613T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:8799c319-f0a0-458f-b9ba-0914ac0292a2
+DTSTAMP:20260327T140147
+DTSTART:20260614T060000
+DTEND:20260614T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ccd4c6b3-717a-4f64-9c41-e477ccd8df5b
+DTSTAMP:20260327T140147
+DTSTART:20260614T133000
+DTEND:20260614T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:c9125688-6935-48dc-bd72-7294f5f1d5e3
+DTSTAMP:20260327T140147
+DTSTART:20260615T060000
+DTEND:20260615T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2a060262-ba56-4d3e-8831-01f057370804
+DTSTAMP:20260327T140147
+DTSTART:20260615T120000
+DTEND:20260615T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:87d73bfb-bb28-4b87-9a63-bcd685c9c911
+DTSTAMP:20260327T140147
+DTSTART:20260616T060000
+DTEND:20260616T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:54b9ae54-ff3b-4e72-a5f0-66bbc2a0c79e
+DTSTAMP:20260327T140147
+DTSTART:20260616T120000
+DTEND:20260616T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c689d265-880e-46ea-a1cc-22385d02ce93
+DTSTAMP:20260327T140147
+DTSTART:20260616T180000
+DTEND:20260616T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:88896214-6708-4d74-ad28-a877027f6d9d
+DTSTAMP:20260327T140147
+DTSTART:20260617T060000
+DTEND:20260617T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0ff011c3-fb12-46ee-aba6-72634d1b173d
+DTSTAMP:20260327T140147
+DTSTART:20260617T063000
+DTEND:20260617T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:48d12427-a344-4cd4-b145-8c4a42d45a32
+DTSTAMP:20260327T140147
+DTSTART:20260617T120000
+DTEND:20260617T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:34c71220-9ca0-4a89-b873-176eb4c515d5
+DTSTAMP:20260327T140147
+DTSTART:20260617T123000
+DTEND:20260617T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:af0ebbdb-248e-4210-bddb-cd28df0cbc5e
+DTSTAMP:20260327T140147
+DTSTART:20260618T123000
+DTEND:20260618T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:61264317-2b42-4caf-b107-7e08a11965db
+DTSTAMP:20260327T140147
+DTSTART:20260620T123000
+DTEND:20260620T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:f0f05a9d-f38b-4dac-ba6c-df029ae74f6c
+DTSTAMP:20260327T140147
+DTSTART:20260621T133000
+DTEND:20260621T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:0abb5065-8d15-4786-9ee0-2777f13162cc
+DTSTAMP:20260327T140147
+DTSTART:20260623T060000
+DTEND:20260623T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:58a50372-0e88-4a0c-b25a-a0867525dea9
+DTSTAMP:20260327T140147
+DTSTART:20260623T120000
+DTEND:20260623T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ed1c5ae6-ec5f-4107-8a8c-7b5246783f6f
+DTSTAMP:20260327T140147
+DTSTART:20260623T180000
+DTEND:20260623T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:08448393-2801-4560-a021-dd36995b077a
+DTSTAMP:20260327T140147
+DTSTART:20260624T060000
+DTEND:20260624T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3451f428-6280-4c09-bbcd-e36528f858eb
+DTSTAMP:20260327T140147
+DTSTART:20260624T063000
+DTEND:20260624T064500
+SUMMARY:Weekly Injection Window - Maintenance Cycle
+DESCRIPTION:Administer the weekly medication during a stable routine window and record the site used. | Frequency: 1 per week | Metrics: symptom_score_next_day\, injection_site | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3457122e-7dba-426c-9714-562722a2a358
+DTSTAMP:20260327T140147
+DTSTART:20260624T120000
+DTEND:20260624T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:cfb45461-c78c-46a9-a448-a004b468df74
+DTSTAMP:20260327T140147
+DTSTART:20260624T123000
+DTEND:20260624T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:0a606a15-5f17-43d1-bb28-c4f77074f641
+DTSTAMP:20260327T140147
+DTSTART:20260625T060000
+DTEND:20260625T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7e42aa92-faac-46d5-b3e0-1cae84070122
+DTSTAMP:20260327T140147
+DTSTART:20260625T123000
+DTEND:20260625T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:a1c68470-7cfd-4d19-84e1-b6d420a4e49a
+DTSTAMP:20260327T140147
+DTSTART:20260626T060000
+DTEND:20260626T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:26686ebb-72d8-4c2e-9f66-f7cde64e9a09
+DTSTAMP:20260327T140147
+DTSTART:20260626T120000
+DTEND:20260626T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d9f1b863-0837-471e-906c-b557f11bd9bd
+DTSTAMP:20260327T140147
+DTSTART:20260627T060000
+DTEND:20260627T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c62d87e4-5540-4974-9abb-b6acc39e48b9
+DTSTAMP:20260327T140147
+DTSTART:20260627T123000
+DTEND:20260627T125000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:202e7b39-7d6a-4677-8469-f5357924d8fa
+DTSTAMP:20260327T140147
+DTSTART:20260628T060000
+DTEND:20260628T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:32c9314b-cb36-47c5-a68b-88f57ddcae29
+DTSTAMP:20260327T140147
+DTSTART:20260628T133000
+DTEND:20260628T135000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:588f8362-1bc8-4aa6-b5b9-ce66833c3b63
+DTSTAMP:20260327T140147
+DTSTART:20260629T060000
+DTEND:20260629T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:26370c71-e63e-4ddb-954a-f4e7470806b2
+DTSTAMP:20260327T140147
+DTSTART:20260629T120000
+DTEND:20260629T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2533bcf5-6f13-4f6f-b775-f14d83e4fefc
+DTSTAMP:20260327T140147
+DTSTART:20260630T060000
+DTEND:20260630T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5ae8d4d0-08cf-4d95-846d-c7d751c1018c
+DTSTAMP:20260327T140147
+DTSTART:20260630T120000
+DTEND:20260630T123000
+SUMMARY:Low-Glycemic Lunch - Protein Rebuild
+DESCRIPTION:Use lean protein\, vegetables\, and stable carbohydrates for lunch composition. | Frequency: 3 per week | Metrics: satiety_score\, post_meal_glucose | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8cb9f0b7-683d-4f49-a84b-78af667545ab
+DTSTAMP:20260327T140147
+DTSTART:20260630T180000
+DTEND:20260630T183000
+SUMMARY:Sleep Coaching Call - Quarterly Review
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+END:VCALENDAR

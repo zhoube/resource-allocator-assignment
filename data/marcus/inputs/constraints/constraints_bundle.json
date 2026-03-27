@@ -1,0 +1,297 @@
+{
+  "planning_horizon": {
+    "start_date": "2026-04-01",
+    "end_date": "2026-07-01"
+  },
+  "client_schedule": [
+    {
+      "entry_type": "weekday",
+      "weekday": "Mon",
+      "date": "",
+      "available_ranges": "0600-0800;1200-1300;1800-2100",
+      "notes": "Workday template."
+    },
+    {
+      "entry_type": "weekday",
+      "weekday": "Tue",
+      "date": "",
+      "available_ranges": "0600-0800;1200-1300;1800-1930",
+      "notes": "Family dinner in the evening."
+    },
+    {
+      "entry_type": "weekday",
+      "weekday": "Wed",
+      "date": "",
+      "available_ranges": "0600-0800;1200-1300;1800-2000",
+      "notes": "Project review in the evening."
+    },
+    {
+      "entry_type": "weekday",
+      "weekday": "Thu",
+      "date": "",
+      "available_ranges": "0600-0800;1200-1300;1800-1930",
+      "notes": "Family dinner in the evening."
+    },
+    {
+      "entry_type": "weekday",
+      "weekday": "Fri",
+      "date": "",
+      "available_ranges": "0600-0800;1200-1300;1800-2100",
+      "notes": "Workday template."
+    },
+    {
+      "entry_type": "weekday",
+      "weekday": "Sat",
+      "date": "",
+      "available_ranges": "0600-1000;1200-2100",
+      "notes": "Weekend errands block in late morning."
+    },
+    {
+      "entry_type": "weekday",
+      "weekday": "Sun",
+      "date": "",
+      "available_ranges": "0600-1100;1300-2100",
+      "notes": "Brunch with family at midday."
+    }
+  ],
+  "travel_plans": [
+    {
+      "trip_id": "trip_01",
+      "start": "2026-04-13T06:00:00",
+      "end": "2026-04-17T22:00:00",
+      "destination": "Tokyo",
+      "remote_only": "true",
+      "notes": "Work trip with evening hotel availability only."
+    },
+    {
+      "trip_id": "trip_02",
+      "start": "2026-05-05T06:00:00",
+      "end": "2026-05-11T22:00:00",
+      "destination": "Seoul",
+      "remote_only": "true",
+      "notes": "Client can only support remote appointments and portable routines."
+    },
+    {
+      "trip_id": "trip_03",
+      "start": "2026-05-30T06:00:00",
+      "end": "2026-06-04T22:00:00",
+      "destination": "Bangkok",
+      "remote_only": "true",
+      "notes": "Red-eye return flight at the end of the trip."
+    },
+    {
+      "trip_id": "trip_04",
+      "start": "2026-06-18T06:00:00",
+      "end": "2026-06-22T22:00:00",
+      "destination": "Sydney",
+      "remote_only": "true",
+      "notes": "Conference travel with limited gym access."
+    }
+  ],
+  "specialists": [
+    {
+      "resource_id": "specialist_01",
+      "name": "Dr Miriam Tan",
+      "role": "primary_care_physician",
+      "location": "clinic",
+      "remote_supported": "true",
+      "weekday_pattern": "Tue",
+      "available_ranges": "0900-1300",
+      "notes": ""
+    },
+    {
+      "resource_id": "specialist_02",
+      "name": "Dr Daniel Lim",
+      "role": "endocrinologist",
+      "location": "clinic",
+      "remote_supported": "true",
+      "weekday_pattern": "Wed",
+      "available_ranges": "1400-1800",
+      "notes": ""
+    },
+    {
+      "resource_id": "specialist_03",
+      "name": "Dr Aisha Rahman",
+      "role": "cardiologist",
+      "location": "clinic",
+      "remote_supported": "true",
+      "weekday_pattern": "Thu",
+      "available_ranges": "0900-1300",
+      "notes": ""
+    },
+    {
+      "resource_id": "specialist_04",
+      "name": "Dr Wei Chen",
+      "role": "sleep_physician",
+      "location": "home",
+      "remote_supported": "true",
+      "weekday_pattern": "Mon;Thu",
+      "available_ranges": "1800-2030",
+      "notes": ""
+    },
+    {
+      "resource_id": "specialist_05",
+      "name": "Dr Sofia Perera",
+      "role": "sports_physician",
+      "location": "clinic",
+      "remote_supported": "false",
+      "weekday_pattern": "Fri",
+      "available_ranges": "1000-1400",
+      "notes": ""
+    },
+    {
+      "resource_id": "specialist_06",
+      "name": "City Lab Team",
+      "role": "lab_technician",
+      "location": "lab",
+      "remote_supported": "false",
+      "weekday_pattern": "Mon;Tue;Wed;Thu;Fri",
+      "available_ranges": "0800-1200",
+      "notes": ""
+    }
+  ],
+  "allied_health": [
+    {
+      "resource_id": "allied_01",
+      "name": "Aaron Lee",
+      "role": "physiotherapist",
+      "location": "clinic",
+      "remote_supported": "true",
+      "weekday_pattern": "Mon;Wed;Fri",
+      "available_ranges": "0800-1200",
+      "notes": ""
+    },
+    {
+      "resource_id": "allied_02",
+      "name": "Chloe Ng",
+      "role": "dietitian",
+      "location": "clinic",
+      "remote_supported": "true",
+      "weekday_pattern": "Tue;Thu",
+      "available_ranges": "1000-1700",
+      "notes": ""
+    },
+    {
+      "resource_id": "allied_03",
+      "name": "Ben Kumar",
+      "role": "exercise_physiologist",
+      "location": "gym",
+      "remote_supported": "true",
+      "weekday_pattern": "Mon;Wed",
+      "available_ranges": "1700-2030",
+      "notes": ""
+    },
+    {
+      "resource_id": "allied_04",
+      "name": "Felicia Ong",
+      "role": "health_coach",
+      "location": "home",
+      "remote_supported": "true",
+      "weekday_pattern": "Tue;Fri",
+      "available_ranges": "1800-2030",
+      "notes": ""
+    },
+    {
+      "resource_id": "allied_05",
+      "name": "Naomi Tan",
+      "role": "occupational_therapist",
+      "location": "clinic",
+      "remote_supported": "true",
+      "weekday_pattern": "Wed",
+      "available_ranges": "0900-1300",
+      "notes": ""
+    },
+    {
+      "resource_id": "allied_06",
+      "name": "Marcus Ho",
+      "role": "strength_coach",
+      "location": "gym",
+      "remote_supported": "true",
+      "weekday_pattern": "Tue;Thu",
+      "available_ranges": "0700-1000",
+      "notes": ""
+    }
+  ],
+  "equipment": [
+    {
+      "resource_id": "equipment_01",
+      "equipment_type": "treadmill",
+      "location": "gym",
+      "weekday_pattern": "Mon;Tue;Wed;Thu;Fri;Sat;Sun",
+      "available_ranges": "0600-2100",
+      "notes": ""
+    },
+    {
+      "resource_id": "equipment_02",
+      "equipment_type": "stationary_bike",
+      "location": "gym",
+      "weekday_pattern": "Mon;Tue;Wed;Thu;Fri;Sat;Sun",
+      "available_ranges": "0600-2100",
+      "notes": ""
+    },
+    {
+      "resource_id": "equipment_03",
+      "equipment_type": "dumbbell_set",
+      "location": "gym",
+      "weekday_pattern": "Mon;Tue;Wed;Thu;Fri;Sat;Sun",
+      "available_ranges": "0600-2100",
+      "notes": ""
+    },
+    {
+      "resource_id": "equipment_04",
+      "equipment_type": "yoga_mat",
+      "location": "home",
+      "weekday_pattern": "Mon;Tue;Wed;Thu;Fri;Sat;Sun",
+      "available_ranges": "0600-2200",
+      "notes": ""
+    },
+    {
+      "resource_id": "equipment_05",
+      "equipment_type": "sauna_room",
+      "location": "recovery_center",
+      "weekday_pattern": "Mon;Tue;Wed;Thu;Fri;Sat;Sun",
+      "available_ranges": "1600-2130",
+      "notes": ""
+    },
+    {
+      "resource_id": "equipment_06",
+      "equipment_type": "ice_bath",
+      "location": "recovery_center",
+      "weekday_pattern": "Mon;Tue;Wed;Thu;Fri;Sat;Sun",
+      "available_ranges": "1600-2130",
+      "notes": ""
+    },
+    {
+      "resource_id": "equipment_07",
+      "equipment_type": "compression_boots",
+      "location": "recovery_center",
+      "weekday_pattern": "Mon;Tue;Wed;Thu;Fri;Sat;Sun",
+      "available_ranges": "1700-2100",
+      "notes": ""
+    },
+    {
+      "resource_id": "equipment_08",
+      "equipment_type": "blender_station",
+      "location": "home",
+      "weekday_pattern": "Mon;Tue;Wed;Thu;Fri;Sat;Sun",
+      "available_ranges": "0600-0930",
+      "notes": ""
+    },
+    {
+      "resource_id": "equipment_09",
+      "equipment_type": "lab_kit",
+      "location": "lab",
+      "weekday_pattern": "Mon;Tue;Wed;Thu;Fri;Sat",
+      "available_ranges": "0800-1200",
+      "notes": ""
+    },
+    {
+      "resource_id": "equipment_10",
+      "equipment_type": "blood_pressure_cuff",
+      "location": "home",
+      "weekday_pattern": "Mon;Tue;Wed;Thu;Fri;Sat;Sun",
+      "available_ranges": "0600-2200",
+      "notes": ""
+    }
+  ]
+}

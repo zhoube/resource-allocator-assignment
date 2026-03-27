@@ -1,0 +1,7 @@
+resource_id,name,role,location,remote_supported,weekday_pattern,available_ranges,notes
+allied_01,Aaron Lee,physiotherapist,clinic,true,Mon;Wed;Fri,0800-1200,
+allied_02,Chloe Ng,dietitian,clinic,true,Tue;Thu,1000-1700,
+allied_03,Ben Kumar,exercise_physiologist,gym,true,Mon;Wed,1700-2030,
+allied_04,Felicia Ong,health_coach,home,true,Tue;Fri,1800-2030,
+allied_05,Naomi Tan,occupational_therapist,clinic,true,Wed,0900-1300,
+allied_06,Marcus Ho,strength_coach,gym,true,Tue;Thu,0700-1000,

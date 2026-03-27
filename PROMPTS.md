@@ -596,3 +596,48 @@ CATEGORY_TARGETS = {
 
 ## Prompt 104
 > ok rerun the scheduler
+
+## Prompt 105
+> for every prompt i send here, append it to the prompt records in PROMPTS.md
+>
+> the interviewers want to see real life scenario action plan, which means that we will need to come up with a medical scenario where a patient has to go through a healthcare programme for 3 months, and come up with our own action plan (and add them to the activities catalog)
+
+## Prompt 106
+> ok so lets start by creating a person, and this person has hypertension or something. we need to tell a story
+
+## Prompt 107
+> lets not separate by months, lets just keep it simple and consistent over the 3 months
+
+## Prompt 108
+> ok, so under /data, lets create a folder for marcus, and then put our input and output inside this folder
+
+## Prompt 109
+> yes, a profile information md file in the inputs of marcus would be good, and also include those information in the output html as well
+
+## Prompt 110
+> add a .env file for this project following .env.example
+
+## Prompt 111
+> ok now run this main script for marcus specifically
+
+## Prompt 112
+> ok we can now cleanup the data/inputs and data/outputs, and also come up with a second scenario for the interviewer
+
+## Prompt 113
+> yea do that for me
+
+## Prompt 114
+> now do one more scenario
+
+## Prompt 115
+> now check all 3 html outputs to see if there are any errors like invalid appointments or missing appointments
+## Prompt 116
+> so i think we need to alter client schedule to be more forgiving, like maybe allow for some more flexibility in client schedule. if there is a missing event that cannot be helped, like travel days or unavailability, they need to be recorded as well at the end of the HTML (there is already a section for that)
+## Prompt 117
+> first thing first, check through all 3 outputs and validate that all the activities have the correct frequency, and that it matches the client schedule, equipment/allied health/specialist availability, doesnt fall under travel plan etc etc, and for any event that cannot be done, it is explained and presented at the end
+## Prompt 118
+> lets do the dedup
+## Prompt 119
+> i need you to audit the unscheduled events and explain why they were unscheduled
+## Prompt 120
+> then we need to fix this problem, this means that the LLM is not effective in doing the scheduling

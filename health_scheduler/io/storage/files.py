@@ -11,7 +11,7 @@ def write_json(path: Path, payload: Any) -> None:
 
 
 def read_json(path: Path) -> Any:
-    return json.loads(path.read_text(encoding="utf-8"))
+    return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
 def write_csv(path: Path, rows: Iterable[dict[str, Any]], fieldnames: list[str]) -> None:
@@ -23,5 +23,5 @@ def write_csv(path: Path, rows: Iterable[dict[str, Any]], fieldnames: list[str])
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
-    with path.open("r", newline="", encoding="utf-8") as handle:
+    with path.open("r", newline="", encoding="utf-8-sig") as handle:
         return list(csv.DictReader(handle))

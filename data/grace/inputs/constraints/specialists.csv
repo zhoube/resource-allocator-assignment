@@ -1,0 +1,7 @@
+resource_id,name,role,location,remote_supported,weekday_pattern,available_ranges,notes
+specialist_01,Dr Miriam Tan,primary_care_physician,clinic,true,Tue,0900-1300,
+specialist_02,Dr Daniel Lim,endocrinologist,clinic,true,Wed,1400-1800,
+specialist_03,Dr Aisha Rahman,cardiologist,clinic,true,Thu,0900-1300,
+specialist_04,Dr Wei Chen,sleep_physician,home,true,Mon;Thu,1800-2030,
+specialist_05,Dr Sofia Perera,sports_physician,clinic,false,Fri,1000-1400,
+specialist_06,City Lab Team,lab_technician,lab,false,Mon;Tue;Wed;Thu;Fri,0800-1200,

@@ -1,0 +1,8 @@
+﻿"entry_type","weekday","date","available_ranges","notes"
+"weekday","Mon","","0600-1300;1800-2100","Workday template with flexible clinic and lab block before lunch."
+"weekday","Tue","","0600-1300;1800-1930","Family dinner in the evening, but daytime appointments can be moved around."
+"weekday","Wed","","0600-1300;1800-2000","Project review in the evening, with flexible morning and midday access."
+"weekday","Thu","","0600-1300;1800-1930","Family dinner in the evening, but daytime appointments can be moved around."
+"weekday","Fri","","0600-1300;1800-2100","Workday template with flexible clinic and lab block before lunch."
+"weekday","Sat","","0600-1000;1200-2100","Weekend errands block in late morning."
+"weekday","Sun","","0600-1100;1300-2100","Brunch with family at midday."

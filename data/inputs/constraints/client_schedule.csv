@@ -1,8 +1,0 @@
-entry_type,weekday,date,available_ranges,notes
-weekday,Mon,,0600-0800;1200-1300;1800-2100,Workday template.
-weekday,Tue,,0600-0800;1200-1300;1800-1930,Family dinner in the evening.
-weekday,Wed,,0600-0800;1200-1300;1800-2000,Project review in the evening.
-weekday,Thu,,0600-0800;1200-1300;1800-1930,Family dinner in the evening.
-weekday,Fri,,0600-0800;1200-1300;1800-2100,Workday template.
-weekday,Sat,,0600-1000;1200-2100,Weekend errands block in late morning.
-weekday,Sun,,0600-1100;1300-2100,Brunch with family at midday.

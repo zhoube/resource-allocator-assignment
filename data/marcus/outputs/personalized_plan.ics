@@ -1,0 +1,2211 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HealthScheduler//Scheduling Constraints Demo//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ecae50a3-6d23-4db5-9b7f-76d4bf10a419
+DTSTAMP:20260327T133055
+DTSTART:20260401T060000
+DTEND:20260401T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ec219eaf-315a-4eb1-a3c3-66eaed1e4e50
+DTSTAMP:20260327T133055
+DTSTART:20260401T063000
+DTEND:20260401T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:acd94d65-df21-4416-bb62-86bf3c0592b9
+DTSTAMP:20260327T133055
+DTSTART:20260401T080000
+DTEND:20260401T083000
+SUMMARY:Lab Testing Appointment - Check-In
+DESCRIPTION:Complete planned bloodwork or diagnostic testing and confirm follow-up routing. | Frequency: 1 per month | Metrics: sample_quality\, follow_up_booked | Provider: City Lab Team | Equipment: equipment_09 | Mode: in_person | Location: lab
+LOCATION:lab
+END:VEVENT
+BEGIN:VEVENT
+UID:f83cc9aa-9870-42d1-8eaa-bc3dae3e4d5b
+DTSTAMP:20260327T133055
+DTSTART:20260401T120000
+DTEND:20260401T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:b43258ea-eaa3-4611-9639-233b80712d86
+DTSTAMP:20260327T133055
+DTSTART:20260401T180000
+DTEND:20260401T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:10dec31e-beba-4015-885b-5f293a968f4b
+DTSTAMP:20260327T133055
+DTSTART:20260402T060000
+DTEND:20260402T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7da479ab-c11e-4589-a6a6-cda0c0dd1629
+DTSTAMP:20260327T133055
+DTSTART:20260402T100000
+DTEND:20260402T104500
+SUMMARY:Dietitian Consultation - Hypertension Meal Plan
+DESCRIPTION:Review sodium intake\, meal timing\, grocery habits\, and adherence to a cardiometabolic-friendly meal plan. | Frequency: 2 per month | Metrics: sodium_target_met\, meal_adherence_score\, action_items_created | Provider: Chloe Ng | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:8eb3b9ba-438d-4416-ad6a-2859e5e53f4f
+DTSTAMP:20260327T133055
+DTSTART:20260402T120000
+DTEND:20260402T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:49f81ae7-9bf8-4011-a9a1-5e76435b4787
+DTSTAMP:20260327T133055
+DTSTART:20260402T183000
+DTEND:20260402T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f5cd9d45-9a95-4b79-ab8d-301946f0fa74
+DTSTAMP:20260327T133055
+DTSTART:20260403T060000
+DTEND:20260403T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:bb7d68dc-28d4-4e10-9a73-1571597bb9f7
+DTSTAMP:20260327T133055
+DTSTART:20260403T120000
+DTEND:20260403T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ea60fa2b-4f0c-4ad4-8598-7bc03859848e
+DTSTAMP:20260327T133055
+DTSTART:20260403T180000
+DTEND:20260403T182000
+SUMMARY:Medication Check - Evening Routine
+DESCRIPTION:Review remaining medication supply and place a refill request before the final week of stock. | Frequency: 1 per month | Metrics: refill_requested\, med_list_updated | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e2a56ae7-e436-4ef2-9235-baf8fe7b2fa9
+DTSTAMP:20260327T133055
+DTSTART:20260403T183000
+DTEND:20260403T184500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:72eccd11-07af-4296-b60f-43f9b2129722
+DTSTAMP:20260327T133055
+DTSTART:20260404T060000
+DTEND:20260404T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d176538f-f4a5-4a02-a587-b76d6072dd30
+DTSTAMP:20260327T133055
+DTSTART:20260404T063000
+DTEND:20260404T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1312c9d3-6ab1-4356-8a0d-9dc0783cdb32
+DTSTAMP:20260327T133055
+DTSTART:20260404T120000
+DTEND:20260404T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ed9c88ee-6595-4074-90e9-b53972918f1e
+DTSTAMP:20260327T133055
+DTSTART:20260404T183000
+DTEND:20260404T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:6c214e19-5f6e-47e4-ac31-1c934b4251d3
+DTSTAMP:20260327T133055
+DTSTART:20260405T060000
+DTEND:20260405T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:710f043d-8806-42ba-bec3-77ce0949e947
+DTSTAMP:20260327T133055
+DTSTART:20260405T063000
+DTEND:20260405T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:45224a9a-c260-40aa-80c8-051f1f68bd4b
+DTSTAMP:20260327T133055
+DTSTART:20260405T180000
+DTEND:20260405T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:996ca90f-7f56-4bb4-bafd-bbc0c7c2dfc5
+DTSTAMP:20260327T133055
+DTSTART:20260405T183000
+DTEND:20260405T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1a75b0e0-0c5d-468e-824f-f5639df82d8d
+DTSTAMP:20260327T133055
+DTSTART:20260406T060000
+DTEND:20260406T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d33c5dcc-4973-4b2e-b825-4caec9025ffd
+DTSTAMP:20260327T133055
+DTSTART:20260406T120000
+DTEND:20260406T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:b74220cf-dc71-4d49-a98c-009d49c6dd4d
+DTSTAMP:20260327T133055
+DTSTART:20260406T180000
+DTEND:20260406T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4df3b0b3-5b8f-4291-b952-e9f6ffff7d56
+DTSTAMP:20260327T133055
+DTSTART:20260407T060000
+DTEND:20260407T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c4a41b92-b850-40b8-ad11-77436d2e9064
+DTSTAMP:20260327T133055
+DTSTART:20260407T090000
+DTEND:20260407T094500
+SUMMARY:Primary Care Review - Check-In
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Frequency: 1 per month | Metrics: blood_pressure_reading\, questions_answered | Provider: Dr Miriam Tan | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:0b1dbc44-d25b-4b80-9c73-7de74d588b2d
+DTSTAMP:20260327T133055
+DTSTART:20260407T100000
+DTEND:20260407T104500
+SUMMARY:Dietitian Consultation - Hypertension Meal Plan
+DESCRIPTION:Review sodium intake\, meal timing\, grocery habits\, and adherence to a cardiometabolic-friendly meal plan. | Frequency: 2 per month | Metrics: sodium_target_met\, meal_adherence_score\, action_items_created | Provider: Chloe Ng | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:d7201561-47ae-442e-999a-306bdb11c6fc
+DTSTAMP:20260327T133055
+DTSTART:20260407T120000
+DTEND:20260407T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:a20904e8-717c-4a76-8de1-7ad51386f17b
+DTSTAMP:20260327T133055
+DTSTART:20260407T180000
+DTEND:20260407T183000
+SUMMARY:Health Coaching Review - Blood Pressure Check-In
+DESCRIPTION:Review home blood pressure trends\, symptom notes\, walking adherence\, and barriers to maintaining the care plan. | Frequency: 2 per month | Metrics: blood_pressure_reading\, habit_adherence_score\, action_items_created | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0f49009b-398f-49b1-be35-2eb40793b8aa
+DTSTAMP:20260327T133055
+DTSTART:20260407T183000
+DTEND:20260407T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:cff3ab8e-75d1-46e5-8874-59f30197c263
+DTSTAMP:20260327T133055
+DTSTART:20260408T060000
+DTEND:20260408T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4aee9639-f496-433d-af20-77cb58b613c3
+DTSTAMP:20260327T133055
+DTSTART:20260408T063000
+DTEND:20260408T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8fb21037-bf8a-48d4-b498-307939af748f
+DTSTAMP:20260327T133055
+DTSTART:20260408T120000
+DTEND:20260408T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:bf38f608-0e44-4e24-92f3-576884592391
+DTSTAMP:20260327T133055
+DTSTART:20260408T180000
+DTEND:20260408T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7a75136a-10d4-4b3c-8891-18074066e9a3
+DTSTAMP:20260327T133055
+DTSTART:20260409T060000
+DTEND:20260409T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:065856df-612d-44e8-8168-9ced18d51ff6
+DTSTAMP:20260327T133055
+DTSTART:20260409T120000
+DTEND:20260409T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:fecd3ddb-dda9-4e95-b760-614fbc70d422
+DTSTAMP:20260327T133055
+DTSTART:20260409T183000
+DTEND:20260409T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:eab35ebe-5dbd-44b0-818c-c1711bd1f36a
+DTSTAMP:20260327T133055
+DTSTART:20260410T060000
+DTEND:20260410T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9bb60990-5b46-48ac-867f-02814f201dc7
+DTSTAMP:20260327T133055
+DTSTART:20260410T120000
+DTEND:20260410T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:e8beedd5-984c-43b4-8eb6-d1c7b0b1e036
+DTSTAMP:20260327T133055
+DTSTART:20260410T180000
+DTEND:20260410T183000
+SUMMARY:Health Coaching Review - Blood Pressure Check-In
+DESCRIPTION:Review home blood pressure trends\, symptom notes\, walking adherence\, and barriers to maintaining the care plan. | Frequency: 2 per month | Metrics: blood_pressure_reading\, habit_adherence_score\, action_items_created | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0a96c708-ccc6-4ff4-ba9b-93cc2da3c8b8
+DTSTAMP:20260327T133055
+DTSTART:20260410T183000
+DTEND:20260410T184500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c6fb680b-6663-4ad1-a836-f6c9b8d301f1
+DTSTAMP:20260327T133055
+DTSTART:20260411T060000
+DTEND:20260411T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:efa3f8a0-a4b5-453b-a8cb-20d69d3fb268
+DTSTAMP:20260327T133055
+DTSTART:20260411T063000
+DTEND:20260411T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c0ce3850-d099-460d-bc01-2f2435d845db
+DTSTAMP:20260327T133055
+DTSTART:20260411T120000
+DTEND:20260411T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:fdb47016-29e1-4bba-a064-ec8bcaa74011
+DTSTAMP:20260327T133055
+DTSTART:20260411T183000
+DTEND:20260411T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7036e47a-a49b-483c-b2f2-70539d52c29d
+DTSTAMP:20260327T133055
+DTSTART:20260412T060000
+DTEND:20260412T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:03492f33-c379-4431-a0c8-9a6bd87db6b2
+DTSTAMP:20260327T133055
+DTSTART:20260412T180000
+DTEND:20260412T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f411b9de-7cca-45d9-baed-7cd6f7240b03
+DTSTAMP:20260327T133055
+DTSTART:20260412T183000
+DTEND:20260412T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c19c019a-cb43-4c58-aaef-a2e73a456fa7
+DTSTAMP:20260327T133055
+DTSTART:20260418T060000
+DTEND:20260418T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:82dde024-6a48-461b-9c6c-1d2e2b2d7e6b
+DTSTAMP:20260327T133055
+DTSTART:20260418T063000
+DTEND:20260418T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fcb13266-7ead-4510-93b8-f15c4c7341fb
+DTSTAMP:20260327T133055
+DTSTART:20260418T120000
+DTEND:20260418T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:846ca14e-8fc4-46b5-bd69-9a19a474e1c4
+DTSTAMP:20260327T133055
+DTSTART:20260418T183000
+DTEND:20260418T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:6115ae54-80bf-4c46-9475-e4d072b3da81
+DTSTAMP:20260327T133055
+DTSTART:20260419T060000
+DTEND:20260419T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e124bf70-051a-4980-ac10-a62091c154b0
+DTSTAMP:20260327T133055
+DTSTART:20260419T063000
+DTEND:20260419T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ba1c081a-5124-4596-918f-9b2572716417
+DTSTAMP:20260327T133055
+DTSTART:20260419T180000
+DTEND:20260419T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5cfa42a1-4ba3-4772-ad43-789b058680f8
+DTSTAMP:20260327T133055
+DTSTART:20260419T183000
+DTEND:20260419T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:bb27a7bb-72f0-4d9b-bebb-86b101130461
+DTSTAMP:20260327T133055
+DTSTART:20260420T060000
+DTEND:20260420T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5e660633-c451-4152-a2b9-3daad98b3ac6
+DTSTAMP:20260327T133055
+DTSTART:20260420T120000
+DTEND:20260420T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:025223cb-d21e-4784-aff2-ba38e7f5198c
+DTSTAMP:20260327T133055
+DTSTART:20260420T180000
+DTEND:20260420T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ebcf8f67-aaff-448c-82b7-33394feb7426
+DTSTAMP:20260327T133055
+DTSTART:20260421T060000
+DTEND:20260421T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:75b2cb34-ec13-4880-9a88-4eae4e498a5f
+DTSTAMP:20260327T133055
+DTSTART:20260421T120000
+DTEND:20260421T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:9698d1a8-e124-4e4a-a83f-29178a490340
+DTSTAMP:20260327T133055
+DTSTART:20260421T183000
+DTEND:20260421T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:376ff764-e378-4d85-8aa8-7222a531c1aa
+DTSTAMP:20260327T133055
+DTSTART:20260422T060000
+DTEND:20260422T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:44be0913-2c0b-4303-bb51-687f7e283355
+DTSTAMP:20260327T133055
+DTSTART:20260422T063000
+DTEND:20260422T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a314994f-a095-473a-aefb-7983f9194cdb
+DTSTAMP:20260327T133055
+DTSTART:20260422T120000
+DTEND:20260422T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ddbdb504-2408-49e7-bb77-f036c4a1707e
+DTSTAMP:20260327T133055
+DTSTART:20260422T180000
+DTEND:20260422T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:215411fb-c3ca-4518-821a-e427638559ac
+DTSTAMP:20260327T133055
+DTSTART:20260423T060000
+DTEND:20260423T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5d19aabd-2adb-4e92-afd2-4f54ecdd3cb5
+DTSTAMP:20260327T133055
+DTSTART:20260423T120000
+DTEND:20260423T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:fc527195-72a6-4a86-9b4d-12bca2b69d41
+DTSTAMP:20260327T133055
+DTSTART:20260423T183000
+DTEND:20260423T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:49a10885-aad0-4714-9578-0070917d3598
+DTSTAMP:20260327T133055
+DTSTART:20260424T060000
+DTEND:20260424T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:27ff6533-ae02-4c94-86e9-82b338c81a33
+DTSTAMP:20260327T133055
+DTSTART:20260424T120000
+DTEND:20260424T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:67782025-3998-4954-aec7-5c60791a8181
+DTSTAMP:20260327T133055
+DTSTART:20260424T180000
+DTEND:20260424T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8e5de189-2300-4302-97dc-80abed69b9f7
+DTSTAMP:20260327T133055
+DTSTART:20260425T060000
+DTEND:20260425T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:94fc2046-c788-4ed2-ac3d-5ab5aadd46e4
+DTSTAMP:20260327T133055
+DTSTART:20260425T063000
+DTEND:20260425T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b7703d70-060a-4580-897f-25b1c9b73324
+DTSTAMP:20260327T133055
+DTSTART:20260425T120000
+DTEND:20260425T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:753879f0-da92-45e6-8244-b9ee510581c2
+DTSTAMP:20260327T133055
+DTSTART:20260425T183000
+DTEND:20260425T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:6c5e66e3-709f-450d-9e7d-47eef6fd6e2c
+DTSTAMP:20260327T133055
+DTSTART:20260426T060000
+DTEND:20260426T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3eec1695-4438-4b5a-8f04-692b58c73820
+DTSTAMP:20260327T133055
+DTSTART:20260426T180000
+DTEND:20260426T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:79782acd-b6c7-4c85-addc-dac123826e87
+DTSTAMP:20260327T133055
+DTSTART:20260426T183000
+DTEND:20260426T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:646b6b35-cf29-431e-b051-b73367cd7fe8
+DTSTAMP:20260327T133055
+DTSTART:20260427T060000
+DTEND:20260427T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:bf7f6cf5-feef-41e9-b021-244ff582be2a
+DTSTAMP:20260327T133055
+DTSTART:20260427T120000
+DTEND:20260427T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:0920bbc4-6905-4c61-a32c-50c6c14fadba
+DTSTAMP:20260327T133055
+DTSTART:20260427T180000
+DTEND:20260427T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9479be00-9a0d-46ab-baf0-c06a9c9f971c
+DTSTAMP:20260327T133055
+DTSTART:20260428T060000
+DTEND:20260428T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d2e415b2-2e04-4155-8465-1402b07b9f5d
+DTSTAMP:20260327T133055
+DTSTART:20260428T120000
+DTEND:20260428T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:bbba372c-c8bb-4168-8aab-9ccc31610f6a
+DTSTAMP:20260327T133055
+DTSTART:20260428T183000
+DTEND:20260428T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5a8c0841-004d-4fa2-adab-333ec595ee8e
+DTSTAMP:20260327T133055
+DTSTART:20260429T060000
+DTEND:20260429T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:6cf2f797-4a49-49e5-a67f-02fcbdb539f1
+DTSTAMP:20260327T133055
+DTSTART:20260429T063000
+DTEND:20260429T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c3046be0-97ce-4d31-8737-2fb6468e4cbc
+DTSTAMP:20260327T133055
+DTSTART:20260429T120000
+DTEND:20260429T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:68310c6e-12a8-4c8d-a6a4-43e4b0cff792
+DTSTAMP:20260327T133055
+DTSTART:20260429T180000
+DTEND:20260429T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:869e3718-e960-43bb-aac5-b05e13050f3f
+DTSTAMP:20260327T133055
+DTSTART:20260430T060000
+DTEND:20260430T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0a34b33c-4675-4a25-8a8d-aabced0cc8ca
+DTSTAMP:20260327T133055
+DTSTART:20260430T183000
+DTEND:20260430T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1e13a5c4-99dd-480b-b2fb-0656076e8500
+DTSTAMP:20260327T133055
+DTSTART:20260501T060000
+DTEND:20260501T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e347d513-482f-476c-b415-3b749826c217
+DTSTAMP:20260327T133055
+DTSTART:20260501T120000
+DTEND:20260501T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:c4b65f12-702c-4c21-a27a-94c5dd673701
+DTSTAMP:20260327T133055
+DTSTART:20260501T180000
+DTEND:20260501T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:77a35980-5a2f-4d74-8cd7-cc22450dc2a0
+DTSTAMP:20260327T133055
+DTSTART:20260502T060000
+DTEND:20260502T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:975f0e77-d11e-4260-8652-d6b58bb69889
+DTSTAMP:20260327T133055
+DTSTART:20260502T063000
+DTEND:20260502T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:84eaab50-dfce-4359-a4b6-119597dbfb09
+DTSTAMP:20260327T133055
+DTSTART:20260502T120000
+DTEND:20260502T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:fc9947da-2731-4503-9203-9f677bdfe9cc
+DTSTAMP:20260327T133055
+DTSTART:20260502T183000
+DTEND:20260502T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:56538e8b-b56c-4573-a7a6-037552dfef66
+DTSTAMP:20260327T133055
+DTSTART:20260503T060000
+DTEND:20260503T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1ed5aa80-3ff6-4337-8d23-14e44ebd8368
+DTSTAMP:20260327T133055
+DTSTART:20260503T180000
+DTEND:20260503T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d1b0bdbd-cf59-434f-a11a-6b7e09312225
+DTSTAMP:20260327T133055
+DTSTART:20260503T183000
+DTEND:20260503T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:529b7240-8e71-4851-9d3a-940961e151de
+DTSTAMP:20260327T133055
+DTSTART:20260504T060000
+DTEND:20260504T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:42022b04-c0c9-45e5-8f7c-db332395fedf
+DTSTAMP:20260327T133055
+DTSTART:20260504T080000
+DTEND:20260504T083000
+SUMMARY:Lab Testing Appointment - Check-In
+DESCRIPTION:Complete planned bloodwork or diagnostic testing and confirm follow-up routing. | Frequency: 1 per month | Metrics: sample_quality\, follow_up_booked | Provider: City Lab Team | Equipment: equipment_09 | Mode: in_person | Location: lab
+LOCATION:lab
+END:VEVENT
+BEGIN:VEVENT
+UID:b123c1f3-ca96-4a0f-9509-1ba5fc163062
+DTSTAMP:20260327T133055
+DTSTART:20260504T120000
+DTEND:20260504T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:f8d099ff-64d0-40fd-a386-7be1ff9c5c3a
+DTSTAMP:20260327T133055
+DTSTART:20260504T180000
+DTEND:20260504T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1defe83e-1387-4002-8ffb-3371dfc08104
+DTSTAMP:20260327T133055
+DTSTART:20260505T090000
+DTEND:20260505T094500
+SUMMARY:Primary Care Review - Check-In
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Frequency: 1 per month | Metrics: blood_pressure_reading\, questions_answered | Provider: Dr Miriam Tan | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:9c45f27c-05bf-4f5b-8b99-e3219c502061
+DTSTAMP:20260327T133055
+DTSTART:20260505T100000
+DTEND:20260505T104500
+SUMMARY:Dietitian Consultation - Hypertension Meal Plan
+DESCRIPTION:Review sodium intake\, meal timing\, grocery habits\, and adherence to a cardiometabolic-friendly meal plan. | Frequency: 2 per month | Metrics: sodium_target_met\, meal_adherence_score\, action_items_created | Provider: Chloe Ng | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:28648ba6-79da-44b6-a28e-51c9633b2d5f
+DTSTAMP:20260327T133055
+DTSTART:20260505T180000
+DTEND:20260505T182000
+SUMMARY:Medication Check - Evening Routine
+DESCRIPTION:Review remaining medication supply and place a refill request before the final week of stock. | Frequency: 1 per month | Metrics: refill_requested\, med_list_updated | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:ea886254-36d1-48f9-865a-6a26fdcda5b8
+DTSTAMP:20260327T133055
+DTSTART:20260505T183000
+DTEND:20260505T190000
+SUMMARY:Health Coaching Review - Blood Pressure Check-In
+DESCRIPTION:Review home blood pressure trends\, symptom notes\, walking adherence\, and barriers to maintaining the care plan. | Frequency: 2 per month | Metrics: blood_pressure_reading\, habit_adherence_score\, action_items_created | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:7b4a3c4e-efd8-4d86-b567-44c7e847d1d9
+DTSTAMP:20260327T133055
+DTSTART:20260507T100000
+DTEND:20260507T104500
+SUMMARY:Dietitian Consultation - Hypertension Meal Plan
+DESCRIPTION:Review sodium intake\, meal timing\, grocery habits\, and adherence to a cardiometabolic-friendly meal plan. | Frequency: 2 per month | Metrics: sodium_target_met\, meal_adherence_score\, action_items_created | Provider: Chloe Ng | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:4b15d2e7-150f-4eb3-9774-c5d059cbdd39
+DTSTAMP:20260327T133055
+DTSTART:20260508T180000
+DTEND:20260508T183000
+SUMMARY:Health Coaching Review - Blood Pressure Check-In
+DESCRIPTION:Review home blood pressure trends\, symptom notes\, walking adherence\, and barriers to maintaining the care plan. | Frequency: 2 per month | Metrics: blood_pressure_reading\, habit_adherence_score\, action_items_created | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:c4670a77-d020-48f0-90c6-5d485740a4fc
+DTSTAMP:20260327T133055
+DTSTART:20260512T060000
+DTEND:20260512T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a90850c2-bf60-4309-97f5-422b0d43c3e4
+DTSTAMP:20260327T133055
+DTSTART:20260512T120000
+DTEND:20260512T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:082063fd-acae-4a40-8aa3-f149bfdbb1ad
+DTSTAMP:20260327T133055
+DTSTART:20260512T183000
+DTEND:20260512T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4500fef5-7b08-410c-a167-509a6e201982
+DTSTAMP:20260327T133055
+DTSTART:20260513T060000
+DTEND:20260513T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:48db2842-6a91-4bf4-ba9c-982847724acf
+DTSTAMP:20260327T133055
+DTSTART:20260513T063000
+DTEND:20260513T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:16ab94c3-cd2c-4f01-9b38-ba9747d8e227
+DTSTAMP:20260327T133055
+DTSTART:20260513T120000
+DTEND:20260513T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:460462cf-e9aa-405e-8027-ec4c43c9f18d
+DTSTAMP:20260327T133055
+DTSTART:20260513T180000
+DTEND:20260513T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ec4439ea-a06b-484e-a8ae-05d39be27cff
+DTSTAMP:20260327T133055
+DTSTART:20260514T060000
+DTEND:20260514T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:99a4d2e1-d9a0-4642-8fff-d3925d7c6640
+DTSTAMP:20260327T133055
+DTSTART:20260514T183000
+DTEND:20260514T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2b1ba1f1-2b81-429b-9a6e-a9d03cea7458
+DTSTAMP:20260327T133055
+DTSTART:20260515T060000
+DTEND:20260515T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9d3f926b-8e83-4df1-8fda-22607d735824
+DTSTAMP:20260327T133055
+DTSTART:20260515T120000
+DTEND:20260515T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:8adf2b60-ed50-4dd7-8738-306cb1db6a30
+DTSTAMP:20260327T133055
+DTSTART:20260515T180000
+DTEND:20260515T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d97df398-76b3-4361-9714-747a8f251691
+DTSTAMP:20260327T133055
+DTSTART:20260516T060000
+DTEND:20260516T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:05185444-602b-4144-805f-214bcecf419d
+DTSTAMP:20260327T133055
+DTSTART:20260516T063000
+DTEND:20260516T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:efd2e9cf-4122-447d-9346-2a62c41927f7
+DTSTAMP:20260327T133055
+DTSTART:20260516T120000
+DTEND:20260516T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:0bbd43a2-4cd9-4149-a402-e10f01a8d4ff
+DTSTAMP:20260327T133055
+DTSTART:20260516T183000
+DTEND:20260516T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5e5aaea0-e12c-46ae-8678-648d0f5d1b26
+DTSTAMP:20260327T133055
+DTSTART:20260517T060000
+DTEND:20260517T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4d49f813-ef74-4d29-8986-78c3a4a6c1e9
+DTSTAMP:20260327T133055
+DTSTART:20260517T063000
+DTEND:20260517T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:dc9a58bf-8765-461b-9fd4-3d6e6170b047
+DTSTAMP:20260327T133055
+DTSTART:20260517T180000
+DTEND:20260517T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2619f68a-1e9a-4a23-893f-6ad8c662e127
+DTSTAMP:20260327T133055
+DTSTART:20260517T183000
+DTEND:20260517T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ee9f0aed-9997-4db9-8bbf-dc6c0b85ca7f
+DTSTAMP:20260327T133055
+DTSTART:20260518T060000
+DTEND:20260518T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5184f857-a1bd-4f1d-9523-a232d65d8c60
+DTSTAMP:20260327T133055
+DTSTART:20260518T120000
+DTEND:20260518T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:512070cd-063f-4789-9eaa-5d96927d90ad
+DTSTAMP:20260327T133055
+DTSTART:20260518T180000
+DTEND:20260518T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e9737362-3b40-4022-9218-48c953e99b2d
+DTSTAMP:20260327T133055
+DTSTART:20260519T060000
+DTEND:20260519T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:bffd1c9d-e8f2-40d8-bafc-023fb564a956
+DTSTAMP:20260327T133055
+DTSTART:20260519T120000
+DTEND:20260519T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:f3d393a0-9f5f-479d-a17a-ecc65f06f803
+DTSTAMP:20260327T133055
+DTSTART:20260519T183000
+DTEND:20260519T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:188fe708-1f0b-4db6-b854-a5f9e3fcffc9
+DTSTAMP:20260327T133055
+DTSTART:20260520T060000
+DTEND:20260520T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:46b58bec-059c-4116-88dd-875886add509
+DTSTAMP:20260327T133055
+DTSTART:20260520T063000
+DTEND:20260520T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7ad6173c-bb50-48bd-be1c-23d5384a82b5
+DTSTAMP:20260327T133055
+DTSTART:20260520T120000
+DTEND:20260520T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:714038c3-13e3-4cfa-87ef-9bcbb404c313
+DTSTAMP:20260327T133055
+DTSTART:20260520T180000
+DTEND:20260520T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fd266e61-5e82-4642-bbc2-dc6be89b2f73
+DTSTAMP:20260327T133055
+DTSTART:20260521T060000
+DTEND:20260521T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:51208597-3c14-47d9-943c-072010252115
+DTSTAMP:20260327T133055
+DTSTART:20260521T183000
+DTEND:20260521T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5b038c44-a1b0-44c4-a53a-2a57b35de61c
+DTSTAMP:20260327T133055
+DTSTART:20260522T060000
+DTEND:20260522T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:00328126-e16d-4993-a530-52ee1d3e0248
+DTSTAMP:20260327T133055
+DTSTART:20260522T120000
+DTEND:20260522T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:cc439f29-227a-4efe-a6c3-739b7e621b81
+DTSTAMP:20260327T133055
+DTSTART:20260522T180000
+DTEND:20260522T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a9efcf0b-4cb6-4ff7-8d5e-b11ed74d882e
+DTSTAMP:20260327T133055
+DTSTART:20260523T060000
+DTEND:20260523T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d852a362-e3a5-4392-8043-2ca9b5fcff9d
+DTSTAMP:20260327T133055
+DTSTART:20260523T063000
+DTEND:20260523T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:00a1f8a5-d88d-4256-bc0b-2c2201a51d50
+DTSTAMP:20260327T133055
+DTSTART:20260523T120000
+DTEND:20260523T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:1eedd84b-e146-42cd-b5e9-f11fba873450
+DTSTAMP:20260327T133055
+DTSTART:20260523T183000
+DTEND:20260523T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a520226b-c351-41a3-9c12-29c09f994a35
+DTSTAMP:20260327T133055
+DTSTART:20260524T060000
+DTEND:20260524T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7bfc5185-84e6-4acb-935b-4eafd2b63ed7
+DTSTAMP:20260327T133055
+DTSTART:20260524T063000
+DTEND:20260524T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3b37ce44-62c2-41d3-a32d-c816ff76616d
+DTSTAMP:20260327T133055
+DTSTART:20260524T180000
+DTEND:20260524T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4bccf0d7-8c4d-4eda-b868-edc8555e9596
+DTSTAMP:20260327T133055
+DTSTART:20260524T183000
+DTEND:20260524T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b7f94452-afb3-4a83-828f-a6c6180786ab
+DTSTAMP:20260327T133055
+DTSTART:20260525T060000
+DTEND:20260525T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c3fb3ff0-f5ef-4efb-9780-560836d45f5a
+DTSTAMP:20260327T133055
+DTSTART:20260525T120000
+DTEND:20260525T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:8631a914-ba4b-42a3-8ffa-6a4ab4adaa86
+DTSTAMP:20260327T133055
+DTSTART:20260525T180000
+DTEND:20260525T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b1a7b8e1-d367-4c27-b160-c425f8706ffa
+DTSTAMP:20260327T133055
+DTSTART:20260526T060000
+DTEND:20260526T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:bcae7aa5-7d34-49e9-89a2-7b9e9fab9d7c
+DTSTAMP:20260327T133055
+DTSTART:20260526T120000
+DTEND:20260526T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:7158176c-71ac-42d1-9e61-c892052fafa2
+DTSTAMP:20260327T133055
+DTSTART:20260526T183000
+DTEND:20260526T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:86a605dd-7e11-47a5-9f59-9771268fd3fa
+DTSTAMP:20260327T133055
+DTSTART:20260527T060000
+DTEND:20260527T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:80e69e91-3a69-4992-8fe3-e991e5413aea
+DTSTAMP:20260327T133055
+DTSTART:20260527T063000
+DTEND:20260527T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:67a4b1ec-2469-4be5-8a08-0ca11d84c534
+DTSTAMP:20260327T133055
+DTSTART:20260527T120000
+DTEND:20260527T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:28cf3535-c2fb-4ebf-8b63-4a291d01dcd7
+DTSTAMP:20260327T133055
+DTSTART:20260527T180000
+DTEND:20260527T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ad120459-5e9e-46b1-afc2-278636e4e203
+DTSTAMP:20260327T133055
+DTSTART:20260528T060000
+DTEND:20260528T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e7114807-09f6-43bc-ac56-696e4fee82a3
+DTSTAMP:20260327T133055
+DTSTART:20260528T183000
+DTEND:20260528T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:88aa247f-d496-482d-ae20-a3e6f8776e91
+DTSTAMP:20260327T133055
+DTSTART:20260529T060000
+DTEND:20260529T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:48913943-acdd-4cb9-bd2a-81fa7569843f
+DTSTAMP:20260327T133055
+DTSTART:20260529T120000
+DTEND:20260529T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:12672163-ce82-4f09-9a1b-38b5958b73d0
+DTSTAMP:20260327T133055
+DTSTART:20260529T180000
+DTEND:20260529T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:61b63e78-35fc-4e1e-b2d1-0157798749ba
+DTSTAMP:20260327T133055
+DTSTART:20260602T090000
+DTEND:20260602T094500
+SUMMARY:Primary Care Review - Check-In
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Frequency: 1 per month | Metrics: blood_pressure_reading\, questions_answered | Provider: Dr Miriam Tan | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:e501d453-223e-4d29-8f9e-2bfcebe3d936
+DTSTAMP:20260327T133055
+DTSTART:20260602T100000
+DTEND:20260602T104500
+SUMMARY:Dietitian Consultation - Hypertension Meal Plan
+DESCRIPTION:Review sodium intake\, meal timing\, grocery habits\, and adherence to a cardiometabolic-friendly meal plan. | Frequency: 2 per month | Metrics: sodium_target_met\, meal_adherence_score\, action_items_created | Provider: Chloe Ng | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:f8c6173e-6e83-4217-9a40-b4807ae65ee7
+DTSTAMP:20260327T133055
+DTSTART:20260604T100000
+DTEND:20260604T104500
+SUMMARY:Dietitian Consultation - Hypertension Meal Plan
+DESCRIPTION:Review sodium intake\, meal timing\, grocery habits\, and adherence to a cardiometabolic-friendly meal plan. | Frequency: 2 per month | Metrics: sodium_target_met\, meal_adherence_score\, action_items_created | Provider: Chloe Ng | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:b2e39bb7-e4cf-4b1f-b609-c5ba5038717e
+DTSTAMP:20260327T133055
+DTSTART:20260605T060000
+DTEND:20260605T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d6cce950-6f91-4e61-91cb-d10d20a5afa4
+DTSTAMP:20260327T133055
+DTSTART:20260605T120000
+DTEND:20260605T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:09711f2a-34a5-46e3-a98a-e3801a6ec097
+DTSTAMP:20260327T133055
+DTSTART:20260605T180000
+DTEND:20260605T182000
+SUMMARY:Medication Check - Evening Routine
+DESCRIPTION:Review remaining medication supply and place a refill request before the final week of stock. | Frequency: 1 per month | Metrics: refill_requested\, med_list_updated | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:16fed063-912e-4065-8bd6-b25b309e76b2
+DTSTAMP:20260327T133055
+DTSTART:20260605T183000
+DTEND:20260605T190000
+SUMMARY:Health Coaching Review - Blood Pressure Check-In
+DESCRIPTION:Review home blood pressure trends\, symptom notes\, walking adherence\, and barriers to maintaining the care plan. | Frequency: 2 per month | Metrics: blood_pressure_reading\, habit_adherence_score\, action_items_created | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9e16cb09-04bd-4c78-979b-9e77455d1f7f
+DTSTAMP:20260327T133055
+DTSTART:20260605T190000
+DTEND:20260605T191500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a3e97e13-5370-40a2-be6d-ec3c55bd252f
+DTSTAMP:20260327T133055
+DTSTART:20260606T060000
+DTEND:20260606T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a53177b3-0f29-4872-89a7-5fe00a356671
+DTSTAMP:20260327T133055
+DTSTART:20260606T063000
+DTEND:20260606T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2a668c5f-da5d-402e-bd39-95d00803d689
+DTSTAMP:20260327T133055
+DTSTART:20260606T120000
+DTEND:20260606T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:f8fa9ee3-80f1-43ca-9523-99a40fdf4837
+DTSTAMP:20260327T133055
+DTSTART:20260606T183000
+DTEND:20260606T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9dcbba43-d7fa-4500-8568-2d38ce338c7c
+DTSTAMP:20260327T133055
+DTSTART:20260607T060000
+DTEND:20260607T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4be87c15-e7cf-467b-956e-1cb0dddb29af
+DTSTAMP:20260327T133055
+DTSTART:20260607T180000
+DTEND:20260607T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:644c7739-92b2-40ff-95d9-90acecc843c2
+DTSTAMP:20260327T133055
+DTSTART:20260607T183000
+DTEND:20260607T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:eab0d7db-2335-4f85-ae92-87c904bc393f
+DTSTAMP:20260327T133055
+DTSTART:20260608T060000
+DTEND:20260608T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:79edb855-07c5-4ba6-8a8f-e7cf62fb214b
+DTSTAMP:20260327T133055
+DTSTART:20260608T080000
+DTEND:20260608T083000
+SUMMARY:Lab Testing Appointment - Check-In
+DESCRIPTION:Complete planned bloodwork or diagnostic testing and confirm follow-up routing. | Frequency: 1 per month | Metrics: sample_quality\, follow_up_booked | Provider: City Lab Team | Equipment: equipment_09 | Mode: in_person | Location: lab
+LOCATION:lab
+END:VEVENT
+BEGIN:VEVENT
+UID:f7c455d4-ad3b-44a9-aa2e-b0d3687a9330
+DTSTAMP:20260327T133055
+DTSTART:20260608T120000
+DTEND:20260608T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ade83bcd-3361-464c-a0da-a538cd12fece
+DTSTAMP:20260327T133055
+DTSTART:20260608T180000
+DTEND:20260608T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:16023f99-445b-404d-89c6-17f12e09d168
+DTSTAMP:20260327T133055
+DTSTART:20260609T060000
+DTEND:20260609T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d1071ce5-7ab3-4610-9f27-833766f56617
+DTSTAMP:20260327T133055
+DTSTART:20260609T120000
+DTEND:20260609T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:4272f088-a560-4cc7-83cf-3ef8c5b48415
+DTSTAMP:20260327T133055
+DTSTART:20260609T180000
+DTEND:20260609T183000
+SUMMARY:Health Coaching Review - Blood Pressure Check-In
+DESCRIPTION:Review home blood pressure trends\, symptom notes\, walking adherence\, and barriers to maintaining the care plan. | Frequency: 2 per month | Metrics: blood_pressure_reading\, habit_adherence_score\, action_items_created | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2835afc6-f89d-4730-9940-dd5635ca5347
+DTSTAMP:20260327T133055
+DTSTART:20260609T183000
+DTEND:20260609T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:dbf844db-43a9-4c9f-ba34-386dc3a59e31
+DTSTAMP:20260327T133055
+DTSTART:20260610T060000
+DTEND:20260610T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:bc564194-451c-41f0-8e29-168c4c21de49
+DTSTAMP:20260327T133055
+DTSTART:20260610T063000
+DTEND:20260610T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:628cea24-e81f-4717-b223-b5dafc69d022
+DTSTAMP:20260327T133055
+DTSTART:20260610T120000
+DTEND:20260610T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:dac43d31-bed2-4ad6-b057-3022c819a8ce
+DTSTAMP:20260327T133055
+DTSTART:20260610T180000
+DTEND:20260610T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c39058fb-c5e2-43ee-a30f-a65cbffb1776
+DTSTAMP:20260327T133055
+DTSTART:20260611T060000
+DTEND:20260611T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ac3200a5-e5e3-4370-8926-d69be2adbfe6
+DTSTAMP:20260327T133055
+DTSTART:20260611T183000
+DTEND:20260611T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7617cda4-55b8-4716-ad35-02c924f9f352
+DTSTAMP:20260327T133055
+DTSTART:20260612T060000
+DTEND:20260612T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4e116350-4445-4d03-ba80-d795a6457832
+DTSTAMP:20260327T133055
+DTSTART:20260612T120000
+DTEND:20260612T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:100f89f4-3e9e-4e49-b595-840c14542181
+DTSTAMP:20260327T133055
+DTSTART:20260612T180000
+DTEND:20260612T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:19c4f8b2-17fb-433b-8d0a-6712833f3cb9
+DTSTAMP:20260327T133055
+DTSTART:20260613T060000
+DTEND:20260613T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2f37865a-be09-45ac-b8c0-24bd47914aaf
+DTSTAMP:20260327T133055
+DTSTART:20260613T063000
+DTEND:20260613T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c31d1447-5124-4701-b6e9-8f8f9c65ae8b
+DTSTAMP:20260327T133055
+DTSTART:20260613T120000
+DTEND:20260613T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:58ff4080-4e47-40f4-b60b-c43c995f5a0c
+DTSTAMP:20260327T133055
+DTSTART:20260613T183000
+DTEND:20260613T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b9ce2f39-196d-4d3a-84cf-778465949c48
+DTSTAMP:20260327T133055
+DTSTART:20260614T060000
+DTEND:20260614T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:05c7e4fc-5e24-458e-85a8-dba9bcfa7d17
+DTSTAMP:20260327T133055
+DTSTART:20260614T063000
+DTEND:20260614T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d98339d1-9ba2-4b88-9d71-2937219d442d
+DTSTAMP:20260327T133055
+DTSTART:20260614T180000
+DTEND:20260614T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:10594aa0-1846-442b-8db6-85a19900c3ec
+DTSTAMP:20260327T133055
+DTSTART:20260614T183000
+DTEND:20260614T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3cd69ae5-00f5-4a50-9692-6f8dffc2eb88
+DTSTAMP:20260327T133055
+DTSTART:20260615T060000
+DTEND:20260615T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:48fb260a-0dec-4b3b-bd84-eb36fa8583cf
+DTSTAMP:20260327T133055
+DTSTART:20260615T120000
+DTEND:20260615T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:0a9f7f23-a592-45dd-819f-31a31bfb95a2
+DTSTAMP:20260327T133055
+DTSTART:20260615T180000
+DTEND:20260615T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1c18752b-f8ae-43cb-8391-8419b5858a5e
+DTSTAMP:20260327T133055
+DTSTART:20260616T060000
+DTEND:20260616T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:683f2051-91c4-41d2-a3e8-6ef0cedf1a63
+DTSTAMP:20260327T133055
+DTSTART:20260616T120000
+DTEND:20260616T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ba87b6c7-f3d7-4fa0-9b3e-c4fb4015a002
+DTSTAMP:20260327T133055
+DTSTART:20260616T183000
+DTEND:20260616T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:6983f772-9fe7-4ca8-971c-4b80f9455aaf
+DTSTAMP:20260327T133055
+DTSTART:20260617T060000
+DTEND:20260617T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:467a251b-93e7-439c-895b-37c9916d18c6
+DTSTAMP:20260327T133055
+DTSTART:20260617T063000
+DTEND:20260617T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ef17e579-bfaf-416b-a908-a415e573aecf
+DTSTAMP:20260327T133055
+DTSTART:20260617T120000
+DTEND:20260617T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:c37af7f8-7cef-4b9d-a00b-edca150dc490
+DTSTAMP:20260327T133055
+DTSTART:20260617T180000
+DTEND:20260617T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f440510a-3ce2-407d-9745-75dafdf6495c
+DTSTAMP:20260327T133055
+DTSTART:20260623T060000
+DTEND:20260623T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3395e8fa-85fc-4d40-ac6d-a1ac5aab111c
+DTSTAMP:20260327T133055
+DTSTART:20260623T120000
+DTEND:20260623T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ceabed47-4aa9-41ca-9865-a25d7aa33ab3
+DTSTAMP:20260327T133055
+DTSTART:20260623T183000
+DTEND:20260623T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c924f8bb-56aa-4d31-9376-766912916a4e
+DTSTAMP:20260327T133055
+DTSTART:20260624T060000
+DTEND:20260624T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2e06765f-1119-41fe-bdf8-102df88c9940
+DTSTAMP:20260327T133055
+DTSTART:20260624T063000
+DTEND:20260624T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3af9819e-0589-489f-b0ca-7cbd3a61e658
+DTSTAMP:20260327T133055
+DTSTART:20260624T120000
+DTEND:20260624T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:acf90673-8b04-4d4d-ac89-68b86dc76578
+DTSTAMP:20260327T133055
+DTSTART:20260624T180000
+DTEND:20260624T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2feb672f-2463-47b9-8b1b-de96f6dc5bd4
+DTSTAMP:20260327T133055
+DTSTART:20260625T060000
+DTEND:20260625T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:80665af6-5e03-47eb-924b-ba523ce5026d
+DTSTAMP:20260327T133055
+DTSTART:20260625T183000
+DTEND:20260625T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7f7fc709-af0d-40ab-a40a-497066d615c2
+DTSTAMP:20260327T133055
+DTSTART:20260626T060000
+DTEND:20260626T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5425ba9a-8ad0-43a3-a6a5-ca81635d46cf
+DTSTAMP:20260327T133055
+DTSTART:20260626T120000
+DTEND:20260626T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:0fd208eb-90be-4576-988f-3f4e284e06c7
+DTSTAMP:20260327T133055
+DTSTART:20260626T180000
+DTEND:20260626T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c6c9c5d9-1eed-4422-92a9-f0991f803509
+DTSTAMP:20260327T133055
+DTSTART:20260627T060000
+DTEND:20260627T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8f1ea552-615b-4d37-8977-9f23ea8d42f3
+DTSTAMP:20260327T133055
+DTSTART:20260627T063000
+DTEND:20260627T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5d2237d9-ac4b-497a-8a67-1b97e61f6c16
+DTSTAMP:20260327T133055
+DTSTART:20260627T120000
+DTEND:20260627T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:77dcf4cd-f73b-4d52-ba3e-981b57cc8d12
+DTSTAMP:20260327T133055
+DTSTART:20260627T183000
+DTEND:20260627T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5ff22414-fcda-41d1-80de-20f4c41d07d1
+DTSTAMP:20260327T133055
+DTSTART:20260628T060000
+DTEND:20260628T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e7e31d7e-fefe-44e4-b7f2-3633de1a8231
+DTSTAMP:20260327T133055
+DTSTART:20260628T063000
+DTEND:20260628T071500
+SUMMARY:Guided Yoga - Joint Care
+DESCRIPTION:Use slow transitions and extended exhales to support recovery and mobility. | Frequency: 2 per week | Metrics: session_minutes\, stress_score_post\, sleep_readiness | Equipment: equipment_04 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e059f932-6538-4e19-90b3-4da06e542ce8
+DTSTAMP:20260327T133055
+DTSTART:20260628T180000
+DTEND:20260628T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7ae86207-43b6-4829-97d9-8dd207f8dd5e
+DTSTAMP:20260327T133055
+DTSTART:20260628T183000
+DTEND:20260628T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a558c0f4-5255-46e6-a2cb-c1938801ad9c
+DTSTAMP:20260327T133055
+DTSTART:20260629T060000
+DTEND:20260629T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0ecb7619-49d1-49a2-9ace-5b9f10a056ea
+DTSTAMP:20260327T133055
+DTSTART:20260629T120000
+DTEND:20260629T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:9a52b57d-35e9-4b6f-9e7d-78f930fa4ec6
+DTSTAMP:20260327T133055
+DTSTART:20260629T180000
+DTEND:20260629T181500
+SUMMARY:Evening Breathing Reset - Blood Pressure Support
+DESCRIPTION:Complete guided slow breathing in the evening to lower stress load\, support sleep onset\, and reinforce blood pressure control habits. | Frequency: 3 per week | Metrics: session_minutes\, stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:761ec588-e56f-4336-a8fd-078ca4ce4419
+DTSTAMP:20260327T133055
+DTSTART:20260630T060000
+DTEND:20260630T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a0592c2c-f1ec-44c1-8bda-02dce8908bc4
+DTSTAMP:20260327T133055
+DTSTART:20260630T120000
+DTEND:20260630T122000
+SUMMARY:Post-Meal Walk - Glucose Control
+DESCRIPTION:Take a brisk walk after a main meal to support glucose control\, blood pressure management\, and daily activity consistency. | Frequency: 4 per week | Metrics: steps\, walk_minutes\, post_meal_energy | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:cdfafda3-343b-4e02-bc2d-7d1d801341b8
+DTSTAMP:20260327T133055
+DTSTART:20260630T183000
+DTEND:20260630T190000
+SUMMARY:Low-Sodium Dinner Prep - DASH Support
+DESCRIPTION:Prepare a high-fiber\, lower-sodium dinner built around vegetables\, lean protein\, and portion-controlled carbohydrates. | Frequency: 3 per week | Metrics: sodium_estimate_mg\, vegetable_servings\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+END:VCALENDAR

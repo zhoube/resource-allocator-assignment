@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections import Counter
 from datetime import date
 from pathlib import Path
 
@@ -21,6 +22,7 @@ def run_scheduler(
     specialists: list[dict],
     allied_health: list[dict],
     equipment_rows: list[dict],
+    patient_profile_markdown: str = "",
     output_dir: Path | None = OUTPUTS_DIR,
 ) -> tuple[list[ScheduledEvent], list[dict]]:
     activity_by_id = {item.id: item for item in planned_activities}
@@ -38,7 +40,9 @@ def run_scheduler(
     print(f"      Parsed {len(proposed_events)} proposed scheduled events from the LLM.")
 
     print("[4/5] Validating and materializing scheduled events...")
-    scheduled, unscheduled = apply_schedule_events(activity_by_id, proposed_events, validator)
+    scheduled, rejected_items = apply_schedule_events(activity_by_id, proposed_events, validator)
+    audit_items = audit_missing_required_instances(planned_activities, scheduled, validator, start_date, end_date)
+    unscheduled = merge_unscheduled_items(planned_activities, scheduled, rejected_items, audit_items, start_date, end_date)
     print(f"      Validation produced {len(scheduled)} scheduled events and {len(unscheduled)} unscheduled events.")
 
     scheduled.sort(key=lambda item: item.start)
@@ -47,7 +51,14 @@ def run_scheduler(
         export_schedule_csv(scheduled, output_dir / "scheduled_plan.csv")
         export_unscheduled_csv(unscheduled, output_dir / "unscheduled_plan.csv")
         export_json_bundle(scheduled, unscheduled, output_dir / "schedule_bundle.json")
-        export_html(scheduled, unscheduled, output_dir / "personalized_plan.html", start_date, end_date)
+        export_html(
+            scheduled,
+            unscheduled,
+            output_dir / "personalized_plan.html",
+            start_date,
+            end_date,
+            patient_profile_markdown=patient_profile_markdown,
+        )
         export_ics(scheduled, output_dir / "personalized_plan.ics")
     return scheduled, unscheduled
 
@@ -123,6 +134,115 @@ def build_activities_payload(activities: list[Activity]) -> list[dict]:
     ]
     items.sort(key=lambda item: (-item["priority"], item["id"]))
     return items
+
+
+def audit_missing_required_instances(
+    planned_activities: list[Activity],
+    scheduled: list[ScheduledEvent],
+    validator: ScheduleValidator,
+    start_date: date,
+    end_date: date,
+) -> list[dict]:
+    unscheduled_items: list[dict] = []
+    actual_counts = Counter(event.activity_id for event in scheduled)
+    simulated_schedule = list(scheduled)
+
+    for activity in planned_activities:
+        expected_count = expected_instance_count(activity, start_date, end_date)
+        missing_count = max(0, expected_count - actual_counts.get(activity.id, 0))
+        for _ in range(missing_count):
+            candidate_event, reason = validator.find_next_valid_slot(activity, simulated_schedule)
+            if candidate_event is not None:
+                simulated_schedule.append(candidate_event)
+                unscheduled_items.append(
+                    build_unscheduled_item(
+                        activity,
+                        activity.id,
+                        candidate_event.start.isoformat(),
+                        "A valid slot existed for this required instance, but the LLM did not include it in the schedule.",
+                    )
+                )
+                continue
+            unscheduled_items.append(
+                build_unscheduled_item(
+                    activity,
+                    activity.id,
+                    "",
+                    reason or "No valid slot exists in the planning window for this required instance.",
+                )
+            )
+
+    if unscheduled_items:
+        print(f"      Frequency audit identified {len(unscheduled_items)} missing required instances.")
+    return unscheduled_items
+
+
+def merge_unscheduled_items(
+    planned_activities: list[Activity],
+    scheduled: list[ScheduledEvent],
+    rejected_items: list[dict],
+    audit_items: list[dict],
+    start_date: date,
+    end_date: date,
+) -> list[dict]:
+    actual_counts = Counter(event.activity_id for event in scheduled)
+    deficits = {
+        activity.id: max(0, expected_instance_count(activity, start_date, end_date) - actual_counts.get(activity.id, 0))
+        for activity in planned_activities
+    }
+
+    rejected_by_activity: dict[str, list[dict]] = {}
+    for item in rejected_items:
+        rejected_by_activity.setdefault(item["activity_id"], []).append(item)
+
+    audit_by_activity: dict[str, list[dict]] = {}
+    for item in audit_items:
+        audit_by_activity.setdefault(item["activity_id"], []).append(item)
+
+    merged: list[dict] = []
+    for activity in planned_activities:
+        remaining = deficits.get(activity.id, 0)
+        if remaining <= 0:
+            continue
+
+        chosen_rejected = prioritize_unscheduled_items(rejected_by_activity.get(activity.id, []))
+        merged.extend(chosen_rejected[:remaining])
+        remaining -= min(remaining, len(chosen_rejected))
+
+        if remaining > 0:
+            merged.extend(audit_by_activity.get(activity.id, [])[:remaining])
+
+    return merged
+
+
+def prioritize_unscheduled_items(items: list[dict]) -> list[dict]:
+    def priority(item: dict) -> tuple[int, int]:
+        reason = item.get("reason", "")
+        proposed_start = item.get("proposed_start", "")
+        if reason.startswith("A valid slot existed"):
+            return (2, 1 if proposed_start else 0)
+        if reason in {
+            "No proposed_start was provided.",
+            "proposed_start is not a valid ISO datetime.",
+            "Activity id was not found in the action plan.",
+            "Scheduled event could not be materialized.",
+        }:
+            return (1, 1 if proposed_start else 0)
+        return (0, 1 if proposed_start else 0)
+
+    return sorted(items, key=priority)
+
+
+def expected_instance_count(activity: Activity, start_date: date, end_date: date) -> int:
+    frequency = activity.frequency
+    if frequency.period == "day":
+        return max(0, (end_date - start_date).days) * frequency.times
+    if frequency.period == "week":
+        return max(0, (end_date - start_date).days // 7) * frequency.times
+    if frequency.period == "month":
+        month_span = (end_date.year - start_date.year) * 12 + (end_date.month - start_date.month)
+        return max(0, month_span) * frequency.times
+    return 0
 
 
 def build_unscheduled_item(

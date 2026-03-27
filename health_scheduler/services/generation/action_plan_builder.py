@@ -7,7 +7,20 @@ from health_scheduler.domain.activities.activity import Activity
 from health_scheduler.domain.enums.activity_category import ActivityCategory
 from health_scheduler.services.generation.activity_factory import parse_activities
 
-DEFAULT_ACTION_PLAN_SIZE = 2
+DEFAULT_ACTION_PLAN_SIZE = 10
+
+CURATED_THREE_MONTH_PROGRAM_IDS: tuple[str, ...] = (
+    "activity_121",
+    "activity_105",
+    "activity_104",
+    "activity_123",
+    "activity_075",
+    "activity_124",
+    "activity_126",
+    "activity_122",
+    "activity_125",
+    "activity_016",
+)
 
 
 @dataclass(frozen=True)
@@ -108,21 +121,22 @@ REAL_WORLD_SCENARIO_SLOTS: tuple[ScenarioSlot, ...] = (
 
 
 def build_action_plan(activity_catalog: list[Activity], plan_size: int, rng: random.Random) -> list[Activity]:
+    selected_catalog_items = select_curated_program(activity_catalog, plan_size)
+    selected_ids = {activity.id for activity in selected_catalog_items}
     ordered_catalog = sorted(
         activity_catalog,
         key=lambda item: (-item.priority, -item.constraint_weight(), item.duration_minutes, item.title),
     )
-    selected_catalog_items: list[Activity] = []
-    selected_ids: set[str] = set()
 
-    for slot in REAL_WORLD_SCENARIO_SLOTS:
-        candidate = select_best_candidate(ordered_catalog, slot, selected_catalog_items, selected_ids, rng)
-        if candidate is None:
-            continue
-        selected_catalog_items.append(candidate)
-        selected_ids.add(candidate.id)
-        if len(selected_catalog_items) >= plan_size:
-            break
+    if len(selected_catalog_items) < plan_size:
+        for slot in REAL_WORLD_SCENARIO_SLOTS:
+            candidate = select_best_candidate(ordered_catalog, slot, selected_catalog_items, selected_ids, rng)
+            if candidate is None:
+                continue
+            selected_catalog_items.append(candidate)
+            selected_ids.add(candidate.id)
+            if len(selected_catalog_items) >= plan_size:
+                break
 
     if len(selected_catalog_items) < plan_size:
         fill_with_supporting_activities(ordered_catalog, selected_catalog_items, selected_ids, plan_size, rng)
@@ -133,6 +147,14 @@ def build_action_plan(activity_catalog: list[Activity], plan_size: int, rng: ran
 
     action_plan = parse_activities([activity.to_dict() for activity in selected_catalog_items])
     return action_plan
+
+
+def select_curated_program(activity_catalog: list[Activity], plan_size: int) -> list[Activity]:
+    if plan_size <= 0:
+        return []
+    catalog_by_id = {activity.id: activity for activity in activity_catalog}
+    curated_selection = [catalog_by_id[activity_id] for activity_id in CURATED_THREE_MONTH_PROGRAM_IDS if activity_id in catalog_by_id]
+    return curated_selection[:plan_size]
 
 
 def select_best_candidate(

@@ -160,6 +160,23 @@ class ScheduleValidator:
 
         return None, last_error
 
+    def find_next_valid_slot(
+        self,
+        scheduled_activity: Activity,
+        scheduled: list[ScheduledEvent],
+    ) -> tuple[ScheduledEvent | None, str]:
+        last_error = "No valid slot exists in the planning window for this required instance."
+        current_day = self.planning_start_date
+        while current_day < self.planning_end_date:
+            for candidate_start in self._candidate_starts_for_day(current_day, scheduled_activity.duration_minutes):
+                event, error = self.materialize_event(scheduled_activity, candidate_start.isoformat(), scheduled)
+                if event is not None:
+                    return event, ""
+                if error:
+                    last_error = error
+            current_day += timedelta(days=1)
+        return None, last_error
+
     def _serialize_row(self, row: dict) -> dict:
         serialized = {}
         for key, value in row.items():
@@ -238,6 +255,21 @@ class ScheduleValidator:
         if exact_rows:
             return exact_rows
         return [row for row in self.client_availability if target_day.weekday() in row.get("weekdays", [])]
+
+    def _candidate_starts_for_day(self, target_day: date, duration_minutes: int) -> list[datetime]:
+        starts: list[datetime] = []
+        seen: set[datetime] = set()
+        for row in self._matching_client_rows(target_day):
+            for start_time, end_time in row.get("available_ranges", []):
+                current = datetime.combine(target_day, start_time)
+                latest = datetime.combine(target_day, end_time) - timedelta(minutes=duration_minutes)
+                while current <= latest:
+                    if current not in seen:
+                        starts.append(current)
+                        seen.add(current)
+                    current += timedelta(minutes=30)
+        starts.sort()
+        return starts
 
     def _availability_row_contains_window(self, row: dict, proposed_start: datetime, proposed_end: datetime) -> bool:
         if row.get("date") and row["date"] != proposed_start.date():

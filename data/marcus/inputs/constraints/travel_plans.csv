@@ -1,0 +1,5 @@
+trip_id,start,end,destination,remote_only,notes
+trip_01,2026-04-13T06:00:00,2026-04-17T22:00:00,Tokyo,true,Work trip with evening hotel availability only.
+trip_02,2026-05-05T06:00:00,2026-05-11T22:00:00,Seoul,true,Client can only support remote appointments and portable routines.
+trip_03,2026-05-30T06:00:00,2026-06-04T22:00:00,Bangkok,true,Red-eye return flight at the end of the trip.
+trip_04,2026-06-18T06:00:00,2026-06-22T22:00:00,Sydney,true,Conference travel with limited gym access.

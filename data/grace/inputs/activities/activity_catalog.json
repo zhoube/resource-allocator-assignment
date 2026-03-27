@@ -1,0 +1,3894 @@
+﻿[
+    {
+        "id":  "activity_001",
+        "title":  "Outdoor Walk - Core Stability",
+        "category":  "Fitness routine / exercise",
+        "priority":  62,
+        "duration_minutes":  45,
+        "details":  "Walk at a pace that slightly elevates breathing while keeping posture tall.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "park",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Comfortable walking shoes"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "steps",
+                        "average_pace"
+                    ]
+    },
+    {
+        "id":  "activity_002",
+        "title":  "Breath-Led Yoga - Joint Care",
+        "category":  "Fitness routine / exercise",
+        "priority":  74,
+        "duration_minutes":  45,
+        "details":  "Use slow transitions and extended exhales to support recovery and mobility.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "physiotherapist",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "yoga_mat"
+                               ],
+        "prep_required":  [
+                              "Reduce screen exposure beforehand",
+                              "Set up quiet room"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_minutes",
+                        "stress_score_post"
+                    ]
+    },
+    {
+        "id":  "activity_003",
+        "title":  "Zone 2 Treadmill Session - Core Stability",
+        "category":  "Fitness routine / exercise",
+        "priority":  74,
+        "duration_minutes":  45,
+        "details":  "Maintain a sustainable aerobic effort and log exertion after the session.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "exercise_physiologist",
+        "resource_pool":  "allied_health",
+        "location":  "gym",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "treadmill"
+                               ],
+        "prep_required":  [
+                              "Bring water bottle",
+                              "Light dynamic warm-up"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "heart_rate_average",
+                        "rpe"
+                    ]
+    },
+    {
+        "id":  "activity_004",
+        "title":  "Visual Mobility Routine - Mobility Reset",
+        "category":  "Fitness routine / exercise",
+        "priority":  71,
+        "duration_minutes":  15,
+        "details":  "Alternate near and far focus work with controlled visual tracking drills.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "occupational_therapist",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Screen brightness reduced",
+                              "Timer prepared"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "screen_break_count",
+                        "eye_strain_score"
+                    ]
+    },
+    {
+        "id":  "activity_005",
+        "title":  "Breath-Led Yoga - Mobility Reset",
+        "category":  "Fitness routine / exercise",
+        "priority":  70,
+        "duration_minutes":  30,
+        "details":  "Use slow transitions and extended exhales to support recovery and mobility.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "physiotherapist",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "yoga_mat"
+                               ],
+        "prep_required":  [
+                              "Reduce screen exposure beforehand",
+                              "Set up quiet room"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_minutes",
+                        "stress_score_post"
+                    ]
+    },
+    {
+        "id":  "activity_006",
+        "title":  "Posterior Chain Session - Recovery Focus",
+        "category":  "Fitness routine / exercise",
+        "priority":  67,
+        "duration_minutes":  75,
+        "details":  "Complete compound lifts with controlled tempo and moderate load progression.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "exercise_physiologist",
+        "resource_pool":  "allied_health",
+        "location":  "gym",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "dumbbell_set"
+                               ],
+        "prep_required":  [
+                              "Prepare workout log",
+                              "Complete activation drills"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "sets_completed",
+                        "session_rpe",
+                        "load_used"
+                    ]
+    },
+    {
+        "id":  "activity_007",
+        "title":  "Posterior Chain Session - Aerobic Base",
+        "category":  "Fitness routine / exercise",
+        "priority":  76,
+        "duration_minutes":  75,
+        "details":  "Complete compound lifts with controlled tempo and moderate load progression.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "strength_coach",
+        "resource_pool":  "allied_health",
+        "location":  "gym",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "dumbbell_set"
+                               ],
+        "prep_required":  [
+                              "Complete activation drills",
+                              "Prepare workout log"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "load_used",
+                        "sets_completed",
+                        "session_rpe"
+                    ]
+    },
+    {
+        "id":  "activity_008",
+        "title":  "Cardio Recovery Treadmill Session - Mobility Reset",
+        "category":  "Fitness routine / exercise",
+        "priority":  64,
+        "duration_minutes":  60,
+        "details":  "Maintain a sustainable aerobic effort and log exertion after the session.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "gym",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "treadmill"
+                               ],
+        "prep_required":  [
+                              "Bring water bottle",
+                              "Light dynamic warm-up"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "distance_km",
+                        "rpe"
+                    ]
+    },
+    {
+        "id":  "activity_009",
+        "title":  "Resistance Session - Joint Care",
+        "category":  "Fitness routine / exercise",
+        "priority":  64,
+        "duration_minutes":  60,
+        "details":  "Complete compound lifts with controlled tempo and moderate load progression.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "strength_coach",
+        "resource_pool":  "allied_health",
+        "location":  "gym",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "dumbbell_set"
+                               ],
+        "prep_required":  [
+                              "Complete activation drills",
+                              "Prepare workout log"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_rpe",
+                        "load_used"
+                    ]
+    },
+    {
+        "id":  "activity_010",
+        "title":  "Cadence Bike Session - Recovery Focus",
+        "category":  "Fitness routine / exercise",
+        "priority":  62,
+        "duration_minutes":  45,
+        "details":  "Alternate harder efforts with recovery segments and track response across intervals.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "gym",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "stationary_bike"
+                               ],
+        "prep_required":  [
+                              "Hydrate before session"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_rpe",
+                        "peak_heart_rate"
+                    ]
+    },
+    {
+        "id":  "activity_011",
+        "title":  "Resistance Session - Core Stability",
+        "category":  "Fitness routine / exercise",
+        "priority":  75,
+        "duration_minutes":  60,
+        "details":  "Complete compound lifts with controlled tempo and moderate load progression.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "strength_coach",
+        "resource_pool":  "allied_health",
+        "location":  "gym",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "dumbbell_set"
+                               ],
+        "prep_required":  [
+                              "Complete activation drills"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "sets_completed",
+                        "session_rpe",
+                        "load_used"
+                    ]
+    },
+    {
+        "id":  "activity_012",
+        "title":  "Recovery Walk - Recovery Focus",
+        "category":  "Fitness routine / exercise",
+        "priority":  61,
+        "duration_minutes":  45,
+        "details":  "Walk at a pace that slightly elevates breathing while keeping posture tall.",
+        "frequency":  {
+                          "times":  4,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "park",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Comfortable walking shoes"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "steps",
+                        "average_pace"
+                    ]
+    },
+    {
+        "id":  "activity_013",
+        "title":  "Recovery Yoga - Recovery Focus",
+        "category":  "Fitness routine / exercise",
+        "priority":  62,
+        "duration_minutes":  45,
+        "details":  "Use slow transitions and extended exhales to support recovery and mobility.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "physiotherapist",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "yoga_mat"
+                               ],
+        "prep_required":  [
+                              "Set up quiet room"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_minutes",
+                        "stress_score_post"
+                    ]
+    },
+    {
+        "id":  "activity_014",
+        "title":  "Tempo Bike Session - Recovery Focus",
+        "category":  "Fitness routine / exercise",
+        "priority":  72,
+        "duration_minutes":  45,
+        "details":  "Alternate harder efforts with recovery segments and track response across intervals.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "exercise_physiologist",
+        "resource_pool":  "allied_health",
+        "location":  "gym",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "stationary_bike"
+                               ],
+        "prep_required":  [
+                              "Review interval targets",
+                              "Hydrate before session"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "interval_count",
+                        "peak_heart_rate"
+                    ]
+    },
+    {
+        "id":  "activity_015",
+        "title":  "Cardio Recovery Run - Core Stability",
+        "category":  "Fitness routine / exercise",
+        "priority":  61,
+        "duration_minutes":  45,
+        "details":  "Maintain a sustainable aerobic effort and log exertion after the session.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "park",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Light dynamic warm-up"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "distance_km",
+                        "heart_rate_average"
+                    ]
+    },
+    {
+        "id":  "activity_016",
+        "title":  "Guided Yoga - Joint Care",
+        "category":  "Fitness routine / exercise",
+        "priority":  76,
+        "duration_minutes":  45,
+        "details":  "Use slow transitions and extended exhales to support recovery and mobility.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "yoga_mat"
+                               ],
+        "prep_required":  [
+                              "Set up quiet room",
+                              "Reduce screen exposure beforehand"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_minutes",
+                        "stress_score_post",
+                        "sleep_readiness"
+                    ]
+    },
+    {
+        "id":  "activity_017",
+        "title":  "Mobility Flow - Recovery Focus",
+        "category":  "Fitness routine / exercise",
+        "priority":  64,
+        "duration_minutes":  30,
+        "details":  "Move through controlled range-of-motion work and keep breathing relaxed.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "physiotherapist",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "yoga_mat"
+                               ],
+        "prep_required":  [
+                              "Yoga mat ready",
+                              "Quiet floor space"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "stiffness_score",
+                        "pain_score",
+                        "mobility_minutes"
+                    ]
+    },
+    {
+        "id":  "activity_018",
+        "title":  "Low-Impact Walk - Aerobic Base",
+        "category":  "Fitness routine / exercise",
+        "priority":  64,
+        "duration_minutes":  45,
+        "details":  "Walk at a pace that slightly elevates breathing while keeping posture tall.",
+        "frequency":  {
+                          "times":  4,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "park",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Comfortable walking shoes"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "steps",
+                        "distance_km",
+                        "average_pace"
+                    ]
+    },
+    {
+        "id":  "activity_019",
+        "title":  "Mobility Flow - Core Stability",
+        "category":  "Fitness routine / exercise",
+        "priority":  64,
+        "duration_minutes":  30,
+        "details":  "Move through controlled range-of-motion work and keep breathing relaxed.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "physiotherapist",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "yoga_mat"
+                               ],
+        "prep_required":  [
+                              "Quiet floor space",
+                              "Yoga mat ready"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "stiffness_score",
+                        "mobility_minutes"
+                    ]
+    },
+    {
+        "id":  "activity_020",
+        "title":  "Guided Yoga - Mobility Reset",
+        "category":  "Fitness routine / exercise",
+        "priority":  69,
+        "duration_minutes":  45,
+        "details":  "Use slow transitions and extended exhales to support recovery and mobility.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "yoga_mat"
+                               ],
+        "prep_required":  [
+                              "Set up quiet room"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "stress_score_post",
+                        "sleep_readiness"
+                    ]
+    },
+    {
+        "id":  "activity_021",
+        "title":  "Breath-Led Yoga - Aerobic Base",
+        "category":  "Fitness routine / exercise",
+        "priority":  65,
+        "duration_minutes":  45,
+        "details":  "Use slow transitions and extended exhales to support recovery and mobility.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "physiotherapist",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "yoga_mat"
+                               ],
+        "prep_required":  [
+                              "Set up quiet room",
+                              "Reduce screen exposure beforehand"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_minutes",
+                        "stress_score_post",
+                        "sleep_readiness"
+                    ]
+    },
+    {
+        "id":  "activity_022",
+        "title":  "Strength Session - Core Stability",
+        "category":  "Fitness routine / exercise",
+        "priority":  72,
+        "duration_minutes":  75,
+        "details":  "Complete compound lifts with controlled tempo and moderate load progression.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "exercise_physiologist",
+        "resource_pool":  "allied_health",
+        "location":  "gym",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "dumbbell_set"
+                               ],
+        "prep_required":  [
+                              "Complete activation drills",
+                              "Prepare workout log"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "sets_completed",
+                        "session_rpe",
+                        "load_used"
+                    ]
+    },
+    {
+        "id":  "activity_023",
+        "title":  "Posterior Chain Session - Joint Care",
+        "category":  "Fitness routine / exercise",
+        "priority":  70,
+        "duration_minutes":  75,
+        "details":  "Complete compound lifts with controlled tempo and moderate load progression.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "exercise_physiologist",
+        "resource_pool":  "allied_health",
+        "location":  "gym",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "dumbbell_set"
+                               ],
+        "prep_required":  [
+                              "Complete activation drills"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_rpe",
+                        "load_used"
+                    ]
+    },
+    {
+        "id":  "activity_024",
+        "title":  "Cardio Recovery Run - Recovery Focus",
+        "category":  "Fitness routine / exercise",
+        "priority":  63,
+        "duration_minutes":  60,
+        "details":  "Maintain a sustainable aerobic effort and log exertion after the session.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "strength_coach",
+        "resource_pool":  "allied_health",
+        "location":  "gym",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "treadmill"
+                               ],
+        "prep_required":  [
+                              "Bring water bottle",
+                              "Light dynamic warm-up"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "heart_rate_average",
+                        "distance_km"
+                    ]
+    },
+    {
+        "id":  "activity_025",
+        "title":  "Recovery Walk - Joint Care",
+        "category":  "Fitness routine / exercise",
+        "priority":  69,
+        "duration_minutes":  30,
+        "details":  "Walk at a pace that slightly elevates breathing while keeping posture tall.",
+        "frequency":  {
+                          "times":  4,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "park",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Comfortable walking shoes"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "distance_km",
+                        "average_pace",
+                        "steps"
+                    ]
+    },
+    {
+        "id":  "activity_026",
+        "title":  "Recovery Yoga - Mobility Reset",
+        "category":  "Fitness routine / exercise",
+        "priority":  67,
+        "duration_minutes":  45,
+        "details":  "Use slow transitions and extended exhales to support recovery and mobility.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "yoga_mat"
+                               ],
+        "prep_required":  [
+                              "Set up quiet room"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_minutes",
+                        "stress_score_post"
+                    ]
+    },
+    {
+        "id":  "activity_027",
+        "title":  "Guided Yoga - Recovery Focus",
+        "category":  "Fitness routine / exercise",
+        "priority":  72,
+        "duration_minutes":  30,
+        "details":  "Use slow transitions and extended exhales to support recovery and mobility.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "yoga_mat"
+                               ],
+        "prep_required":  [
+                              "Reduce screen exposure beforehand"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_minutes",
+                        "stress_score_post"
+                    ]
+    },
+    {
+        "id":  "activity_028",
+        "title":  "Cardio Recovery Run - Mobility Reset",
+        "category":  "Fitness routine / exercise",
+        "priority":  76,
+        "duration_minutes":  60,
+        "details":  "Maintain a sustainable aerobic effort and log exertion after the session.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "exercise_physiologist",
+        "resource_pool":  "allied_health",
+        "location":  "gym",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "treadmill"
+                               ],
+        "prep_required":  [
+                              "Bring water bottle",
+                              "Light dynamic warm-up"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "rpe",
+                        "distance_km"
+                    ]
+    },
+    {
+        "id":  "activity_029",
+        "title":  "Focus Mobility Routine - Mobility Reset",
+        "category":  "Fitness routine / exercise",
+        "priority":  67,
+        "duration_minutes":  20,
+        "details":  "Alternate near and far focus work with controlled visual tracking drills.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "office",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Screen brightness reduced",
+                              "Timer prepared"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "eye_strain_score",
+                        "routine_minutes"
+                    ]
+    },
+    {
+        "id":  "activity_030",
+        "title":  "Outdoor Walk - Aerobic Base",
+        "category":  "Fitness routine / exercise",
+        "priority":  73,
+        "duration_minutes":  30,
+        "details":  "Walk at a pace that slightly elevates breathing while keeping posture tall.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "park",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Comfortable walking shoes"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "average_pace",
+                        "steps",
+                        "distance_km"
+                    ]
+    },
+    {
+        "id":  "activity_031",
+        "title":  "Interval Bike Session - Core Stability",
+        "category":  "Fitness routine / exercise",
+        "priority":  67,
+        "duration_minutes":  45,
+        "details":  "Alternate harder efforts with recovery segments and track response across intervals.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "gym",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "stationary_bike"
+                               ],
+        "prep_required":  [
+                              "Review interval targets"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_rpe",
+                        "interval_count",
+                        "peak_heart_rate"
+                    ]
+    },
+    {
+        "id":  "activity_032",
+        "title":  "Visual Mobility Routine - Joint Care",
+        "category":  "Fitness routine / exercise",
+        "priority":  73,
+        "duration_minutes":  15,
+        "details":  "Alternate near and far focus work with controlled visual tracking drills.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "occupational_therapist",
+        "resource_pool":  "allied_health",
+        "location":  "office",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Screen brightness reduced"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "routine_minutes",
+                        "screen_break_count",
+                        "eye_strain_score"
+                    ]
+    },
+    {
+        "id":  "activity_033",
+        "title":  "Tempo Bike Session - Core Stability",
+        "category":  "Fitness routine / exercise",
+        "priority":  75,
+        "duration_minutes":  30,
+        "details":  "Alternate harder efforts with recovery segments and track response across intervals.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "gym",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "stationary_bike"
+                               ],
+        "prep_required":  [
+                              "Hydrate before session"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "peak_heart_rate",
+                        "session_rpe"
+                    ]
+    },
+    {
+        "id":  "activity_034",
+        "title":  "Resistance Session - Mobility Reset",
+        "category":  "Fitness routine / exercise",
+        "priority":  74,
+        "duration_minutes":  75,
+        "details":  "Complete compound lifts with controlled tempo and moderate load progression.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "strength_coach",
+        "resource_pool":  "allied_health",
+        "location":  "gym",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "dumbbell_set"
+                               ],
+        "prep_required":  [
+                              "Prepare workout log"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "sets_completed",
+                        "session_rpe",
+                        "load_used"
+                    ]
+    },
+    {
+        "id":  "activity_035",
+        "title":  "Breath-Led Yoga - Recovery Focus",
+        "category":  "Fitness routine / exercise",
+        "priority":  69,
+        "duration_minutes":  30,
+        "details":  "Use slow transitions and extended exhales to support recovery and mobility.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "yoga_mat"
+                               ],
+        "prep_required":  [
+                              "Reduce screen exposure beforehand",
+                              "Set up quiet room"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next free slot within 48 hours and lower intensity by one step.",
+        "metrics":  [
+                        "session_minutes",
+                        "stress_score_post",
+                        "sleep_readiness"
+                    ]
+    },
+    {
+        "id":  "activity_036",
+        "title":  "Balanced Breakfast - Protein Rebuild",
+        "category":  "Food consumption",
+        "priority":  71,
+        "duration_minutes":  30,
+        "details":  "Build breakfast around protein, fiber, and steady energy release.",
+        "frequency":  {
+                          "times":  4,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blender_station"
+                               ],
+        "prep_required":  [
+                              "Ingredients prepped the night before",
+                              "Breakfast logged in nutrition app"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "fiber_grams",
+                        "protein_grams",
+                        "post_meal_energy"
+                    ]
+    },
+    {
+        "id":  "activity_037",
+        "title":  "Sleep-Support Dinner - Energy Stabilizer",
+        "category":  "Food consumption",
+        "priority":  71,
+        "duration_minutes":  30,
+        "details":  "Build dinner around vegetables, legumes, and a moderate portion of lean protein.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Vegetables chopped in advance",
+                              "Dinner ingredients thawed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "sleep_quality_next_day",
+                        "fiber_grams",
+                        "meal_finish_time"
+                    ]
+    },
+    {
+        "id":  "activity_038",
+        "title":  "Protein-Forward Breakfast - Protein Rebuild",
+        "category":  "Food consumption",
+        "priority":  70,
+        "duration_minutes":  20,
+        "details":  "Build breakfast around protein, fiber, and steady energy release.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blender_station"
+                               ],
+        "prep_required":  [
+                              "Breakfast logged in nutrition app"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "fiber_grams",
+                        "post_meal_energy"
+                    ]
+    },
+    {
+        "id":  "activity_039",
+        "title":  "Fluid Checkpoint - Energy Stabilizer",
+        "category":  "Food consumption",
+        "priority":  70,
+        "duration_minutes":  10,
+        "details":  "Pause for a structured hydration target and record intake progress.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "office",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Water bottle filled"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "hydration_ml",
+                        "urine_color_score"
+                    ]
+    },
+    {
+        "id":  "activity_040",
+        "title":  "Recovery Smoothie - Recovery Plate",
+        "category":  "Food consumption",
+        "priority":  72,
+        "duration_minutes":  15,
+        "details":  "Blend protein and hydration-supportive ingredients after higher-load training.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "blender_station"
+                               ],
+        "prep_required":  [
+                              "Frozen ingredients portioned"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "hydration_ml",
+                        "protein_grams"
+                    ]
+    },
+    {
+        "id":  "activity_041",
+        "title":  "Recovery Smoothie - Energy Stabilizer",
+        "category":  "Food consumption",
+        "priority":  71,
+        "duration_minutes":  15,
+        "details":  "Blend protein and hydration-supportive ingredients after higher-load training.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+                                   "blender_station"
+                               ],
+        "prep_required":  [
+                              "Frozen ingredients portioned"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "hydration_ml",
+                        "recovery_score_next_day",
+                        "protein_grams"
+                    ]
+    },
+    {
+        "id":  "activity_042",
+        "title":  "Balanced Breakfast - Metabolic Support",
+        "category":  "Food consumption",
+        "priority":  57,
+        "duration_minutes":  20,
+        "details":  "Build breakfast around protein, fiber, and steady energy release.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blender_station"
+                               ],
+        "prep_required":  [
+                              "Ingredients prepped the night before"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "post_meal_energy",
+                        "fiber_grams"
+                    ]
+    },
+    {
+        "id":  "activity_043",
+        "title":  "Sleep-Support Dinner - Gut Support",
+        "category":  "Food consumption",
+        "priority":  69,
+        "duration_minutes":  40,
+        "details":  "Build dinner around vegetables, legumes, and a moderate portion of lean protein.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Dinner ingredients thawed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "meal_finish_time",
+                        "fiber_grams"
+                    ]
+    },
+    {
+        "id":  "activity_044",
+        "title":  "Mediterranean Lunch - Gut Support",
+        "category":  "Food consumption",
+        "priority":  70,
+        "duration_minutes":  30,
+        "details":  "Use lean protein, vegetables, and stable carbohydrates for lunch composition.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "office",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Meal prep container ready"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "satiety_score",
+                        "post_meal_glucose"
+                    ]
+    },
+    {
+        "id":  "activity_045",
+        "title":  "Nutrient With Meal - Recovery Plate",
+        "category":  "Food consumption",
+        "priority":  59,
+        "duration_minutes":  10,
+        "details":  "Pair supplements with a balanced meal to improve consistency.",
+        "frequency":  {
+                          "times":  4,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Supplement pack ready"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "supplement_taken",
+                        "stomach_tolerance"
+                    ]
+    },
+    {
+        "id":  "activity_046",
+        "title":  "Low-Glycemic Lunch - Protein Rebuild",
+        "category":  "Food consumption",
+        "priority":  64,
+        "duration_minutes":  30,
+        "details":  "Use lean protein, vegetables, and stable carbohydrates for lunch composition.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Meal prep container ready"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "satiety_score",
+                        "post_meal_glucose"
+                    ]
+    },
+    {
+        "id":  "activity_047",
+        "title":  "Balanced Dinner - Metabolic Support",
+        "category":  "Food consumption",
+        "priority":  57,
+        "duration_minutes":  30,
+        "details":  "Build dinner around vegetables, legumes, and a moderate portion of lean protein.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Vegetables chopped in advance",
+                              "Dinner ingredients thawed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "sleep_quality_next_day",
+                        "meal_finish_time",
+                        "fiber_grams"
+                    ]
+    },
+    {
+        "id":  "activity_048",
+        "title":  "Electrolyte Checkpoint - Energy Stabilizer",
+        "category":  "Food consumption",
+        "priority":  66,
+        "duration_minutes":  10,
+        "details":  "Pause for a structured hydration target and record intake progress.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Water bottle filled"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "urine_color_score",
+                        "hydration_ml",
+                        "electrolyte_serving"
+                    ]
+    },
+    {
+        "id":  "activity_049",
+        "title":  "Balanced Breakfast - Energy Stabilizer",
+        "category":  "Food consumption",
+        "priority":  69,
+        "duration_minutes":  20,
+        "details":  "Build breakfast around protein, fiber, and steady energy release.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blender_station"
+                               ],
+        "prep_required":  [
+                              "Breakfast logged in nutrition app",
+                              "Ingredients prepped the night before"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "fiber_grams",
+                        "protein_grams"
+                    ]
+    },
+    {
+        "id":  "activity_050",
+        "title":  "Protein Smoothie - Metabolic Support",
+        "category":  "Food consumption",
+        "priority":  65,
+        "duration_minutes":  15,
+        "details":  "Blend protein and hydration-supportive ingredients after higher-load training.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blender_station"
+                               ],
+        "prep_required":  [
+                              "Frozen ingredients portioned"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "hydration_ml",
+                        "protein_grams"
+                    ]
+    },
+    {
+        "id":  "activity_051",
+        "title":  "Supplement With Meal - Energy Stabilizer",
+        "category":  "Food consumption",
+        "priority":  63,
+        "duration_minutes":  10,
+        "details":  "Pair supplements with a balanced meal to improve consistency.",
+        "frequency":  {
+                          "times":  4,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "office",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Supplement pack ready"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "stomach_tolerance",
+                        "supplement_taken"
+                    ]
+    },
+    {
+        "id":  "activity_052",
+        "title":  "Balanced Breakfast - Gut Support",
+        "category":  "Food consumption",
+        "priority":  71,
+        "duration_minutes":  20,
+        "details":  "Build breakfast around protein, fiber, and steady energy release.",
+        "frequency":  {
+                          "times":  4,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blender_station"
+                               ],
+        "prep_required":  [
+                              "Breakfast logged in nutrition app",
+                              "Ingredients prepped the night before"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "fiber_grams",
+                        "protein_grams",
+                        "post_meal_energy"
+                    ]
+    },
+    {
+        "id":  "activity_053",
+        "title":  "Balanced Dinner - Protein Rebuild",
+        "category":  "Food consumption",
+        "priority":  68,
+        "duration_minutes":  30,
+        "details":  "Build dinner around vegetables, legumes, and a moderate portion of lean protein.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Dinner ingredients thawed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "fiber_grams",
+                        "meal_finish_time",
+                        "sleep_quality_next_day"
+                    ]
+    },
+    {
+        "id":  "activity_054",
+        "title":  "Balanced Dinner - Recovery Plate",
+        "category":  "Food consumption",
+        "priority":  71,
+        "duration_minutes":  40,
+        "details":  "Build dinner around vegetables, legumes, and a moderate portion of lean protein.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Dinner ingredients thawed",
+                              "Vegetables chopped in advance"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "meal_finish_time",
+                        "sleep_quality_next_day",
+                        "fiber_grams"
+                    ]
+    },
+    {
+        "id":  "activity_055",
+        "title":  "Fiber-Rich Dinner - Energy Stabilizer",
+        "category":  "Food consumption",
+        "priority":  59,
+        "duration_minutes":  30,
+        "details":  "Build dinner around vegetables, legumes, and a moderate portion of lean protein.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Vegetables chopped in advance"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "fiber_grams",
+                        "meal_finish_time"
+                    ]
+    },
+    {
+        "id":  "activity_056",
+        "title":  "Balanced Breakfast - Recovery Plate",
+        "category":  "Food consumption",
+        "priority":  61,
+        "duration_minutes":  20,
+        "details":  "Build breakfast around protein, fiber, and steady energy release.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blender_station"
+                               ],
+        "prep_required":  [
+                              "Ingredients prepped the night before",
+                              "Breakfast logged in nutrition app"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "protein_grams",
+                        "fiber_grams"
+                    ]
+    },
+    {
+        "id":  "activity_057",
+        "title":  "Nutrient With Meal - Energy Stabilizer",
+        "category":  "Food consumption",
+        "priority":  58,
+        "duration_minutes":  10,
+        "details":  "Pair supplements with a balanced meal to improve consistency.",
+        "frequency":  {
+                          "times":  5,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "office",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Supplement pack ready"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "stomach_tolerance",
+                        "meal_timestamp",
+                        "supplement_taken"
+                    ]
+    },
+    {
+        "id":  "activity_058",
+        "title":  "Recovery Smoothie - Protein Rebuild",
+        "category":  "Food consumption",
+        "priority":  65,
+        "duration_minutes":  15,
+        "details":  "Blend protein and hydration-supportive ingredients after higher-load training.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blender_station"
+                               ],
+        "prep_required":  [
+                              "Frozen ingredients portioned"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "recovery_score_next_day",
+                        "protein_grams"
+                    ]
+    },
+    {
+        "id":  "activity_059",
+        "title":  "Sleep-Support Dinner - Recovery Plate",
+        "category":  "Food consumption",
+        "priority":  62,
+        "duration_minutes":  40,
+        "details":  "Build dinner around vegetables, legumes, and a moderate portion of lean protein.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Dinner ingredients thawed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "meal_finish_time",
+                        "fiber_grams",
+                        "sleep_quality_next_day"
+                    ]
+    },
+    {
+        "id":  "activity_060",
+        "title":  "Supplement With Meal - Gut Support",
+        "category":  "Food consumption",
+        "priority":  62,
+        "duration_minutes":  10,
+        "details":  "Pair supplements with a balanced meal to improve consistency.",
+        "frequency":  {
+                          "times":  5,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Supplement pack ready"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest balanced meal option and record deviation in the nutrition log.",
+        "metrics":  [
+                        "meal_timestamp",
+                        "stomach_tolerance"
+                    ]
+    },
+    {
+        "id":  "activity_061",
+        "title":  "Daily Medication Dose - Daily Adherence",
+        "category":  "Medication consumption",
+        "priority":  89,
+        "duration_minutes":  10,
+        "details":  "Take the prescribed maintenance medication exactly as listed in the plan.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blood_pressure_cuff"
+                               ],
+        "prep_required":  [
+                              "Dose reminder active"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "side_effect_score",
+                        "blood_pressure_reading"
+                    ]
+    },
+    {
+        "id":  "activity_062",
+        "title":  "Daily Medication Dose - Morning Routine",
+        "category":  "Medication consumption",
+        "priority":  77,
+        "duration_minutes":  10,
+        "details":  "Take the prescribed maintenance medication exactly as listed in the plan.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blood_pressure_cuff"
+                               ],
+        "prep_required":  [
+                              "Dose reminder active",
+                              "Medication organizer refilled"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "dose_taken",
+                        "blood_pressure_reading"
+                    ]
+    },
+    {
+        "id":  "activity_063",
+        "title":  "Daily Vitamin Dose - Daily Adherence",
+        "category":  "Medication consumption",
+        "priority":  91,
+        "duration_minutes":  10,
+        "details":  "Take the planned vitamin dose with food and mark adherence in the tracker.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "travel",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Medication organizer refilled"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "missed_dose_flag",
+                        "dose_taken",
+                        "time_taken"
+                    ]
+    },
+    {
+        "id":  "activity_064",
+        "title":  "Refill Check - Daily Adherence",
+        "category":  "Medication consumption",
+        "priority":  84,
+        "duration_minutes":  20,
+        "details":  "Review remaining medication supply and place a refill request before the final week of stock.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Pharmacy details available"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "days_of_supply_left",
+                        "refill_requested",
+                        "med_list_updated"
+                    ]
+    },
+    {
+        "id":  "activity_065",
+        "title":  "Evening Magnesium Dose - Daily Adherence",
+        "category":  "Medication consumption",
+        "priority":  87,
+        "duration_minutes":  10,
+        "details":  "Take magnesium in the evening and monitor any effect on sleep readiness.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "travel",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Medication organizer refilled"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "GI_tolerance",
+                        "dose_taken"
+                    ]
+    },
+    {
+        "id":  "activity_066",
+        "title":  "Medication Check - Morning Routine",
+        "category":  "Medication consumption",
+        "priority":  81,
+        "duration_minutes":  20,
+        "details":  "Review remaining medication supply and place a refill request before the final week of stock.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "office",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Pharmacy details available"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "med_list_updated",
+                        "days_of_supply_left"
+                    ]
+    },
+    {
+        "id":  "activity_067",
+        "title":  "Evening Magnesium Dose - Travel-Safe Pack",
+        "category":  "Medication consumption",
+        "priority":  78,
+        "duration_minutes":  10,
+        "details":  "Take magnesium in the evening and monitor any effect on sleep readiness.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "travel",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Medication organizer refilled"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "sleep_latency",
+                        "GI_tolerance"
+                    ]
+    },
+    {
+        "id":  "activity_068",
+        "title":  "Daily Medication Dose - Evening Routine",
+        "category":  "Medication consumption",
+        "priority":  91,
+        "duration_minutes":  10,
+        "details":  "Take the prescribed maintenance medication exactly as listed in the plan.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blood_pressure_cuff"
+                               ],
+        "prep_required":  [
+                              "Dose reminder active",
+                              "Medication organizer refilled"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "side_effect_score",
+                        "dose_taken"
+                    ]
+    },
+    {
+        "id":  "activity_069",
+        "title":  "Daily Vitamin Dose - Travel-Safe Pack",
+        "category":  "Medication consumption",
+        "priority":  93,
+        "duration_minutes":  10,
+        "details":  "Take the planned vitamin dose with food and mark adherence in the tracker.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Medication organizer refilled"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "missed_dose_flag",
+                        "dose_taken"
+                    ]
+    },
+    {
+        "id":  "activity_070",
+        "title":  "Supply Check - Evening Routine",
+        "category":  "Medication consumption",
+        "priority":  91,
+        "duration_minutes":  20,
+        "details":  "Review remaining medication supply and place a refill request before the final week of stock.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "office",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Pharmacy details available"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "refill_requested",
+                        "med_list_updated",
+                        "days_of_supply_left"
+                    ]
+    },
+    {
+        "id":  "activity_071",
+        "title":  "Prescription Medication Dose - Daily Adherence",
+        "category":  "Medication consumption",
+        "priority":  88,
+        "duration_minutes":  10,
+        "details":  "Take the prescribed maintenance medication exactly as listed in the plan.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blood_pressure_cuff"
+                               ],
+        "prep_required":  [
+                              "Medication organizer refilled",
+                              "Dose reminder active"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "side_effect_score",
+                        "dose_taken"
+                    ]
+    },
+    {
+        "id":  "activity_072",
+        "title":  "Daily Medication Dose - Maintenance Cycle",
+        "category":  "Medication consumption",
+        "priority":  92,
+        "duration_minutes":  10,
+        "details":  "Take the prescribed maintenance medication exactly as listed in the plan.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blood_pressure_cuff"
+                               ],
+        "prep_required":  [
+                              "Medication organizer refilled",
+                              "Dose reminder active"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "side_effect_score",
+                        "dose_taken"
+                    ]
+    },
+    {
+        "id":  "activity_073",
+        "title":  "Supply Check - Daily Adherence",
+        "category":  "Medication consumption",
+        "priority":  88,
+        "duration_minutes":  20,
+        "details":  "Review remaining medication supply and place a refill request before the final week of stock.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Pharmacy details available"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "days_of_supply_left",
+                        "med_list_updated",
+                        "refill_requested"
+                    ]
+    },
+    {
+        "id":  "activity_074",
+        "title":  "Consistency Vitamin Dose - Evening Routine",
+        "category":  "Medication consumption",
+        "priority":  88,
+        "duration_minutes":  10,
+        "details":  "Take the planned vitamin dose with food and mark adherence in the tracker.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Medication organizer refilled"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "dose_taken",
+                        "missed_dose_flag"
+                    ]
+    },
+    {
+        "id":  "activity_075",
+        "title":  "Medication Check - Evening Routine",
+        "category":  "Medication consumption",
+        "priority":  91,
+        "duration_minutes":  20,
+        "details":  "Review remaining medication supply and place a refill request before the final week of stock.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Pharmacy details available"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "refill_requested",
+                        "med_list_updated"
+                    ]
+    },
+    {
+        "id":  "activity_076",
+        "title":  "Daily Vitamin Dose - Maintenance Cycle",
+        "category":  "Medication consumption",
+        "priority":  78,
+        "duration_minutes":  10,
+        "details":  "Take the planned vitamin dose with food and mark adherence in the tracker.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "travel",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Medication organizer refilled"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "dose_taken",
+                        "time_taken"
+                    ]
+    },
+    {
+        "id":  "activity_077",
+        "title":  "Maintenance Medication Dose - Daily Adherence",
+        "category":  "Medication consumption",
+        "priority":  81,
+        "duration_minutes":  10,
+        "details":  "Take the prescribed maintenance medication exactly as listed in the plan.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blood_pressure_cuff"
+                               ],
+        "prep_required":  [
+                              "Dose reminder active"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "side_effect_score",
+                        "dose_taken"
+                    ]
+    },
+    {
+        "id":  "activity_078",
+        "title":  "Weekly Injection Window - Maintenance Cycle",
+        "category":  "Medication consumption",
+        "priority":  86,
+        "duration_minutes":  15,
+        "details":  "Administer the weekly medication during a stable routine window and record the site used.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Sharps bin nearby"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "symptom_score_next_day",
+                        "injection_site"
+                    ]
+    },
+    {
+        "id":  "activity_079",
+        "title":  "Prescription Medication Dose - Travel-Safe Pack",
+        "category":  "Medication consumption",
+        "priority":  97,
+        "duration_minutes":  10,
+        "details":  "Take the prescribed maintenance medication exactly as listed in the plan.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blood_pressure_cuff"
+                               ],
+        "prep_required":  [
+                              "Medication organizer refilled",
+                              "Dose reminder active"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "dose_taken"
+                    ]
+    },
+    {
+        "id":  "activity_080",
+        "title":  "Maintenance Medication Dose - Travel-Safe Pack",
+        "category":  "Medication consumption",
+        "priority":  82,
+        "duration_minutes":  10,
+        "details":  "Take the prescribed maintenance medication exactly as listed in the plan.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blood_pressure_cuff"
+                               ],
+        "prep_required":  [
+                              "Dose reminder active",
+                              "Medication organizer refilled"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Flag for clinician review if skipped; do not double dose without instructions.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "side_effect_score",
+                        "dose_taken"
+                    ]
+    },
+    {
+        "id":  "activity_081",
+        "title":  "Guided Breathing - Sleep Support",
+        "category":  "Therapy",
+        "priority":  78,
+        "duration_minutes":  15,
+        "details":  "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Lights dimmed",
+                              "Phone on silent"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "stress_score_post",
+                        "sleep_latency"
+                    ]
+    },
+    {
+        "id":  "activity_082",
+        "title":  "Thermal Session - Circulation Boost",
+        "category":  "Therapy",
+        "priority":  68,
+        "duration_minutes":  40,
+        "details":  "Use a moderate-duration heat exposure and cool down gradually afterwards.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "recovery_center",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "sauna_room"
+                               ],
+        "prep_required":  [
+                              "Bring towel"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "pre_weight",
+                        "session_minutes"
+                    ]
+    },
+    {
+        "id":  "activity_083",
+        "title":  "Recovery Manual Session - Recovery Session",
+        "category":  "Therapy",
+        "priority":  78,
+        "duration_minutes":  45,
+        "details":  "Complete targeted recovery therapy for the current mobility restriction or pain point.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "physiotherapist",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Pain notes updated before appointment"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "pain_score_post",
+                        "range_of_motion_change",
+                        "pain_score_pre"
+                    ]
+    },
+    {
+        "id":  "activity_084",
+        "title":  "Manual Therapy Session - Recovery Session",
+        "category":  "Therapy",
+        "priority":  70,
+        "duration_minutes":  45,
+        "details":  "Complete targeted recovery therapy for the current mobility restriction or pain point.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "physiotherapist",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Pain notes updated before appointment"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "pain_score_post",
+                        "range_of_motion_change"
+                    ]
+    },
+    {
+        "id":  "activity_085",
+        "title":  "Guided Breathing - Stress Reset",
+        "category":  "Therapy",
+        "priority":  78,
+        "duration_minutes":  15,
+        "details":  "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Phone on silent",
+                              "Lights dimmed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "session_minutes",
+                        "sleep_latency",
+                        "stress_score_post"
+                    ]
+    },
+    {
+        "id":  "activity_086",
+        "title":  "Guided Breathing - Inflammation Support",
+        "category":  "Therapy",
+        "priority":  78,
+        "duration_minutes":  15,
+        "details":  "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Lights dimmed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "session_minutes",
+                        "sleep_latency"
+                    ]
+    },
+    {
+        "id":  "activity_087",
+        "title":  "Manual Therapy Session - Sleep Support",
+        "category":  "Therapy",
+        "priority":  71,
+        "duration_minutes":  60,
+        "details":  "Complete targeted recovery therapy for the current mobility restriction or pain point.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "physiotherapist",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Pain notes updated before appointment"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "pain_score_post",
+                        "pain_score_pre",
+                        "range_of_motion_change"
+                    ]
+    },
+    {
+        "id":  "activity_088",
+        "title":  "Soft Tissue Session - Stress Reset",
+        "category":  "Therapy",
+        "priority":  68,
+        "duration_minutes":  45,
+        "details":  "Complete targeted recovery therapy for the current mobility restriction or pain point.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "physiotherapist",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Pain notes updated before appointment"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "pain_score_post",
+                        "pain_score_pre",
+                        "range_of_motion_change"
+                    ]
+    },
+    {
+        "id":  "activity_089",
+        "title":  "Compression Session - Stress Reset",
+        "category":  "Therapy",
+        "priority":  64,
+        "duration_minutes":  20,
+        "details":  "Use lower-limb compression after demanding training blocks to support recovery.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "recovery_center",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "compression_boots"
+                               ],
+        "prep_required":  [
+                              "Elevate legs after session"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "session_minutes",
+                        "leg_heaviness_score",
+                        "recovery_score"
+                    ]
+    },
+    {
+        "id":  "activity_090",
+        "title":  "Ice Recovery Session - Stress Reset",
+        "category":  "Therapy",
+        "priority":  72,
+        "duration_minutes":  15,
+        "details":  "Keep the cold exposure controlled and note recovery response after the session.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "recovery_center",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "ice_bath"
+                               ],
+        "prep_required":  [
+                              "Breathing reset before entry"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "mood_after",
+                        "session_minutes",
+                        "recovery_score"
+                    ]
+    },
+    {
+        "id":  "activity_091",
+        "title":  "Stress Reset - Recovery Session",
+        "category":  "Therapy",
+        "priority":  78,
+        "duration_minutes":  20,
+        "details":  "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Phone on silent",
+                              "Lights dimmed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "session_minutes",
+                        "sleep_latency"
+                    ]
+    },
+    {
+        "id":  "activity_092",
+        "title":  "Stress Reset - Circulation Boost",
+        "category":  "Therapy",
+        "priority":  66,
+        "duration_minutes":  20,
+        "details":  "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Lights dimmed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "sleep_latency",
+                        "stress_score_post"
+                    ]
+    },
+    {
+        "id":  "activity_093",
+        "title":  "Cooling Session - Circulation Boost",
+        "category":  "Therapy",
+        "priority":  77,
+        "duration_minutes":  15,
+        "details":  "Keep the cold exposure controlled and note recovery response after the session.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "recovery_center",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "ice_bath"
+                               ],
+        "prep_required":  [
+                              "Breathing reset before entry"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "recovery_score",
+                        "session_minutes"
+                    ]
+    },
+    {
+        "id":  "activity_094",
+        "title":  "Compression Session - Circulation Boost",
+        "category":  "Therapy",
+        "priority":  72,
+        "duration_minutes":  20,
+        "details":  "Use lower-limb compression after demanding training blocks to support recovery.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "recovery_center",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "compression_boots"
+                               ],
+        "prep_required":  [
+                              "Elevate legs after session"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "session_minutes",
+                        "leg_heaviness_score"
+                    ]
+    },
+    {
+        "id":  "activity_095",
+        "title":  "Heat Recovery Session - Recovery Session",
+        "category":  "Therapy",
+        "priority":  78,
+        "duration_minutes":  40,
+        "details":  "Use a moderate-duration heat exposure and cool down gradually afterwards.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "recovery_center",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "sauna_room"
+                               ],
+        "prep_required":  [
+                              "Hydrate 30 minutes before"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "pre_weight",
+                        "session_minutes",
+                        "post_weight"
+                    ]
+    },
+    {
+        "id":  "activity_096",
+        "title":  "Compression Session - Sleep Support",
+        "category":  "Therapy",
+        "priority":  72,
+        "duration_minutes":  20,
+        "details":  "Use lower-limb compression after demanding training blocks to support recovery.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "recovery_center",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "compression_boots"
+                               ],
+        "prep_required":  [
+                              "Elevate legs after session"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "session_minutes",
+                        "leg_heaviness_score",
+                        "recovery_score"
+                    ]
+    },
+    {
+        "id":  "activity_097",
+        "title":  "Stress Reset - Stress Reset",
+        "category":  "Therapy",
+        "priority":  72,
+        "duration_minutes":  20,
+        "details":  "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Lights dimmed",
+                              "Phone on silent"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "stress_score_post",
+                        "sleep_latency",
+                        "session_minutes"
+                    ]
+    },
+    {
+        "id":  "activity_098",
+        "title":  "Circulation Session - Stress Reset",
+        "category":  "Therapy",
+        "priority":  78,
+        "duration_minutes":  20,
+        "details":  "Use lower-limb compression after demanding training blocks to support recovery.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "recovery_center",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "compression_boots"
+                               ],
+        "prep_required":  [
+                              "Elevate legs after session"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "session_minutes",
+                        "recovery_score"
+                    ]
+    },
+    {
+        "id":  "activity_099",
+        "title":  "Cooling Session - Stress Reset",
+        "category":  "Therapy",
+        "priority":  76,
+        "duration_minutes":  20,
+        "details":  "Keep the cold exposure controlled and note recovery response after the session.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "recovery_center",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "ice_bath"
+                               ],
+        "prep_required":  [
+                              "Breathing reset before entry"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "mood_after",
+                        "recovery_score"
+                    ]
+    },
+    {
+        "id":  "activity_100",
+        "title":  "Evening Breathwork - Inflammation Support",
+        "category":  "Therapy",
+        "priority":  78,
+        "duration_minutes":  20,
+        "details":  "Use slow exhale-biased breathing to lower evening stress load and improve sleep onset.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Lights dimmed",
+                              "Phone on silent"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within the same week if symptoms are stable; otherwise mark for manual review.",
+        "metrics":  [
+                        "sleep_latency",
+                        "stress_score_post"
+                    ]
+    },
+    {
+        "id":  "activity_101",
+        "title":  "Sleep Coaching Call - Progress Review",
+        "category":  "Consultation",
+        "priority":  84,
+        "duration_minutes":  30,
+        "details":  "Review bedtime consistency, evening routine, and overnight recovery patterns.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "sleep_physician",
+        "resource_pool":  "specialist",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Sleep tracker summary exported"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "action_items_created",
+                        "sleep_latency"
+                    ]
+    },
+    {
+        "id":  "activity_102",
+        "title":  "Physiotherapy Review - Check-In",
+        "category":  "Consultation",
+        "priority":  76,
+        "duration_minutes":  45,
+        "details":  "Assess mobility constraints and exercise tolerance, then adjust the movement plan.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "physiotherapist",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Training log available",
+                              "Pain notes updated"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "range_of_motion",
+                        "pain_score",
+                        "exercise_modifications"
+                    ]
+    },
+    {
+        "id":  "activity_103",
+        "title":  "Primary Care Review - Quarterly Review",
+        "category":  "Consultation",
+        "priority":  80,
+        "duration_minutes":  45,
+        "details":  "Review symptoms, medication adherence, and recent health trends with the physician.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "primary_care_physician",
+        "resource_pool":  "specialist",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Upload recent metrics summary"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "questions_answered",
+                        "weight",
+                        "blood_pressure_reading"
+                    ]
+    },
+    {
+        "id":  "activity_104",
+        "title":  "Lab Testing Appointment - Check-In",
+        "category":  "Consultation",
+        "priority":  94,
+        "duration_minutes":  30,
+        "details":  "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "lab_technician",
+        "resource_pool":  "specialist",
+        "location":  "lab",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "lab_kit"
+                               ],
+        "prep_required":  [
+                              "Follow fasting instructions"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Book the next morning lab slot and preserve fasting instructions.",
+        "metrics":  [
+                        "sample_quality",
+                        "follow_up_booked"
+                    ]
+    },
+    {
+        "id":  "activity_105",
+        "title":  "Primary Care Review - Check-In",
+        "category":  "Consultation",
+        "priority":  94,
+        "duration_minutes":  45,
+        "details":  "Review symptoms, medication adherence, and recent health trends with the physician.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "primary_care_physician",
+        "resource_pool":  "specialist",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Upload recent metrics summary"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "questions_answered"
+                    ]
+    },
+    {
+        "id":  "activity_106",
+        "title":  "Primary Care Review - Plan Tuning",
+        "category":  "Consultation",
+        "priority":  87,
+        "duration_minutes":  45,
+        "details":  "Review symptoms, medication adherence, and recent health trends with the physician.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "primary_care_physician",
+        "resource_pool":  "specialist",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Upload recent metrics summary"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "weight",
+                        "blood_pressure_reading",
+                        "questions_answered"
+                    ]
+    },
+    {
+        "id":  "activity_107",
+        "title":  "Dietitian Consultation - Quarterly Review",
+        "category":  "Consultation",
+        "priority":  74,
+        "duration_minutes":  45,
+        "details":  "Review meal adherence, travel eating patterns, and nutrition barriers.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Photos of recent meals available",
+                              "Food diary updated"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "action_items_created",
+                        "meal_adherence_score",
+                        "weight_trend"
+                    ]
+    },
+    {
+        "id":  "activity_108",
+        "title":  "Dietitian Consultation - Progress Review",
+        "category":  "Consultation",
+        "priority":  73,
+        "duration_minutes":  45,
+        "details":  "Review meal adherence, travel eating patterns, and nutrition barriers.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Photos of recent meals available",
+                              "Food diary updated"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "weight_trend",
+                        "action_items_created"
+                    ]
+    },
+    {
+        "id":  "activity_109",
+        "title":  "Dietitian Consultation - Follow-Up",
+        "category":  "Consultation",
+        "priority":  70,
+        "duration_minutes":  45,
+        "details":  "Review meal adherence, travel eating patterns, and nutrition barriers.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Food diary updated",
+                              "Photos of recent meals available"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "meal_adherence_score",
+                        "action_items_created",
+                        "weight_trend"
+                    ]
+    },
+    {
+        "id":  "activity_110",
+        "title":  "Sleep Coaching Call - Plan Tuning",
+        "category":  "Consultation",
+        "priority":  78,
+        "duration_minutes":  30,
+        "details":  "Review bedtime consistency, evening routine, and overnight recovery patterns.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Sleep tracker summary exported"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "sleep_latency",
+                        "sleep_duration"
+                    ]
+    },
+    {
+        "id":  "activity_111",
+        "title":  "Lab Testing Appointment - Plan Tuning",
+        "category":  "Consultation",
+        "priority":  86,
+        "duration_minutes":  30,
+        "details":  "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "lab_technician",
+        "resource_pool":  "specialist",
+        "location":  "lab",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "lab_kit"
+                               ],
+        "prep_required":  [
+                              "Follow fasting instructions",
+                              "Bring requisition form"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Book the next morning lab slot and preserve fasting instructions.",
+        "metrics":  [
+                        "test_completed",
+                        "follow_up_booked",
+                        "sample_quality"
+                    ]
+    },
+    {
+        "id":  "activity_112",
+        "title":  "Lab Testing Appointment - Progress Review",
+        "category":  "Consultation",
+        "priority":  94,
+        "duration_minutes":  45,
+        "details":  "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "lab_technician",
+        "resource_pool":  "specialist",
+        "location":  "lab",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "lab_kit"
+                               ],
+        "prep_required":  [
+                              "Follow fasting instructions",
+                              "Bring requisition form"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Book the next morning lab slot and preserve fasting instructions.",
+        "metrics":  [
+                        "follow_up_booked",
+                        "sample_quality",
+                        "test_completed"
+                    ]
+    },
+    {
+        "id":  "activity_113",
+        "title":  "Lab Testing Appointment - Follow-Up",
+        "category":  "Consultation",
+        "priority":  88,
+        "duration_minutes":  30,
+        "details":  "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "lab_technician",
+        "resource_pool":  "specialist",
+        "location":  "lab",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "lab_kit"
+                               ],
+        "prep_required":  [
+                              "Follow fasting instructions"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Book the next morning lab slot and preserve fasting instructions.",
+        "metrics":  [
+                        "follow_up_booked",
+                        "test_completed",
+                        "sample_quality"
+                    ]
+    },
+    {
+        "id":  "activity_114",
+        "title":  "Lab Testing Appointment - Quarterly Review",
+        "category":  "Consultation",
+        "priority":  81,
+        "duration_minutes":  30,
+        "details":  "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "lab_technician",
+        "resource_pool":  "specialist",
+        "location":  "lab",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "lab_kit"
+                               ],
+        "prep_required":  [
+                              "Follow fasting instructions",
+                              "Bring requisition form"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Book the next morning lab slot and preserve fasting instructions.",
+        "metrics":  [
+                        "follow_up_booked",
+                        "test_completed",
+                        "sample_quality"
+                    ]
+    },
+    {
+        "id":  "activity_115",
+        "title":  "Lab Testing Appointment - Plan Variant 2",
+        "category":  "Consultation",
+        "priority":  93,
+        "duration_minutes":  45,
+        "details":  "Complete planned bloodwork or diagnostic testing and confirm follow-up routing.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "lab_technician",
+        "resource_pool":  "specialist",
+        "location":  "lab",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "lab_kit"
+                               ],
+        "prep_required":  [
+                              "Follow fasting instructions",
+                              "Bring requisition form"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Book the next morning lab slot and preserve fasting instructions.",
+        "metrics":  [
+                        "follow_up_booked",
+                        "sample_quality",
+                        "test_completed"
+                    ]
+    },
+    {
+        "id":  "activity_116",
+        "title":  "Dietitian Consultation - Plan Tuning",
+        "category":  "Consultation",
+        "priority":  76,
+        "duration_minutes":  45,
+        "details":  "Review meal adherence, travel eating patterns, and nutrition barriers.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Photos of recent meals available",
+                              "Food diary updated"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "meal_adherence_score",
+                        "weight_trend",
+                        "action_items_created"
+                    ]
+    },
+    {
+        "id":  "activity_117",
+        "title":  "Physiotherapy Review - Plan Tuning",
+        "category":  "Consultation",
+        "priority":  84,
+        "duration_minutes":  60,
+        "details":  "Assess mobility constraints and exercise tolerance, then adjust the movement plan.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "physiotherapist",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Training log available"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "exercise_modifications",
+                        "range_of_motion",
+                        "pain_score"
+                    ]
+    },
+    {
+        "id":  "activity_118",
+        "title":  "Primary Care Review - Progress Review",
+        "category":  "Consultation",
+        "priority":  79,
+        "duration_minutes":  45,
+        "details":  "Review symptoms, medication adherence, and recent health trends with the physician.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "primary_care_physician",
+        "resource_pool":  "specialist",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Upload recent metrics summary",
+                              "Prepare question list"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "questions_answered"
+                    ]
+    },
+    {
+        "id":  "activity_119",
+        "title":  "Sleep Coaching Call - Quarterly Review",
+        "category":  "Consultation",
+        "priority":  71,
+        "duration_minutes":  30,
+        "details":  "Review bedtime consistency, evening routine, and overnight recovery patterns.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Sleep tracker summary exported"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "sleep_latency",
+                        "sleep_duration"
+                    ]
+    },
+    {
+        "id":  "activity_120",
+        "title":  "Primary Care Review - Follow-Up",
+        "category":  "Consultation",
+        "priority":  78,
+        "duration_minutes":  45,
+        "details":  "Review symptoms, medication adherence, and recent health trends with the physician.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "primary_care_physician",
+        "resource_pool":  "specialist",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Upload recent metrics summary",
+                              "Prepare question list"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook the next available provider slot and send the latest metrics summary ahead of time.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "weight",
+                        "questions_answered"
+                    ]
+    },
+    {
+        "id":  "activity_121",
+        "title":  "Morning Blood Pressure + Medication Routine",
+        "category":  "Medication consumption",
+        "priority":  98,
+        "duration_minutes":  15,
+        "details":  "Check blood pressure before the morning dose, take the prescribed medication, and log both readings for clinician review.",
+        "frequency":  {
+                          "times":  1,
+                          "period":  "day"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+                                   "blood_pressure_cuff"
+                               ],
+        "prep_required":  [
+                              "Medication organizer refilled",
+                              "Blood pressure cuff placed near medication"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "If missed, record the reason and resume the next scheduled dose without doubling medication.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "dose_taken",
+                        "symptom_flag"
+                    ]
+    },
+    {
+        "id":  "activity_122",
+        "title":  "Post-Meal Walk - Glucose Control",
+        "category":  "Fitness routine / exercise",
+        "priority":  83,
+        "duration_minutes":  20,
+        "details":  "Take a brisk walk after a main meal to support glucose control, blood pressure management, and daily activity consistency.",
+        "frequency":  {
+                          "times":  4,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "park",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Walking shoes ready",
+                              "Last meal time logged"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move the session to the next available daylight slot within 24 hours and record the reason if skipped.",
+        "metrics":  [
+                        "steps",
+                        "walk_minutes",
+                        "post_meal_energy"
+                    ]
+    },
+    {
+        "id":  "activity_123",
+        "title":  "Dietitian Consultation - Hypertension Meal Plan",
+        "category":  "Consultation",
+        "priority":  92,
+        "duration_minutes":  45,
+        "details":  "Review sodium intake, meal timing, grocery habits, and adherence to a cardiometabolic-friendly meal plan.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "dietitian",
+        "resource_pool":  "allied_health",
+        "location":  "clinic",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "3-day food log completed",
+                              "Recent blood pressure summary available"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Rebook within the same fortnight and send the meal log ahead of the replacement session.",
+        "metrics":  [
+                        "sodium_target_met",
+                        "meal_adherence_score",
+                        "action_items_created"
+                    ]
+    },
+    {
+        "id":  "activity_124",
+        "title":  "Health Coaching Review - Blood Pressure Check-In",
+        "category":  "Consultation",
+        "priority":  88,
+        "duration_minutes":  30,
+        "details":  "Review home blood pressure trends, symptom notes, walking adherence, and barriers to maintaining the care plan.",
+        "frequency":  {
+                          "times":  2,
+                          "period":  "month"
+                      },
+        "facilitator_role":  "health_coach",
+        "resource_pool":  "allied_health",
+        "location":  "home",
+        "remote_allowed":  true,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Blood pressure log updated",
+                              "Questions prepared for coaching call"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Reschedule within 7 days and keep logging readings until the follow-up is completed.",
+        "metrics":  [
+                        "blood_pressure_reading",
+                        "habit_adherence_score",
+                        "action_items_created"
+                    ]
+    },
+    {
+        "id":  "activity_125",
+        "title":  "Low-Sodium Dinner Prep - DASH Support",
+        "category":  "Food consumption",
+        "priority":  82,
+        "duration_minutes":  30,
+        "details":  "Prepare a high-fiber, lower-sodium dinner built around vegetables, lean protein, and portion-controlled carbohydrates.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Groceries stocked",
+                              "Dinner ingredients thawed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Replace with the closest low-sodium home meal and record the substitution in the nutrition log.",
+        "metrics":  [
+                        "sodium_estimate_mg",
+                        "vegetable_servings",
+                        "meal_finish_time"
+                    ]
+    },
+    {
+        "id":  "activity_126",
+        "title":  "Evening Breathing Reset - Blood Pressure Support",
+        "category":  "Therapy",
+        "priority":  84,
+        "duration_minutes":  15,
+        "details":  "Complete guided slow breathing in the evening to lower stress load, support sleep onset, and reinforce blood pressure control habits.",
+        "frequency":  {
+                          "times":  3,
+                          "period":  "week"
+                      },
+        "facilitator_role":  "self_guided",
+        "resource_pool":  "self",
+        "location":  "home",
+        "remote_allowed":  false,
+        "equipment_required":  [
+
+                               ],
+        "prep_required":  [
+                              "Phone on silent",
+                              "Lights dimmed"
+                          ],
+        "backup_activity_ids":  [
+
+                                ],
+        "skip_adjustment":  "Move to the next available evening slot in the same week and note any symptoms if it is skipped.",
+        "metrics":  [
+                        "session_minutes",
+                        "stress_score_post",
+                        "sleep_latency"
+                    ]
+    }
+]

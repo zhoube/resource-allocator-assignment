@@ -1,0 +1,2472 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HealthScheduler//Scheduling Constraints Demo//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dc6ba8bc-38c4-41f3-bc48-1dc4dfe64c25
+DTSTAMP:20260327T134024
+DTSTART:20260401T060000
+DTEND:20260401T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fcfe6053-78a7-4df3-812b-1403c152235e
+DTSTAMP:20260327T134024
+DTSTART:20260401T063000
+DTEND:20260401T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f5a22f97-5efa-44ec-85d1-d3289a36dfaf
+DTSTAMP:20260327T134024
+DTSTART:20260401T080000
+DTEND:20260401T083000
+SUMMARY:Lab Testing Appointment - Check-In
+DESCRIPTION:Complete planned bloodwork or diagnostic testing and confirm follow-up routing. | Frequency: 1 per month | Metrics: sample_quality\, follow_up_booked | Provider: City Lab Team | Equipment: equipment_09 | Mode: in_person | Location: lab
+LOCATION:lab
+END:VEVENT
+BEGIN:VEVENT
+UID:a77cc0a2-4dea-45dc-be8c-767d256de542
+DTSTAMP:20260327T134024
+DTSTART:20260401T180000
+DTEND:20260401T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a197f1e2-00d0-4c2c-9285-1ac82d6048ea
+DTSTAMP:20260327T134024
+DTSTART:20260402T060000
+DTEND:20260402T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:53bb6ab6-6093-40a4-a427-506a4142a7aa
+DTSTAMP:20260327T134024
+DTSTART:20260402T073000
+DTEND:20260402T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:2390a190-259d-4bab-9eba-6342ff7001ed
+DTSTAMP:20260327T134024
+DTSTART:20260402T100000
+DTEND:20260402T104500
+SUMMARY:Dietitian Consultation - Hypertension Meal Plan
+DESCRIPTION:Review sodium intake\, meal timing\, grocery habits\, and adherence to a cardiometabolic-friendly meal plan. | Frequency: 2 per month | Metrics: sodium_target_met\, meal_adherence_score\, action_items_created | Provider: Chloe Ng | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:47458ebb-12e3-4b56-ac9d-13e087cab69f
+DTSTAMP:20260327T134024
+DTSTART:20260402T183000
+DTEND:20260402T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:59770f03-428c-471b-b2ae-78267d7951e9
+DTSTAMP:20260327T134024
+DTSTART:20260403T060000
+DTEND:20260403T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1dd1b21e-70b0-4511-8899-f1eba513f0e4
+DTSTAMP:20260327T134024
+DTSTART:20260403T063000
+DTEND:20260403T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ecdf222d-bbac-4b7c-8660-f3d2bf6fb3f3
+DTSTAMP:20260327T134024
+DTSTART:20260403T180000
+DTEND:20260403T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:239fa870-c5e4-4d1f-9705-98c93937b927
+DTSTAMP:20260327T134024
+DTSTART:20260404T060000
+DTEND:20260404T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:304a7213-13b4-46b6-a913-0fccffb8f230
+DTSTAMP:20260327T134024
+DTSTART:20260404T073000
+DTEND:20260404T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:424c224b-7b09-4ac7-8bfc-95aaa578a5c2
+DTSTAMP:20260327T134024
+DTSTART:20260404T183000
+DTEND:20260404T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:516a878d-0e0a-470f-948f-397e1ff4a767
+DTSTAMP:20260327T134024
+DTSTART:20260405T060000
+DTEND:20260405T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:efa0b9d2-af82-463e-812a-0b5cc4e12f02
+DTSTAMP:20260327T134024
+DTSTART:20260405T063000
+DTEND:20260405T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:901828d4-9a56-4a53-be10-eb96c93b76f8
+DTSTAMP:20260327T134024
+DTSTART:20260405T180000
+DTEND:20260405T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:27b57f7f-4055-4cf1-8822-e58acaaae8de
+DTSTAMP:20260327T134024
+DTSTART:20260406T060000
+DTEND:20260406T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b9b179ff-f9b1-4452-80eb-bd7e753bb37c
+DTSTAMP:20260327T134024
+DTSTART:20260406T063000
+DTEND:20260406T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:09f384c9-a960-444f-9414-aca6b0dd50f3
+DTSTAMP:20260327T134024
+DTSTART:20260406T180000
+DTEND:20260406T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f9ed973d-7710-494a-8ee8-c7e4273d1fb3
+DTSTAMP:20260327T134024
+DTSTART:20260407T060000
+DTEND:20260407T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0f0386be-41d4-47b1-af9f-47442ed6890b
+DTSTAMP:20260327T134024
+DTSTART:20260407T073000
+DTEND:20260407T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:1cc589ff-ba96-496c-8d5e-270b5a89adc3
+DTSTAMP:20260327T134024
+DTSTART:20260407T090000
+DTEND:20260407T094500
+SUMMARY:Primary Care Review - Check-In
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Frequency: 1 per month | Metrics: blood_pressure_reading\, questions_answered | Provider: Dr Miriam Tan | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:1ebeecc6-0199-467e-8089-554b56b7fa26
+DTSTAMP:20260327T134024
+DTSTART:20260407T180000
+DTEND:20260407T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:52e12b50-1646-4f11-83db-33293f1f77b2
+DTSTAMP:20260327T134024
+DTSTART:20260407T183000
+DTEND:20260407T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b6931975-e374-47e4-b5c5-726dd6d2371f
+DTSTAMP:20260327T134024
+DTSTART:20260407T190000
+DTEND:20260407T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0d5d3123-50c1-4dbb-afaf-fc31d1a5e277
+DTSTAMP:20260327T134024
+DTSTART:20260408T060000
+DTEND:20260408T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d5f29d75-8690-454b-8f48-a4e4ee394e5d
+DTSTAMP:20260327T134024
+DTSTART:20260408T063000
+DTEND:20260408T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:dbf64f61-c7b5-4418-8efa-410dcb87c5d7
+DTSTAMP:20260327T134024
+DTSTART:20260408T073000
+DTEND:20260408T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:b7b2706e-3f68-4cf7-b385-a81b26e8868f
+DTSTAMP:20260327T134024
+DTSTART:20260408T180000
+DTEND:20260408T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f397d312-f5e6-4e10-affc-9f722c390e15
+DTSTAMP:20260327T134024
+DTSTART:20260409T060000
+DTEND:20260409T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:39a84f45-1488-4e24-a7e1-4c30a8dd9e16
+DTSTAMP:20260327T134024
+DTSTART:20260409T073000
+DTEND:20260409T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:fe911383-dbbb-4e56-88c9-3a742e87fd86
+DTSTAMP:20260327T134024
+DTSTART:20260409T183000
+DTEND:20260409T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3dd26a8d-e9bd-402e-97d5-a4f97df5d518
+DTSTAMP:20260327T134024
+DTSTART:20260410T060000
+DTEND:20260410T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1aaddc1f-8cf1-4622-9ce4-13c3d38fcd8c
+DTSTAMP:20260327T134024
+DTSTART:20260410T063000
+DTEND:20260410T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:447ae95e-307a-461c-8091-d38f66d9d4e4
+DTSTAMP:20260327T134024
+DTSTART:20260410T180000
+DTEND:20260410T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4393f6ff-8499-4db0-9d0b-80d28be2d067
+DTSTAMP:20260327T134024
+DTSTART:20260410T190000
+DTEND:20260410T191000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:04771f84-d0c5-4e8e-8c21-17c497eb7785
+DTSTAMP:20260327T134024
+DTSTART:20260411T060000
+DTEND:20260411T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:028c8a73-5544-451a-8205-e27c35994b70
+DTSTAMP:20260327T134024
+DTSTART:20260411T063000
+DTEND:20260411T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:316f957e-eca0-4144-8728-e8dd40f34001
+DTSTAMP:20260327T134024
+DTSTART:20260411T073000
+DTEND:20260411T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:c20408e2-a592-400c-af2f-89538989a431
+DTSTAMP:20260327T134024
+DTSTART:20260411T183000
+DTEND:20260411T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0543e788-7ed5-42da-a182-de94de6a5a9d
+DTSTAMP:20260327T134024
+DTSTART:20260412T060000
+DTEND:20260412T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:84b99ae7-8a69-431c-86f9-90b5edc90f8c
+DTSTAMP:20260327T134024
+DTSTART:20260412T063000
+DTEND:20260412T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3e062000-5d15-454e-8cf1-85a98c979715
+DTSTAMP:20260327T134024
+DTSTART:20260412T180000
+DTEND:20260412T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4f95b1b1-d593-4b48-90b2-049700161fe8
+DTSTAMP:20260327T134024
+DTSTART:20260412T183000
+DTEND:20260412T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e1ccb41d-e0ba-4ee4-b039-8cbff512ad0d
+DTSTAMP:20260327T134024
+DTSTART:20260414T180000
+DTEND:20260414T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:4744a0d1-dd7c-4068-a8c7-e8d45d2e169c
+DTSTAMP:20260327T134024
+DTSTART:20260414T190000
+DTEND:20260414T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:d4e1a481-7c2d-43d4-9bab-e7d4606995f3
+DTSTAMP:20260327T134024
+DTSTART:20260417T180000
+DTEND:20260417T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:8af420b0-19bb-4fdd-98fb-22409e10735b
+DTSTAMP:20260327T134024
+DTSTART:20260418T060000
+DTEND:20260418T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f0691e2e-b84b-4cdb-b6b3-a9f51aebec55
+DTSTAMP:20260327T134024
+DTSTART:20260418T063000
+DTEND:20260418T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:740efbb2-fb39-4021-91ac-25ae0bf84016
+DTSTAMP:20260327T134024
+DTSTART:20260418T073000
+DTEND:20260418T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:2f263908-6f7f-45db-83a8-59c3bc3888e3
+DTSTAMP:20260327T134024
+DTSTART:20260418T180000
+DTEND:20260418T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:43c67f28-d752-4430-ade7-bd6fec6f3545
+DTSTAMP:20260327T134024
+DTSTART:20260418T183000
+DTEND:20260418T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9ea89e2c-2551-47eb-b95f-9d92ca30f844
+DTSTAMP:20260327T134024
+DTSTART:20260419T060000
+DTEND:20260419T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:85de3195-ede4-4b3e-8ecb-43061bbcb7a9
+DTSTAMP:20260327T134024
+DTSTART:20260419T063000
+DTEND:20260419T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:011ee9e6-27d7-4ade-a078-686da5a60411
+DTSTAMP:20260327T134024
+DTSTART:20260419T073000
+DTEND:20260419T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:6afa1fef-3705-4e30-a4c6-21289769bdbf
+DTSTAMP:20260327T134024
+DTSTART:20260419T180000
+DTEND:20260419T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:81885a9f-e97f-4e08-9765-55961b97111f
+DTSTAMP:20260327T134024
+DTSTART:20260419T183000
+DTEND:20260419T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a62c448f-eca7-4869-926f-8264070da1a2
+DTSTAMP:20260327T134024
+DTSTART:20260420T060000
+DTEND:20260420T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:422df32f-8874-4b5d-b31d-f6c2b19cd463
+DTSTAMP:20260327T134024
+DTSTART:20260420T063000
+DTEND:20260420T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:dd50d664-90e8-4d2e-9d0e-b2dfe6835c2c
+DTSTAMP:20260327T134024
+DTSTART:20260420T180000
+DTEND:20260420T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:72af55b6-433e-4088-8496-6d879fa50bc4
+DTSTAMP:20260327T134024
+DTSTART:20260421T060000
+DTEND:20260421T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f6d44049-a871-4f27-a456-9d6f06c8a85a
+DTSTAMP:20260327T134024
+DTSTART:20260421T063000
+DTEND:20260421T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:04f2d748-f73a-4eb2-96c0-59588299d5af
+DTSTAMP:20260327T134024
+DTSTART:20260421T073000
+DTEND:20260421T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:6c511960-aba2-489d-b6ab-d2abd1776658
+DTSTAMP:20260327T134024
+DTSTART:20260421T100000
+DTEND:20260421T104500
+SUMMARY:Dietitian Consultation - Hypertension Meal Plan
+DESCRIPTION:Review sodium intake\, meal timing\, grocery habits\, and adherence to a cardiometabolic-friendly meal plan. | Frequency: 2 per month | Metrics: sodium_target_met\, meal_adherence_score\, action_items_created | Provider: Chloe Ng | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:f4b71954-0ca3-42d2-a274-2879fcd43f31
+DTSTAMP:20260327T134024
+DTSTART:20260421T180000
+DTEND:20260421T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:cc55b208-2dcb-4a12-bab7-8be0b1bdef8a
+DTSTAMP:20260327T134024
+DTSTART:20260421T183000
+DTEND:20260421T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1ca2cb5e-ca52-41e6-a8af-d50a1a8a36ed
+DTSTAMP:20260327T134024
+DTSTART:20260421T190000
+DTEND:20260421T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2c9ccc46-ef97-4f82-87a6-0cf0a07ccb2c
+DTSTAMP:20260327T134024
+DTSTART:20260422T060000
+DTEND:20260422T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7cfdd949-31b8-4ed6-8c71-777e62e4f65e
+DTSTAMP:20260327T134024
+DTSTART:20260422T063000
+DTEND:20260422T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5868c5e0-7678-43cf-b062-223141b68a94
+DTSTAMP:20260327T134024
+DTSTART:20260422T180000
+DTEND:20260422T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:67358cc4-6d52-43f1-9e11-578dc47373dc
+DTSTAMP:20260327T134024
+DTSTART:20260423T060000
+DTEND:20260423T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:09bee5ef-c8b8-479e-8ec4-98ce3234e6a3
+DTSTAMP:20260327T134024
+DTSTART:20260423T073000
+DTEND:20260423T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:737ada0a-5628-4946-961a-23223646439f
+DTSTAMP:20260327T134024
+DTSTART:20260423T183000
+DTEND:20260423T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:93b5a66e-202d-4cfa-a4ba-3d45bd76f94f
+DTSTAMP:20260327T134024
+DTSTART:20260424T060000
+DTEND:20260424T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c3724309-ddce-42c9-86b0-250a18755977
+DTSTAMP:20260327T134024
+DTSTART:20260424T063000
+DTEND:20260424T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9fa8b060-0109-4bbd-8579-c6cf19ee8190
+DTSTAMP:20260327T134024
+DTSTART:20260424T180000
+DTEND:20260424T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:91315b27-27a8-4338-bfdc-747bd0b05624
+DTSTAMP:20260327T134024
+DTSTART:20260425T060000
+DTEND:20260425T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c3126afc-fe77-4351-aaaa-615f5cbc3d37
+DTSTAMP:20260327T134024
+DTSTART:20260425T073000
+DTEND:20260425T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:24056317-255c-443e-b796-8590d612c553
+DTSTAMP:20260327T134024
+DTSTART:20260425T183000
+DTEND:20260425T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4f6db2a4-b287-48bc-8dd4-1af2334e5cee
+DTSTAMP:20260327T134024
+DTSTART:20260426T060000
+DTEND:20260426T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5f465639-8528-4148-9d77-69378027567b
+DTSTAMP:20260327T134024
+DTSTART:20260426T063000
+DTEND:20260426T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b2beea02-bb3b-49f5-86f4-1b6d6f0c1871
+DTSTAMP:20260327T134024
+DTSTART:20260426T180000
+DTEND:20260426T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fc852bc8-16ad-4846-bdc3-f23f9a0d99ab
+DTSTAMP:20260327T134024
+DTSTART:20260427T060000
+DTEND:20260427T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d565942b-b7bc-4c3c-9a6f-67485845e9ea
+DTSTAMP:20260327T134024
+DTSTART:20260427T063000
+DTEND:20260427T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:6ff7af65-30f5-4444-a890-0e34cbe0a173
+DTSTAMP:20260327T134024
+DTSTART:20260427T180000
+DTEND:20260427T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a980c4df-d76f-4ece-9cbc-38fb1667b9cd
+DTSTAMP:20260327T134024
+DTSTART:20260428T060000
+DTEND:20260428T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f34bba6e-83c5-40c1-b915-9b50005ea0e9
+DTSTAMP:20260327T134024
+DTSTART:20260428T073000
+DTEND:20260428T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:c245de45-0f8e-41ce-a9ca-051b4966935c
+DTSTAMP:20260327T134024
+DTSTART:20260428T180000
+DTEND:20260428T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:8ceecfce-a2a3-4f6b-a749-eb4cfd71133b
+DTSTAMP:20260327T134024
+DTSTART:20260428T183000
+DTEND:20260428T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:6ed5a18d-6ed6-4b6c-b71f-d760c15b26cb
+DTSTAMP:20260327T134024
+DTSTART:20260428T190000
+DTEND:20260428T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1d051ff2-9bf1-4234-8f73-c46ef44573e2
+DTSTAMP:20260327T134024
+DTSTART:20260429T060000
+DTEND:20260429T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:cb02ff69-0666-4f45-a755-fc0b18f53e6a
+DTSTAMP:20260327T134024
+DTSTART:20260429T063000
+DTEND:20260429T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:711acb45-3d0b-475a-b462-36f93ee02519
+DTSTAMP:20260327T134024
+DTSTART:20260429T073000
+DTEND:20260429T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:5aee842e-ba38-454d-a32e-35e83c07ad5f
+DTSTAMP:20260327T134024
+DTSTART:20260429T180000
+DTEND:20260429T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d795bc32-b3e8-4e68-bb60-0d0f7890096e
+DTSTAMP:20260327T134024
+DTSTART:20260430T060000
+DTEND:20260430T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4bf61dba-25ff-4c57-8949-875889c3ac27
+DTSTAMP:20260327T134024
+DTSTART:20260430T073000
+DTEND:20260430T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:16247443-5d24-48e6-a6de-bb73828b294b
+DTSTAMP:20260327T134024
+DTSTART:20260430T183000
+DTEND:20260430T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:902fc3e6-f5c9-4479-8255-44951fea4620
+DTSTAMP:20260327T134024
+DTSTART:20260501T060000
+DTEND:20260501T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:794b2725-9e44-4c11-8cc6-3d6c99d31261
+DTSTAMP:20260327T134024
+DTSTART:20260501T063000
+DTEND:20260501T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1bcd9053-9d2a-4861-a950-90caba6b0ecd
+DTSTAMP:20260327T134024
+DTSTART:20260501T080000
+DTEND:20260501T083000
+SUMMARY:Lab Testing Appointment - Check-In
+DESCRIPTION:Complete planned bloodwork or diagnostic testing and confirm follow-up routing. | Frequency: 1 per month | Metrics: sample_quality\, follow_up_booked | Provider: City Lab Team | Equipment: equipment_09 | Mode: in_person | Location: lab
+LOCATION:lab
+END:VEVENT
+BEGIN:VEVENT
+UID:0d5e197a-b7cd-4e45-8398-2c9f6209a8f2
+DTSTAMP:20260327T134024
+DTSTART:20260501T180000
+DTEND:20260501T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:12581323-d5da-4680-8b50-4fd249068abf
+DTSTAMP:20260327T134024
+DTSTART:20260502T060000
+DTEND:20260502T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:caa28618-850c-4a0b-9878-03e233f17a5b
+DTSTAMP:20260327T134024
+DTSTART:20260502T073000
+DTEND:20260502T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:5c27b8db-1808-4669-af20-437993b08adf
+DTSTAMP:20260327T134024
+DTSTART:20260502T183000
+DTEND:20260502T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:bb03add7-a102-43a1-8e39-47bb1c672607
+DTSTAMP:20260327T134024
+DTSTART:20260503T060000
+DTEND:20260503T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:777766c6-4d25-4627-b91b-1a496257eb76
+DTSTAMP:20260327T134024
+DTSTART:20260503T063000
+DTEND:20260503T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e5912d60-823d-4e75-be1c-9af482dc571d
+DTSTAMP:20260327T134024
+DTSTART:20260503T180000
+DTEND:20260503T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ef30f2df-2323-4587-8831-88b161286571
+DTSTAMP:20260327T134024
+DTSTART:20260503T183000
+DTEND:20260503T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2c3678e0-f867-48d6-93df-5ea7160fa5db
+DTSTAMP:20260327T134024
+DTSTART:20260504T060000
+DTEND:20260504T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4c24dd49-a0f8-476d-afc5-9ddbaa7a0ab0
+DTSTAMP:20260327T134024
+DTSTART:20260504T063000
+DTEND:20260504T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9f0130a8-fbbc-4384-906b-f408c70e2ce6
+DTSTAMP:20260327T134024
+DTSTART:20260504T073000
+DTEND:20260504T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:a4ee9f5e-3fb3-4489-bcd9-2f3b0cb4603f
+DTSTAMP:20260327T134024
+DTSTART:20260504T180000
+DTEND:20260504T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b3fd379c-02fa-4349-8102-dd9cdbc3d5cb
+DTSTAMP:20260327T134024
+DTSTART:20260505T180000
+DTEND:20260505T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:bfb28a6a-32b9-4bf5-8c50-73f7493d2d45
+DTSTAMP:20260327T134024
+DTSTART:20260505T190000
+DTEND:20260505T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:d7af352a-0646-443d-b861-174cd2a47cda
+DTSTAMP:20260327T134024
+DTSTART:20260508T180000
+DTEND:20260508T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:ded450cb-4906-4a21-9d32-3503d2894712
+DTSTAMP:20260327T134024
+DTSTART:20260508T190000
+DTEND:20260508T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:fb57d783-5fe6-42bb-a9e7-a1a8e2632e96
+DTSTAMP:20260327T134024
+DTSTART:20260512T060000
+DTEND:20260512T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:48171778-0db4-4b26-a6b4-97c1bfa22db4
+DTSTAMP:20260327T134024
+DTSTART:20260512T063000
+DTEND:20260512T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c9e76829-7372-482e-886f-aca75b475fa1
+DTSTAMP:20260327T134024
+DTSTART:20260512T073000
+DTEND:20260512T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ddde0cd8-ac3d-421b-a28e-bf618f380b30
+DTSTAMP:20260327T134024
+DTSTART:20260512T090000
+DTEND:20260512T094500
+SUMMARY:Primary Care Review - Check-In
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Frequency: 1 per month | Metrics: blood_pressure_reading\, questions_answered | Provider: Dr Miriam Tan | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:ce00a3e1-f853-4461-abe1-7a4c6d4adb03
+DTSTAMP:20260327T134024
+DTSTART:20260512T180000
+DTEND:20260512T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:16c8dab0-2ca0-4e5e-a7e3-c25593d91216
+DTSTAMP:20260327T134024
+DTSTART:20260512T183000
+DTEND:20260512T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b2087c15-13fd-4f04-9dd9-81af0ae360a3
+DTSTAMP:20260327T134024
+DTSTART:20260512T190000
+DTEND:20260512T191000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:7452e3ab-3697-4bb0-91e5-af3d78ed909d
+DTSTAMP:20260327T134024
+DTSTART:20260513T060000
+DTEND:20260513T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8561bdb8-a5d5-47a1-927f-4966701fcd8e
+DTSTAMP:20260327T134024
+DTSTART:20260513T063000
+DTEND:20260513T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:56eb82ed-b6f3-4aae-880b-50f18ee75edf
+DTSTAMP:20260327T134024
+DTSTART:20260513T180000
+DTEND:20260513T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e9ea892c-5b5d-45d1-9c7c-ade99091eb34
+DTSTAMP:20260327T134024
+DTSTART:20260514T060000
+DTEND:20260514T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ad1e3b28-b088-4cc2-88b2-8563920298fe
+DTSTAMP:20260327T134024
+DTSTART:20260514T073000
+DTEND:20260514T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:64925dac-a905-41c5-b747-65897c7fb5c8
+DTSTAMP:20260327T134024
+DTSTART:20260514T100000
+DTEND:20260514T104500
+SUMMARY:Dietitian Consultation - Hypertension Meal Plan
+DESCRIPTION:Review sodium intake\, meal timing\, grocery habits\, and adherence to a cardiometabolic-friendly meal plan. | Frequency: 2 per month | Metrics: sodium_target_met\, meal_adherence_score\, action_items_created | Provider: Chloe Ng | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:c5327c05-d1b0-4a87-a227-a25cb8bda82b
+DTSTAMP:20260327T134024
+DTSTART:20260514T183000
+DTEND:20260514T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f9793307-187f-458e-b2f8-8b304f23b6bc
+DTSTAMP:20260327T134024
+DTSTART:20260515T060000
+DTEND:20260515T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:96492216-d98a-4076-ba22-baaa57f81e6f
+DTSTAMP:20260327T134024
+DTSTART:20260515T063000
+DTEND:20260515T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7dae1c46-6bc2-4a61-b94f-47066fcc9d6e
+DTSTAMP:20260327T134024
+DTSTART:20260515T180000
+DTEND:20260515T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:bb5078e0-54d2-4b71-9d93-197a08fba9a7
+DTSTAMP:20260327T134024
+DTSTART:20260516T060000
+DTEND:20260516T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8298311d-f6f1-431c-a7dc-3d68d69ae041
+DTSTAMP:20260327T134024
+DTSTART:20260516T073000
+DTEND:20260516T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:d039c475-9e79-4788-bc4b-ec7a7c943aa1
+DTSTAMP:20260327T134024
+DTSTART:20260516T183000
+DTEND:20260516T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4cad9d11-0513-4929-9566-12a3ef5b8fc5
+DTSTAMP:20260327T134024
+DTSTART:20260517T060000
+DTEND:20260517T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4a21be06-f5e3-45c7-bce2-4fac34fc82fb
+DTSTAMP:20260327T134024
+DTSTART:20260517T063000
+DTEND:20260517T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fffec077-325f-4df5-8923-21dbc6fb03dd
+DTSTAMP:20260327T134024
+DTSTART:20260517T180000
+DTEND:20260517T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:13b66036-fcad-41c0-b360-f497fbfbf56a
+DTSTAMP:20260327T134024
+DTSTART:20260518T060000
+DTEND:20260518T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7c3b42a2-9d9e-48d5-9586-a4033ad6396f
+DTSTAMP:20260327T134024
+DTSTART:20260518T063000
+DTEND:20260518T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ba89c5a8-5084-4afa-8b20-58bc9552dd92
+DTSTAMP:20260327T134024
+DTSTART:20260518T180000
+DTEND:20260518T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:aafb444f-94ad-41df-a451-38aa751dfd14
+DTSTAMP:20260327T134024
+DTSTART:20260519T060000
+DTEND:20260519T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9295eb6d-8950-4402-bf35-30d75a5c83fc
+DTSTAMP:20260327T134024
+DTSTART:20260519T073000
+DTEND:20260519T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:79645518-385d-4a1c-aa9b-65b14db89fff
+DTSTAMP:20260327T134024
+DTSTART:20260519T180000
+DTEND:20260519T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:f22a08c0-d27e-4adf-b64f-1e5c13dc5174
+DTSTAMP:20260327T134024
+DTSTART:20260519T183000
+DTEND:20260519T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:eee6d91e-f54c-4f98-b1b1-1dcf50d05710
+DTSTAMP:20260327T134024
+DTSTART:20260519T190000
+DTEND:20260519T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:21f1afec-1fa9-4631-9f23-8272af3b35b8
+DTSTAMP:20260327T134024
+DTSTART:20260520T060000
+DTEND:20260520T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1e7272a9-23f7-4583-a15d-cc159a6ca60f
+DTSTAMP:20260327T134024
+DTSTART:20260520T063000
+DTEND:20260520T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1a735c63-9fd8-4729-80bd-bbad20d44f91
+DTSTAMP:20260327T134024
+DTSTART:20260520T180000
+DTEND:20260520T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:39a70a00-0c00-4289-92f2-028261feade4
+DTSTAMP:20260327T134024
+DTSTART:20260521T060000
+DTEND:20260521T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4c4bc21f-3569-492e-a1e6-440a58b788d5
+DTSTAMP:20260327T134024
+DTSTART:20260521T073000
+DTEND:20260521T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:5bf36a86-b88c-40a1-8b2a-0c9ba27a2099
+DTSTAMP:20260327T134024
+DTSTART:20260521T183000
+DTEND:20260521T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0d47701f-7a13-4890-9c5c-2650dbf2fdc9
+DTSTAMP:20260327T134024
+DTSTART:20260522T060000
+DTEND:20260522T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:bf643054-09a7-47c5-b37d-10fef22509d8
+DTSTAMP:20260327T134024
+DTSTART:20260522T063000
+DTEND:20260522T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:15e1f30b-40cb-4bc1-b88a-0c60687dba40
+DTSTAMP:20260327T134024
+DTSTART:20260522T180000
+DTEND:20260522T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:be20d03a-9304-4a5a-802d-6f48e27cc984
+DTSTAMP:20260327T134024
+DTSTART:20260523T060000
+DTEND:20260523T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ddd531c2-832c-460c-8368-ef8e3e8042f9
+DTSTAMP:20260327T134024
+DTSTART:20260523T073000
+DTEND:20260523T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:0c1c13f1-44d6-4aed-87e3-9ab03a8ef942
+DTSTAMP:20260327T134024
+DTSTART:20260523T183000
+DTEND:20260523T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:91113038-f2c0-420d-8b7e-389fd595ac05
+DTSTAMP:20260327T134024
+DTSTART:20260524T060000
+DTEND:20260524T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:66ada064-7b98-440d-afdd-2c5b24611e25
+DTSTAMP:20260327T134024
+DTSTART:20260524T063000
+DTEND:20260524T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9dd3cdde-b327-4f59-bd19-5375741fd7bf
+DTSTAMP:20260327T134024
+DTSTART:20260524T180000
+DTEND:20260524T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5bd8cab8-0580-4c8f-ac1a-f34e0661ec4f
+DTSTAMP:20260327T134024
+DTSTART:20260525T060000
+DTEND:20260525T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:f784bfbf-a637-4a6b-9d27-ce029d798107
+DTSTAMP:20260327T134024
+DTSTART:20260525T063000
+DTEND:20260525T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:dcb891f8-aa42-4f17-a8d5-99beab514f7d
+DTSTAMP:20260327T134024
+DTSTART:20260525T180000
+DTEND:20260525T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8303597b-7a17-46ac-af6c-8be140962cf1
+DTSTAMP:20260327T134024
+DTSTART:20260526T060000
+DTEND:20260526T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2636d497-ac47-4798-9891-b75ce047a594
+DTSTAMP:20260327T134024
+DTSTART:20260526T073000
+DTEND:20260526T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ecfdd1fa-90be-4ddc-9556-bcfda402a14f
+DTSTAMP:20260327T134024
+DTSTART:20260526T180000
+DTEND:20260526T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:c80725cb-909f-4b53-b06f-11927ea250cb
+DTSTAMP:20260327T134024
+DTSTART:20260526T183000
+DTEND:20260526T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7e17943f-7bb5-4545-a0b4-4be2e5689516
+DTSTAMP:20260327T134024
+DTSTART:20260526T190000
+DTEND:20260526T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c91ebba3-2664-42f6-86b3-4e720b2c241d
+DTSTAMP:20260327T134024
+DTSTART:20260527T060000
+DTEND:20260527T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ff652de2-9f9d-448b-b646-b9b177dde745
+DTSTAMP:20260327T134024
+DTSTART:20260527T063000
+DTEND:20260527T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:fa66514b-0644-4203-8acb-1aec16883c80
+DTSTAMP:20260327T134024
+DTSTART:20260527T073000
+DTEND:20260527T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:cf842d0a-7309-4ffa-8005-1189ecfa745f
+DTSTAMP:20260327T134024
+DTSTART:20260527T180000
+DTEND:20260527T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b71eece1-44fb-4c6c-8d3a-f48aed28cee0
+DTSTAMP:20260327T134024
+DTSTART:20260527T183000
+DTEND:20260527T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e70f0914-2abb-4785-819f-e5f35f6c2268
+DTSTAMP:20260327T134024
+DTSTART:20260528T060000
+DTEND:20260528T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:28a8af01-8bf6-432d-a277-786d3eff459b
+DTSTAMP:20260327T134024
+DTSTART:20260528T063000
+DTEND:20260528T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d67daabe-b9fc-44f0-971a-55ca73807565
+DTSTAMP:20260327T134024
+DTSTART:20260528T073000
+DTEND:20260528T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:4e591f69-4153-4468-93c3-3afe9da8ac08
+DTSTAMP:20260327T134024
+DTSTART:20260528T100000
+DTEND:20260528T104500
+SUMMARY:Dietitian Consultation - Hypertension Meal Plan
+DESCRIPTION:Review sodium intake\, meal timing\, grocery habits\, and adherence to a cardiometabolic-friendly meal plan. | Frequency: 2 per month | Metrics: sodium_target_met\, meal_adherence_score\, action_items_created | Provider: Chloe Ng | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:f3d9bd62-d640-4d10-a0c0-62a413d264f3
+DTSTAMP:20260327T134024
+DTSTART:20260528T180000
+DTEND:20260528T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:7e34290e-34eb-4b29-a74e-553d41377bce
+DTSTAMP:20260327T134024
+DTSTART:20260528T183000
+DTEND:20260528T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4b9ed964-9a97-4777-b78a-cbf6fcdafc17
+DTSTAMP:20260327T134024
+DTSTART:20260529T060000
+DTEND:20260529T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b68b484a-767a-48fc-ad46-61c3b31cee2d
+DTSTAMP:20260327T134024
+DTSTART:20260529T063000
+DTEND:20260529T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:046eb134-4634-4a5e-9fba-8d10bdc7e6c9
+DTSTAMP:20260327T134024
+DTSTART:20260529T073000
+DTEND:20260529T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:66ae33a3-24d2-4486-b6a3-35b2fbec4857
+DTSTAMP:20260327T134024
+DTSTART:20260529T180000
+DTEND:20260529T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9dc79a18-5651-4f75-bc14-0c5a094299a2
+DTSTAMP:20260327T134024
+DTSTART:20260529T183000
+DTEND:20260529T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b29644fa-f681-4839-82c4-2ae8f2c81003
+DTSTAMP:20260327T134024
+DTSTART:20260529T190000
+DTEND:20260529T191000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:c159a0c9-1da5-4712-bfb9-5e17b4c19a3e
+DTSTAMP:20260327T134024
+DTSTART:20260602T180000
+DTEND:20260602T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:d9505f79-1014-42f7-9593-656c004ed8df
+DTSTAMP:20260327T134024
+DTSTART:20260602T190000
+DTEND:20260602T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:8376f7a5-fb01-4224-83d5-6d2f7482046c
+DTSTAMP:20260327T134024
+DTSTART:20260605T060000
+DTEND:20260605T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b3ad3519-bf95-466d-8689-dfeed9a7289f
+DTSTAMP:20260327T134024
+DTSTART:20260605T063000
+DTEND:20260605T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c60a4926-2a89-43d7-8c43-c30eaebe9588
+DTSTAMP:20260327T134024
+DTSTART:20260605T073000
+DTEND:20260605T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:65d9edbb-d1a5-41e7-95ed-7e9dec7259bc
+DTSTAMP:20260327T134024
+DTSTART:20260605T080000
+DTEND:20260605T083000
+SUMMARY:Lab Testing Appointment - Check-In
+DESCRIPTION:Complete planned bloodwork or diagnostic testing and confirm follow-up routing. | Frequency: 1 per month | Metrics: sample_quality\, follow_up_booked | Provider: City Lab Team | Equipment: equipment_09 | Mode: in_person | Location: lab
+LOCATION:lab
+END:VEVENT
+BEGIN:VEVENT
+UID:cc48af58-af80-4762-b1e3-9b77be0b89eb
+DTSTAMP:20260327T134024
+DTSTART:20260605T180000
+DTEND:20260605T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:de0d9af3-7376-4e68-9af7-01074049c97c
+DTSTAMP:20260327T134024
+DTSTART:20260605T183000
+DTEND:20260605T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:909657e8-c356-4e10-968c-3c319b129ea7
+DTSTAMP:20260327T134024
+DTSTART:20260605T190000
+DTEND:20260605T191000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:e2a3006d-5040-4813-9194-ff66a5402ad5
+DTSTAMP:20260327T134024
+DTSTART:20260606T060000
+DTEND:20260606T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:55e4e294-cf66-4c41-baca-a6ff0046d871
+DTSTAMP:20260327T134024
+DTSTART:20260606T063000
+DTEND:20260606T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:bb930c9c-d735-4589-9c2a-2095038045a4
+DTSTAMP:20260327T134024
+DTSTART:20260606T073000
+DTEND:20260606T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:38d55b83-96e4-4061-a313-ce2fe69c2e36
+DTSTAMP:20260327T134024
+DTSTART:20260606T183000
+DTEND:20260606T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:edf6b9ae-8740-41b7-bbe9-4cb61814587b
+DTSTAMP:20260327T134024
+DTSTART:20260607T060000
+DTEND:20260607T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:43c2deea-b694-4f8d-a558-34df073541bb
+DTSTAMP:20260327T134024
+DTSTART:20260607T063000
+DTEND:20260607T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:cf9877da-a903-4197-896f-72bc88a6fd1c
+DTSTAMP:20260327T134024
+DTSTART:20260607T180000
+DTEND:20260607T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9f7d9f3b-c016-461a-8bba-d66103969aec
+DTSTAMP:20260327T134024
+DTSTART:20260608T060000
+DTEND:20260608T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:684c659a-3c4d-4450-a1e4-a6432b5cde29
+DTSTAMP:20260327T134024
+DTSTART:20260608T063000
+DTEND:20260608T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5f540093-7d23-4447-9dd4-57877f001078
+DTSTAMP:20260327T134024
+DTSTART:20260608T180000
+DTEND:20260608T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3ca53c45-bbc9-4136-a335-157f731134b9
+DTSTAMP:20260327T134024
+DTSTART:20260609T060000
+DTEND:20260609T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5e88d8a1-6b7d-41ca-8a1b-60481b3cf302
+DTSTAMP:20260327T134024
+DTSTART:20260609T073000
+DTEND:20260609T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:276f2e52-464d-46ff-9f44-30104d221551
+DTSTAMP:20260327T134024
+DTSTART:20260609T090000
+DTEND:20260609T094500
+SUMMARY:Primary Care Review - Check-In
+DESCRIPTION:Review symptoms\, medication adherence\, and recent health trends with the physician. | Frequency: 1 per month | Metrics: blood_pressure_reading\, questions_answered | Provider: Dr Miriam Tan | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:7077c1de-2330-47a4-bd87-486a4df5449c
+DTSTAMP:20260327T134024
+DTSTART:20260609T180000
+DTEND:20260609T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:19bef12f-5a4b-4ae1-84db-9a4880c4d338
+DTSTAMP:20260327T134024
+DTSTART:20260609T183000
+DTEND:20260609T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9ba7d54e-c946-4507-a5dc-44447e79484d
+DTSTAMP:20260327T134024
+DTSTART:20260609T190000
+DTEND:20260609T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8e279bd1-751a-42b9-8adc-ab78582c484a
+DTSTAMP:20260327T134024
+DTSTART:20260610T060000
+DTEND:20260610T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:c1534b7b-c64e-43e1-974c-212ea63fe6a6
+DTSTAMP:20260327T134024
+DTSTART:20260610T063000
+DTEND:20260610T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ef43e6d2-8cfc-4b42-87d1-9f6f62ca10c3
+DTSTAMP:20260327T134024
+DTSTART:20260610T180000
+DTEND:20260610T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:72d258fb-6ca2-431c-bdf4-9ae5f8fd40d8
+DTSTAMP:20260327T134024
+DTSTART:20260611T060000
+DTEND:20260611T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4a14d5e1-0f31-4bc6-bd6a-7daf41b449f2
+DTSTAMP:20260327T134024
+DTSTART:20260611T073000
+DTEND:20260611T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:f6fbffa4-1fe3-4d25-9b5a-22028b991bc0
+DTSTAMP:20260327T134024
+DTSTART:20260611T100000
+DTEND:20260611T104500
+SUMMARY:Dietitian Consultation - Hypertension Meal Plan
+DESCRIPTION:Review sodium intake\, meal timing\, grocery habits\, and adherence to a cardiometabolic-friendly meal plan. | Frequency: 2 per month | Metrics: sodium_target_met\, meal_adherence_score\, action_items_created | Provider: Chloe Ng | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:80be9ac7-667d-468a-9860-88aa3156eef4
+DTSTAMP:20260327T134024
+DTSTART:20260611T183000
+DTEND:20260611T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4244ec2d-e8b6-4783-b60e-05ce9db4c089
+DTSTAMP:20260327T134024
+DTSTART:20260612T060000
+DTEND:20260612T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:540d079f-0015-4d9c-9dc2-d58d8a1f6227
+DTSTAMP:20260327T134024
+DTSTART:20260612T063000
+DTEND:20260612T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:da0fafc0-24d4-45c2-9c33-2a6e305b2550
+DTSTAMP:20260327T134024
+DTSTART:20260612T180000
+DTEND:20260612T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:f51585ec-84fd-4769-9d32-2b6d2f147408
+DTSTAMP:20260327T134024
+DTSTART:20260613T060000
+DTEND:20260613T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2d153066-2c3e-41d0-b1fd-cd562ff00f2d
+DTSTAMP:20260327T134024
+DTSTART:20260613T073000
+DTEND:20260613T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:007785ae-fb06-48e0-bb5d-985128befc38
+DTSTAMP:20260327T134024
+DTSTART:20260613T183000
+DTEND:20260613T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b4ef3d5e-b503-46fc-96dd-4925fb156be3
+DTSTAMP:20260327T134024
+DTSTART:20260614T060000
+DTEND:20260614T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3d237a95-5e94-4029-92f6-10c5c70024d1
+DTSTAMP:20260327T134024
+DTSTART:20260614T063000
+DTEND:20260614T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d15ed19e-f84c-4d1d-9bc0-0cd61e663894
+DTSTAMP:20260327T134024
+DTSTART:20260614T180000
+DTEND:20260614T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:652eed6f-6abf-4914-b8dd-b0c2d6c65180
+DTSTAMP:20260327T134024
+DTSTART:20260615T060000
+DTEND:20260615T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a9feed1c-0bed-457f-acc4-28087bf10ce6
+DTSTAMP:20260327T134024
+DTSTART:20260615T063000
+DTEND:20260615T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:2577a7cb-4676-4d63-bd26-9fe7e95e8e11
+DTSTAMP:20260327T134024
+DTSTART:20260615T180000
+DTEND:20260615T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:58c6c4e2-ac3b-4eb5-957d-785b6b72d838
+DTSTAMP:20260327T134024
+DTSTART:20260616T060000
+DTEND:20260616T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:074adda4-3e1a-4648-9550-6893dde1f8e0
+DTSTAMP:20260327T134024
+DTSTART:20260616T073000
+DTEND:20260616T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:d2775757-ee9d-4d4b-9b3c-ba943f8d26ae
+DTSTAMP:20260327T134024
+DTSTART:20260616T180000
+DTEND:20260616T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:7863e248-0db2-4558-88d2-72f8896297f8
+DTSTAMP:20260327T134024
+DTSTART:20260616T183000
+DTEND:20260616T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:629dbba1-276d-462d-b459-fb5d56cfc7f3
+DTSTAMP:20260327T134024
+DTSTART:20260616T190000
+DTEND:20260616T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:48958dc6-c493-42e7-b247-9f89ff24d30a
+DTSTAMP:20260327T134024
+DTSTART:20260617T060000
+DTEND:20260617T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5db29231-0a7c-4588-9824-d74e37a4ffe9
+DTSTAMP:20260327T134024
+DTSTART:20260617T063000
+DTEND:20260617T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:e16cbcfe-e025-4f01-941a-489bf6950740
+DTSTAMP:20260327T134024
+DTSTART:20260617T073000
+DTEND:20260617T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:502121b7-d260-4b53-99b0-1ed8cd7a78ca
+DTSTAMP:20260327T134024
+DTSTART:20260617T180000
+DTEND:20260617T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9e9b6186-5f3f-4a4c-b696-9a63796e60f6
+DTSTAMP:20260327T134024
+DTSTART:20260617T183000
+DTEND:20260617T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:a92d5de8-5e79-4d6d-8a77-f5b45dc2528b
+DTSTAMP:20260327T134024
+DTSTART:20260619T180000
+DTEND:20260619T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:f432a411-7821-4254-8db6-7f8a3354f51f
+DTSTAMP:20260327T134024
+DTSTART:20260619T190000
+DTEND:20260619T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:048ca2fe-804a-4b5d-8481-69bb0f291efe
+DTSTAMP:20260327T134024
+DTSTART:20260623T060000
+DTEND:20260623T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:3e9b3321-f1e6-461c-9e5a-e2d42f522796
+DTSTAMP:20260327T134024
+DTSTART:20260623T063000
+DTEND:20260623T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:1d46dbe9-1370-43fa-bde3-8bfe3566468e
+DTSTAMP:20260327T134024
+DTSTART:20260623T073000
+DTEND:20260623T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:6bdacac8-d949-4ca6-be76-e28f894055e1
+DTSTAMP:20260327T134024
+DTSTART:20260623T180000
+DTEND:20260623T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:9cc00398-5437-4808-8f74-9fa2e9d1c819
+DTSTAMP:20260327T134024
+DTSTART:20260623T183000
+DTEND:20260623T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:02fb0fcd-23a1-4ada-bb3f-b68a2256151c
+DTSTAMP:20260327T134024
+DTSTART:20260623T190000
+DTEND:20260623T191000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:160e261c-1934-4043-b766-f260267c8edb
+DTSTAMP:20260327T134024
+DTSTART:20260624T060000
+DTEND:20260624T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:56d85090-6206-4862-b7ba-20394b7edad5
+DTSTAMP:20260327T134024
+DTSTART:20260624T063000
+DTEND:20260624T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:b0d633c3-2de7-42e1-a197-da3da49b5cc1
+DTSTAMP:20260327T134024
+DTSTART:20260624T180000
+DTEND:20260624T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:0656da72-e607-4a8f-929b-354baad4c882
+DTSTAMP:20260327T134024
+DTSTART:20260625T060000
+DTEND:20260625T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:71f67d87-dfe8-41b0-856b-7f0be7ad86e2
+DTSTAMP:20260327T134024
+DTSTART:20260625T073000
+DTEND:20260625T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:a88b8004-b0ae-4145-b3be-231adef7b5ef
+DTSTAMP:20260327T134024
+DTSTART:20260625T100000
+DTEND:20260625T104500
+SUMMARY:Dietitian Consultation - Hypertension Meal Plan
+DESCRIPTION:Review sodium intake\, meal timing\, grocery habits\, and adherence to a cardiometabolic-friendly meal plan. | Frequency: 2 per month | Metrics: sodium_target_met\, meal_adherence_score\, action_items_created | Provider: Chloe Ng | Mode: in_person | Location: clinic
+LOCATION:clinic
+END:VEVENT
+BEGIN:VEVENT
+UID:b17e40c3-cc2c-467e-bc8d-5a62e585c113
+DTSTAMP:20260327T134024
+DTSTART:20260625T183000
+DTEND:20260625T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:8d357e5d-b048-4f84-96de-dce3eabc8d22
+DTSTAMP:20260327T134024
+DTSTART:20260626T060000
+DTEND:20260626T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:96c9f066-fea8-4d1a-9065-6cb0aa63c920
+DTSTAMP:20260327T134024
+DTSTART:20260626T063000
+DTEND:20260626T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:482e0787-f787-4bb1-b868-09c5a80ac6e3
+DTSTAMP:20260327T134024
+DTSTART:20260626T180000
+DTEND:20260626T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:da08aef7-9330-49b8-9be1-c95f70421907
+DTSTAMP:20260327T134024
+DTSTART:20260627T060000
+DTEND:20260627T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:93f674d3-1dd2-401a-8000-12f4d6b3fa02
+DTSTAMP:20260327T134024
+DTSTART:20260627T073000
+DTEND:20260627T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:5423acfb-6bff-45c6-b683-2ecf9645ba22
+DTSTAMP:20260327T134024
+DTSTART:20260627T183000
+DTEND:20260627T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:dfda64ab-a052-4ece-b533-cba317e2eac8
+DTSTAMP:20260327T134024
+DTSTART:20260628T060000
+DTEND:20260628T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:207774e7-89ea-46c2-a1ed-857f96e6374f
+DTSTAMP:20260327T134024
+DTSTART:20260628T063000
+DTEND:20260628T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:d77a1386-48de-47d4-93d6-f4657a3b3724
+DTSTAMP:20260327T134024
+DTSTART:20260628T180000
+DTEND:20260628T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:4ea4fba5-aad2-4509-8a6b-f54bbf112a6f
+DTSTAMP:20260327T134024
+DTSTART:20260629T060000
+DTEND:20260629T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:35ffe91f-b7a9-4faf-b189-fba315380270
+DTSTAMP:20260327T134024
+DTSTART:20260629T063000
+DTEND:20260629T070000
+SUMMARY:Balanced Breakfast - Protein Rebuild
+DESCRIPTION:Build breakfast around protein\, fiber\, and steady energy release. | Frequency: 4 per week | Metrics: fiber_grams\, protein_grams\, post_meal_energy | Equipment: equipment_08 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:515ceb30-45bc-4882-95b1-72ece8a0201c
+DTSTAMP:20260327T134024
+DTSTART:20260629T180000
+DTEND:20260629T181500
+SUMMARY:Guided Breathing - Sleep Support
+DESCRIPTION:Use slow exhale-biased breathing to lower evening stress load and improve sleep onset. | Frequency: 3 per week | Metrics: stress_score_post\, sleep_latency | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:983b93d4-6d24-4e78-ae81-ef643b5bcaa9
+DTSTAMP:20260327T134024
+DTSTART:20260630T060000
+DTEND:20260630T061500
+SUMMARY:Morning Blood Pressure + Medication Routine
+DESCRIPTION:Check blood pressure before the morning dose\, take the prescribed medication\, and log both readings for clinician review. | Frequency: 1 per day | Metrics: blood_pressure_reading\, dose_taken\, symptom_flag | Equipment: equipment_10 | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:ce8f675a-9979-42e6-895b-6a3372b67a97
+DTSTAMP:20260327T134024
+DTSTART:20260630T073000
+DTEND:20260630T080000
+SUMMARY:Outdoor Walk - Aerobic Base
+DESCRIPTION:Walk at a pace that slightly elevates breathing while keeping posture tall. | Frequency: 3 per week | Metrics: average_pace\, steps\, distance_km | Mode: in_person | Location: park
+LOCATION:park
+END:VEVENT
+BEGIN:VEVENT
+UID:ab6681db-8065-4a04-b7d6-ecaecc4517c9
+DTSTAMP:20260327T134024
+DTSTART:20260630T180000
+DTEND:20260630T181000
+SUMMARY:Fluid Checkpoint - Energy Stabilizer
+DESCRIPTION:Pause for a structured hydration target and record intake progress. | Frequency: 1 per day | Metrics: hydration_ml\, urine_color_score | Provider: Felicia Ong | Mode: remote | Location: remote
+LOCATION:remote
+END:VEVENT
+BEGIN:VEVENT
+UID:86277b04-7006-4ab5-b08f-465a566cd65c
+DTSTAMP:20260327T134024
+DTSTART:20260630T183000
+DTEND:20260630T190000
+SUMMARY:Sleep-Support Dinner - Energy Stabilizer
+DESCRIPTION:Build dinner around vegetables\, legumes\, and a moderate portion of lean protein. | Frequency: 3 per week | Metrics: sleep_quality_next_day\, fiber_grams\, meal_finish_time | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+BEGIN:VEVENT
+UID:5308b947-0bd7-4e7d-af7f-622af6439cbc
+DTSTAMP:20260327T134024
+DTSTART:20260630T190000
+DTEND:20260630T193000
+SUMMARY:Sleep Coaching Call - Plan Tuning
+DESCRIPTION:Review bedtime consistency\, evening routine\, and overnight recovery patterns. | Frequency: 1 per week | Metrics: sleep_latency\, sleep_duration | Provider: Felicia Ong | Mode: in_person | Location: home
+LOCATION:home
+END:VEVENT
+END:VCALENDAR

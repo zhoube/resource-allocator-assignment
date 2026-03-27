@@ -1,0 +1,11 @@
+resource_id,equipment_type,location,weekday_pattern,available_ranges,notes
+equipment_01,treadmill,gym,Mon;Tue;Wed;Thu;Fri;Sat;Sun,0600-2100,
+equipment_02,stationary_bike,gym,Mon;Tue;Wed;Thu;Fri;Sat;Sun,0600-2100,
+equipment_03,dumbbell_set,gym,Mon;Tue;Wed;Thu;Fri;Sat;Sun,0600-2100,
+equipment_04,yoga_mat,home,Mon;Tue;Wed;Thu;Fri;Sat;Sun,0600-2200,
+equipment_05,sauna_room,recovery_center,Mon;Tue;Wed;Thu;Fri;Sat;Sun,1600-2130,
+equipment_06,ice_bath,recovery_center,Mon;Tue;Wed;Thu;Fri;Sat;Sun,1600-2130,
+equipment_07,compression_boots,recovery_center,Mon;Tue;Wed;Thu;Fri;Sat;Sun,1700-2100,
+equipment_08,blender_station,home,Mon;Tue;Wed;Thu;Fri;Sat;Sun,0600-0930,
+equipment_09,lab_kit,lab,Mon;Tue;Wed;Thu;Fri;Sat,0800-1200,
+equipment_10,blood_pressure_cuff,home,Mon;Tue;Wed;Thu;Fri;Sat;Sun,0600-2200,

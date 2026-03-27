@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
@@ -7,11 +8,14 @@ DOCS_DIR = ROOT_DIR / "docs"
 ASSIGNMENT_DIR = DOCS_DIR / "assignment"
 
 DATA_DIR = ROOT_DIR / "data"
-INPUTS_DIR = DATA_DIR / "inputs"
+SCENARIO_NAME = os.getenv("HEALTH_SCHEDULER_SCENARIO", "marcus").strip().lower() or "marcus"
+SCENARIO_DIR = DATA_DIR / SCENARIO_NAME
+INPUTS_DIR = SCENARIO_DIR / "inputs"
 INPUT_ACTIVITIES_DIR = INPUTS_DIR / "activities"
 INPUT_CONSTRAINTS_DIR = INPUTS_DIR / "constraints"
 INPUT_ACTION_PLANS_DIR = INPUTS_DIR / "action_plans"
-OUTPUTS_DIR = DATA_DIR / "outputs"
+OUTPUTS_DIR = SCENARIO_DIR / "outputs"
+PATIENT_PROFILE_MD = INPUTS_DIR / "patient_profile.md"
 
 ACTIVITY_CATALOG_JSON = INPUT_ACTIVITIES_DIR / "activity_catalog.json"
 ACTIVITY_CATALOG_CSV = INPUT_ACTIVITIES_DIR / "activity_catalog.csv"
@@ -29,6 +33,7 @@ CONSTRAINTS_BUNDLE_JSON = INPUT_CONSTRAINTS_DIR / "constraints_bundle.json"
 
 def ensure_directories() -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    SCENARIO_DIR.mkdir(parents=True, exist_ok=True)
     INPUTS_DIR.mkdir(parents=True, exist_ok=True)
     INPUT_ACTIVITIES_DIR.mkdir(parents=True, exist_ok=True)
     INPUT_CONSTRAINTS_DIR.mkdir(parents=True, exist_ok=True)
